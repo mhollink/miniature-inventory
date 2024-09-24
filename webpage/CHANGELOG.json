@@ -1,5 +1,6 @@
 {
-  "main": {
+  "main": {},
+  "0.0.1": {
     "added": [
       "Created the application and added required tooling to get started"
     ]
