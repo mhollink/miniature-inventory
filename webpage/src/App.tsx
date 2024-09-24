@@ -1,8 +1,7 @@
-
 const App = () => (
-    <>
-        <p> Initial webpage </p>
-    </>
+  <>
+    <p> Initial webpage </p>
+  </>
 );
 
-export default App
+export default App;
