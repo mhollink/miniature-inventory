@@ -1,5 +1,14 @@
 {
-  "main": {},
+  "main": {
+    "added": [
+      "Created initial app scaffolding",
+      "Added support for dark/light mode",
+      "Added initial roadmap for future features"
+    ],
+    "changed": [
+      "Changed the initial Material theme to one with a custom color palette"
+    ]
+  },
   "0.0.2": {
     "added": [
       "Added application manifest file to the index file of the application"
