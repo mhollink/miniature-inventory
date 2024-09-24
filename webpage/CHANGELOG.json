@@ -1,5 +1,10 @@
 {
   "main": {},
+  "0.0.2": {
+    "added": [
+      "Added application manifest file to the index file of the application"
+    ]
+  },
   "0.0.1": {
     "added": [
       "Created the application and added required tooling to get started"
