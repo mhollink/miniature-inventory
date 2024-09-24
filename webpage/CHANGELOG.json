@@ -1,5 +1,6 @@
 {
-  "main": {
+  "main": {},
+  "0.0.3": {
     "added": [
       "Created initial app scaffolding",
       "Added support for dark/light mode",
