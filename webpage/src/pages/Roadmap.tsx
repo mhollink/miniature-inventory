@@ -3,6 +3,7 @@ import Typography from "@mui/material/Typography";
 import { Helmet } from "react-helmet-async";
 import Container from "@mui/material/Container";
 import { ExternalLink } from "@components/link/ExternalLink.tsx";
+import { Crumbs } from "@components/cumbs/Crumbs.tsx";
 
 const featureList = {
   "Organizing your miniatures by army/faction":
@@ -38,6 +39,7 @@ export const Roadmap: FunctionComponent = () => {
           gap: 2,
         }}
       >
+        <Crumbs />
         <Typography variant={"h3"}>Roadmap</Typography>
         <Typography variant="body1" component={"strong"} fontWeight={"bold"}>
           First of all welcome to the Miniature inventory application. This

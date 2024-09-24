@@ -1,14 +1,12 @@
-import Container from "@mui/material/Container";
-import { FunctionComponent } from "react";
 import { Helmet } from "react-helmet-async";
+import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import { ThemeToggle } from "@components/dark-mode/ThemeToggle.tsx";
 import { Crumbs } from "@components/cumbs/Crumbs.tsx";
 
-export const Settings: FunctionComponent = () => {
+export const Collections = () => {
   return (
     <>
-      <Helmet title="Settings" />
+      <Helmet title="My collections" />
       <Container
         maxWidth="md"
         sx={{
@@ -18,8 +16,7 @@ export const Settings: FunctionComponent = () => {
         }}
       >
         <Crumbs />
-        <Typography variant={"h3"}>Settings</Typography>
-        <ThemeToggle />
+        <Typography variant={"h3"}>Collections</Typography>
       </Container>
     </>
   );

@@ -1,8 +1,9 @@
 import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import BugReportIcon from "@mui/icons-material/BugReport";
 import PublishedWithChangesIcon from "@mui/icons-material/PublishedWithChanges";
-import QuestionMarkIcon from "@mui/icons-material/QuestionMark";
+import DeleteIcon from "@mui/icons-material/Delete";
 import SecurityIcon from "@mui/icons-material/Security";
+import QuestionMarkIcon from "@mui/icons-material/QuestionMark";
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
@@ -17,6 +18,7 @@ type ReleaseNotes = {
   added?: string[];
   changed?: string[];
   bugfixes?: string[];
+  removed?: string[];
   security?: string[];
 };
 
@@ -26,6 +28,7 @@ const sectionIcons: Record<keyof ReleaseNotes, ReactNode> = {
   added: <AutoAwesomeIcon />,
   changed: <PublishedWithChangesIcon />,
   bugfixes: <BugReportIcon />,
+  removed: <DeleteIcon />,
   security: <SecurityIcon />,
 };
 
