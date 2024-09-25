@@ -8,6 +8,7 @@ export const AppFooter = () => {
   const { openDrawer } = useStore();
   return (
     <Box
+      id={"footer"}
       component="footer"
       sx={{
         backgroundColor: (theme) =>

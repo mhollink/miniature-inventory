@@ -9,7 +9,7 @@ export const AppLogo: FunctionComponent<AppLogoProps> = ({ large }) => {
   const theme = useTheme();
   return (
     <img
-      src={"icons/icon.png"}
+      src="/icons/icon.png"
       alt="MESBG List Builder"
       style={
         large

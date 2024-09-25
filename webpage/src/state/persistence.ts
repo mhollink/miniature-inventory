@@ -1,7 +1,13 @@
 import { AppState, StoreKey } from "./types.ts";
 import { createJSONStorage, PersistOptions } from "zustand/middleware";
 
-const keysToPersist: StoreKey[] = ["darkMode"];
+const keysToPersist: StoreKey[] = [
+  "darkMode",
+  "workflowStages",
+  "collections",
+  "groups",
+  "models",
+];
 
 const getStateToPersist = (state: AppState): Partial<AppState> =>
   Object.fromEntries(
@@ -11,7 +17,7 @@ const getStateToPersist = (state: AppState): Partial<AppState> =>
   );
 
 export const persistOptions: PersistOptions<AppState, Partial<AppState>> = {
-  name: "mesbg-lb-storage",
-  storage: createJSONStorage(() => sessionStorage),
+  name: "my-mini-inventory",
+  storage: createJSONStorage(() => localStorage),
   partialize: (state: AppState) => getStateToPersist(state),
 };

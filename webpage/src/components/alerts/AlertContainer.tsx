@@ -36,7 +36,7 @@ export const AlertContainer = () => {
     >
       <Alert
         onClose={dismissAlert}
-        variant="standard"
+        variant={"filled"}
         sx={{ width: "100%" }}
         severity={variant as AlertColor}
       >

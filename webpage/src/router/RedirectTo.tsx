@@ -8,8 +8,6 @@ type RedirectToProps = {
 export const RedirectTo: FunctionComponent<RedirectToProps> = ({ path }) => {
   const navigate = useNavigate();
 
-  console.log(path);
-
   useEffect(() => navigate(path, { replace: true }), [navigate, path]);
 
   return <></>;
