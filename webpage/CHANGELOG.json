@@ -1,5 +1,6 @@
 {
-  "main": {
+  "main": {},
+  "0.1.4": {
     "added": [
       "If there is only one collection when creating a group it now automatically selects it."
     ],
