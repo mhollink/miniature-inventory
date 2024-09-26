@@ -6,7 +6,7 @@ import { selectInventorySlice } from "@state/inventory";
 import { selectWorkflowSlice } from "@state/workflow";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
 import { AttachFileOutlined } from "@mui/icons-material";
 import { useJsonValidation } from "@hooks/useJsonValidation.ts";
 
@@ -90,10 +90,15 @@ export const ImportStorageModal = () => {
     document.getElementById("file-input")?.click();
   };
 
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    handleImport();
+  };
+
   return (
     <>
       <DialogContent>
-        <form autoComplete="off">
+        <form autoComplete="off" onSubmit={handleSubmit}>
           <Typography>
             You can import your data by manually entering the JSON data the text
             field or via a file upload.

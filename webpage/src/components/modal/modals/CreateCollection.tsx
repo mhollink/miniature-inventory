@@ -1,7 +1,7 @@
 import { useStore } from "@state/store.ts";
 import { selectModalSlice } from "@state/modal";
 import { selectInventorySlice } from "@state/inventory";
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
 import { DialogActions, DialogContent, TextField } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
@@ -27,10 +27,15 @@ export const CreateNewCollectionModal = () => {
     handleClose();
   };
 
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    handleAddCollection();
+  };
+
   return (
     <>
       <DialogContent>
-        <form autoComplete="off">
+        <form autoComplete="off" onSubmit={handleSubmit}>
           <Typography>Choose a name for your new collection</Typography>
           <Box sx={{ mt: 2 }}>
             <TextField

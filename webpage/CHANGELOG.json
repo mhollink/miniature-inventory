@@ -1,5 +1,9 @@
 {
-  "main": {},
+  "main": {
+    "bugfixes": [
+      "Fix the automatic redirect that was triggered when hitting enter in a form"
+    ]
+  },
   "0.1.0": {
     "added": [
       "Added breadcrumbs to all pages which allow navigation back to the home page",

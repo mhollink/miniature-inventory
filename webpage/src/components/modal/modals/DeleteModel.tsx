@@ -3,7 +3,7 @@ import { DialogActions, DialogContent, TextField } from "@mui/material";
 import Button from "@mui/material/Button";
 import { useStore } from "@state/store.ts";
 import { selectModalSlice } from "@state/modal";
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
 import Box from "@mui/material/Box";
 import { selectInventorySlice } from "@state/inventory";
 import Alert from "@mui/material/Alert";
@@ -37,10 +37,15 @@ export const DeleteModelModal = () => {
     handleClose(true);
   };
 
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    handleDelete();
+  };
+
   return (
     <>
       <DialogContent>
-        <form autoComplete="off">
+        <form autoComplete="off" onSubmit={handleSubmit}>
           <Alert severity={"warning"} variant={"filled"} sx={{ mb: 2 }}>
             You are about to delete "{model?.name}" from the group.
           </Alert>

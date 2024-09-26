@@ -8,7 +8,7 @@ import {
 import { useStore } from "@state/store.ts";
 import { selectModalSlice } from "@state/modal";
 import { selectInventorySlice } from "@state/inventory";
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useState } from "react";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 
@@ -52,10 +52,15 @@ export const CreateGroupModal = () => {
     handleClose();
   };
 
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    handleAddGroup();
+  };
+
   return (
     <>
       <DialogContent>
-        <form autoComplete="off">
+        <form autoComplete="off" onSubmit={handleSubmit}>
           <Stack spacing={1}>
             <Typography>
               Select the collection the new group needs to be added to
