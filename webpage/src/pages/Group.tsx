@@ -12,7 +12,7 @@ import { selectWorkflowSlice } from "@state/workflow";
 import { Helmet } from "react-helmet-async";
 import Stack from "@mui/material/Stack";
 import { SummaryItem } from "@components/collections/SummaryItem.tsx";
-import SquareOutlinedIcon from "@mui/icons-material/SquareOutlined";
+import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 import HexagonOutlinedIcon from "@mui/icons-material/HexagonOutlined";
 import { ModelSummary } from "@components/collections/ModelSummary.tsx";
 import { Fab } from "@components/fab/Fab.tsx";
@@ -20,6 +20,8 @@ import IconButton from "@mui/material/IconButton";
 import { Delete } from "@mui/icons-material";
 import { selectModalSlice } from "@state/modal";
 import { ModalTypes } from "@components/modal/modals.tsx";
+import useTheme from "@mui/material/styles/useTheme";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 const Summary = ({
   miniatures,
@@ -30,29 +32,31 @@ const Summary = ({
   modelTypes: number;
   gradient: string;
 }) => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   return (
     <Stack
-      direction="row"
+      direction={isMobile ? "column" : "row"}
       justifyContent="space-between"
-      spacing={2}
+      spacing={isMobile ? 1 : 2}
       sx={{
-        p: 4,
+        p: isMobile ? 1.5 : 3,
         borderRadius: 2,
         background: gradient,
       }}
     >
       <SummaryItem
-        icon={<SquareOutlinedIcon sx={{ fontSize: 40 }} />}
+        icon={<HexagonOutlinedIcon sx={{ fontSize: 40 }} />}
         label={"Models"}
         count={modelTypes}
-        size={50}
+        size={isMobile ? 100 : 50}
       />
       <SummaryItem
-        icon={<HexagonOutlinedIcon sx={{ fontSize: 40 }} />}
+        icon={<CircleOutlinedIcon sx={{ fontSize: 40 }} />}
         label="Miniatures"
         count={miniatures}
-        size={50}
-      />{" "}
+        size={isMobile ? 100 : 50}
+      />
     </Stack>
   );
 };

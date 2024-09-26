@@ -5,7 +5,6 @@ import { Crumbs } from "@components/cumbs/Crumbs.tsx";
 import Stack from "@mui/material/Stack";
 import SquareOutlinedIcon from "@mui/icons-material/SquareOutlined";
 import CategoryOutlinedIcon from "@mui/icons-material/CategoryOutlined";
-import HexagonOutlinedIcon from "@mui/icons-material/HexagonOutlined";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
 import { GroupLink } from "@components/collections/GroupLink.tsx";
@@ -26,6 +25,7 @@ import { selectModalSlice } from "@state/modal";
 import { ModalTypes } from "@components/modal/modals.tsx";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import useTheme from "@mui/material/styles/useTheme";
+import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 
 const Summary = () => {
   const theme = useTheme();
@@ -64,7 +64,7 @@ const Summary = () => {
         size={isMobile ? 100 : 33}
       />
       <SummaryItem
-        icon={<HexagonOutlinedIcon sx={{ fontSize: isMobile ? 30 : 40 }} />}
+        icon={<CircleOutlinedIcon sx={{ fontSize: isMobile ? 30 : 40 }} />}
         label={models === 1 ? "Miniature" : "Miniatures"}
         count={models}
         size={isMobile ? 100 : 33}
