@@ -41,8 +41,8 @@ export const Changelog = () => {
       }}
     >
       {Object.entries(releases)
-        .filter(([version]) => version === "main")
-        .map(([version, releaseNotes], _, allReleases) => {
+        .filter(([version]) => version !== "main")
+        .map(([version, releaseNotes]) => {
           const sections = Object.entries(releaseNotes) as [
             keyof ReleaseNotes,
             string[],
@@ -50,9 +50,7 @@ export const Changelog = () => {
           return (
             <Box key={version}>
               <Typography variant="h6" fontWeight="bolder">
-                {version === "main"
-                  ? `Post-release ${allReleases[1][0]} updates`
-                  : `Release ${version}`}
+                Release {version}
               </Typography>
               {sections.length === 0 ? (
                 <Typography

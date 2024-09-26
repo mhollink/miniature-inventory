@@ -1,5 +1,9 @@
 {
-  "main": {},
+  "main": {
+    "bugfixes": [
+      "Fix the broken changelog..."
+    ]
+  },
   "0.1.2": {
     "bugfixes": [
       "Make the summary section on collection and group page mobile responsive"
