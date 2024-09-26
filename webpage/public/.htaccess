@@ -1,0 +1,22 @@
+
+RewriteEngine On
+RewriteBase /
+
+#Force from http to https
+RewriteCond %{HTTPS} !on 
+RewriteCond %{HTTP_HOST} =bbb.example.co.uk
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L,NE]
+
+
+# Redirect all routes to index.html
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+
+
+# Set some PHP env vars
+php_value upload_max_filesize 64M
+php_value post_max_size 64M
+php_value max_execution_time 300
+php_value max_input_time 300
