@@ -1,5 +1,6 @@
 {
-  "main": {
+  "main": {},
+  "0.1.0": {
     "added": [
       "Added breadcrumbs to all pages which allow navigation back to the home page",
       "Proper fallback pages with actual text to display when an error occurs",
