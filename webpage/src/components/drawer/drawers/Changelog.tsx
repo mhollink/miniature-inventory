@@ -40,8 +40,9 @@ export const Changelog = () => {
         pb: 10,
       }}
     >
-      {Object.entries(releases).map(
-        ([version, releaseNotes], _, allReleases) => {
+      {Object.entries(releases)
+        .filter(([version]) => version === "main")
+        .map(([version, releaseNotes], _, allReleases) => {
           const sections = Object.entries(releaseNotes) as [
             keyof ReleaseNotes,
             string[],
@@ -92,8 +93,7 @@ export const Changelog = () => {
               )}
             </Box>
           );
-        },
-      )}
+        })}
     </Stack>
   );
 };

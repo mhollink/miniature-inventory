@@ -24,8 +24,12 @@ import Button from "@mui/material/Button";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { selectModalSlice } from "@state/modal";
 import { ModalTypes } from "@components/modal/modals.tsx";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import useTheme from "@mui/material/styles/useTheme";
 
 const Summary = () => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const inventory = useStore(selectInventorySlice);
   const workflow = useStore(selectWorkflowSlice);
   const { generateGradientInSteps } = useWorkflowColors();
@@ -38,32 +42,32 @@ const Summary = () => {
 
   return (
     <Stack
-      direction="row"
+      direction={isMobile ? "column" : "row"}
       justifyContent="space-between"
-      spacing={2}
+      spacing={isMobile ? 1 : 2}
       sx={{
-        p: 3,
+        p: isMobile ? 1.5 : 3,
         borderRadius: 2,
         background: gradient,
       }}
     >
       <SummaryItem
-        icon={<CategoryOutlinedIcon sx={{ fontSize: 40 }} />}
-        label={"Collections"}
+        icon={<CategoryOutlinedIcon sx={{ fontSize: isMobile ? 30 : 40 }} />}
+        label={collections === 1 ? "Collection" : "Collections"}
         count={collections}
-        size={33}
+        size={isMobile ? 100 : 33}
       />
       <SummaryItem
-        icon={<SquareOutlinedIcon sx={{ fontSize: 40 }} />}
-        label={"Groups"}
+        icon={<SquareOutlinedIcon sx={{ fontSize: isMobile ? 30 : 40 }} />}
+        label={groups === 1 ? "Group" : "Groups"}
         count={groups}
-        size={33}
+        size={isMobile ? 100 : 33}
       />
       <SummaryItem
-        icon={<HexagonOutlinedIcon sx={{ fontSize: 40 }} />}
-        label="Miniatures"
+        icon={<HexagonOutlinedIcon sx={{ fontSize: isMobile ? 30 : 40 }} />}
+        label={models === 1 ? "Miniature" : "Miniatures"}
         count={models}
-        size={33}
+        size={isMobile ? 100 : 33}
       />
     </Stack>
   );
