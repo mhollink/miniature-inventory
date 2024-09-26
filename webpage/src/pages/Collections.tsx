@@ -101,6 +101,13 @@ export const Collections = () => {
         <Crumbs />
         <Typography variant={"h3"}>Collections</Typography>
         <Summary />
+        {inventory.collections.length === 0 && (
+          <Alert severity="info" variant={"filled"}>
+            You currently have no collections. Start your first collection by
+            creating one using the FAB in the bottom right corner.
+          </Alert>
+        )}
+
         {inventory.collections.map((collection) => (
           <Accordion defaultExpanded key={collection.id} elevation={3}>
             <AccordionSummary
@@ -114,7 +121,7 @@ export const Collections = () => {
               <Stack spacing={2}>
                 {collection.groups.length === 0 && (
                   <>
-                    <Alert severity="warning" variant={"filled"}>
+                    <Alert severity="info" variant={"filled"}>
                       There are currently no groups inside this collection, if
                       you wish to delete the collection, click on the delete
                       button below this message.

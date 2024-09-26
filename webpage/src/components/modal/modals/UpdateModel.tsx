@@ -8,9 +8,12 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import { selectWorkflowSlice } from "@state/workflow";
+import { Delete } from "@mui/icons-material";
+import { ModalTypes } from "@components/modal/modals.tsx";
 
 export const EditModelModal = () => {
-  const { closeModal, openedModalContext } = useStore(selectModalSlice);
+  const { closeModal, openedModalContext, openModal } =
+    useStore(selectModalSlice);
   const { findModel, updateModel } = useStore(selectInventorySlice);
   const { workflowStages } = useStore(selectWorkflowSlice);
   const model = findModel(openedModalContext.modelId);
@@ -28,7 +31,7 @@ export const EditModelModal = () => {
     closeModal();
   };
 
-  const handleAddCollection = () => {
+  const handleUpdateModel = () => {
     if (stages.find((stage) => Number(stage) < 0)) {
       return;
     }
@@ -70,6 +73,7 @@ export const EditModelModal = () => {
                     label={stage}
                     value={String(stages[index])}
                     autoComplete="off"
+                    autoFocus={index === 0}
                     slotProps={{
                       input: {
                         type: "number",
@@ -93,12 +97,29 @@ export const EditModelModal = () => {
           </Stack>
         </form>
       </DialogContent>
-      <DialogActions>
-        <Button autoFocus onClick={handleClose}>
-          Cancel
+      <DialogActions sx={{ flexDirection: "row-reverse", gap: 2 }}>
+        <Button variant={"contained"} onClick={handleUpdateModel}>
+          Update model
         </Button>
-        <Button variant={"contained"} onClick={handleAddCollection} autoFocus>
-          Update {model?.name}
+        <Button onClick={handleClose}>Cancel</Button>
+        <div style={{ flex: "1 0 0" }} />
+        <Button
+          onClick={() =>
+            openModal(ModalTypes.DELETE_MODEL, {
+              modelId: openedModalContext.modelId,
+              onClose: () => {
+                if (findModel(openedModalContext.modelId)) {
+                  openModal(ModalTypes.EDIT_MODEL, {
+                    modelId: openedModalContext.modelId,
+                  });
+                }
+              },
+            })
+          }
+          endIcon={<Delete />}
+          color={"error"}
+        >
+          Delete
         </Button>
       </DialogActions>
     </>

@@ -8,6 +8,7 @@ import { DeleteGroupModal } from "@components/modal/modals/DeleteGroup.tsx";
 import HexagonOutlinedIcon from "@mui/icons-material/HexagonOutlined";
 import { AddModelModal } from "@components/modal/modals/CreateModel.tsx";
 import { EditModelModal } from "@components/modal/modals/UpdateModel.tsx";
+import { DeleteModelModal } from "@components/modal/modals/DeleteModel.tsx";
 
 export enum ModalTypes {
   CREATE_COLLECTION = "CREATE_COLLECTION",
@@ -16,6 +17,7 @@ export enum ModalTypes {
   DELETE_GROUP = "DELETE_GROUP",
   ADD_MODEL = "ADD_MODEL",
   EDIT_MODEL = "EDIT_MODEL",
+  DELETE_MODEL = "DELETE_MODEL",
 }
 
 export type ModalProps = {
@@ -71,6 +73,14 @@ export const modals = new Map<ModalTypes, ModalProps>([
       icon: <HexagonOutlinedIcon />,
       title: "Update model & miniatures",
       children: <EditModelModal />,
+    },
+  ],
+  [
+    ModalTypes.DELETE_MODEL,
+    {
+      icon: <HexagonOutlinedIcon />,
+      title: "Delete model",
+      children: <DeleteModelModal />,
     },
   ],
 ]);

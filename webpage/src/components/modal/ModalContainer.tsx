@@ -21,12 +21,18 @@ export const ModalContainer = () => {
     return null;
   }
 
+  const handleClose = (_: unknown, reason: string) => {
+    if (reason && reason === "backdropClick") return;
+    if (onClose) onClose();
+    else closeModal();
+  };
+
   const currentModal = modals.get(openedModal)!;
   const { title, onClose } = openedModalContext || {};
   return (
     <Dialog
       open={true} // handled by the modal container, so this should always be true
-      onClose={onClose ? onClose : () => closeModal()}
+      onClose={handleClose}
       fullScreen={isMobile}
       fullWidth={true}
       maxWidth={"md"}

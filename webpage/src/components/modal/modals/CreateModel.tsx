@@ -25,7 +25,7 @@ export const AddModelModal = () => {
     closeModal();
   };
 
-  const handleAddCollection = () => {
+  const handleAddModel = () => {
     if (!name || name.trim().length === 0) {
       setNameError(true);
       return;
@@ -62,6 +62,7 @@ export const AddModelModal = () => {
                 id="new-model-name-input"
                 label="Model name"
                 autoComplete="off"
+                autoFocus
                 value={name}
                 onChange={(event: ChangeEvent<HTMLInputElement>) => {
                   setNameError(false);
@@ -112,10 +113,8 @@ export const AddModelModal = () => {
         </form>
       </DialogContent>
       <DialogActions>
-        <Button autoFocus onClick={handleClose}>
-          Cancel
-        </Button>
-        <Button variant={"contained"} onClick={handleAddCollection} autoFocus>
+        <Button onClick={handleClose}>Cancel</Button>
+        <Button variant={"contained"} onClick={handleAddModel}>
           Add collection
         </Button>
       </DialogActions>

@@ -74,6 +74,7 @@ export const CreateGroupModal = () => {
                   id="new-group-collection-input"
                   error={collectionError}
                   autoComplete="off"
+                  autoFocus
                   helperText={
                     collectionError ? "You need to select a collection!" : ""
                   }
@@ -106,10 +107,8 @@ export const CreateGroupModal = () => {
         </form>
       </DialogContent>
       <DialogActions>
-        <Button autoFocus onClick={handleClose}>
-          Cancel
-        </Button>
-        <Button variant={"contained"} onClick={handleAddGroup} autoFocus>
+        <Button onClick={handleClose}>Cancel</Button>
+        <Button variant={"contained"} onClick={handleAddGroup}>
           Add group
         </Button>
       </DialogActions>

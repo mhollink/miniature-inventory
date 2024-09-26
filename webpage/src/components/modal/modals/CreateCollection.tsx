@@ -38,6 +38,7 @@ export const CreateNewCollectionModal = () => {
               id="new-collection-name-input"
               label="Collection name"
               autoComplete="off"
+              autoFocus
               value={name}
               onChange={(event: ChangeEvent<HTMLInputElement>) => {
                 setNameError(false);
@@ -52,10 +53,8 @@ export const CreateNewCollectionModal = () => {
         </form>
       </DialogContent>
       <DialogActions>
-        <Button autoFocus onClick={handleClose}>
-          Cancel
-        </Button>
-        <Button variant={"contained"} onClick={handleAddCollection} autoFocus>
+        <Button onClick={handleClose}>Cancel</Button>
+        <Button variant={"contained"} onClick={handleAddCollection}>
           Add collection
         </Button>
       </DialogActions>

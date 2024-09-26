@@ -27,7 +27,7 @@ export const DeleteGroupModal = () => {
     closeModal();
   };
 
-  const handleAddCollection = () => {
+  const handleDelete = () => {
     if (name.toLowerCase().trim() !== group?.name.toLowerCase().trim()) {
       setNameError(true);
       return;
@@ -40,35 +40,37 @@ export const DeleteGroupModal = () => {
   return (
     <>
       <DialogContent>
-        <Alert severity={"warning"} variant={"filled"} sx={{ mb: 2 }}>
-          You are about to delete the group "{group?.name}". This will also
-          delete all the {modelCount} miniatures stored in that group!
-        </Alert>
-        <Typography>
-          Please confirm, please type "{group?.name}" in the box below{" "}
-        </Typography>
-        <Box sx={{ mt: 2 }}>
-          <TextField
-            error={nameError}
-            id="delete-group-name-input"
-            label="Group name"
-            value={name}
-            onChange={(event: ChangeEvent<HTMLInputElement>) => {
-              setNameError(false);
-              setName(event.target.value);
-            }}
-            helperText={
-              nameError ? "The name must be a match to the group name!" : ""
-            }
-            fullWidth
-          />
-        </Box>
+        <form autoComplete="off">
+          <Alert severity={"warning"} variant={"filled"} sx={{ mb: 2 }}>
+            You are about to delete the group "{group?.name}". This will also
+            delete all the {modelCount} miniatures stored in that group!
+          </Alert>
+          <Typography>
+            Please confirm, please type "{group?.name}" in the box below{" "}
+          </Typography>
+          <Box sx={{ mt: 2 }}>
+            <TextField
+              error={nameError}
+              id="delete-group-name-input"
+              label="Group name"
+              autoFocus
+              autoComplete="off"
+              value={name}
+              onChange={(event: ChangeEvent<HTMLInputElement>) => {
+                setNameError(false);
+                setName(event.target.value);
+              }}
+              helperText={
+                nameError ? "The name must be a match to the group name!" : ""
+              }
+              fullWidth
+            />
+          </Box>
+        </form>
       </DialogContent>
       <DialogActions>
-        <Button autoFocus onClick={handleClose}>
-          Cancel
-        </Button>
-        <Button variant={"contained"} onClick={handleAddCollection} autoFocus>
+        <Button onClick={handleClose}>Cancel</Button>
+        <Button variant={"contained"} onClick={handleDelete} color={"error"}>
           Delete group
         </Button>
       </DialogActions>

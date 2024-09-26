@@ -41,53 +41,9 @@ export type InventoryState = {
 };
 
 const initialState = {
-  collections: [
-    {
-      id: "2c7cbf1f-23ef-47f1-8d0e-de802de0183c",
-      name: "Middle Earth - Strategy Battle Game",
-      groups: ["39d70b96-66be-410a-a717-6edb34d4b365"],
-    },
-  ],
-  groups: [
-    {
-      id: "39d70b96-66be-410a-a717-6edb34d4b365",
-      name: "The Fiefdoms",
-      models: [
-        "1b400af5-26a8-4565-9b8d-fb048df9e2e2",
-        "06dca937-661b-4a5d-b14f-a5b7a3d52468",
-      ],
-    },
-  ],
-  models: [
-    {
-      id: "1b400af5-26a8-4565-9b8d-fb048df9e2e2",
-      name: "Prince Imrahil",
-      collection: [
-        {
-          amount: 1,
-          stage: 3,
-        },
-      ],
-    },
-    {
-      id: "06dca937-661b-4a5d-b14f-a5b7a3d52468",
-      name: "Knight of Dol Amroth (mtd)",
-      collection: [
-        {
-          amount: 2,
-          stage: 0,
-        },
-        {
-          amount: 6,
-          stage: 1,
-        },
-        {
-          amount: 2,
-          stage: 3,
-        },
-      ],
-    },
-  ],
+  collections: [],
+  groups: [],
+  models: [],
 };
 
 export const inventorySlice: Slice<InventoryState> = (set, get) => ({
@@ -161,7 +117,7 @@ export const inventorySlice: Slice<InventoryState> = (set, get) => ({
             return collection;
           }),
           groups: groups.filter((group) => group.id !== id),
-          models: models.filter((model) => group.models.includes(model.id)),
+          models: models.filter((model) => !group.models.includes(model.id)),
         };
       },
       undefined,

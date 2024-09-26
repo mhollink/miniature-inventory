@@ -7,27 +7,34 @@ import { ChangeEvent, useState } from "react";
 import Box from "@mui/material/Box";
 import { selectInventorySlice } from "@state/inventory";
 import Alert from "@mui/material/Alert";
+import { ModalTypes } from "@components/modal/modals.tsx";
 
-export const DeleteCollectionModal = () => {
-  const { closeModal, openedModalContext } = useStore(selectModalSlice);
-  const { findCollection, deleteCollection } = useStore(selectInventorySlice);
-  const collection = findCollection(openedModalContext.collectionId);
+export const DeleteModelModal = () => {
+  const { closeModal, openModal, openedModalContext } =
+    useStore(selectModalSlice);
+  const { findModel, deleteModel } = useStore(selectInventorySlice);
+
+  const model = findModel(openedModalContext.modelId);
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
 
-  const handleClose = () => {
+  const handleClose = (deleted: boolean) => {
     setNameError(false);
-    closeModal();
+    if (deleted) closeModal();
+    else
+      openModal(ModalTypes.EDIT_MODEL, {
+        modelId: openedModalContext.modelId,
+      });
   };
 
   const handleDelete = () => {
-    if (name.toLowerCase().trim() !== collection?.name.toLowerCase().trim()) {
+    if (name.toLowerCase().trim() !== model?.name.toLowerCase().trim()) {
       setNameError(true);
       return;
     }
-    deleteCollection(openedModalContext.collectionId);
-    handleClose();
+    deleteModel(openedModalContext.modelId);
+    handleClose(true);
   };
 
   return (
@@ -35,27 +42,25 @@ export const DeleteCollectionModal = () => {
       <DialogContent>
         <form autoComplete="off">
           <Alert severity={"warning"} variant={"filled"} sx={{ mb: 2 }}>
-            You are about to delete one of your collections
+            You are about to delete "{model?.name}" from the group.
           </Alert>
           <Typography>
-            Please confirm, please type "{collection?.name}" in the box below{" "}
+            Please confirm, please type "{model?.name}" in the box below{" "}
           </Typography>
           <Box sx={{ mt: 2 }}>
             <TextField
               error={nameError}
-              id="delete-collection-name-input"
-              label="Collection name"
+              id="delete-model-name-input"
+              label="Model name"
               value={name}
-              autoComplete="off"
               autoFocus
+              autoComplete="off"
               onChange={(event: ChangeEvent<HTMLInputElement>) => {
                 setNameError(false);
                 setName(event.target.value);
               }}
               helperText={
-                nameError
-                  ? "The name must be a match to the collection name!"
-                  : ""
+                nameError ? "The name must be a match to the model name!" : ""
               }
               fullWidth
             />
@@ -63,9 +68,9 @@ export const DeleteCollectionModal = () => {
         </form>
       </DialogContent>
       <DialogActions>
-        <Button onClick={handleClose}>Cancel</Button>
+        <Button onClick={() => handleClose(false)}>Cancel</Button>
         <Button variant={"contained"} onClick={handleDelete} color={"error"}>
-          Delete collection
+          Delete model
         </Button>
       </DialogActions>
     </>
