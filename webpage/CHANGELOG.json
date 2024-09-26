@@ -2,12 +2,11 @@
   "main": {
     "added": [
       "If there is only one collection when creating a group it now automatically selects it."
-    ]
+    ],
+    "changed": ["Updated the roadmap"]
   },
   "0.1.3": {
-    "bugfixes": [
-      "Fix the broken changelog..."
-    ]
+    "bugfixes": ["Fix the broken changelog..."]
   },
   "0.1.2": {
     "bugfixes": [
