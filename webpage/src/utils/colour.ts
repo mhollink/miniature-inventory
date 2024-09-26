@@ -6,8 +6,9 @@ export function convertStagesToGradient(parts: GradientPart[]) {
   const gradientSteps = parts
     // Convert each color into a gradient step (IE. "rgb(255, 0, 0) 0% 8.33%")
     .map(({ percentage, color }, i, a) => {
-      const nextPercentage = i + 1 >= a.length ? 100 : a[i + 1].percentage;
-      return `${color} ${percentage}% ${nextPercentage}%`;
+      const prevPercentage = i === 0 ? 0 : a[i - 1].percentage;
+      const nextPercentage = i + 1 >= a.length ? 100 : percentage;
+      return `${color} ${prevPercentage}% ${nextPercentage}%`;
     });
   // Finally create the gradient which can be used in CSS.
   return `linear-gradient(to right, ${gradientSteps.join(",")})`;

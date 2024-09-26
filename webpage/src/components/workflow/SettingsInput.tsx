@@ -11,6 +11,7 @@ import { useStore } from "@state/store.ts";
 import Stack from "@mui/material/Stack";
 import { useWorkflowColors } from "@hooks/useWorkflowColors.ts";
 import PaletteIcon from "@mui/icons-material/Palette";
+import Alert from "@mui/material/Alert";
 
 export const WorkflowEditForm = () => {
   const { workflowStages, setWorkflowStages } = useStore(selectWorkflowSlice);
@@ -33,6 +34,16 @@ export const WorkflowEditForm = () => {
 
   return (
     <Stack>
+      <Alert variant="filled" severity="warning" sx={{ mb: 1 }}>
+        Making alterations the your workflow will mean all miniatures will be
+        updated.
+      </Alert>
+      <Alert variant="filled" severity="info" sx={{ mb: 3 }}>
+        Stages on miniatures are stored by their index. Minis that have stage 4
+        assigned will still be on stage 4 after you remove that stage. Likewise,
+        if stage 4 is "painted" and you rename it to "based", minis on stage 4
+        will be on stage "based".
+      </Alert>
       {workflowStages.map((stageName, index) => {
         const color = getColorForStage(index, workflowStages.length).color;
         return (

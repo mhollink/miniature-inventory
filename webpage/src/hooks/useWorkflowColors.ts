@@ -33,8 +33,15 @@ export const useWorkflowColors = () => {
     );
   }
 
-  function getColorForStage(stage: number, stages: number): GradientPart {
-    return extracted(stages)[stage];
+  function getColorForStage(
+    stage: number,
+    amountOfStages: number,
+  ): GradientPart {
+    const gradientParts = extracted(amountOfStages);
+    if (stage >= gradientParts.length)
+      return { color: "transparent", percentage: 100 };
+
+    return gradientParts[stage];
   }
 
   function generateGradientInSteps(steps: number) {
@@ -77,11 +84,10 @@ export const useWorkflowColors = () => {
     const colors = extracted(totalWorkflowStages);
 
     let cumulativePercentage = 0;
-    const parts = summedStages.map((item, i) => {
-      const percentage = (item.amount / totalAmount) * 100;
-      if (i !== 0) cumulativePercentage += percentage;
+    const parts = summedStages.map((item) => {
+      cumulativePercentage += (item.amount / totalAmount) * 100;
       return {
-        color: colors[item.stage].color,
+        color: colors[item.stage]?.color || "transparent",
         percentage: Number(cumulativePercentage.toFixed(2)),
       };
     });

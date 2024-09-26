@@ -1,4 +1,5 @@
 import { AppState, Slice } from "../types.ts";
+import { v4 } from "uuid";
 
 export type Collection = {
   id: string;
@@ -24,6 +25,19 @@ export type InventoryState = {
   collections: Collection[];
   groups: Group[];
   models: Model[];
+
+  addCollection: (name: string) => void;
+  findCollection: (id: string) => Collection | undefined;
+  deleteCollection: (id: string) => void;
+
+  addGroup: (collectionId: string, name: string) => void;
+  findGroup: (id: string) => Group | undefined;
+  deleteGroup: (id: string) => void;
+
+  addModel: (groupId: string, name: string, collection: ModelStage[]) => void;
+  findModel: (id: string) => Model | undefined;
+  updateModel: (updatedModel: Model) => void;
+  deleteModel: (id: string) => void;
 };
 
 const initialState = {
@@ -32,19 +46,6 @@ const initialState = {
       id: "2c7cbf1f-23ef-47f1-8d0e-de802de0183c",
       name: "Middle Earth - Strategy Battle Game",
       groups: ["39d70b96-66be-410a-a717-6edb34d4b365"],
-    },
-    {
-      id: "d33cba13-19ea-4258-9933-4d89f27555c2",
-      name: "Dungeons and Dragons",
-      groups: [],
-    },
-    {
-      id: "1cac451e-33c8-44db-b924-6f5dab6744c3",
-      name: "Terrain",
-      groups: [
-        "67b87305-5a97-4ad6-a49c-bafd0b96274c",
-        "89606eac-7c42-4a11-aae6-4994e1b46a2f",
-      ],
     },
   ],
   groups: [
@@ -55,16 +56,6 @@ const initialState = {
         "1b400af5-26a8-4565-9b8d-fb048df9e2e2",
         "06dca937-661b-4a5d-b14f-a5b7a3d52468",
       ],
-    },
-    {
-      id: "67b87305-5a97-4ad6-a49c-bafd0b96274c",
-      name: "Houses",
-      models: [],
-    },
-    {
-      id: "89606eac-7c42-4a11-aae6-4994e1b46a2f",
-      name: "Forest pieces",
-      models: [],
     },
   ],
   models: [
@@ -99,20 +90,156 @@ const initialState = {
   ],
 };
 
-export const inventorySlice: Slice<InventoryState> = () => ({
+export const inventorySlice: Slice<InventoryState> = (set, get) => ({
   ...initialState,
+
+  addCollection: (name: string) =>
+    set(
+      ({ collections }) => ({
+        collections: [
+          ...collections,
+          {
+            id: v4(),
+            name: name,
+            groups: [],
+          },
+        ],
+      }),
+      undefined,
+      "ADD_COLLECTION",
+    ),
+  findCollection: (id: string) =>
+    get().collections.find((collection) => collection.id === id),
+  deleteCollection: (id: string) =>
+    set(
+      ({ collections }) => ({
+        collections: collections.filter((collection) => collection.id !== id),
+      }),
+      undefined,
+      "DELETE_COLLECTION",
+    ),
+
+  addGroup: (collectionId, name) =>
+    set(
+      ({ collections, groups }) => {
+        const newGroup: Group = {
+          id: v4(),
+          name: name,
+          models: [],
+        };
+        return {
+          collections: collections.map((collection) =>
+            collection.id !== collectionId
+              ? collection
+              : {
+                  ...collection,
+                  groups: [...collection.groups, newGroup.id],
+                },
+          ),
+          groups: [...groups, newGroup],
+        };
+      },
+      undefined,
+      "ADD_GROUP",
+    ),
+  findGroup: (id: string) => get().groups.find((group) => group.id === id),
+  deleteGroup: (id: string) =>
+    set(
+      ({ collections, groups, models }) => {
+        const group = get().groups.find((group) => group.id === id);
+
+        if (!group) return {};
+
+        return {
+          collections: collections.map((collection) => {
+            if (collection.groups.includes(id)) {
+              return {
+                ...collection,
+                groups: collection.groups.filter((group) => group !== id),
+              };
+            }
+            return collection;
+          }),
+          groups: groups.filter((group) => group.id !== id),
+          models: models.filter((model) => group.models.includes(model.id)),
+        };
+      },
+      undefined,
+      "DELETE_GROUP",
+    ),
+
+  addModel: (groupId, name, collection) =>
+    set(
+      ({ groups, models }) => {
+        const newModel: Model = {
+          id: v4(),
+          name: name,
+          collection: collection,
+        };
+        return {
+          groups: groups.map((group) =>
+            group.id !== groupId
+              ? group
+              : {
+                  ...group,
+                  models: [...group.models, newModel.id],
+                },
+          ),
+          models: [...models, newModel],
+        };
+      },
+      undefined,
+      "ADD_MODEL",
+    ),
+  findModel: (id: string) => get().models.find((model) => model.id === id),
+  updateModel: (updatedModel: Model) =>
+    set(
+      ({ models }) => ({
+        models: models.map((model) => {
+          if (model.id === updatedModel.id) return updatedModel;
+          return model;
+        }),
+      }),
+      undefined,
+      "UPDATE_MODEL",
+    ),
+  deleteModel: (id: string) =>
+    set(
+      ({ groups, models }) => ({
+        groups: groups.map((group) => {
+          if (group.models.includes(id)) {
+            return {
+              ...group,
+              models: group.models.filter((model) => model !== id),
+            };
+          }
+          return group;
+        }),
+        models: models.filter((model) => model.id !== id),
+      }),
+      undefined,
+      "DELETE_MODEL",
+    ),
 });
 
 export const selectInventorySlice = (state: AppState): InventoryState => ({
   collections: state.collections,
   groups: state.groups,
   models: state.models,
-});
 
-export const selectCollection =
-  (collectionId: string) =>
-  (state: AppState): Collection | undefined =>
-    state.collections.find((collection) => collection.id === collectionId);
+  addCollection: state.addCollection,
+  findCollection: state.findCollection,
+  deleteCollection: state.deleteCollection,
+
+  addGroup: state.addGroup,
+  findGroup: state.findGroup,
+  deleteGroup: state.deleteGroup,
+
+  addModel: state.addModel,
+  findModel: state.findModel,
+  updateModel: state.updateModel,
+  deleteModel: state.deleteModel,
+});
 
 export const selectGroup =
   (groupId: string) =>

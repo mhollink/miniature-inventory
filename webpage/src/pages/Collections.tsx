@@ -22,6 +22,8 @@ import { SummaryItem } from "@components/collections/SummaryItem";
 import Alert from "@mui/material/Alert";
 import Button from "@mui/material/Button";
 import DeleteIcon from "@mui/icons-material/Delete";
+import { selectModalSlice } from "@state/modal";
+import { ModalTypes } from "@components/modal/modals.tsx";
 
 const Summary = () => {
   const inventory = useStore(selectInventorySlice);
@@ -84,6 +86,7 @@ const CollectionInfo = ({ collection }: { collection: Collection }) => {
 
 export const Collections = () => {
   const inventory = useStore(selectInventorySlice);
+  const modal = useStore(selectModalSlice);
   return (
     <>
       <Helmet title="My collections" />
@@ -116,7 +119,15 @@ export const Collections = () => {
                       you wish to delete the collection, click on the delete
                       button below this message.
                     </Alert>
-                    <Button color={"error"} startIcon={<DeleteIcon />}>
+                    <Button
+                      color={"error"}
+                      startIcon={<DeleteIcon />}
+                      onClick={() =>
+                        modal.openModal(ModalTypes.DELETE_COLLECTION, {
+                          collectionId: collection.id,
+                        })
+                      }
+                    >
                       Delete collection
                     </Button>
                   </>
@@ -134,14 +145,15 @@ export const Collections = () => {
         ariaLabel={"collection-actions"}
         actions={[
           {
-            name: "create group",
-            icon: <SquareOutlinedIcon />,
-            callback: () => console.log("create group invoked."),
-          },
-          {
             name: "create collection",
             icon: <CategoryOutlinedIcon />,
-            callback: () => console.log("create collection invoked."),
+            callback: () => modal.openModal(ModalTypes.CREATE_COLLECTION),
+          },
+          {
+            name: "create group",
+            icon: <SquareOutlinedIcon />,
+            callback: () => modal.openModal(ModalTypes.CREATE_GROUP),
+            disabled: inventory.collections.length === 0,
           },
         ]}
       />

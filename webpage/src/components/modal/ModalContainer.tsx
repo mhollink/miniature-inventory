@@ -1,7 +1,5 @@
 import CloseIcon from "@mui/icons-material/Close";
 import Dialog from "@mui/material/Dialog";
-import Box from "@mui/material/Box";
-import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import useTheme from "@mui/material/styles/useTheme";
@@ -10,16 +8,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { selectModalSlice } from "@state/modal";
 import { useStore } from "@state/store.ts";
 import { modals } from "./modals.tsx";
-
-const style = {
-  position: "absolute" as const,
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  bgcolor: "background.paper",
-  boxShadow: 24,
-  borderRadius: 2,
-};
+import { DialogTitle } from "@mui/material";
 
 export const ModalContainer = () => {
   const { closeModal, openedModal, openedModalContext } =
@@ -38,44 +27,37 @@ export const ModalContainer = () => {
     <Dialog
       open={true} // handled by the modal container, so this should always be true
       onClose={onClose ? onClose : () => closeModal()}
-      scroll="paper"
+      fullScreen={isMobile}
+      fullWidth={true}
+      maxWidth={"md"}
     >
-      <Box
-        sx={{
-          ...style,
-          minWidth: isMobile ? "90vw" : "100ch",
-          maxWidth: "90vw",
-          maxHeight: "90vh",
-          overflowY: "scroll",
-        }}
+      <DialogTitle>
+        <Typography
+          variant="h4"
+          component={"span"}
+          flexGrow={1}
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            gap: 1,
+          }}
+        >
+          {currentModal.icon} {title || currentModal.title}
+        </Typography>
+      </DialogTitle>
+      <IconButton
+        aria-label="close"
+        onClick={onClose ? onClose : () => closeModal()}
+        sx={(theme) => ({
+          position: "absolute",
+          right: 8,
+          top: 8,
+          color: theme.palette.grey[500],
+        })}
       >
-        {!currentModal.customModalHeader && (
-          <>
-            <Box sx={{ display: "flex", alignItems: "center", p: 1 }}>
-              <Typography
-                variant="h6"
-                component="h2"
-                flexGrow={1}
-                sx={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 1,
-                }}
-              >
-                {currentModal.icon} {title || currentModal.title}
-              </Typography>
-              <IconButton
-                onClick={onClose ? onClose : () => closeModal()}
-                sx={{ ml: "auto" }}
-              >
-                <CloseIcon />
-              </IconButton>
-            </Box>
-            <Divider />
-          </>
-        )}
-        <Box>{currentModal.children}</Box>
-      </Box>
+        <CloseIcon />
+      </IconButton>
+      {currentModal.children}
     </Dialog>
   );
 };

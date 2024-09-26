@@ -18,6 +18,8 @@ import { ModelSummary } from "@components/collections/ModelSummary.tsx";
 import { Fab } from "@components/fab/Fab.tsx";
 import IconButton from "@mui/material/IconButton";
 import { Delete } from "@mui/icons-material";
+import { selectModalSlice } from "@state/modal";
+import { ModalTypes } from "@components/modal/modals.tsx";
 
 const Summary = ({
   miniatures,
@@ -60,6 +62,7 @@ export const Group: FunctionComponent = () => {
   const workflow = useStore(selectWorkflowSlice);
   const group = useStore(selectGroup(groupId));
   const models = useStore(selectModelsForGroup(groupId));
+  const modals = useStore(selectModalSlice);
   const { convertCollectionToGradient } = useWorkflowColors();
 
   const totalCollection = models.flatMap((models) => models.collection);
@@ -100,7 +103,15 @@ export const Group: FunctionComponent = () => {
               <Typography variant={"h3"} flexGrow={1}>
                 {group?.name}
               </Typography>
-              <IconButton size={"large"} color={"error"}>
+              <IconButton
+                size={"large"}
+                color={"error"}
+                onClick={() =>
+                  modals.openModal(ModalTypes.DELETE_GROUP, {
+                    groupId: groupId,
+                  })
+                }
+              >
                 <Delete sx={{ fontSize: 30 }} />
               </IconButton>
             </Stack>
@@ -130,7 +141,10 @@ export const Group: FunctionComponent = () => {
           {
             name: "Add a model",
             icon: <HexagonOutlinedIcon />,
-            callback: () => console.log("create group invoked."),
+            callback: () =>
+              modals.openModal(ModalTypes.ADD_MODEL, {
+                groupId: groupId,
+              }),
           },
         ]}
       />
