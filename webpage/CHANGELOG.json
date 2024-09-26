@@ -1,5 +1,6 @@
 {
-  "main": {
+  "main": {},
+  "0.1.3": {
     "bugfixes": [
       "Fix the broken changelog..."
     ]
