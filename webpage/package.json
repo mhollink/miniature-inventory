@@ -15,9 +15,10 @@
     "check": "npm run prettier && npm run lint",
     "check:fix": "npm run prettier:fix && npm run lint:fix",
     "preview": "vite preview",
-    "preversion": "npm run build",
+    "preversion": "npm run check",
     "version": "./changelog.sh $npm_package_version",
     "postversion": "git push && git push --tags && npm run deploy",
+    "predeploy": "npm run build",
     "deploy": "echo \"Time to deploy the new version!\""
   },
   "dependencies": {
