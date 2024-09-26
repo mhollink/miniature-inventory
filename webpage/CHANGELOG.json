@@ -3,7 +3,10 @@
     "added": [
       "Added breadcrumbs to all pages which allow navigation back to the home page",
       "Proper fallback pages with actual text to display when an error occurs",
-      "Empty collection page"
+      "Allow for creating collections, groups and managing models",
+      "Make it possible to update your workflow to fit your process of from the box till fully finished",
+      "Generate a proper gradient fitting the amount of workflow steps",
+      "Make it possible to export and import your application state"
     ],
     "removed": [
       "Removed page-fallback component as it would be a 99% duplication of the app-fallback"
