@@ -26,6 +26,12 @@ export type InventoryState = {
   groups: Group[];
   models: Model[];
 
+  importInventory: (state: {
+    collections: Collection[];
+    groups: Group[];
+    models: Model[];
+  }) => void;
+
   addCollection: (name: string) => void;
   findCollection: (id: string) => Collection | undefined;
   deleteCollection: (id: string) => void;
@@ -48,6 +54,8 @@ const initialState = {
 
 export const inventorySlice: Slice<InventoryState> = (set, get) => ({
   ...initialState,
+
+  importInventory: (state) => set({ ...state }, undefined, "IMPORT_STATE"),
 
   addCollection: (name: string) =>
     set(
@@ -182,6 +190,8 @@ export const selectInventorySlice = (state: AppState): InventoryState => ({
   collections: state.collections,
   groups: state.groups,
   models: state.models,
+
+  importInventory: state.importInventory,
 
   addCollection: state.addCollection,
   findCollection: state.findCollection,

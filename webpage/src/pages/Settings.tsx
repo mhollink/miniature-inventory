@@ -8,8 +8,14 @@ import Divider from "@mui/material/Divider";
 import { WorkflowEditForm } from "@components/workflow/SettingsInput.tsx";
 import Button from "@mui/material/Button";
 import { DeleteForever } from "@mui/icons-material";
+import ButtonGroup from "@mui/material/ButtonGroup";
+import { BiExport, BiImport } from "react-icons/bi";
+import { useStore } from "@state/store.ts";
+import { selectModalSlice } from "@state/modal";
+import { ModalTypes } from "@components/modal/modals.tsx";
 
 export const Settings: FunctionComponent = () => {
+  const modal = useStore(selectModalSlice);
   return (
     <>
       <Helmet title="Settings" />
@@ -27,6 +33,28 @@ export const Settings: FunctionComponent = () => {
           <Typography variant={"h5"}>Application settings</Typography>
         </Divider>
         <ThemeToggle />
+
+        <ButtonGroup
+          variant="contained"
+          color="inherit"
+          aria-label="Basic button group"
+          fullWidth
+        >
+          <Button
+            color="inherit"
+            startIcon={<BiExport />}
+            onClick={() => modal.openModal(ModalTypes.EXPORT_STATE)}
+          >
+            Export application storage
+          </Button>
+          <Button
+            color="inherit"
+            startIcon={<BiImport />}
+            onClick={() => modal.openModal(ModalTypes.IMPORT_STATE)}
+          >
+            Import application storage
+          </Button>
+        </ButtonGroup>
 
         <Button
           variant="outlined"

@@ -9,6 +9,9 @@ import HexagonOutlinedIcon from "@mui/icons-material/HexagonOutlined";
 import { AddModelModal } from "@components/modal/modals/CreateModel.tsx";
 import { EditModelModal } from "@components/modal/modals/UpdateModel.tsx";
 import { DeleteModelModal } from "@components/modal/modals/DeleteModel.tsx";
+import { BiExport, BiImport } from "react-icons/bi";
+import { ExportStorageModal } from "@components/modal/modals/ExportStorage.tsx";
+import { ImportStorageModal } from "@components/modal/modals/ImportStorage.tsx";
 
 export enum ModalTypes {
   CREATE_COLLECTION = "CREATE_COLLECTION",
@@ -18,6 +21,8 @@ export enum ModalTypes {
   ADD_MODEL = "ADD_MODEL",
   EDIT_MODEL = "EDIT_MODEL",
   DELETE_MODEL = "DELETE_MODEL",
+  EXPORT_STATE = "EXPORT_STATE",
+  IMPORT_STATE = "IMPORT_STATE",
 }
 
 export type ModalProps = {
@@ -81,6 +86,22 @@ export const modals = new Map<ModalTypes, ModalProps>([
       icon: <HexagonOutlinedIcon />,
       title: "Delete model",
       children: <DeleteModelModal />,
+    },
+  ],
+  [
+    ModalTypes.EXPORT_STATE,
+    {
+      icon: <BiExport />,
+      title: "Export storage",
+      children: <ExportStorageModal />,
+    },
+  ],
+  [
+    ModalTypes.IMPORT_STATE,
+    {
+      icon: <BiImport />,
+      title: "Import storage",
+      children: <ImportStorageModal />,
     },
   ],
 ]);

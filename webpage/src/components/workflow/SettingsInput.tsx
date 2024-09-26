@@ -88,7 +88,7 @@ export const WorkflowEditForm = () => {
           </div>
         );
       })}
-      <Button onClick={handleAdd} variant="contained" color="primary">
+      <Button onClick={handleAdd} variant="contained" color="inherit">
         Add workflow stage
       </Button>
     </Stack>
