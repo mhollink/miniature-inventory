@@ -18,7 +18,7 @@
     "preversion": "npm run build",
     "version": "./changelog.sh $npm_package_version",
     "postversion": "git push && git push --tags && npm run deploy",
-    "deploy": "echo \"Deploying new version....\""
+    "deploy": "echo \"Time to deploy the new version!\""
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
