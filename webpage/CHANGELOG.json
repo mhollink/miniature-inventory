@@ -1,5 +1,11 @@
 {
-  "main": {
+  "main": {},
+  "0.1.2": {
+    "bugfixes": [
+      "Make the summary section on collection and group page mobile responsive"
+    ]
+  },
+  "0.1.1": {
     "bugfixes": [
       "Fix the automatic redirect that was triggered when hitting enter in a form"
     ]
