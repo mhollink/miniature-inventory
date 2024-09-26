@@ -11,6 +11,7 @@ import { selectInventorySlice } from "@state/inventory";
 import { ChangeEvent, FormEvent, useState } from "react";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
+import Alert from "@mui/material/Alert";
 
 type CollectionOption = {
   id: string;
@@ -29,8 +30,11 @@ export const CreateGroupModal = () => {
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
+  const [displayAlert, setDisplayAlert] = useState(true);
 
-  const [collection, setCollection] = useState<CollectionOption | null>(null);
+  const [collection, setCollection] = useState<CollectionOption | null>(
+    dropdownOptions.length === 1 ? dropdownOptions[0] : null,
+  );
   const [collectionError, setCollectionError] = useState(false);
 
   const handleClose = () => {
@@ -62,6 +66,15 @@ export const CreateGroupModal = () => {
       <DialogContent>
         <form autoComplete="off" onSubmit={handleSubmit}>
           <Stack spacing={1}>
+            {dropdownOptions.length === 1 && displayAlert && (
+              <Alert
+                variant={"filled"}
+                color={"info"}
+                onClose={() => setDisplayAlert(false)}
+              >
+                Since you only have one collection, I preselected it for you!
+              </Alert>
+            )}
             <Typography>
               Select the collection the new group needs to be added to
             </Typography>
@@ -87,6 +100,7 @@ export const CreateGroupModal = () => {
                 />
               )}
             />
+
             <Typography>Choose a name for your new group</Typography>
             <TextField
               error={nameError}
