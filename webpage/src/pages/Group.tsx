@@ -214,15 +214,10 @@ export const Group: FunctionComponent = () => {
               )}
 
               <Droppable droppableId="dnd-models-container">
-                {(provided, snapshot) => (
+                {(provided) => (
                   <Stack
                     gap={1}
                     ref={provided.innerRef}
-                    style={{
-                      backgroundColor: snapshot.isDraggingOver
-                        ? "transparent"
-                        : "transparent",
-                    }}
                     {...provided.droppableProps}
                   >
                     {models.map((model, index) => (

@@ -10,6 +10,7 @@ import { selectModalSlice } from "@state/modal";
 import { ModalTypes } from "@components/modal/modals.tsx";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import { Draggable } from "@hello-pangea/dnd";
+import DragIndicatorIcon from "@mui/icons-material/DragIndicator";
 
 export const ModelSummary = ({
   model,
@@ -48,8 +49,17 @@ export const ModelSummary = ({
               modal.openModal(ModalTypes.EDIT_MODEL, { modelId: model.id })
             }
           >
-            <Typography variant={"h6"} flexGrow={1}>
-              {model.name} ({modelCount})
+            <Typography
+              variant={"h6"}
+              flexGrow={1}
+              sx={{
+                display: "flex",
+                gap: 1,
+                alignItems: "center",
+              }}
+            >
+              <DragIndicatorIcon sx={{ cursor: "grab" }} /> {model.name} (
+              {modelCount})
             </Typography>
             <NavigateNextIcon />
           </Stack>

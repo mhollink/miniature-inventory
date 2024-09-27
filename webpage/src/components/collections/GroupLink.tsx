@@ -10,6 +10,7 @@ import { selectGroup, selectModelsForGroup } from "@state/inventory";
 import { selectWorkflowSlice } from "@state/workflow";
 import { useWorkflowColors } from "@hooks/useWorkflowColors.ts";
 import { Draggable } from "@hello-pangea/dnd";
+import DragIndicatorIcon from "@mui/icons-material/DragIndicator";
 
 type CollectionSummaryProps = {
   groupId: string;
@@ -55,8 +56,17 @@ export const GroupLink: FunctionComponent<CollectionSummaryProps> = ({
                 direction={"row"}
                 alignItems={"center"}
               >
-                <Typography variant={"h6"} flexGrow={1}>
-                  {group.name} ({modelCount})
+                <Typography
+                  variant={"h6"}
+                  flexGrow={1}
+                  sx={{
+                    display: "flex",
+                    gap: 1,
+                    alignItems: "center",
+                  }}
+                >
+                  <DragIndicatorIcon sx={{ cursor: "grab" }} /> {group.name} (
+                  {modelCount})
                 </Typography>
                 <NavigateNextIcon />
               </Stack>

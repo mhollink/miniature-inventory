@@ -163,15 +163,10 @@ export const CollectionAccordion = ({
       </AccordionSummary>
       <AccordionDetails>
         <Droppable droppableId={collection.id}>
-          {(provided, snapshot) => (
+          {(provided) => (
             <Stack
               spacing={2}
               ref={provided.innerRef}
-              style={{
-                backgroundColor: snapshot.isDraggingOver
-                  ? "transparent"
-                  : "transparent",
-              }}
               {...provided.droppableProps}
             >
               {collection.groups.map((collection, index) => (

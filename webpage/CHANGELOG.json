@@ -1,5 +1,9 @@
 {
-  "main": {},
+  "main": {
+    "changes": [
+      "Add an indicator to the draggable objects on the page"
+    ]
+  },
   "0.3.0": {
     "added": [
       "allow for reordering of models in a group using an drag and drop interaction",
