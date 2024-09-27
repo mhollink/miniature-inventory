@@ -9,8 +9,15 @@ import { selectWorkflowSlice } from "@state/workflow";
 import { selectModalSlice } from "@state/modal";
 import { ModalTypes } from "@components/modal/modals.tsx";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
+import { Draggable } from "@hello-pangea/dnd";
 
-export const ModelSummary = ({ model }: { model: Model }) => {
+export const ModelSummary = ({
+  model,
+  index,
+}: {
+  model: Model;
+  index: number;
+}) => {
   const { convertCollectionToGradient } = useWorkflowColors();
   const workflow = useStore(selectWorkflowSlice);
   const modal = useStore(selectModalSlice);
@@ -22,29 +29,38 @@ export const ModelSummary = ({ model }: { model: Model }) => {
   );
 
   return (
-    <Paper elevation={5}>
-      <Stack
-        sx={{
-          p: 2,
-          cursor: "pointer",
-        }}
-        direction={"row"}
-        alignItems={"center"}
-        onClick={() =>
-          modal.openModal(ModalTypes.EDIT_MODEL, { modelId: model.id })
-        }
-      >
-        <Typography variant={"h6"} flexGrow={1}>
-          {model.name} ({modelCount})
-        </Typography>
-        <NavigateNextIcon />
-      </Stack>
-      <Box
-        sx={{
-          p: 0.4,
-          background: gradient,
-        }}
-      />
-    </Paper>
+    <Draggable key={model.id} draggableId={model.id} index={index}>
+      {(provided) => (
+        <Paper
+          ref={provided.innerRef}
+          {...provided.draggableProps}
+          {...provided.dragHandleProps}
+          elevation={5}
+        >
+          <Stack
+            sx={{
+              p: 2,
+              cursor: "pointer",
+            }}
+            direction={"row"}
+            alignItems={"center"}
+            onClick={() =>
+              modal.openModal(ModalTypes.EDIT_MODEL, { modelId: model.id })
+            }
+          >
+            <Typography variant={"h6"} flexGrow={1}>
+              {model.name} ({modelCount})
+            </Typography>
+            <NavigateNextIcon />
+          </Stack>
+          <Box
+            sx={{
+              p: 0.4,
+              background: gradient,
+            }}
+          />
+        </Paper>
+      )}
+    </Draggable>
   );
 };

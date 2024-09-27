@@ -24,6 +24,7 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@hello-pangea/dnd": "^17.0.0",
     "@mui/icons-material": "^6.1.1",
     "@mui/material": "^6.1.1",
     "react": "^18.3.1",

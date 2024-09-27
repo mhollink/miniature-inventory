@@ -7,6 +7,7 @@ import { useStore } from "@state/store.ts";
 import {
   Group as GroupType,
   selectGroup,
+  selectInventorySlice,
   selectModelsForGroup,
 } from "@state/inventory";
 import Alert from "@mui/material/Alert";
@@ -29,6 +30,7 @@ import Button from "@mui/material/Button";
 import { Menu, MenuItem, MenuList } from "@mui/material";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
+import { DragDropContext, Droppable, DropResult } from "@hello-pangea/dnd";
 
 const Summary = ({
   miniatures,
@@ -141,6 +143,7 @@ export const Group: FunctionComponent = () => {
   const group = useStore(selectGroup(groupId));
   const models = useStore(selectModelsForGroup(groupId));
   const modals = useStore(selectModalSlice);
+  const { updateGroup } = useStore(selectInventorySlice);
   const { convertCollectionToGradient } = useWorkflowColors();
 
   const totalCollection = models.flatMap((models) => models.collection);
@@ -150,6 +153,22 @@ export const Group: FunctionComponent = () => {
     totalCollection,
     workflow.workflowStages.length,
   );
+
+  function moveItem(array: string[], fromIndex: number, toIndex: number) {
+    const [item] = array.splice(fromIndex, 1);
+    array.splice(toIndex, 0, item);
+    return array;
+  }
+
+  const updateStuff = ({ destination, source }: DropResult) => {
+    if (!destination) return;
+    if (!group) return;
+
+    updateGroup({
+      ...group,
+      models: moveItem(group.models, source.index, destination.index),
+    });
+  };
 
   return (
     <>
@@ -177,42 +196,65 @@ export const Group: FunctionComponent = () => {
           </>
         ) : (
           <>
-            <Stack direction="row" alignItems="center">
-              <Typography variant={"h3"} flexGrow={1}>
-                {group.name}
-              </Typography>
-              <GroupActions group={group} />
-            </Stack>
-            <Summary
-              miniatures={modelCount}
-              modelTypes={models.length}
-              gradient={gradient}
-            />
-            <Typography variant={"h4"}>Models in this group</Typography>
-            {models.length === 0 && (
-              <>
-                <Alert severity={"info"} variant={"filled"}>
-                  This group is currently empty. You can start adding models to
-                  this group using the FAB in the bottom right corner.
-                </Alert>
-              </>
-            )}
-            {models.map((model) => (
-              <ModelSummary key={model.id} model={model} />
-            ))}
+            <DragDropContext onDragEnd={updateStuff}>
+              <Stack direction="row" alignItems="center">
+                <Typography variant={"h3"} flexGrow={1}>
+                  {group.name}
+                </Typography>
+                <GroupActions group={group} />
+              </Stack>
+              <Summary
+                miniatures={modelCount}
+                modelTypes={models.length}
+                gradient={gradient}
+              />
+              <Typography variant={"h4"}>Models in this group</Typography>
+              {models.length === 0 && (
+                <>
+                  <Alert severity={"info"} variant={"filled"}>
+                    This group is currently empty. You can start adding models
+                    to this group using the FAB in the bottom right corner.
+                  </Alert>
+                </>
+              )}
 
-            <Button
-              sx={{ mb: 4 }}
-              fullWidth
-              variant={"outlined"}
-              onClick={() =>
-                modals.openModal(ModalTypes.ADD_MODEL, {
-                  groupId: groupId,
-                })
-              }
-            >
-              Add a new Model
-            </Button>
+              <Droppable droppableId="dnd-models-container">
+                {(provided, snapshot) => (
+                  <Stack
+                    gap={1}
+                    ref={provided.innerRef}
+                    style={{
+                      backgroundColor: snapshot.isDraggingOver
+                        ? "transparent"
+                        : "transparent",
+                    }}
+                    {...provided.droppableProps}
+                  >
+                    {models.map((model, index) => (
+                      <ModelSummary
+                        key={model.id}
+                        model={model}
+                        index={index}
+                      />
+                    ))}
+                    {provided.placeholder}
+                  </Stack>
+                )}
+              </Droppable>
+
+              <Button
+                sx={{ mb: 4 }}
+                fullWidth
+                variant={"outlined"}
+                onClick={() =>
+                  modals.openModal(ModalTypes.ADD_MODEL, {
+                    groupId: groupId,
+                  })
+                }
+              >
+                Add a new Model
+              </Button>
+            </DragDropContext>
           </>
         )}
       </Container>

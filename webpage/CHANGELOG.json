@@ -1,5 +1,9 @@
 {
-  "main": {},
+  "main": {
+    "added": [
+      "allow for reordering of models in a group using an drag and drop interaction."
+    ]
+  },
   "0.2.0": {
     "added": [
       "Added the ability to update the names of collections, groups and models"
