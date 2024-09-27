@@ -1,5 +1,6 @@
 {
-  "main": {
+  "main": {},
+  "0.3.0": {
     "added": [
       "allow for reordering of models in a group using an drag and drop interaction",
       "make it possible to move groups in and around collections"
