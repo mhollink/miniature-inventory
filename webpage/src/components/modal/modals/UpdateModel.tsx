@@ -18,6 +18,8 @@ export const EditModelModal = () => {
   const { workflowStages } = useStore(selectWorkflowSlice);
   const model = findModel(openedModalContext.modelId);
 
+  const [name, setName] = useState(model?.name || "");
+  const [nameError, setNameError] = useState(false);
   const [stages, setStages] = useState(
     workflowStages
       .map(
@@ -42,6 +44,7 @@ export const EditModelModal = () => {
 
     updateModel({
       ...model,
+      name,
       collection: stages.map((amount, index) => ({
         amount: Number(amount),
         stage: index,
@@ -60,7 +63,30 @@ export const EditModelModal = () => {
     <>
       <DialogContent>
         <form autoComplete="off" onSubmit={handleSubmit}>
+          <Typography>
+            Below you can change the name of <strong>{model?.name}</strong>, or
+            leave it the same.
+          </Typography>
           <Stack spacing={1}>
+            <Box sx={{ mt: 2 }}>
+              <TextField
+                error={nameError}
+                id="new-model-name-input"
+                label="Model name"
+                autoComplete="off"
+                autoFocus
+                value={name}
+                onChange={(event: ChangeEvent<HTMLInputElement>) => {
+                  setNameError(false);
+                  setName(event.target.value);
+                }}
+                helperText={
+                  nameError ? "The name of a collection cannot be empty!" : ""
+                }
+                fullWidth
+              />
+            </Box>
+
             <Typography>
               Below you can update the status of your current collection of{" "}
               <strong>{model?.name}</strong>
