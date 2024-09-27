@@ -9,13 +9,16 @@ import { useStore } from "@state/store.ts";
 import { selectGroup, selectModelsForGroup } from "@state/inventory";
 import { selectWorkflowSlice } from "@state/workflow";
 import { useWorkflowColors } from "@hooks/useWorkflowColors.ts";
+import { Draggable } from "@hello-pangea/dnd";
 
 type CollectionSummaryProps = {
   groupId: string;
+  index: number;
 };
 
 export const GroupLink: FunctionComponent<CollectionSummaryProps> = ({
   groupId,
+  index,
 }) => {
   const group = useStore(selectGroup(groupId));
   const models = useStore(selectModelsForGroup(groupId));
@@ -31,33 +34,42 @@ export const GroupLink: FunctionComponent<CollectionSummaryProps> = ({
 
   return (
     group && (
-      <Paper elevation={5}>
-        <Link
-          href={`/collections/${groupId}`}
-          color="textPrimary"
-          underline={"none"}
-        >
-          <Stack
-            sx={{
-              p: 2,
-              cursor: "pointer",
-            }}
-            direction={"row"}
-            alignItems={"center"}
+      <Draggable draggableId={group.id} index={index}>
+        {(provided) => (
+          <Paper
+            ref={provided.innerRef}
+            {...provided.draggableProps}
+            {...provided.dragHandleProps}
+            elevation={5}
           >
-            <Typography variant={"h6"} flexGrow={1}>
-              {group.name} ({modelCount})
-            </Typography>
-            <NavigateNextIcon />
-          </Stack>
-        </Link>
-        <Box
-          sx={{
-            p: 0.2,
-            background: gradient,
-          }}
-        />
-      </Paper>
+            <Link
+              href={`/collections/${groupId}`}
+              color="textPrimary"
+              underline={"none"}
+            >
+              <Stack
+                sx={{
+                  p: 2,
+                  cursor: "pointer",
+                }}
+                direction={"row"}
+                alignItems={"center"}
+              >
+                <Typography variant={"h6"} flexGrow={1}>
+                  {group.name} ({modelCount})
+                </Typography>
+                <NavigateNextIcon />
+              </Stack>
+            </Link>
+            <Box
+              sx={{
+                p: 0.2,
+                background: gradient,
+              }}
+            />
+          </Paper>
+        )}
+      </Draggable>
     )
   );
 };

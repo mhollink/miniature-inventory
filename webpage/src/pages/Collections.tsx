@@ -18,6 +18,8 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import useTheme from "@mui/material/styles/useTheme";
 import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 import { CollectionAccordion } from "@components/collections/CollectionAccordion.tsx";
+import { DragDropContext, DropResult } from "@hello-pangea/dnd";
+import { moveItem, moveItemBetweenLists } from "../utils/array.ts";
 
 const Summary = () => {
   const theme = useTheme();
@@ -68,6 +70,53 @@ const Summary = () => {
 export const Collections = () => {
   const inventory = useStore(selectInventorySlice);
   const modal = useStore(selectModalSlice);
+
+  const updateGroups = ({ source, destination }: DropResult) => {
+    if (!destination) return;
+
+    if (source.droppableId === destination.droppableId) {
+      if (source.index === destination.index) return;
+
+      const collection = inventory.findCollection(source.droppableId);
+      if (!collection)
+        return console.error(
+          "Collection the item was dropped into was not... found?!",
+        );
+
+      inventory.updateCollection({
+        ...collection,
+        groups: moveItem(collection.groups, source.index, destination.index),
+      });
+      return;
+    }
+
+    const sourceCollection = inventory.findCollection(source.droppableId);
+    const destinationCollection = inventory.findCollection(
+      destination.droppableId,
+    );
+
+    if (!sourceCollection || !destinationCollection)
+      return console.error(
+        "Collection the item was picked from AND/OR dropped into was not... found?!",
+      );
+
+    const [updatedSourceGroups, updateDestinationGroups] = moveItemBetweenLists(
+      sourceCollection.groups,
+      source.index,
+      destinationCollection.groups,
+      destination.index,
+    );
+
+    inventory.updateCollection({
+      ...sourceCollection,
+      groups: updatedSourceGroups,
+    });
+    inventory.updateCollection({
+      ...destinationCollection,
+      groups: updateDestinationGroups,
+    });
+  };
+
   return (
     <>
       <Helmet title="My collections" />
@@ -90,9 +139,11 @@ export const Collections = () => {
           </Alert>
         )}
 
-        {inventory.collections.map((collection) => (
-          <CollectionAccordion collection={collection} />
-        ))}
+        <DragDropContext onDragEnd={updateGroups}>
+          {inventory.collections.map((collection) => (
+            <CollectionAccordion collection={collection} key={collection.id} />
+          ))}
+        </DragDropContext>
 
         <Button
           sx={{ my: 4 }}

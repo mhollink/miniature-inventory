@@ -31,6 +31,7 @@ import { Menu, MenuItem, MenuList } from "@mui/material";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { DragDropContext, Droppable, DropResult } from "@hello-pangea/dnd";
+import { moveItem } from "../utils/array.ts";
 
 const Summary = ({
   miniatures,
@@ -153,12 +154,6 @@ export const Group: FunctionComponent = () => {
     totalCollection,
     workflow.workflowStages.length,
   );
-
-  function moveItem(array: string[], fromIndex: number, toIndex: number) {
-    const [item] = array.splice(fromIndex, 1);
-    array.splice(toIndex, 0, item);
-    return array;
-  }
 
   const updateStuff = ({ destination, source }: DropResult) => {
     if (!destination) return;

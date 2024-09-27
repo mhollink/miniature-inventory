@@ -25,6 +25,7 @@ import { useRef, useState } from "react";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { Delete, Edit } from "@mui/icons-material";
+import { Droppable } from "@hello-pangea/dnd";
 
 const CollectionInfo = ({ collection }: { collection: Collection }) => {
   const models = useStore(selectModelsForCollection(collection.id));
@@ -161,19 +162,38 @@ export const CollectionAccordion = ({
         <CollectionInfo collection={collection} />
       </AccordionSummary>
       <AccordionDetails>
-        <Stack spacing={2}>
-          {collection.groups.map((collection) => (
-            <GroupLink key={collection} groupId={collection} />
-          ))}
+        <Droppable droppableId={collection.id}>
+          {(provided, snapshot) => (
+            <Stack
+              spacing={2}
+              ref={provided.innerRef}
+              style={{
+                backgroundColor: snapshot.isDraggingOver
+                  ? "transparent"
+                  : "transparent",
+              }}
+              {...provided.droppableProps}
+            >
+              {collection.groups.map((collection, index) => (
+                <GroupLink
+                  key={collection}
+                  groupId={collection}
+                  index={index}
+                />
+              ))}
 
-          {collection.groups.length === 0 && (
-            <Alert severity="info" variant={"filled"}>
-              There are currently no groups inside this collection.
-            </Alert>
+              {collection.groups.length === 0 && (
+                <Alert severity="info" variant={"filled"}>
+                  There are currently no groups inside this collection.
+                </Alert>
+              )}
+
+              {provided.placeholder}
+
+              <CollectionActions collection={collection} />
+            </Stack>
           )}
-
-          <CollectionActions collection={collection} />
-        </Stack>
+        </Droppable>
       </AccordionDetails>
     </Accordion>
   );

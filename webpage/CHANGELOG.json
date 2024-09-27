@@ -1,7 +1,8 @@
 {
   "main": {
     "added": [
-      "allow for reordering of models in a group using an drag and drop interaction."
+      "allow for reordering of models in a group using an drag and drop interaction",
+      "make it possible to move groups in and around collections"
     ]
   },
   "0.2.0": {
@@ -16,7 +17,7 @@
   },
   "0.1.4": {
     "added": [
-      "If there is only one collection when creating a group it now automatically selects it."
+      "If there is only one collection when creating a group it now automatically selects it"
     ],
     "changed": ["Updated the roadmap"]
   },
