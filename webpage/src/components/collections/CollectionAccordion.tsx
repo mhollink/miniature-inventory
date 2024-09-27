@@ -48,9 +48,10 @@ const CollectionActions = ({ collection }: { collection: Collection }) => {
       label: "Edit collection",
       onClick: () => {
         setOpen(false);
-        console.log("edit clicked");
+        modal.openModal(ModalTypes.UPDATE_COLLECTION, {
+          collectionId: collection.id,
+        });
       },
-      disabled: true,
     },
     {
       label: "Delete collection",
@@ -125,11 +126,7 @@ const CollectionActions = ({ collection }: { collection: Collection }) => {
               <ClickAwayListener onClickAway={handleClose}>
                 <MenuList id="split-button-menu" autoFocusItem>
                   {extraOptions.map((option) => (
-                    <MenuItem
-                      key={option.label}
-                      onClick={option.onClick}
-                      disabled={option.disabled}
-                    >
+                    <MenuItem key={option.label} onClick={option.onClick}>
                       {option.label}
                     </MenuItem>
                   ))}

@@ -12,15 +12,21 @@ import { DeleteModelModal } from "@components/modal/modals/DeleteModel.tsx";
 import { BiExport, BiImport } from "react-icons/bi";
 import { ExportStorageModal } from "@components/modal/modals/ExportStorage.tsx";
 import { ImportStorageModal } from "@components/modal/modals/ImportStorage.tsx";
+import { UpdateCollectionModal } from "@components/modal/modals/UpdateCollection.tsx";
 
 export enum ModalTypes {
   CREATE_COLLECTION = "CREATE_COLLECTION",
+  UPDATE_COLLECTION = "UPDATE_COLLECTION",
   DELETE_COLLECTION = "DELETE_COLLECTION",
+
   CREATE_GROUP = "CREATE_GROUP",
+  UPDATE_GROUP = "UPDATE_GROUP",
   DELETE_GROUP = "DELETE_GROUP",
+
   ADD_MODEL = "ADD_MODEL",
   EDIT_MODEL = "EDIT_MODEL",
   DELETE_MODEL = "DELETE_MODEL",
+
   EXPORT_STATE = "EXPORT_STATE",
   IMPORT_STATE = "IMPORT_STATE",
 }
@@ -41,6 +47,14 @@ export const modals = new Map<ModalTypes, ModalProps>([
     },
   ],
   [
+    ModalTypes.UPDATE_COLLECTION,
+    {
+      icon: <CategoryOutlinedIcon />,
+      title: "Update collection",
+      children: <UpdateCollectionModal />,
+    },
+  ],
+  [
     ModalTypes.DELETE_COLLECTION,
     {
       icon: <CategoryOutlinedIcon />,
@@ -54,6 +68,15 @@ export const modals = new Map<ModalTypes, ModalProps>([
       icon: <SquareOutlinedIcon />,
       title: "Add a new group",
       children: <CreateGroupModal />,
+    },
+  ],
+  [
+    ModalTypes.UPDATE_GROUP,
+    {
+      icon: <SquareOutlinedIcon />,
+      title: "Update group",
+      // TODO: Add the correct modal content
+      children: <></>,
     },
   ],
   [

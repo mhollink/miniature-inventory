@@ -34,10 +34,12 @@ export type InventoryState = {
 
   addCollection: (name: string) => void;
   findCollection: (id: string) => Collection | undefined;
+  updateCollection: (updatedCollection: Collection) => void;
   deleteCollection: (id: string) => void;
 
   addGroup: (collectionId: string, name: string) => void;
   findGroup: (id: string) => Group | undefined;
+  updateGroup: (updatedGroup: Group) => void;
   deleteGroup: (id: string) => void;
 
   addModel: (groupId: string, name: string, collection: ModelStage[]) => void;
@@ -74,6 +76,17 @@ export const inventorySlice: Slice<InventoryState> = (set, get) => ({
     ),
   findCollection: (id: string) =>
     get().collections.find((collection) => collection.id === id),
+  updateCollection: (updatedCollection: Collection) =>
+    set(
+      ({ collections }) => ({
+        collections: collections.map((collection) => {
+          if (collection.id === updatedCollection.id) return updatedCollection;
+          else return collection;
+        }),
+      }),
+      undefined,
+      "UPDATE_COLLECTION",
+    ),
   deleteCollection: (id: string) =>
     set(
       ({ collections }) => ({
@@ -107,6 +120,17 @@ export const inventorySlice: Slice<InventoryState> = (set, get) => ({
       "ADD_GROUP",
     ),
   findGroup: (id: string) => get().groups.find((group) => group.id === id),
+  updateGroup: (updatedGroup: Group) =>
+    set(
+      ({ groups }) => ({
+        groups: groups.map((group) => {
+          if (group.id === updatedGroup.id) return updatedGroup;
+          else return group;
+        }),
+      }),
+      undefined,
+      "UPDATE_GROUP",
+    ),
   deleteGroup: (id: string) =>
     set(
       ({ collections, groups, models }) => {
@@ -195,10 +219,12 @@ export const selectInventorySlice = (state: AppState): InventoryState => ({
 
   addCollection: state.addCollection,
   findCollection: state.findCollection,
+  updateCollection: state.updateCollection,
   deleteCollection: state.deleteCollection,
 
   addGroup: state.addGroup,
   findGroup: state.findGroup,
+  updateGroup: state.updateGroup,
   deleteGroup: state.deleteGroup,
 
   addModel: state.addModel,
