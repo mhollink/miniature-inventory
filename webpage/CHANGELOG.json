@@ -1,8 +1,7 @@
 {
-  "main": {
-    "changes": [
-      "Add an indicator to the draggable objects on the page"
-    ]
+  "main": {},
+  "0.3.1": {
+    "changed": ["Add an indicator to the draggable objects on the page"]
   },
   "0.3.0": {
     "added": [
