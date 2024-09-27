@@ -1,5 +1,8 @@
 {
-  "main": {},
+  "main": {
+    "added": ["Added the ability to update the name of a model"],
+    "changed": ["Removed the floating action button in favour of having simple one click action buttons"]
+  },
   "0.1.4": {
     "added": [
       "If there is only one collection when creating a group it now automatically selects it."
