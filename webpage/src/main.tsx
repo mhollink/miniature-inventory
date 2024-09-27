@@ -7,12 +7,15 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { routes } from "./router/routes.tsx";
 
 import "./styles/index.scss";
+import { LoadFirebase } from "./firebase/LoadFirebase.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ErrorBoundary inCaseOfError={<RootFallback />}>
       <HelmetProvider>
-        <RouterProvider router={createBrowserRouter(routes)} />
+        <LoadFirebase>
+          <RouterProvider router={createBrowserRouter(routes)} />
+        </LoadFirebase>
       </HelmetProvider>
     </ErrorBoundary>
   </StrictMode>,
