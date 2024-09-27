@@ -21,13 +21,13 @@ import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 import HexagonOutlinedIcon from "@mui/icons-material/HexagonOutlined";
 import { ModelSummary } from "@components/collections/ModelSummary.tsx";
 import IconButton from "@mui/material/IconButton";
-import { Delete, Edit, MoreVert } from "@mui/icons-material";
+import { Delete, Edit, MoreVert, SortByAlpha } from "@mui/icons-material";
 import { selectModalSlice } from "@state/modal";
 import { ModalTypes } from "@components/modal/modals.tsx";
 import useTheme from "@mui/material/styles/useTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Button from "@mui/material/Button";
-import { Menu, MenuItem, MenuList } from "@mui/material";
+import { Menu, MenuItem, MenuList, Tooltip } from "@mui/material";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { DragDropContext, Droppable, DropResult } from "@hello-pangea/dnd";
@@ -165,6 +165,16 @@ export const Group: FunctionComponent = () => {
     });
   };
 
+  const quickSort = () => {
+    if (!group) return;
+    updateGroup({
+      ...group,
+      models: models
+        .sort((a, b) => a.name.localeCompare(b.name))
+        .map((model) => model.id),
+    });
+  };
+
   return (
     <>
       <Helmet title={group?.name || ""} />
@@ -203,7 +213,16 @@ export const Group: FunctionComponent = () => {
                 modelTypes={models.length}
                 gradient={gradient}
               />
-              <Typography variant={"h4"}>Models in this group</Typography>
+              <Stack direction={"row"} alignItems={"center"}>
+                <Typography variant={"h4"} flexGrow={1}>
+                  Models in this group
+                </Typography>
+                <Tooltip title="Quick sort by alphabet" onClick={quickSort}>
+                  <IconButton>
+                    <SortByAlpha sx={{ fontSize: 30 }} />
+                  </IconButton>
+                </Tooltip>
+              </Stack>
               {models.length === 0 && (
                 <>
                   <Alert severity={"info"} variant={"filled"}>
