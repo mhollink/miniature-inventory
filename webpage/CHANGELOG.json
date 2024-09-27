@@ -1,7 +1,11 @@
 {
   "main": {
-    "added": ["Added the ability to update the name of a model"],
-    "changed": ["Removed the floating action button in favour of having simple one click action buttons"]
+    "added": ["Added the ability to update the names of collections, groups and models"],
+    "changed": [
+      "Removed the floating action button in favour of having simple one click action buttons",
+      "Made it possible to delete a collection at any time (not just empty collections)",
+      "Trigger an error when creating a model 0 miniatures linked"
+    ]
   },
   "0.1.4": {
     "added": [
