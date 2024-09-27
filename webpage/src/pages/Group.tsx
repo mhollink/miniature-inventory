@@ -1,4 +1,4 @@
-import { FunctionComponent, MouseEvent, useState } from "react";
+import { Fragment, FunctionComponent, MouseEvent, useState } from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { Crumbs } from "@components/cumbs/Crumbs.tsx";
@@ -32,6 +32,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { DragDropContext, Droppable, DropResult } from "@hello-pangea/dnd";
 import { moveItem } from "../utils/array.ts";
+import { RowAdvertisement } from "@components/Ads/CollectionsAdvertisement.tsx";
 
 const Summary = ({
   miniatures,
@@ -240,11 +241,16 @@ export const Group: FunctionComponent = () => {
                     {...provided.droppableProps}
                   >
                     {models.map((model, index) => (
-                      <ModelSummary
-                        key={model.id}
-                        model={model}
-                        index={index}
-                      />
+                      <Fragment key={model.id}>
+                        <ModelSummary
+                          key={model.id}
+                          model={model}
+                          index={index}
+                        />
+                        {index % 8 === 7 && index !== models.length - 1 && (
+                          <RowAdvertisement />
+                        )}
+                      </Fragment>
                     ))}
                     {provided.placeholder}
                   </Stack>

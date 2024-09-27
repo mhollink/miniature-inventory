@@ -1,5 +1,7 @@
 {
-  "main": {},
+  "main": {
+    "added": ["Added analytics and advertisements (Sorry!)"]
+  },
   "0.4.0": {
     "added": [
       "Make it possible to quickly sort the list of models based on their name"

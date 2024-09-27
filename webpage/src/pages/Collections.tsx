@@ -20,6 +20,8 @@ import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 import { CollectionAccordion } from "@components/collections/CollectionAccordion.tsx";
 import { DragDropContext, DropResult } from "@hello-pangea/dnd";
 import { moveItem, moveItemBetweenLists } from "../utils/array.ts";
+import { RowAdvertisement } from "@components/Ads/CollectionsAdvertisement.tsx";
+import { Fragment } from "react";
 
 const Summary = () => {
   const theme = useTheme();
@@ -140,8 +142,14 @@ export const Collections = () => {
         )}
 
         <DragDropContext onDragEnd={updateGroups}>
-          {inventory.collections.map((collection) => (
-            <CollectionAccordion collection={collection} key={collection.id} />
+          {inventory.collections.map((collection, index) => (
+            <Fragment key={collection.id}>
+              <CollectionAccordion collection={collection} />
+              {index % 3 === 0 &&
+                index !== inventory.collections.length - 1 && (
+                  <RowAdvertisement />
+                )}
+            </Fragment>
           ))}
         </DragDropContext>
 
