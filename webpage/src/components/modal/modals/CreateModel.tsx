@@ -2,7 +2,12 @@ import { useStore } from "@state/store.ts";
 import { selectModalSlice } from "@state/modal";
 import { selectInventorySlice } from "@state/inventory";
 import { ChangeEvent, FormEvent, useState } from "react";
-import { DialogActions, DialogContent, TextField } from "@mui/material";
+import {
+  DialogActions,
+  DialogContent,
+  FormHelperText,
+  TextField,
+} from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
@@ -19,9 +24,11 @@ export const AddModelModal = () => {
   const [nameError, setNameError] = useState(false);
 
   const [stages, setStages] = useState(workflowStages.map(() => "0"));
+  const [stagesError, setStagesError] = useState(false);
 
   const handleClose = () => {
     setNameError(false);
+    setStagesError(false);
     closeModal();
   };
 
@@ -31,6 +38,10 @@ export const AddModelModal = () => {
       return;
     }
     if (stages.find((stage) => Number(stage) < 0)) {
+      return;
+    }
+    if (stages.reduce((total, current) => total + Number(current), 0) <= 0) {
+      setStagesError(true);
       return;
     }
 
@@ -90,7 +101,7 @@ export const AddModelModal = () => {
                 >
                   <TextField
                     id={`new-model-${stage}-input`}
-                    error={Number(stages[index]) < 0}
+                    error={Number(stages[index]) < 0 || stagesError}
                     label={stage}
                     value={String(stages[index])}
                     autoComplete="off"
@@ -105,6 +116,7 @@ export const AddModelModal = () => {
                         : ""
                     }
                     onChange={(event: ChangeEvent<HTMLInputElement>) => {
+                      setStagesError(false);
                       const newStages = [...stages];
                       newStages[index] = event.target.value;
                       setStages(newStages);
@@ -114,7 +126,16 @@ export const AddModelModal = () => {
                 </Box>
               ))}
             </Stack>
+            <FormHelperText
+              error={stagesError}
+              sx={{
+                display: stagesError ? "inline-block" : "none",
+              }}
+            >
+              Your total amount of miniatures must at least be 1
+            </FormHelperText>
           </Stack>
+          <Button type="submit" sx={{ display: "none" }} />
         </form>
       </DialogContent>
       <DialogActions>

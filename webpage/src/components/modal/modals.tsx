@@ -13,6 +13,7 @@ import { BiExport, BiImport } from "react-icons/bi";
 import { ExportStorageModal } from "@components/modal/modals/ExportStorage.tsx";
 import { ImportStorageModal } from "@components/modal/modals/ImportStorage.tsx";
 import { UpdateCollectionModal } from "@components/modal/modals/UpdateCollection.tsx";
+import { UpdateGroupModal } from "@components/modal/modals/UpdateGroup.tsx";
 
 export enum ModalTypes {
   CREATE_COLLECTION = "CREATE_COLLECTION",
@@ -75,8 +76,7 @@ export const modals = new Map<ModalTypes, ModalProps>([
     {
       icon: <SquareOutlinedIcon />,
       title: "Update group",
-      // TODO: Add the correct modal content
-      children: <></>,
+      children: <UpdateGroupModal />,
     },
   ],
   [

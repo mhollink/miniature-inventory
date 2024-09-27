@@ -1,15 +1,17 @@
+import Typography from "@mui/material/Typography";
+import { DialogActions, DialogContent, TextField } from "@mui/material";
+import Button from "@mui/material/Button";
 import { useStore } from "@state/store.ts";
 import { selectModalSlice } from "@state/modal";
-import { selectInventorySlice } from "@state/inventory";
 import { ChangeEvent, FormEvent, useState } from "react";
-import { DialogActions, DialogContent, TextField } from "@mui/material";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
+import { selectInventorySlice } from "@state/inventory";
 
-export const CreateNewCollectionModal = () => {
-  const { closeModal } = useStore(selectModalSlice);
-  const { addCollection } = useStore(selectInventorySlice);
+export const UpdateGroupModal = () => {
+  const { closeModal, openedModalContext } = useStore(selectModalSlice);
+  const { findGroup, updateGroup } = useStore(selectInventorySlice);
+  const group = findGroup(openedModalContext.groupId);
+
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
 
@@ -18,39 +20,47 @@ export const CreateNewCollectionModal = () => {
     closeModal();
   };
 
-  const handleAddCollection = () => {
+  const handleDelete = () => {
     if (!name || name.trim().length === 0) {
       setNameError(true);
       return;
     }
-    addCollection(name);
+
+    if (!group) return;
+
+    updateGroup({
+      ...group,
+      name: name,
+    });
     handleClose();
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    handleAddCollection();
+    handleDelete();
   };
 
   return (
     <>
       <DialogContent>
-        <form autoComplete="off" onSubmit={handleSubmit} autoFocus={true}>
-          <Typography>Choose a name for your new collection</Typography>
+        <form autoComplete="off" onSubmit={handleSubmit}>
+          <Typography>
+            Choose a new name for your <strong>{group?.name}</strong> group
+          </Typography>
           <Box sx={{ mt: 2 }}>
             <TextField
               error={nameError}
-              id="new-collection-name-input"
-              label="Collection name"
+              id="update-group-name-input"
+              label="Group name"
+              autoFocus
               autoComplete="off"
-              autoFocus={true}
               value={name}
               onChange={(event: ChangeEvent<HTMLInputElement>) => {
                 setNameError(false);
                 setName(event.target.value);
               }}
               helperText={
-                nameError ? "The name of a collection cannot be empty!" : ""
+                nameError ? "The name of a group cannot be empty!" : ""
               }
               fullWidth
             />
@@ -59,8 +69,8 @@ export const CreateNewCollectionModal = () => {
       </DialogContent>
       <DialogActions>
         <Button onClick={handleClose}>Cancel</Button>
-        <Button variant={"contained"} onClick={handleAddCollection}>
-          Add collection
+        <Button variant={"contained"} onClick={handleDelete}>
+          Update group
         </Button>
       </DialogActions>
     </>

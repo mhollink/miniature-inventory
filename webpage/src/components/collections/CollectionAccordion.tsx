@@ -22,6 +22,9 @@ import Typography from "@mui/material/Typography";
 import { selectModalSlice } from "@state/modal";
 import ArrowDropDown from "@mui/icons-material/ArrowDropDown";
 import { useRef, useState } from "react";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import ListItemText from "@mui/material/ListItemText";
+import { Delete, Edit } from "@mui/icons-material";
 
 const CollectionInfo = ({ collection }: { collection: Collection }) => {
   const models = useStore(selectModelsForCollection(collection.id));
@@ -46,6 +49,7 @@ const CollectionActions = ({ collection }: { collection: Collection }) => {
   const extraOptions = [
     {
       label: "Edit collection",
+      icon: <Edit />,
       onClick: () => {
         setOpen(false);
         modal.openModal(ModalTypes.UPDATE_COLLECTION, {
@@ -55,6 +59,7 @@ const CollectionActions = ({ collection }: { collection: Collection }) => {
     },
     {
       label: "Delete collection",
+      icon: <Delete />,
       onClick: () => {
         setOpen(false);
         modal.openModal(ModalTypes.DELETE_COLLECTION, {
@@ -127,7 +132,8 @@ const CollectionActions = ({ collection }: { collection: Collection }) => {
                 <MenuList id="split-button-menu" autoFocusItem>
                   {extraOptions.map((option) => (
                     <MenuItem key={option.label} onClick={option.onClick}>
-                      {option.label}
+                      <ListItemIcon>{option.icon}</ListItemIcon>
+                      <ListItemText> {option.label}</ListItemText>
                     </MenuItem>
                   ))}
                 </MenuList>

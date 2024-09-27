@@ -2,7 +2,12 @@ import { useStore } from "@state/store.ts";
 import { selectModalSlice } from "@state/modal";
 import { selectInventorySlice } from "@state/inventory";
 import { ChangeEvent, FormEvent, useState } from "react";
-import { DialogActions, DialogContent, TextField } from "@mui/material";
+import {
+  DialogActions,
+  DialogContent,
+  FormHelperText,
+  TextField,
+} from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
@@ -28,17 +33,21 @@ export const EditModelModal = () => {
       )
       .map(String),
   );
+  const [stagesError, setStagesError] = useState(false);
 
   const handleClose = () => {
     closeModal();
   };
 
   const handleUpdateModel = () => {
+    if (!model) {
+      return;
+    }
     if (stages.find((stage) => Number(stage) < 0)) {
       return;
     }
-
-    if (!model) {
+    if (stages.reduce((total, current) => total + Number(current), 0) <= 0) {
+      setStagesError(true);
       return;
     }
 
@@ -81,7 +90,7 @@ export const EditModelModal = () => {
                   setName(event.target.value);
                 }}
                 helperText={
-                  nameError ? "The name of a collection cannot be empty!" : ""
+                  nameError ? "The name of a model cannot be empty!" : ""
                 }
                 fullWidth
               />
@@ -100,7 +109,7 @@ export const EditModelModal = () => {
                 >
                   <TextField
                     id={`new-model-${stage}-input`}
-                    error={Number(stages[index]) < 0}
+                    error={Number(stages[index]) < 0 || stagesError}
                     label={stage}
                     value={String(stages[index])}
                     autoComplete="off"
@@ -116,6 +125,7 @@ export const EditModelModal = () => {
                         : ""
                     }
                     onChange={(event: ChangeEvent<HTMLInputElement>) => {
+                      setStagesError(false);
                       const newStages = [...stages];
                       newStages[index] = event.target.value;
                       setStages(newStages);
@@ -125,7 +135,16 @@ export const EditModelModal = () => {
                 </Box>
               ))}
             </Stack>
+            <FormHelperText
+              error={stagesError}
+              sx={{
+                display: stagesError ? "inline-block" : "none",
+              }}
+            >
+              Your total amount of miniatures must at least be 1
+            </FormHelperText>
           </Stack>
+          <Button type="submit" sx={{ display: "none" }} />
         </form>
       </DialogContent>
       <DialogActions sx={{ flexDirection: "row-reverse", gap: 2 }}>
