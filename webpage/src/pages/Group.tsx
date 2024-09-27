@@ -15,13 +15,13 @@ import { SummaryItem } from "@components/collections/SummaryItem.tsx";
 import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 import HexagonOutlinedIcon from "@mui/icons-material/HexagonOutlined";
 import { ModelSummary } from "@components/collections/ModelSummary.tsx";
-import { Fab } from "@components/fab/Fab.tsx";
 import IconButton from "@mui/material/IconButton";
 import { Delete } from "@mui/icons-material";
 import { selectModalSlice } from "@state/modal";
 import { ModalTypes } from "@components/modal/modals.tsx";
 import useTheme from "@mui/material/styles/useTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import Button from "@mui/material/Button";
 
 const Summary = ({
   miniatures,
@@ -136,22 +136,22 @@ export const Group: FunctionComponent = () => {
             {models.map((model) => (
               <ModelSummary key={model.id} model={model} />
             ))}
+
+            <Button
+              sx={{ mb: 4 }}
+              fullWidth
+              variant={"outlined"}
+              onClick={() =>
+                modals.openModal(ModalTypes.ADD_MODEL, {
+                  groupId: groupId,
+                })
+              }
+            >
+              Add a new Model
+            </Button>
           </>
         )}
       </Container>
-      <Fab
-        ariaLabel={"collection-actions"}
-        actions={[
-          {
-            name: "Add a model",
-            icon: <HexagonOutlinedIcon />,
-            callback: () =>
-              modals.openModal(ModalTypes.ADD_MODEL, {
-                groupId: groupId,
-              }),
-          },
-        ]}
-      />
     </>
   );
 };

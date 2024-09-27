@@ -5,27 +5,19 @@ import { Crumbs } from "@components/cumbs/Crumbs.tsx";
 import Stack from "@mui/material/Stack";
 import SquareOutlinedIcon from "@mui/icons-material/SquareOutlined";
 import CategoryOutlinedIcon from "@mui/icons-material/CategoryOutlined";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
-import { GroupLink } from "@components/collections/GroupLink.tsx";
 import { useStore } from "@state/store.ts";
-import {
-  Collection,
-  selectInventorySlice,
-  selectModelsForCollection,
-} from "@state/inventory";
-import { Fab } from "@components/fab/Fab.tsx";
+import { selectInventorySlice } from "@state/inventory";
 import { selectWorkflowSlice } from "@state/workflow";
 import { useWorkflowColors } from "@hooks/useWorkflowColors.ts";
 import { SummaryItem } from "@components/collections/SummaryItem";
 import Alert from "@mui/material/Alert";
 import Button from "@mui/material/Button";
-import DeleteIcon from "@mui/icons-material/Delete";
 import { selectModalSlice } from "@state/modal";
 import { ModalTypes } from "@components/modal/modals.tsx";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import useTheme from "@mui/material/styles/useTheme";
 import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
+import { CollectionAccordion } from "@components/collections/CollectionAccordion.tsx";
 
 const Summary = () => {
   const theme = useTheme();
@@ -73,21 +65,6 @@ const Summary = () => {
   );
 };
 
-const CollectionInfo = ({ collection }: { collection: Collection }) => {
-  const models = useStore(selectModelsForCollection(collection.id));
-  const modelCount = models
-    .flatMap((models) => models.collection.map((c) => c.amount as number))
-    .reduce((a, b) => a + b, 0);
-  return (
-    <Stack direction="row" sx={{ width: "100%", pr: 4 }}>
-      <Typography variant={"h5"} flexGrow={1}>
-        {collection.name}
-      </Typography>
-      <Typography variant={"h5"}>{modelCount}</Typography>
-    </Stack>
-  );
-};
-
 export const Collections = () => {
   const inventory = useStore(selectInventorySlice);
   const modal = useStore(selectModalSlice);
@@ -105,69 +82,26 @@ export const Collections = () => {
         <Crumbs />
         <Typography variant={"h3"}>Collections</Typography>
         <Summary />
+
         {inventory.collections.length === 0 && (
           <Alert severity="info" variant={"filled"}>
-            You currently have no collections. Start your first collection by
-            creating one using the FAB in the bottom right corner.
+            You currently have no collections. Let's start by creating your
+            first collection using the button below.
           </Alert>
         )}
 
         {inventory.collections.map((collection) => (
-          <Accordion defaultExpanded key={collection.id} elevation={3}>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel1-content"
-              id="panel1-header"
-            >
-              <CollectionInfo collection={collection} />
-            </AccordionSummary>
-            <AccordionDetails>
-              <Stack spacing={2}>
-                {collection.groups.length === 0 && (
-                  <>
-                    <Alert severity="info" variant={"filled"}>
-                      There are currently no groups inside this collection, if
-                      you wish to delete the collection, click on the delete
-                      button below this message.
-                    </Alert>
-                    <Button
-                      color={"error"}
-                      startIcon={<DeleteIcon />}
-                      onClick={() =>
-                        modal.openModal(ModalTypes.DELETE_COLLECTION, {
-                          collectionId: collection.id,
-                        })
-                      }
-                    >
-                      Delete collection
-                    </Button>
-                  </>
-                )}
-
-                {collection.groups.map((collection) => (
-                  <GroupLink key={collection} groupId={collection} />
-                ))}
-              </Stack>
-            </AccordionDetails>
-          </Accordion>
+          <CollectionAccordion collection={collection} />
         ))}
+
+        <Button
+          sx={{ my: 4 }}
+          fullWidth
+          onClick={() => modal.openModal(ModalTypes.CREATE_COLLECTION)}
+        >
+          Create a new Collection
+        </Button>
       </Container>
-      <Fab
-        ariaLabel={"collection-actions"}
-        actions={[
-          {
-            name: "create collection",
-            icon: <CategoryOutlinedIcon />,
-            callback: () => modal.openModal(ModalTypes.CREATE_COLLECTION),
-          },
-          {
-            name: "create group",
-            icon: <SquareOutlinedIcon />,
-            callback: () => modal.openModal(ModalTypes.CREATE_GROUP),
-            disabled: inventory.collections.length === 0,
-          },
-        ]}
-      />
     </>
   );
 };

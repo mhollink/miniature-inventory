@@ -1,58 +1,32 @@
 import Typography from "@mui/material/Typography";
-import {
-  Autocomplete,
-  DialogActions,
-  DialogContent,
-  TextField,
-} from "@mui/material";
+import { DialogActions, DialogContent, TextField } from "@mui/material";
 import { useStore } from "@state/store.ts";
 import { selectModalSlice } from "@state/modal";
 import { selectInventorySlice } from "@state/inventory";
 import { ChangeEvent, FormEvent, useState } from "react";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
-import Alert from "@mui/material/Alert";
-
-type CollectionOption = {
-  id: string;
-  label: string;
-};
 
 export const CreateGroupModal = () => {
-  const { closeModal } = useStore(selectModalSlice);
+  const { closeModal, openedModalContext } = useStore(selectModalSlice);
   const { addGroup } = useStore(selectInventorySlice);
-  const { collections } = useStore(selectInventorySlice);
-
-  const dropdownOptions = collections.map((collection) => ({
-    id: collection.id,
-    label: collection.name,
-  }));
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
-  const [displayAlert, setDisplayAlert] = useState(true);
-
-  const [collection, setCollection] = useState<CollectionOption | null>(
-    dropdownOptions.length === 1 ? dropdownOptions[0] : null,
-  );
-  const [collectionError, setCollectionError] = useState(false);
 
   const handleClose = () => {
     setNameError(false);
-    setCollectionError(false);
     closeModal();
   };
 
   const handleAddGroup = () => {
-    const hasCollection = !!collection;
     const hasName = !!name && name.trim().length !== 0;
-    if (!hasCollection || !hasName) {
-      setCollectionError(!hasCollection);
+    if (!hasName) {
       setNameError(!hasName);
       return;
     }
 
-    addGroup(collection.id, name);
+    addGroup(openedModalContext.collectionId, name);
     handleClose();
   };
 
@@ -66,41 +40,6 @@ export const CreateGroupModal = () => {
       <DialogContent>
         <form autoComplete="off" onSubmit={handleSubmit}>
           <Stack spacing={1}>
-            {dropdownOptions.length === 1 && displayAlert && (
-              <Alert
-                variant={"filled"}
-                color={"info"}
-                onClose={() => setDisplayAlert(false)}
-              >
-                Since you only have one collection, I preselected it for you!
-              </Alert>
-            )}
-            <Typography>
-              Select the collection the new group needs to be added to
-            </Typography>
-            <Autocomplete
-              disablePortal
-              options={dropdownOptions}
-              value={collection}
-              onChange={(_, newValue: CollectionOption | null) => {
-                setCollectionError(false);
-                setCollection(newValue);
-              }}
-              renderInput={(params) => (
-                <TextField
-                  {...params}
-                  id="new-group-collection-input"
-                  error={collectionError}
-                  autoComplete="off"
-                  autoFocus
-                  helperText={
-                    collectionError ? "You need to select a collection!" : ""
-                  }
-                  label="Collection"
-                />
-              )}
-            />
-
             <Typography>Choose a name for your new group</Typography>
             <TextField
               error={nameError}
