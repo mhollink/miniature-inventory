@@ -1,5 +1,10 @@
 {
   "main": {},
+  "0.4.0": {
+    "added": [
+      "Make it possible to quickly sort the list of models based on their name"
+    ]
+  },
   "0.3.1": {
     "changed": ["Add an indicator to the draggable objects on the page"]
   },
