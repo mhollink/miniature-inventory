@@ -18,7 +18,7 @@
     "preversion": "npm run check",
     "version": "./changelog.sh $npm_package_version",
     "postversion": "git push && git push --tags && npm run deploy",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && ../scripts/make-release.sh",
     "deploy": "echo \"Time to deploy the new version!\""
   },
   "dependencies": {
@@ -26,6 +26,7 @@
     "@emotion/styled": "^11.13.0",
     "@hello-pangea/dnd": "^17.0.0",
     "@mui/icons-material": "^6.1.1",
+    "@mui/lab": "^6.0.0-beta.10",
     "@mui/material": "^6.1.1",
     "firebase": "^10.13.2",
     "react": "^18.3.1",

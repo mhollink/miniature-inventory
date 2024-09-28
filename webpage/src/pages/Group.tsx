@@ -21,7 +21,13 @@ import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 import HexagonOutlinedIcon from "@mui/icons-material/HexagonOutlined";
 import { ModelSummary } from "@components/collections/ModelSummary.tsx";
 import IconButton from "@mui/material/IconButton";
-import { Delete, Edit, MoreVert, SortByAlpha } from "@mui/icons-material";
+import {
+  Delete,
+  Edit,
+  MoreVert,
+  SortByAlpha,
+  SportsBarOutlined,
+} from "@mui/icons-material";
 import { selectModalSlice } from "@state/modal";
 import { ModalTypes } from "@components/modal/modals.tsx";
 import useTheme from "@mui/material/styles/useTheme";
@@ -32,6 +38,8 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { DragDropContext, Droppable, DropResult } from "@hello-pangea/dnd";
 import { moveItem } from "../utils/array.ts";
+import { selectAccountSlice } from "@state/account";
+import { useApi } from "../api/useApi.ts";
 
 const Summary = ({
   miniatures,
@@ -141,11 +149,13 @@ const GroupActions = ({ group }: { group: GroupType }) => {
 export const Group: FunctionComponent = () => {
   const { id: groupId } = useParams() as { id: string };
   const workflow = useStore(selectWorkflowSlice);
+  const { supporter } = useStore(selectAccountSlice);
   const group = useStore(selectGroup(groupId));
   const models = useStore(selectModelsForGroup(groupId));
   const modals = useStore(selectModalSlice);
   const { updateGroup } = useStore(selectInventorySlice);
   const { convertCollectionToGradient } = useWorkflowColors();
+  const api = useApi();
 
   const totalCollection = models.flatMap((models) => models.collection);
   const modelCount = totalCollection.reduce((a, b) => a + b.amount, 0);
@@ -155,23 +165,37 @@ export const Group: FunctionComponent = () => {
     workflow.workflowStages.length,
   );
 
-  const updateStuff = ({ destination, source }: DropResult) => {
+  const updateStuff = async ({ destination, source }: DropResult) => {
     if (!destination) return;
     if (!group) return;
 
+    const movedModels = moveItem(group.models, source.index, destination.index);
+    await api.reorderModels(group.id, {
+      models: movedModels.map((model, index) => ({
+        id: model,
+        index: index,
+      })),
+    });
     updateGroup({
       ...group,
-      models: moveItem(group.models, source.index, destination.index),
+      models: movedModels,
     });
   };
 
-  const quickSort = () => {
+  const quickSort = async () => {
     if (!group) return;
+    const reorderedModels = models
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .map((model) => model.id);
+    await api.reorderModels(group.id, {
+      models: reorderedModels.map((model, index) => ({
+        id: model,
+        index: index,
+      })),
+    });
     updateGroup({
       ...group,
-      models: models
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .map((model) => model.id),
+      models: reorderedModels,
     });
   };
 
@@ -252,6 +276,30 @@ export const Group: FunctionComponent = () => {
                   </Stack>
                 )}
               </Droppable>
+
+              {!supporter && (
+                <Button
+                  onClick={() =>
+                    window.open(
+                      "https://www.buymeacoffee.com/mhollink",
+                      "_blank",
+                    )
+                  }
+                  sx={{
+                    backgroundColor: "#F9C74F",
+                    color: (theme) => theme.palette.common.black,
+                    fontWeight: "bold",
+                    padding: (theme) => theme.spacing(2),
+                    borderRadius: "8px",
+                    "&:hover": {
+                      backgroundColor: "#F6B93A",
+                    },
+                  }}
+                  startIcon={<SportsBarOutlined fontSize={"large"} />}
+                >
+                  Support this page by buying me a beer!
+                </Button>
+              )}
 
               <Button
                 sx={{ mb: 4 }}

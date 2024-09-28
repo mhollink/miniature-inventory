@@ -1,0 +1,4 @@
+Contact: mailto:info@miniature-inventory.nl
+Expires: 2025-12-31T11:00:00.000Z
+Preferred-Languages: en
+Canonical: https://miniature-inventory.nl/security.txt

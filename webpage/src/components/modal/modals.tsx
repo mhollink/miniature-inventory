@@ -6,14 +6,13 @@ import { CreateNewCollectionModal } from "@components/modal/modals/CreateCollect
 import { DeleteCollectionModal } from "@components/modal/modals/DeleteCollection.tsx";
 import { DeleteGroupModal } from "@components/modal/modals/DeleteGroup.tsx";
 import HexagonOutlinedIcon from "@mui/icons-material/HexagonOutlined";
+import CloudSyncIcon from "@mui/icons-material/CloudSync";
 import { AddModelModal } from "@components/modal/modals/CreateModel.tsx";
 import { EditModelModal } from "@components/modal/modals/UpdateModel.tsx";
 import { DeleteModelModal } from "@components/modal/modals/DeleteModel.tsx";
-import { BiExport, BiImport } from "react-icons/bi";
-import { ExportStorageModal } from "@components/modal/modals/ExportStorage.tsx";
-import { ImportStorageModal } from "@components/modal/modals/ImportStorage.tsx";
 import { UpdateCollectionModal } from "@components/modal/modals/UpdateCollection.tsx";
 import { UpdateGroupModal } from "@components/modal/modals/UpdateGroup.tsx";
+import { OldVersionStorageModal } from "@components/modal/modals/OldVersionStorageModal.tsx";
 
 export enum ModalTypes {
   CREATE_COLLECTION = "CREATE_COLLECTION",
@@ -28,8 +27,7 @@ export enum ModalTypes {
   EDIT_MODEL = "EDIT_MODEL",
   DELETE_MODEL = "DELETE_MODEL",
 
-  EXPORT_STATE = "EXPORT_STATE",
-  IMPORT_STATE = "IMPORT_STATE",
+  OLD_VERSION_DATA = "OLD_VERSION_DATA",
 }
 
 export type ModalProps = {
@@ -112,19 +110,11 @@ export const modals = new Map<ModalTypes, ModalProps>([
     },
   ],
   [
-    ModalTypes.EXPORT_STATE,
+    ModalTypes.OLD_VERSION_DATA,
     {
-      icon: <BiExport />,
-      title: "Export storage",
-      children: <ExportStorageModal />,
-    },
-  ],
-  [
-    ModalTypes.IMPORT_STATE,
-    {
-      icon: <BiImport />,
-      title: "Import storage",
-      children: <ImportStorageModal />,
+      icon: <CloudSyncIcon />,
+      title: "Sync old data with cloud",
+      children: <OldVersionStorageModal />,
     },
   ],
 ]);

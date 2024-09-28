@@ -11,6 +11,7 @@ import { selectWorkflowSlice } from "@state/workflow";
 import { useWorkflowColors } from "@hooks/useWorkflowColors.ts";
 import { Draggable } from "@hello-pangea/dnd";
 import DragIndicatorIcon from "@mui/icons-material/DragIndicator";
+import { useNavigate } from "react-router-dom";
 
 type CollectionSummaryProps = {
   groupId: string;
@@ -24,6 +25,7 @@ export const GroupLink: FunctionComponent<CollectionSummaryProps> = ({
   const group = useStore(selectGroup(groupId));
   const models = useStore(selectModelsForGroup(groupId));
   const workflow = useStore(selectWorkflowSlice);
+  const navigate = useNavigate();
   const { convertCollectionToGradient } = useWorkflowColors();
   const totalCollection = models.flatMap((models) => models.collection);
   const modelCount = totalCollection.reduce((a, b) => a + b.amount, 0);
@@ -45,6 +47,10 @@ export const GroupLink: FunctionComponent<CollectionSummaryProps> = ({
           >
             <Link
               href={`/collections/${groupId}`}
+              onClick={(e) => {
+                e.preventDefault();
+                navigate(`/collections/${groupId}`);
+              }}
               color="textPrimary"
               underline={"none"}
             >

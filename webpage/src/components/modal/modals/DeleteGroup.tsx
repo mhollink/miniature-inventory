@@ -8,11 +8,14 @@ import Box from "@mui/material/Box";
 import { selectInventorySlice, selectModelsForGroup } from "@state/inventory";
 import Alert from "@mui/material/Alert";
 import { useNavigate } from "react-router-dom";
+import { useApi } from "../../../api/useApi.ts";
+import LoadingButton from "@mui/lab/LoadingButton";
 
 export const DeleteGroupModal = () => {
   const navigate = useNavigate();
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
   const { findGroup, deleteGroup } = useStore(selectInventorySlice);
+  const api = useApi();
   const group = findGroup(openedModalContext.groupId);
   const models = useStore(selectModelsForGroup(openedModalContext.groupId));
   const modelCount = models
@@ -21,20 +24,24 @@ export const DeleteGroupModal = () => {
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleClose = () => {
     setNameError(false);
     closeModal();
   };
 
-  const handleDelete = () => {
+  const handleDelete = async () => {
     if (name.toLowerCase().trim() !== group?.name.toLowerCase().trim()) {
       setNameError(true);
       return;
     }
+    setLoading(true);
+    await api.deleteGroup(openedModalContext.groupId);
     deleteGroup(openedModalContext.groupId);
     navigate("/collections");
     handleClose();
+    setLoading(false);
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -75,9 +82,14 @@ export const DeleteGroupModal = () => {
       </DialogContent>
       <DialogActions>
         <Button onClick={handleClose}>Cancel</Button>
-        <Button variant={"contained"} onClick={handleDelete} color={"error"}>
+        <LoadingButton
+          loading={loading}
+          variant={"contained"}
+          onClick={handleDelete}
+          color={"error"}
+        >
           Delete group
-        </Button>
+        </LoadingButton>
       </DialogActions>
     </>
   );

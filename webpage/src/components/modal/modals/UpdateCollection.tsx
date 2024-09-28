@@ -6,21 +6,25 @@ import { DialogActions, DialogContent, TextField } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
+import { useApi } from "../../../api/useApi.ts";
+import LoadingButton from "@mui/lab/LoadingButton";
 
 export const UpdateCollectionModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
   const { updateCollection, findCollection } = useStore(selectInventorySlice);
+  const api = useApi();
   const collection = findCollection(openedModalContext.collectionId);
 
   const [name, setName] = useState(collection?.name || "");
   const [nameError, setNameError] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleClose = () => {
     setNameError(false);
     closeModal();
   };
 
-  const handleAddCollection = () => {
+  const handleAddCollection = async () => {
     if (!name || name.trim().length === 0) {
       setNameError(true);
       return;
@@ -28,11 +32,14 @@ export const UpdateCollectionModal = () => {
 
     if (!collection) return;
 
+    setLoading(true);
+    await api.updateCollection(collection.id, name);
     updateCollection({
       ...collection,
       name: name,
     });
     handleClose();
+    setLoading(false);
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -70,9 +77,13 @@ export const UpdateCollectionModal = () => {
       </DialogContent>
       <DialogActions>
         <Button onClick={handleClose}>Cancel</Button>
-        <Button variant={"contained"} onClick={handleAddCollection}>
+        <LoadingButton
+          loading={loading}
+          variant={"contained"}
+          onClick={handleAddCollection}
+        >
           Update collection
-        </Button>
+        </LoadingButton>
       </DialogActions>
     </>
   );

@@ -13,6 +13,15 @@ const currentDate = new Date()
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  server: {
+    proxy: {
+      "/api": {
+        target: "https://api.miniature-inventory.nl/",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ""),
+      },
+    },
+  },
   define: {
     BUILD_VERSION: JSON.stringify(process.env.npm_package_version),
     BUILD_DATE: JSON.stringify(currentDate),

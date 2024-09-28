@@ -1,4 +1,4 @@
-import { Outlet, RouteObject } from "react-router-dom";
+import { Link, Outlet, RouteObject } from "react-router-dom";
 import { App } from "@components/app/App.tsx";
 import { AppFallback } from "@components/error-boundary/AppFallback.tsx";
 import { RedirectTo } from "./RedirectTo.tsx";
@@ -6,10 +6,11 @@ import { ReactNode } from "react";
 import { Roadmap } from "../pages/Roadmap.tsx";
 import { Settings } from "../pages/Settings.tsx";
 import { Collections } from "../pages/Collections.tsx";
-import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import { capitalizeFirstLetter } from "../utils/string.ts";
 import { Group } from "../pages/Group.tsx";
+import { Home } from "../pages/Home.tsx";
+import { SignUp } from "../pages/SignUp.tsx";
 
 const route = (
   path: string,
@@ -37,11 +38,19 @@ const routeWithChildren = (
   errorElement: <AppFallback />,
   children: children,
   handle: {
-    crumb: () => (
-      <Link key={path} href={"/" + path}>
-        {capitalizeFirstLetter(path)}
-      </Link>
-    ),
+    crumb: () => {
+      return (
+        <Typography
+          key={path}
+          component={"span"}
+          sx={{
+            "& a": { color: (theme) => theme.palette.primary.main },
+          }}
+        >
+          <Link to={"/" + path}>{capitalizeFirstLetter(path)}</Link>
+        </Typography>
+      );
+    },
   },
 });
 
@@ -51,25 +60,27 @@ export const routes: RouteObject[] = [
     element: <App />,
     errorElement: <AppFallback />,
     children: [
-      route("/", <RedirectTo path={"/collections"} />),
+      route("/", <Home />),
       route("collections", <Collections />),
       routeWithChildren("collections", [route(":id", <Group />, "Group")]),
       route("roadmap", <Roadmap />),
       route("settings", <Settings />),
-      route("*", <RedirectTo path={"/collections"} />),
+      route("sign-up", <SignUp />, "Sign up"),
+      route("*", <RedirectTo path={"/"} />),
     ],
     handle: {
       crumb: () => (
-        <Link key="/home" href="/">
-          Home
-        </Link>
+        <Typography
+          key={"/home"}
+          component={"span"}
+          sx={{
+            "& a": { color: (theme) => theme.palette.primary.main },
+          }}
+        >
+          <Link to="/">Home</Link>
+        </Typography>
       ),
     },
-  },
-  {
-    path: "/privicy-policy",
-    element: <RedirectTo path={"/collections"} />,
-    errorElement: <AppFallback />,
   },
   {
     path: "/*",

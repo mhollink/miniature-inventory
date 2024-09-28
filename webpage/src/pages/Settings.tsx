@@ -2,20 +2,17 @@ import Container from "@mui/material/Container";
 import { FunctionComponent } from "react";
 import { Helmet } from "react-helmet-async";
 import Typography from "@mui/material/Typography";
-import { ThemeToggle } from "@components/dark-mode/ThemeToggle.tsx";
 import { Crumbs } from "@components/cumbs/Crumbs.tsx";
 import Divider from "@mui/material/Divider";
 import { WorkflowEditForm } from "@components/workflow/SettingsInput.tsx";
-import Button from "@mui/material/Button";
-import { DeleteForever } from "@mui/icons-material";
-import ButtonGroup from "@mui/material/ButtonGroup";
-import { BiExport, BiImport } from "react-icons/bi";
 import { useStore } from "@state/store.ts";
-import { selectModalSlice } from "@state/modal";
-import { ModalTypes } from "@components/modal/modals.tsx";
+import { selectAccountSlice } from "@state/account";
+import Button from "@mui/material/Button";
+import { SportsBarOutlined } from "@mui/icons-material";
+import { capitalizeFirstLetter } from "../utils/string.ts";
 
 export const Settings: FunctionComponent = () => {
-  const modal = useStore(selectModalSlice);
+  const { supportTier, supporter } = useStore(selectAccountSlice);
   return (
     <>
       <Helmet title="Settings" />
@@ -30,50 +27,40 @@ export const Settings: FunctionComponent = () => {
         <Crumbs />
         <Typography variant={"h3"}>Settings</Typography>
         <Divider textAlign={"left"}>
-          <Typography variant={"h5"}>Application settings</Typography>
+          <Typography variant={"h5"}>Account</Typography>
         </Divider>
-        <ThemeToggle />
-
-        <ButtonGroup
-          variant="contained"
-          color="inherit"
-          aria-label="Basic button group"
-          fullWidth
-        >
-          <Button
-            color="inherit"
-            startIcon={<BiExport />}
-            onClick={() => modal.openModal(ModalTypes.EXPORT_STATE)}
+        <Typography>
+          <strong>Current support status:</strong>
+          <Typography
+            color={supporter ? "secondary" : "textSecondary"}
+            component={"span"}
+            sx={{
+              mx: 1,
+            }}
           >
-            Export application storage
-          </Button>
+            {capitalizeFirstLetter(supportTier)}
+          </Typography>
+        </Typography>
+        {!supporter && (
           <Button
-            color="inherit"
-            startIcon={<BiImport />}
-            onClick={() => modal.openModal(ModalTypes.IMPORT_STATE)}
-          >
-            Import application storage
-          </Button>
-        </ButtonGroup>
-
-        <Button
-          variant="outlined"
-          color={"error"}
-          startIcon={<DeleteForever />}
-          endIcon={<DeleteForever />}
-          onClick={() => {
-            const sure = confirm(
-              "Deleting application storage will wipe all your collections, groups and miniatures! \n\nAre you sure?!",
-            );
-            if (sure) {
-              localStorage.clear();
-              window.location.href = "/";
+            onClick={() =>
+              window.open("https://www.buymeacoffee.com/mhollink", "_blank")
             }
-          }}
-        >
-          Delete application storage
-        </Button>
-
+            sx={{
+              backgroundColor: "#F9C74F",
+              color: (theme) => theme.palette.common.black,
+              fontWeight: "bold",
+              padding: (theme) => theme.spacing(2),
+              borderRadius: "8px",
+              "&:hover": {
+                backgroundColor: "#F6B93A",
+              },
+            }}
+            startIcon={<SportsBarOutlined fontSize={"large"} />}
+          >
+            Support this page by buying me a beer!
+          </Button>
+        )}
         <Divider textAlign={"left"}>
           <Typography variant={"h5"}>Workflow</Typography>
         </Divider>

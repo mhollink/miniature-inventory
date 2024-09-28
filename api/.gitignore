@@ -1,0 +1,4 @@
+composer.phar
+/vendor/
+/firebase_sa.json
+/.env

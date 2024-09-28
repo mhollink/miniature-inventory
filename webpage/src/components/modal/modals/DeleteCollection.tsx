@@ -7,27 +7,34 @@ import { ChangeEvent, FormEvent, useState } from "react";
 import Box from "@mui/material/Box";
 import { selectInventorySlice } from "@state/inventory";
 import Alert from "@mui/material/Alert";
+import { useApi } from "../../../api/useApi.ts";
+import LoadingButton from "@mui/lab/LoadingButton";
 
 export const DeleteCollectionModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
   const { findCollection, deleteCollection } = useStore(selectInventorySlice);
   const collection = findCollection(openedModalContext.collectionId);
+  const api = useApi();
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleClose = () => {
     setNameError(false);
     closeModal();
   };
 
-  const handleDelete = () => {
+  const handleDelete = async () => {
     if (name.toLowerCase().trim() !== collection?.name.toLowerCase().trim()) {
       setNameError(true);
       return;
     }
+    setLoading(true);
+    await api.deleteCollection(openedModalContext.collectionId);
     deleteCollection(openedModalContext.collectionId);
     handleClose();
+    setLoading(false);
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -69,9 +76,14 @@ export const DeleteCollectionModal = () => {
       </DialogContent>
       <DialogActions>
         <Button onClick={handleClose}>Cancel</Button>
-        <Button variant={"contained"} onClick={handleDelete} color={"error"}>
+        <LoadingButton
+          loading={loading}
+          variant={"contained"}
+          onClick={handleDelete}
+          color={"error"}
+        >
           Delete collection
-        </Button>
+        </LoadingButton>
       </DialogActions>
     </>
   );

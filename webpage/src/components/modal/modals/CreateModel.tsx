@@ -13,18 +13,22 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import { selectWorkflowSlice } from "@state/workflow";
+import { useApi } from "../../../api/useApi.ts";
+import LoadingButton from "@mui/lab/LoadingButton";
 
 export const AddModelModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
   const { addModel, findGroup } = useStore(selectInventorySlice);
   const { workflowStages } = useStore(selectWorkflowSlice);
   const group = findGroup(openedModalContext.groupId);
+  const api = useApi();
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
 
   const [stages, setStages] = useState(workflowStages.map(() => "0"));
   const [stagesError, setStagesError] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleClose = () => {
     setNameError(false);
@@ -32,7 +36,7 @@ export const AddModelModal = () => {
     closeModal();
   };
 
-  const handleAddModel = () => {
+  const handleAddModel = async () => {
     if (!name || name.trim().length === 0) {
       setNameError(true);
       return;
@@ -45,15 +49,20 @@ export const AddModelModal = () => {
       return;
     }
 
-    addModel(
+    setLoading(true);
+    const { id, miniatures } = await api.createModel(
       openedModalContext.groupId,
-      name,
-      stages.map((amount, index) => ({
-        amount: Number(amount),
-        stage: index,
-      })),
+      {
+        name,
+        miniatures: stages.map((amount, index) => ({
+          amount: Number(amount),
+          stage: index,
+        })),
+      },
     );
+    addModel(openedModalContext.groupId, id, name, miniatures);
     handleClose();
+    setLoading(false);
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -140,9 +149,13 @@ export const AddModelModal = () => {
       </DialogContent>
       <DialogActions>
         <Button onClick={handleClose}>Cancel</Button>
-        <Button variant={"contained"} onClick={handleAddModel}>
+        <LoadingButton
+          loading={loading}
+          variant={"contained"}
+          onClick={handleAddModel}
+        >
           Add collection
-        </Button>
+        </LoadingButton>
       </DialogActions>
     </>
   );
