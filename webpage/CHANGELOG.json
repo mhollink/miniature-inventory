@@ -1,5 +1,9 @@
 {
-  "main": {},
+  "main": {
+    "removed": [
+      "Removed advertisements."
+    ]
+  },
   "0.5.0": {
     "added": ["Added analytics and advertisements (Sorry!)"]
   },

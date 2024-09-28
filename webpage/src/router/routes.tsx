@@ -67,6 +67,11 @@ export const routes: RouteObject[] = [
     },
   },
   {
+    path: "/privicy-policy",
+    element: <RedirectTo path={"/collections"} />,
+    errorElement: <AppFallback />,
+  },
+  {
     path: "/*",
     element: <RedirectTo path={"/collections"} />,
     errorElement: <AppFallback />,

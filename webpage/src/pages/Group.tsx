@@ -32,7 +32,6 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { DragDropContext, Droppable, DropResult } from "@hello-pangea/dnd";
 import { moveItem } from "../utils/array.ts";
-import { RowAdvertisement } from "@components/Ads/CollectionsAdvertisement.tsx";
 
 const Summary = ({
   miniatures,
@@ -247,9 +246,6 @@ export const Group: FunctionComponent = () => {
                           model={model}
                           index={index}
                         />
-                        {index % 8 === 7 && index !== models.length - 1 && (
-                          <RowAdvertisement />
-                        )}
                       </Fragment>
                     ))}
                     {provided.placeholder}
