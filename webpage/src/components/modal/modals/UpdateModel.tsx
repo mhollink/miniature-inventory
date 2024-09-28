@@ -15,12 +15,15 @@ import Stack from "@mui/material/Stack";
 import { selectWorkflowSlice } from "@state/workflow";
 import { Delete } from "@mui/icons-material";
 import { ModalTypes } from "@components/modal/modals.tsx";
+import { useApi } from "../../../api/useApi.ts";
+import LoadingButton from "@mui/lab/LoadingButton";
 
 export const EditModelModal = () => {
   const { closeModal, openedModalContext, openModal } =
     useStore(selectModalSlice);
   const { findModel, updateModel } = useStore(selectInventorySlice);
   const { workflowStages } = useStore(selectWorkflowSlice);
+  const api = useApi();
   const model = findModel(openedModalContext.modelId);
 
   const [name, setName] = useState(model?.name || "");
@@ -33,13 +36,15 @@ export const EditModelModal = () => {
       )
       .map(String),
   );
+
   const [stagesError, setStagesError] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleClose = () => {
     closeModal();
   };
 
-  const handleUpdateModel = () => {
+  const handleUpdateModel = async () => {
     if (!model) {
       return;
     }
@@ -51,6 +56,14 @@ export const EditModelModal = () => {
       return;
     }
 
+    setLoading(true);
+    await api.updateModel(model.id, {
+      name,
+      miniatures: stages.map((amount, index) => ({
+        amount: Number(amount),
+        stage: index,
+      })),
+    });
     updateModel({
       ...model,
       name,
@@ -59,8 +72,8 @@ export const EditModelModal = () => {
         stage: index,
       })),
     });
-
     handleClose();
+    setLoading(false);
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -144,13 +157,18 @@ export const EditModelModal = () => {
               Your total amount of miniatures must at least be 1
             </FormHelperText>
           </Stack>
+
           <Button type="submit" sx={{ display: "none" }} />
         </form>
       </DialogContent>
       <DialogActions sx={{ flexDirection: "row-reverse", gap: 2 }}>
-        <Button variant={"contained"} onClick={handleUpdateModel}>
+        <LoadingButton
+          loading={loading}
+          variant={"contained"}
+          onClick={handleUpdateModel}
+        >
           Update model
-        </Button>
+        </LoadingButton>
         <Button onClick={handleClose}>Cancel</Button>
         <div style={{ flex: "1 0 0" }} />
         <Button

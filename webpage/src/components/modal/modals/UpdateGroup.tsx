@@ -6,21 +6,25 @@ import { selectModalSlice } from "@state/modal";
 import { ChangeEvent, FormEvent, useState } from "react";
 import Box from "@mui/material/Box";
 import { selectInventorySlice } from "@state/inventory";
+import { useApi } from "../../../api/useApi.ts";
+import LoadingButton from "@mui/lab/LoadingButton";
 
 export const UpdateGroupModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
   const { findGroup, updateGroup } = useStore(selectInventorySlice);
+  const api = useApi();
   const group = findGroup(openedModalContext.groupId);
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleClose = () => {
     setNameError(false);
     closeModal();
   };
 
-  const handleDelete = () => {
+  const handleDelete = async () => {
     if (!name || name.trim().length === 0) {
       setNameError(true);
       return;
@@ -28,11 +32,14 @@ export const UpdateGroupModal = () => {
 
     if (!group) return;
 
+    setLoading(true);
+    await api.updateGroup(group.id, name);
     updateGroup({
       ...group,
       name: name,
     });
     handleClose();
+    setLoading(false);
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -69,9 +76,13 @@ export const UpdateGroupModal = () => {
       </DialogContent>
       <DialogActions>
         <Button onClick={handleClose}>Cancel</Button>
-        <Button variant={"contained"} onClick={handleDelete}>
+        <LoadingButton
+          loading={loading}
+          variant={"contained"}
+          onClick={handleDelete}
+        >
           Update group
-        </Button>
+        </LoadingButton>
       </DialogActions>
     </>
   );

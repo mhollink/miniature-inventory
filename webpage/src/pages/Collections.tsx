@@ -21,6 +21,10 @@ import { CollectionAccordion } from "@components/collections/CollectionAccordion
 import { DragDropContext, DropResult } from "@hello-pangea/dnd";
 import { moveItem, moveItemBetweenLists } from "../utils/array.ts";
 import { Fragment } from "react";
+import { useApi } from "../api/useApi.ts";
+import { SportsBarOutlined } from "@mui/icons-material";
+import { selectAccountSlice } from "@state/account";
+import { MAX_COLLECTIONS } from "../constants.ts";
 
 const Summary = () => {
   const theme = useTheme();
@@ -70,30 +74,46 @@ const Summary = () => {
 
 export const Collections = () => {
   const inventory = useStore(selectInventorySlice);
+  const { supporter } = useStore(selectAccountSlice);
   const modal = useStore(selectModalSlice);
+  const api = useApi();
 
-  const updateGroups = ({ source, destination }: DropResult) => {
-    if (!destination) return;
+  const reorderInsideSameCollection = async (
+    collectionId: string,
+    sourceIndex: number,
+    destinationIndex: number,
+  ) => {
+    if (sourceIndex === destinationIndex) return;
 
-    if (source.droppableId === destination.droppableId) {
-      if (source.index === destination.index) return;
+    const collection = inventory.findCollection(collectionId);
+    if (!collection)
+      throw new Error(
+        "Collection the item was dropped into was not... found?!",
+      );
 
-      const collection = inventory.findCollection(source.droppableId);
-      if (!collection)
-        return console.error(
-          "Collection the item was dropped into was not... found?!",
-        );
+    const groups = moveItem(collection.groups, sourceIndex, destinationIndex);
+    await api.reorderGroups({
+      groups: groups.map((groupId, index) => ({
+        collectionId: collection.id,
+        groupId,
+        index,
+      })),
+    });
+    inventory.updateCollection({
+      ...collection,
+      groups: groups,
+    });
+  };
 
-      inventory.updateCollection({
-        ...collection,
-        groups: moveItem(collection.groups, source.index, destination.index),
-      });
-      return;
-    }
-
-    const sourceCollection = inventory.findCollection(source.droppableId);
+  const moveGroupToOtherCollection = async (
+    sourceCollectionId: string,
+    sourceIndex: number,
+    destinationCollectionId: string,
+    destinationIndex: number,
+  ) => {
+    const sourceCollection = inventory.findCollection(sourceCollectionId);
     const destinationCollection = inventory.findCollection(
-      destination.droppableId,
+      destinationCollectionId,
     );
 
     if (!sourceCollection || !destinationCollection)
@@ -103,10 +123,25 @@ export const Collections = () => {
 
     const [updatedSourceGroups, updateDestinationGroups] = moveItemBetweenLists(
       sourceCollection.groups,
-      source.index,
+      sourceIndex,
       destinationCollection.groups,
-      destination.index,
+      destinationIndex,
     );
+
+    await api.reorderGroups({
+      groups: [
+        ...updatedSourceGroups.map((groupId, index) => ({
+          collectionId: sourceCollection.id,
+          groupId,
+          index,
+        })),
+        ...updateDestinationGroups.map((groupId, index) => ({
+          collectionId: destinationCollection.id,
+          groupId,
+          index,
+        })),
+      ],
+    });
 
     inventory.updateCollection({
       ...sourceCollection,
@@ -116,6 +151,25 @@ export const Collections = () => {
       ...destinationCollection,
       groups: updateDestinationGroups,
     });
+  };
+
+  const updateGroups = ({ source, destination }: DropResult) => {
+    if (!destination) return;
+
+    if (source.droppableId === destination.droppableId) {
+      return reorderInsideSameCollection(
+        source.droppableId,
+        source.index,
+        destination.index,
+      );
+    } else {
+      return moveGroupToOtherCollection(
+        source.droppableId,
+        source.index,
+        destination.droppableId,
+        destination.index,
+      );
+    }
   };
 
   return (
@@ -141,20 +195,57 @@ export const Collections = () => {
         )}
 
         <DragDropContext onDragEnd={updateGroups}>
-          {inventory.collections.map((collection) => (
+          {inventory.collections.map((collection, index) => (
             <Fragment key={collection.id}>
               <CollectionAccordion collection={collection} />
+              {!supporter && index === 0 && (
+                <Button
+                  onClick={() =>
+                    window.open(
+                      "https://www.buymeacoffee.com/mhollink",
+                      "_blank",
+                    )
+                  }
+                  sx={{
+                    backgroundColor: "#F9C74F",
+                    color: (theme) => theme.palette.common.black,
+                    fontWeight: "bold",
+                    padding: (theme) => theme.spacing(2),
+                    borderRadius: "8px",
+                    "&:hover": {
+                      backgroundColor: "#F6B93A",
+                    },
+                  }}
+                  startIcon={<SportsBarOutlined fontSize={"large"} />}
+                >
+                  Support this page by buying me a beer!
+                </Button>
+              )}
             </Fragment>
           ))}
         </DragDropContext>
 
-        <Button
-          sx={{ my: 4 }}
-          fullWidth
-          onClick={() => modal.openModal(ModalTypes.CREATE_COLLECTION)}
-        >
-          Create a new Collection
-        </Button>
+        {supporter || inventory.collections.length < MAX_COLLECTIONS ? (
+          <Button
+            sx={{ my: 4 }}
+            fullWidth
+            onClick={() => modal.openModal(ModalTypes.CREATE_COLLECTION)}
+          >
+            Create a new Collection
+          </Button>
+        ) : (
+          <>
+            <Alert severity={"info"}>
+              <Typography>
+                Creating more than {MAX_COLLECTIONS} collections is currently
+                limited to supporters only.
+              </Typography>
+            </Alert>
+            <Button sx={{ mb: 4 }} disabled fullWidth>
+              Create a new Collection
+            </Button>
+          </>
+        )}
       </Container>
     </>
   );

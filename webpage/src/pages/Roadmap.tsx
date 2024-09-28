@@ -9,7 +9,8 @@ const features = [
   {
     done: true,
     feature: "Organizing your miniatures by army/faction",
-    description: "First things first; Saving your miniatures to the app.",
+    description:
+      "First things first; Saving your miniatures to the app. Its what the app is supposed to do...",
   },
   {
     done: true,
@@ -29,13 +30,19 @@ const features = [
       "Whenever you are doing little bit of painting at a time, or just wanna remember your paint scheme in half a year when you buy some new minis. It would be great to be able to recall what paints you used.",
   },
   {
+    done: true,
     feature: "Personal accounts",
     description:
       "Allowing users to create accounts or log in with their social media accounts. This will allow us to save data outside of the web application and eventually enable cross platform accounts.",
   },
   {
+    feature: "Allow to keep track of your current paints",
+    description:
+      "Whenever you are doing little bit of painting at a time, or just wanna remember your paint scheme in half a year when you buy some new minis. It would be great to be able to recall what paints you used.",
+  },
+  {
     feature: "And more..",
-    description: "depending on request.",
+    description: "depending on request or what I think would be useful.",
   },
 ];
 
@@ -49,6 +56,7 @@ export const Roadmap: FunctionComponent = () => {
           display: "flex",
           flexDirection: "column",
           gap: 2,
+          pb: 4,
         }}
       >
         <Crumbs />
@@ -70,38 +78,43 @@ export const Roadmap: FunctionComponent = () => {
             source
           </ExternalLink>
           ) this means 72% of users who do not own an iOS supported device are
-          out of luck. The idea of Miniature Inventory is that it is a
-          progressive webapp (PWA). This means any device that has an internet
-          browser is able to access the application. The PWA is installable on
-          devices that support this allowing you, the user, to access your data
-          whenever you have an live internet connection.
+          out of luck.
+        </Typography>
+        <Typography variant="body1">
+          The idea behind Miniature Inventory is that it is a progressive webapp
+          (PWA). This means any device that has an internet browser is able to
+          access the application. The PWA is installable on devices that support
+          this allowing you, the user, to access your data whenever you have an
+          live internet connection.
         </Typography>
         <Typography>
           This application is developed in my free time and as such I am not
           able to spend 24/7 on development. With work, my wife and kids, and my
-          own hobby also on the schedule I'd expect to spend a few hours a week
-          on the continued development of this application. The application will
-          soon become open source, allowing others to provide their own change
-          requests though{" "}
+          own hobby also on the schedule I'd expect to spend at most a few hours
+          a week on the continued development of this application. The
+          application is open source which allows other developer with intrest
+          to provide their own bits of functionality (if approved) via{" "}
           <ExternalLink href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">
             a pull request
           </ExternalLink>
           .
         </Typography>
         <Typography variant="body1">
-          As for now, there is a lot to come before we will release the first
-          1.0 version. Currently I have following features in mind:
+          As for now, the following things are on my mind for the upcoming
+          releases
           <ul>
             {features.map(({ feature, description, done }) => (
-              <li key={feature}>
+              <li key={feature} style={{ margin: "1rem 0 1rem" }}>
                 {done ? (
-                  <s>
-                    <strong>{feature}</strong>: {description}
-                  </s>
+                  <Typography variant={"body2"} color={"textSecondary"}>
+                    <s>
+                      <strong>{feature}</strong>: {description}
+                    </s>
+                  </Typography>
                 ) : (
-                  <>
+                  <Typography variant={"body2"}>
                     <strong>{feature}</strong>: {description}
-                  </>
+                  </Typography>
                 )}
               </li>
             ))}

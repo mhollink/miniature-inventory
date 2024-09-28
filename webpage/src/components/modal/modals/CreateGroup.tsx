@@ -6,28 +6,35 @@ import { selectInventorySlice } from "@state/inventory";
 import { ChangeEvent, FormEvent, useState } from "react";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
+import { useApi } from "../../../api/useApi.ts";
+import LoadingButton from "@mui/lab/LoadingButton";
 
 export const CreateGroupModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
   const { addGroup } = useStore(selectInventorySlice);
+  const api = useApi();
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleClose = () => {
     setNameError(false);
     closeModal();
   };
 
-  const handleAddGroup = () => {
+  const handleAddGroup = async () => {
     const hasName = !!name && name.trim().length !== 0;
     if (!hasName) {
       setNameError(!hasName);
       return;
     }
 
-    addGroup(openedModalContext.collectionId, name);
+    setLoading(true);
+    const { id } = await api.createGroup(openedModalContext.collectionId, name);
+    addGroup(openedModalContext.collectionId, id, name);
     handleClose();
+    setLoading(false);
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -66,9 +73,13 @@ export const CreateGroupModal = () => {
       </DialogContent>
       <DialogActions>
         <Button onClick={handleClose}>Cancel</Button>
-        <Button variant={"contained"} onClick={handleAddGroup}>
+        <LoadingButton
+          loading={loading}
+          variant={"contained"}
+          onClick={handleAddGroup}
+        >
           Add group
-        </Button>
+        </LoadingButton>
       </DialogActions>
     </>
   );

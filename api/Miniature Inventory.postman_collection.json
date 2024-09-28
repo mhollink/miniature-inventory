@@ -1,0 +1,485 @@
+{
+	"info": {
+		"_postman_id": "dbe329fa-53d4-4c9d-991f-3b15db8cc250",
+		"name": "Miniature Inventory",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14207663"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Get account info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/profile",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get workflow",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/workflow",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"workflow"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Set workflow",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/workflow",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"workflow"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Collections",
+			"item": [
+				{
+					"name": "Create collection",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"My first api created collection\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/collections",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"collections"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all collections",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/collections",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"collections"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update collection",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"My first collection updated via api\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/collections/{{collectionId}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"collections",
+								"{{collectionId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete collection",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/collections/{{collectionId}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"collections",
+								"{{collectionId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Groups",
+			"item": [
+				{
+					"name": "Create group in collection",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"My first api created group\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/collections/{{collectionId}}/groups",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"collections",
+								"{{collectionId}}",
+								"groups"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all groups",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/groups/{{groupId}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"groups",
+								"{{groupId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update group",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Fancy fresh new name..\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/groups/{{groupId}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"groups",
+								"{{groupId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete group",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/groups/{{groupId}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"groups",
+								"{{groupId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Models",
+			"item": [
+				{
+					"name": "Create Model in group",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"My first model\",\n    \"miniatures\": [\n        {\n            \"stage\": \"1\",\n            \"amount\": 2\n        },\n        {\n            \"stage\": \"2\",\n            \"amount\": 4\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/groups/{{groupId}}/models",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"groups",
+								"{{groupId}}",
+								"models"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Model/Miniatures",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"My updated model\",\n    \"miniatures\": [\n        {\n            \"stage\": 1,\n            \"amount\": 12\n        },\n        {\n            \"stage\": \"2\",\n            \"amount\": 6\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/models/{{modelId}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"models",
+								"{{modelId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Model/Miniatures",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/models/{{modelId}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"models",
+								"{{modelId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Sorting",
+			"item": [
+				{
+					"name": "Reorder groups",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"groups\": [\n        {\n            \"groupId\": \"baca4751-32b2-4019-bf7e-f2f67a2e2665\",\n            \"collectionId\": \"8b8525a5-e96e-4b4c-8725-a1ed4ca6fc44\",\n            \"index\": 0\n        },\n        {\n            \"groupId\": \"e2673ce1-aba3-4837-a5d4-1644eafe6acd\",\n            \"collectionId\": \"8b8525a5-e96e-4b4c-8725-a1ed4ca6fc44\",\n            \"index\": 1\n        },\n        {\n            \"groupId\": \"f1aeb1ab-522f-471d-9b51-017386d900ea\",\n            \"collectionId\": \"8b8525a5-e96e-4b4c-8725-a1ed4ca6fc44\",\n            \"index\": 2\n        },\n        {\n            \"groupId\": \"1cc94dd0-ca0a-45f1-a40b-a6e922cc668c\",\n            \"collectionId\": \"8b8525a5-e96e-4b4c-8725-a1ed4ca6fc44\",\n            \"index\": 3\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/collections",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"collections"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reorder Models in group",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"models\": [\n        {\n            \"id\": \"\",\n            \"index\": \"0\"\n        },\n                {\n            \"id\": \"\",\n            \"index\": \"0\"\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.miniature-inventory.nl/groups/{{groupId}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"miniature-inventory",
+								"nl"
+							],
+							"path": [
+								"groups",
+								"{{groupId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZjYzNmY2I2NDAzMjc2MGVlYjljMjZmNzdkNDA3YTY5NGM1MmIwZTMiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiTWFyY2VsIEhvbGxpbmsiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVF3YXJmcHJrZE1Jb2hqSm5TTnlUZUFfSHRRdmxNZ0k4eWllQ2Q3LVhVWU9wcC1BRT1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9taW5pYXR1cmUtaW52ZW50b3J5IiwiYXVkIjoibWluaWF0dXJlLWludmVudG9yeSIsImF1dGhfdGltZSI6MTcyNzg2Mjc4MCwidXNlcl9pZCI6IlFVWjB1bEZoc0hOUXRuTmxyUnAwRHZrVmZrSzIiLCJzdWIiOiJRVVowdWxGaHNITlF0bk5sclJwMER2a1Zma0syIiwiaWF0IjoxNzI3ODcwNjIzLCJleHAiOjE3Mjc4NzQyMjMsImVtYWlsIjoiaG9sbGluay5taEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTA3NTc5OTg4ODQ0NDI2NjYwMSJdLCJlbWFpbCI6WyJob2xsaW5rLm1oQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.YEo0ZQkrFucbgDxFVIBu85tN8UyNJLJIGJk6A2765bzatzhGgm53scxCvX0xqjevudBaH4vpVohJW3kBSEG8ItkEf1qfwHEsMU-dqKdoljWREC8bZ9wOzIHrKj47MIH0XySiolq8LkUX94o7NV7yekGBlWHg_DtemrmymBojJDSX6oiBrb003zqOyBG9FhfRsUIeUxoLpk9gKS2WiNRU5WDfxJLSntYWr_9NK3rk4fNcVgovsPtuOKnwRVMSy75w_K2oyEVUIlTErnCHBkio0VhtJrO-xthHW1352MsXxgX4zDqhN1b18ae90LzHNn3WwvvsagTvgN-bYzzlWOO3pA",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "collectionId",
+			"value": "8b8525a5-e96e-4b4c-8725-a1ed4ca6fc44"
+		},
+		{
+			"key": "groupId",
+			"value": "baca4751-32b2-4019-bf7e-f2f67a2e2665"
+		},
+		{
+			"key": "modelId",
+			"value": "7541fbc5-cafb-49ca-a3da-961374ed53ba"
+		}
+	]
+}

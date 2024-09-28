@@ -41,7 +41,7 @@ export const AppFooter = () => {
         >
           v{BUILD_VERSION}
         </Typography>{" "}
-        | updated {BUILD_DATE} | Developed by{" "}
+        | updated {BUILD_DATE} <br /> Developed by{" "}
         <Link href="https://github.com/mhollink" color="info">
           mhollink
         </Link>{" "}

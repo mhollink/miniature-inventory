@@ -1,5 +1,4 @@
 import { AppState, Slice } from "../types.ts";
-import { v4 } from "uuid";
 
 export type Collection = {
   id: string;
@@ -31,18 +30,24 @@ export type InventoryState = {
     groups: Group[];
     models: Model[];
   }) => void;
+  clearInventory: () => void;
 
-  addCollection: (name: string) => void;
+  addCollection: (id: string, name: string) => void;
   findCollection: (id: string) => Collection | undefined;
   updateCollection: (updatedCollection: Collection) => void;
   deleteCollection: (id: string) => void;
 
-  addGroup: (collectionId: string, name: string) => void;
+  addGroup: (collectionId: string, groupId: string, name: string) => void;
   findGroup: (id: string) => Group | undefined;
   updateGroup: (updatedGroup: Group) => void;
   deleteGroup: (id: string) => void;
 
-  addModel: (groupId: string, name: string, collection: ModelStage[]) => void;
+  addModel: (
+    groupId: string,
+    id: string,
+    name: string,
+    collection: ModelStage[],
+  ) => void;
   findModel: (id: string) => Model | undefined;
   updateModel: (updatedModel: Model) => void;
   deleteModel: (id: string) => void;
@@ -58,15 +63,16 @@ export const inventorySlice: Slice<InventoryState> = (set, get) => ({
   ...initialState,
 
   importInventory: (state) => set({ ...state }, undefined, "IMPORT_STATE"),
+  clearInventory: () => set({ ...initialState }, undefined, "CLEAR_STATE"),
 
-  addCollection: (name: string) =>
+  addCollection: (id: string, name: string) =>
     set(
       ({ collections }) => ({
         collections: [
           ...collections,
           {
-            id: v4(),
-            name: name,
+            id,
+            name,
             groups: [],
           },
         ],
@@ -96,11 +102,11 @@ export const inventorySlice: Slice<InventoryState> = (set, get) => ({
       "DELETE_COLLECTION",
     ),
 
-  addGroup: (collectionId, name) =>
+  addGroup: (collectionId, groupId, name) =>
     set(
       ({ collections, groups }) => {
         const newGroup: Group = {
-          id: v4(),
+          id: groupId,
           name: name,
           models: [],
         };
@@ -156,11 +162,11 @@ export const inventorySlice: Slice<InventoryState> = (set, get) => ({
       "DELETE_GROUP",
     ),
 
-  addModel: (groupId, name, collection) =>
+  addModel: (groupId, id, name, collection) =>
     set(
       ({ groups, models }) => {
         const newModel: Model = {
-          id: v4(),
+          id: id,
           name: name,
           collection: collection,
         };
@@ -216,6 +222,7 @@ export const selectInventorySlice = (state: AppState): InventoryState => ({
   models: state.models,
 
   importInventory: state.importInventory,
+  clearInventory: state.clearInventory,
 
   addCollection: state.addCollection,
   findCollection: state.findCollection,

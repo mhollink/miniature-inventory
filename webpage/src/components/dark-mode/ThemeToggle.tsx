@@ -13,6 +13,8 @@ export const ThemeToggle = () => {
           onChange={() => state.setDarkMode(!state.darkMode)}
         />
       }
+      sx={{ mx: 2 }}
+      labelPlacement={"start"}
       label="Dark Mode"
     />
   );

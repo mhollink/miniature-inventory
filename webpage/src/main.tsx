@@ -7,16 +7,16 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { routes } from "./router/routes.tsx";
 
 import "./styles/index.scss";
-import { LoadFirebase } from "./firebase/LoadFirebase.tsx";
+import { AuthProvider } from "./firebase/FirebaseAuthContext.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ErrorBoundary inCaseOfError={<RootFallback />}>
-      <HelmetProvider>
-        <LoadFirebase>
+      <AuthProvider>
+        <HelmetProvider>
           <RouterProvider router={createBrowserRouter(routes)} />
-        </LoadFirebase>
-      </HelmetProvider>
+        </HelmetProvider>
+      </AuthProvider>
     </ErrorBoundary>
   </StrictMode>,
 );

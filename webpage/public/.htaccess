@@ -1,19 +1,25 @@
+Header set Content-Security-Policy "default-src 'self'; base-uri 'self'; frame-src 'self' https://miniature-inventory.firebaseapp.com/; frame-ancestors 'none'; form-action 'self'; script-src 'self' https://*.firebase.com https://*.googleapis.com https://*.google-analytics.com https://www.googletagmanager.com https://apis.google.com; object-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://*.miniature-inventory.nl https://*.googleapis.com https://*.google-analytics.com; img-src 'self' https://*.googleusercontent.com;"
+Header set X-Content-Type-Options "nosniff"
 
 RewriteEngine On
 RewriteBase /
 
-#Force from http to https
-RewriteCond %{HTTPS} !on 
-RewriteCond %{HTTP_HOST} =bbb.example.co.uk
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L,NE]
+# Force from HTTP to HTTPS
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+SetEnvIf X-Forwarded-Proto "https" HTTPS=on
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-
-# Redirect all routes to index.html
+# Avoid redirecting if already accessing index.html directly
 RewriteRule ^index\.html$ - [L]
+
+# Only redirect to index.html if not an existing file or directory
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.html [L]
 
+# Redirect all other routes to index.html (for SPA)
+RewriteRule ^ /index.html [L]
 
 # Set some PHP env vars
 php_value upload_max_filesize 64M

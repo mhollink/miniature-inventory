@@ -2,7 +2,7 @@ import useTheme from "@mui/material/styles/useTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import { useState } from "react";
+import { MouseEvent, useState } from "react";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Drawer from "@mui/material/Drawer";
@@ -14,16 +14,114 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import Button from "@mui/material/Button";
-import { FaRoute } from "react-icons/fa6";
-import { IoMdSettings } from "react-icons/io";
 import { AppLogo } from "@components/app/AppLogo.tsx";
 import Typography from "@mui/material/Typography";
 import { useNavigate } from "react-router-dom";
 import Link from "@mui/material/Link";
+import { useFirebaseAuth } from "../../firebase/useFirebaseAuth.ts";
+import { User } from "firebase/auth";
+import { Avatar, Menu, MenuItem, Theme, Tooltip } from "@mui/material";
+import { ThemeToggle } from "@components/dark-mode/ThemeToggle.tsx";
+import {
+  ForkRightOutlined,
+  Lock,
+  PaletteOutlined,
+  Settings,
+} from "@mui/icons-material";
+import CategoryOutlinedIcon from "@mui/icons-material/CategoryOutlined";
+import { useAuth } from "../../firebase/FirebaseAuthContext.tsx";
+
+function stringAvatar(name: string) {
+  const names = name.split(" ");
+  return {
+    children:
+      names.length >= 2 ? `${names[0][0]}${names[1][0]}` : `${names[0][0]}`,
+    sx: {
+      bgcolor: (theme: Theme) => theme.palette.primary.light,
+    },
+  };
+}
+
+const CurrentUser = ({ currentUser }: { currentUser: User }) => {
+  const navigate = useNavigate();
+  const { signOut } = useFirebaseAuth();
+  const [anchorElUser, setAnchorElUser] = useState<null | HTMLElement>(null);
+
+  const handleOpenUserMenu = (event: MouseEvent<HTMLElement>) => {
+    setAnchorElUser(event.currentTarget);
+  };
+
+  const handleCloseUserMenu = () => {
+    setAnchorElUser(null);
+  };
+
+  const settings = [
+    {
+      icon: <Settings />,
+      label: "Settings",
+      onclick: () => {
+        handleCloseUserMenu();
+        navigate("/settings");
+      },
+    },
+    {
+      icon: <Lock />,
+      label: "Logout",
+      onclick: async () => {
+        handleCloseUserMenu();
+        await signOut();
+        navigate("/");
+      },
+    },
+  ];
+
+  return (
+    currentUser && (
+      <>
+        <Tooltip title="Open settings">
+          <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+            <Avatar
+              src={currentUser.photoURL || ""}
+              {...stringAvatar(currentUser.displayName || "")}
+            />
+          </IconButton>
+        </Tooltip>
+        <Menu
+          sx={{ mt: "45px" }}
+          id="menu-appbar"
+          anchorEl={anchorElUser}
+          anchorOrigin={{
+            vertical: "top",
+            horizontal: "right",
+          }}
+          keepMounted
+          transformOrigin={{
+            vertical: "top",
+            horizontal: "right",
+          }}
+          open={Boolean(anchorElUser)}
+          onClose={handleCloseUserMenu}
+        >
+          {settings.map((setting) => (
+            <MenuItem key={setting.label} onClick={setting.onclick}>
+              <ListItemIcon>{setting.icon}</ListItemIcon>
+              <Typography sx={{ textAlign: "center" }}>
+                {setting.label}
+              </Typography>
+            </MenuItem>
+          ))}
+        </Menu>
+      </>
+    )
+  );
+};
 
 export const AppHeader = () => {
+  const { user } = useAuth();
+
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("lg"));
+  const isTablet = useMediaQuery(theme.breakpoints.down("lg"));
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const navigate = useNavigate();
 
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -34,15 +132,25 @@ export const AppHeader = () => {
 
   // List of buttons
   const buttons = [
+    ...(user
+      ? [
+          {
+            icon: <CategoryOutlinedIcon />,
+            label: "Collections",
+            onClick: () => navigate("/collections"),
+          },
+          {
+            icon: <PaletteOutlined />,
+            label: "Paint Storage",
+            onClick: () => navigate("/paints"),
+            disabled: true,
+          },
+        ]
+      : []),
     {
-      icon: <FaRoute />,
+      icon: <ForkRightOutlined />,
       label: "Roadmap",
       onClick: () => navigate("/roadmap"),
-    },
-    {
-      icon: <IoMdSettings />,
-      label: "Settings",
-      onClick: () => navigate("/settings"),
     },
   ];
 
@@ -51,55 +159,10 @@ export const AppHeader = () => {
     <>
       <AppBar position="static">
         <Toolbar>
-          <Box
-            sx={{
-              p: 1.5,
-            }}
-            flexGrow={1}
-          >
-            <Link
-              href={"/"}
-              underline="none"
-              sx={{
-                color: theme.palette.common.white,
-                display: "inline-flex",
-                pr: 2,
-                alignItems: "center",
-              }}
-            >
-              <AppLogo />
-              <Typography
-                variant={"h1"}
-                component={"span"}
-                sx={{ fontSize: "2rem", textAlign: "center" }}
-              >
-                {title}
-              </Typography>
-            </Link>
-          </Box>
-
-          {!isMobile && (
-            <>
-              {buttons.map((button, index) => (
-                <Button
-                  key={index}
-                  sx={{ p: 1, pt: 1, pb: 1, m: 1, minWidth: "144px" }}
-                  variant="text"
-                  color="inherit"
-                  onClick={button.onClick}
-                  size="large"
-                  startIcon={button.icon}
-                >
-                  {button.label}
-                </Button>
-              ))}
-            </>
-          )}
-
           {/* Hamburger Menu for Mobile */}
-          {isMobile && (
+          {isTablet && (
             <IconButton
-              edge="end"
+              edge="start"
               color="inherit"
               aria-label="menu"
               onClick={handleDrawerToggle}
@@ -107,6 +170,58 @@ export const AppHeader = () => {
               <MenuIcon />
             </IconButton>
           )}
+          <Box
+            sx={{
+              p: 1.5,
+              display: "inline-flex",
+            }}
+            flexGrow={1}
+          >
+            <Link
+              underline="none"
+              onClick={() => navigate("/")}
+              sx={{
+                color: theme.palette.common.white,
+                display: "inline-flex",
+                pr: 4,
+                alignItems: "center",
+                cursor: "pointer",
+              }}
+            >
+              {!isMobile && <AppLogo />}
+              {!isMobile && (
+                <Typography
+                  variant={"h1"}
+                  component={"span"}
+                  sx={{ fontSize: "2rem", textAlign: "center" }}
+                >
+                  {title}
+                </Typography>
+              )}
+            </Link>
+
+            {!isTablet && (
+              <>
+                {buttons.map((button, index) => (
+                  <Button
+                    key={index}
+                    sx={{ p: 1, pt: 1, pb: 1, m: 1, minWidth: "144px" }}
+                    variant="text"
+                    disabled={button.disabled}
+                    color="inherit"
+                    onClick={button.onClick}
+                    size="large"
+                    startIcon={button.icon}
+                  >
+                    {button.label}
+                  </Button>
+                ))}
+              </>
+            )}
+          </Box>
+
+          <ThemeToggle />
+          {user && <CurrentUser currentUser={user} />}
         </Toolbar>
       </AppBar>
 
@@ -139,6 +254,7 @@ export const AppHeader = () => {
               <ListItemButton
                 onClick={button.onClick}
                 key={button.label}
+                disabled={button.disabled}
                 sx={{
                   "&:hover": {
                     backgroundColor: theme.palette.primary.light,

@@ -17,7 +17,7 @@ const getStateToPersist = (state: AppState): Partial<AppState> =>
   );
 
 export const persistOptions: PersistOptions<AppState, Partial<AppState>> = {
-  name: "my-mini-inventory",
+  name: "my-mini-inventory-v1",
   storage: createJSONStorage(() => localStorage),
   partialize: (state: AppState) => getStateToPersist(state),
 };

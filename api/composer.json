@@ -1,0 +1,12 @@
+{
+  "require": {
+    "php": "^8.1",
+    "ext-mbstring": "*",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "slim/slim": "^4.0",
+    "slim/psr7": "^1.7",
+    "kreait/firebase-php": "^7.15",
+    "vlucas/phpdotenv": "^5.6"
+  }
+}

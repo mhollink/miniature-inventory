@@ -1,0 +1,4845 @@
+{
+  "inventory": {
+    "collections": [
+      {
+        "id": "26fca85b-b389-4109-bd10-ecd3be18e7d6",
+        "name": "MESBG",
+        "groups": [
+          "89271917-8106-45e7-8aa1-a00b5b7580a0",
+          "90139391-47a6-4dfe-9065-4b1fef9a0fbf",
+          "6283eea5-0164-4050-9bd6-8d448cec7fee",
+          "6fa31ef1-e183-4d2f-8a3b-327bc2e16be6",
+          "c1a423ab-0a11-49a2-bbd7-ae21f94885ce",
+          "d3f74318-2860-44f1-b8f5-36f8b2c337e3",
+          "ccf2ed6a-d24d-47dc-a81c-1be03750599a",
+          "1d70d6e7-90fc-40d0-98ac-839a4246b478",
+          "b771c964-0441-4e28-ae7a-977d9bee4468"
+        ]
+      },
+      {
+        "id": "70c8739a-b747-4e5d-b1d0-b8b2ea62726f",
+        "name": "Star Wars Legion",
+        "groups": [
+          "6a3709c7-6c41-4c30-affe-7247f2454d84",
+          "8f42327c-44a8-4a38-a159-fee7fb3241a0"
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "id": "89271917-8106-45e7-8aa1-a00b5b7580a0",
+        "name": "Minas Tirith",
+        "models": [
+          "f813e294-b440-4f9f-b671-1a8a4bf4b96f",
+          "fee65146-a132-41a5-985f-9c5d571d872c",
+          "f9b8d703-83c2-4b69-858c-5724a411eed1",
+          "f3027772-c1f9-43ce-9107-369d9bbd2f33",
+          "655e7f79-8240-4b5e-9555-66e879c580d0",
+          "eb5e295d-5280-4dca-b6aa-9072d85e4651",
+          "240fdbbb-34fa-4db3-b095-55b66b2b6006",
+          "92ac9b10-bdbd-4074-81b2-97469994e0ba",
+          "58fd7d09-86d9-4273-9857-9a652f1a410d",
+          "a907e9ee-4a06-4830-86a1-7d101a541f23",
+          "0df01f5b-370f-4e14-a86b-b7687e753eb2",
+          "18fb250e-0a86-4941-a14c-dbedc992eb4d",
+          "19ac01bd-d6bd-4cd5-8196-725b4ca7d47f",
+          "9bd79d53-c0db-464e-98df-c5f2af4b9f37",
+          "229a4ff9-1534-4496-93d7-b891a60419e9",
+          "6a93776e-ccf1-45e6-909e-fef3e4b4d33c",
+          "48e0251c-30c6-4df1-b3c7-9c7ce27266e2",
+          "e1a4fb39-f42f-4691-9120-d105408be5af",
+          "fd60d900-7e2d-452d-8369-b4ecde3c7dce",
+          "20575970-a326-495c-8920-27152083104b",
+          "6a243ec1-29c4-476f-92cb-3570ea4a0f34",
+          "c0ad5cbb-0d79-4719-b3c0-bb7ba193991a",
+          "4594446c-c228-4d17-a247-df73662a4869",
+          "345b8ca7-9dcd-4955-8480-c71364957dd7",
+          "451eb561-a4c5-4a71-9e8d-1ba017544019",
+          "b64f4f92-3224-4bc4-b0aa-7d107d68da92",
+          "9ba6d910-2233-4641-a83a-ceb128d65372",
+          "2cf898fc-6159-43ae-84f3-103bec6bb113",
+          "73d3f5ee-ec5b-4841-85d3-b4c957657a9c",
+          "ecd5cbe8-8901-4909-bfa9-32163fe4e562",
+          "3bd3f517-9f7b-4b56-92fa-fbfb695208ea",
+          "0f6e4465-02fb-460d-8134-fa0a0cd75e6c",
+          "7a354813-997f-440a-ac64-47c790c12855",
+          "f5e7c421-3a2d-49b7-bad7-36014ecacb73",
+          "63b87447-0e90-479a-a42f-916ee783f8f5",
+          "12facfa4-c2df-4991-853d-d8720e6f5c57",
+          "2f576599-b597-48a5-9a8f-1d52717d89ef"
+        ]
+      },
+      {
+        "id": "90139391-47a6-4dfe-9065-4b1fef9a0fbf",
+        "name": "Rohan",
+        "models": [
+          "0af90dae-be90-4d48-a651-d5ce0664397b",
+          "cfc54416-3bcd-4c5d-ab97-5abc43229471",
+          "31fc12cf-0347-4111-9b7a-fc367f5bc08d",
+          "7a1626a7-170f-4fa4-9e40-7a980de06fea",
+          "fcfe7244-27d3-404c-983d-5eca4559274f",
+          "75a1d84c-03e0-47e6-bb36-5501cd7c2b96",
+          "d20aa1b8-bb11-4a55-bc32-7990567ce4f5",
+          "632d58fc-99dc-4ef0-8d07-77852d63c9bb",
+          "302ba6b2-b510-40c9-b07b-ef0eb50fef4e",
+          "300838a7-5a5a-45e4-ba98-45b232215bb9",
+          "09ecb28e-bfb0-4643-b38e-fe563cde862b",
+          "6856f959-fd9a-4925-9853-9f013ca23f3a",
+          "b4ec2a66-b8e8-433d-bb48-ed54209d31df",
+          "accb0c6d-bfce-4e5e-b921-7053737155e3",
+          "eb46a5c4-e82b-44ad-969f-7477b5712900",
+          "a530485c-1369-4f65-8115-5739565ce482",
+          "e34f8bf8-9516-4102-ae61-a8624f969e1e",
+          "5510c016-9642-449e-b623-17828a3e8ca9",
+          "9c7804ba-a52b-433c-b56b-a4395990793a",
+          "a84c8f74-ae56-48e6-895c-5455ba5437cf",
+          "a424ef76-6cd7-4160-bd97-4e02678e648d",
+          "d11b5b09-9799-4635-a2b8-76f6bd6d2bf1",
+          "7bddb820-85fa-4a36-a4fb-4356ba5fe873",
+          "7291ac40-d83e-4d03-9ab5-1dd0feec9af4"
+        ]
+      },
+      {
+        "id": "d3f74318-2860-44f1-b8f5-36f8b2c337e3",
+        "name": "The Easterlings",
+        "models": [
+          "3cadd70c-152b-4f6e-80f8-bddbf359c17a",
+          "b6c08d0b-fdd1-4ca7-8b5f-487312e1c618",
+          "02d31e47-0016-4380-a9f6-9c80bf20e5be",
+          "afeeb1c2-1c26-490e-9ba5-05e472ce3ff2",
+          "d41aaa81-43e0-4d19-98e6-326417688acc",
+          "67b8ec52-60d5-4f47-8946-7b47789a8bc5",
+          "fb80408c-2538-41c7-96c9-1dd378909f48",
+          "9f6051b3-7d99-429c-b2c3-a2867194579e",
+          "d563ad68-ec02-4315-ae7e-9204b22c6cfa",
+          "9ff0f43b-15eb-470d-a203-5fb32dc02d3d",
+          "7012b663-f035-4c9a-a186-de3988a3a4c8",
+          "1d122cfb-5aef-49e5-be04-ebd44a466477",
+          "9aee54a7-93aa-40f0-b12b-f647977f7144",
+          "02167ef9-c08b-4fa8-beea-99eb8885faa9",
+          "41f3b3b3-9016-4019-9515-1548abe22f7d",
+          "86b4ac4b-eaab-4f2a-bb18-591779868850"
+        ]
+      },
+      {
+        "id": "ccf2ed6a-d24d-47dc-a81c-1be03750599a",
+        "name": "Mordor",
+        "models": [
+          "cbc983f6-55a7-4ac3-96df-382574a35987",
+          "55671f2f-cc17-459d-a0c8-f2a8d0d2be40",
+          "24c920f4-1347-4d52-81eb-8f165dc609e4",
+          "f1df902d-b2b0-4238-94cb-63eff969c112",
+          "7326134b-4d01-466d-961e-625ddf81a10e",
+          "1e133e6a-9770-47eb-9bbe-28844c89054d",
+          "286fc94d-6e77-4766-a489-a2312baeed9c",
+          "1903ffd1-d2f9-4b34-bff7-9e902174f5ee",
+          "a05ba70e-9e51-4a12-a842-9ca5d6e11631",
+          "065a2cec-05db-4054-967c-0b4ffa2216d3",
+          "63ca041b-94ad-4675-a79c-c1b5acf91743",
+          "63de5439-45c9-4372-8059-ef552554819e",
+          "34820884-530f-438b-aea2-83c72374479a",
+          "900cb163-ae8f-4fea-bacc-e12d80e9a35b",
+          "a65dd788-9742-40d0-976c-2225c35a1ede",
+          "628c559e-c899-43ec-91eb-b51c0da828a9",
+          "6a7a65a8-ca5d-4c01-943c-4ba80d079082",
+          "f3e4e560-14a1-40cd-8a80-135267964c08"
+        ]
+      },
+      {
+        "id": "1d70d6e7-90fc-40d0-98ac-839a4246b478",
+        "name": "Isengard",
+        "models": [
+          "a2d77fa2-afae-4502-9f2f-60adf3a59379",
+          "16041d5f-0cf9-4f59-ba02-6929434661d8",
+          "731b6184-1474-4b0e-af9b-03de340e1fcf",
+          "bfb6a5e0-1d2a-4285-aaf2-f4336bd02f7b",
+          "b1af782b-7785-4a22-843d-b7870b0e8d7c",
+          "83ffb58b-3202-4666-979d-5879e9c778e8",
+          "9766e8dd-ea5c-4c45-8ef9-a1b90964f839",
+          "3d5403ff-fad0-4568-ae84-a2d33650cdf1",
+          "2843344c-5421-4b29-904f-0db3dd3eb73d",
+          "9363f6df-4cc8-461a-8a86-6000f02fa192",
+          "0fabe2eb-9c47-442a-85f3-6074f9a48f6a",
+          "4076aa52-b833-415e-87d5-8c2eacc4d646",
+          "3a5ba420-7b3b-4aee-a45c-e7625ca68b64",
+          "1d034d44-6355-46ee-9e0d-41ddfca72cc3",
+          "d0fef5ee-d1f5-4817-ac2a-bce40fdee3b2",
+          "839281d0-be2c-43b7-b330-4949ef6ff9d1",
+          "4ffcfac1-8e29-4cdf-a4dd-4f548d22ec47",
+          "79520e8d-941d-4feb-82e1-853df94a4bf4",
+          "9626b08f-1e75-4795-a8cb-9d16e96fd857",
+          "a843df8e-c34d-40d0-b2cc-8018fbf9d423"
+        ]
+      },
+      {
+        "id": "6283eea5-0164-4050-9bd6-8d448cec7fee",
+        "name": "The Dead of Dunharrow",
+        "models": [
+          "f69d6e63-4a9e-448c-875c-3405bb4a0007",
+          "bb5c36af-b033-44d8-bf05-6e89b2de8367",
+          "22ba42e1-35aa-474b-81eb-8f9d65b4d06d",
+          "07e455a1-9c59-4f62-9056-775eb6e75042",
+          "b2ab1d59-e1e1-4d84-b102-8079815cac3e",
+          "85a9507d-1c91-4542-a47f-b6e96495e9a6"
+        ]
+      },
+      {
+        "id": "6fa31ef1-e183-4d2f-8a3b-327bc2e16be6",
+        "name": "The Fellowship",
+        "models": [
+          "7a4365fc-bc5e-42b0-8bc7-bc0a0cdd4b60",
+          "e9f4ce65-231e-4ad9-bcd9-1f28b16c1f0d",
+          "c4b628c0-44c1-46a2-ae16-d54d52088c69",
+          "fb7257cb-758d-4064-ab3f-34d10f652941",
+          "1c6a95ce-16cd-46e7-906b-682cd9c8f3e8"
+        ]
+      },
+      {
+        "id": "6a3709c7-6c41-4c30-affe-7247f2454d84",
+        "name": "Republic",
+        "models": [
+          "e2dec7c8-c478-42b8-b839-b5aaabf51649",
+          "2673438d-3f22-4a5d-8131-f5ddc398e8b8",
+          "fe545109-ec33-4e2f-930e-2d2aa08c480a",
+          "172dc179-219c-4a75-8719-1a4364173d11",
+          "3df8f164-3667-40db-8daf-0dc283b0b2cc",
+          "94a6c982-18b2-4826-befa-2a719e15f91c",
+          "8069cc46-1f3e-4fb4-b120-a16986a8a9ef",
+          "6a25d086-2d98-458f-acbf-1e1668eadeb9",
+          "ebdd4f6d-fae1-4953-a6a0-73a0b3962877",
+          "643d681e-5e47-49ce-9742-4e194ebce615",
+          "bb4525af-da1f-4473-b883-5707caea1238",
+          "f3ed2c09-48e8-42a9-97ec-9b7340d308a3",
+          "dc1cb135-aac2-44f6-a92c-0e66be7dfe8b",
+          "27ffec57-8a7b-40e9-b965-31e88a43363d",
+          "64188c80-d988-437d-aed5-44fbab6751a3",
+          "6e688ae5-bc3c-4ad5-9a12-fa927920b102",
+          "744c9256-63da-4292-83fc-b1e9c7601e3c",
+          "30fa0c7a-acbc-435f-bf77-937b00db1bbd",
+          "71c03138-448f-4dc0-b13c-94075df1ec53",
+          "fc40efa6-a305-4cc8-bdb4-776f3d55b83e",
+          "dc8ad84e-50db-4b4f-b5ad-1ffe62c44de0",
+          "46c285be-b13d-453b-bda8-959662c1603f",
+          "30bc5d5a-3c37-4226-b33a-f09b5add7747",
+          "4ad3f2fe-e242-44cd-8518-c53fd812ba5d",
+          "1a8c4a40-85a6-4c65-bca9-395de81ff8a9",
+          "e134a8c9-4a4f-4929-8e93-04670554c8ce",
+          "d108a51f-2085-4aed-b1f2-70306599ed61",
+          "9b9efd43-7b73-4ca6-947d-9b79afe9ae70",
+          "0d7e0b78-5f1e-4ffa-937f-e52c05bc1682",
+          "f5501d77-056a-4cc5-bfaa-94e3f7e55fb5",
+          "91792326-069a-48b2-b26e-cf0d742ee4f7",
+          "de08febd-0560-47b8-af28-06a61ea4a711",
+          "15b80308-0a83-44c9-8916-17ad5e996671",
+          "74570295-6d27-45ea-85ae-7349a22f7fc1",
+          "ffbf7fe7-7010-4a4c-8c27-ae64d8a4d627",
+          "465d0fe1-0426-4492-90ea-ac458bf72822",
+          "75a6f5ab-0489-4f04-9166-fcd881b8dddd",
+          "918b5007-4c5b-4caf-8027-8a6c2be4649e",
+          "d250fa07-4549-4fb3-a16d-ecb6a0af1b9b",
+          "f94afcbe-692d-40a4-9b8d-6fb5a6d7f2ed",
+          "2999748f-425c-4319-b05d-4062b79bbea8",
+          "be8afdf0-58ff-47b4-9935-26678c909ade",
+          "65f1ec72-d98e-43ac-a3f3-6645b9b7a3c3",
+          "afc9785c-484a-4795-9af3-510b4d266417",
+          "7befa15b-9916-4006-9998-7038c94fcfdf"
+        ]
+      },
+      {
+        "id": "8f42327c-44a8-4a38-a159-fee7fb3241a0",
+        "name": "Separatists",
+        "models": [
+          "d5b8675b-75ff-473e-b018-d2e80e3559c7",
+          "4046f17f-4814-4689-8841-279d086dcb7f",
+          "2548cff6-28a8-4b98-91d5-73a42535e705",
+          "352feaec-0166-485c-9321-dcd78bbc7a3c",
+          "be264629-b7d1-4270-b73e-0128cb206cfa",
+          "1ef0ec52-8df2-40ea-8d68-5c391eea0b8a",
+          "e8511434-89f1-4b9f-b2a8-668efd518b2c",
+          "bd1040bb-caff-4d36-b0db-a2e73c7f8c44",
+          "210ec374-d020-4984-9cec-ba465091d94e",
+          "c38d3352-e384-4ef1-b2a3-aa6c2e86a4b4",
+          "21d9a370-6a36-4ad2-a7bb-66d11c1df7fe",
+          "9c5492ac-f921-4a77-a070-8b1c1f191951",
+          "eec79124-35fb-45ef-a996-8fd524346c5c",
+          "c9603f7e-f5c6-45b7-ac45-3a7ad9709cfb",
+          "e1359226-c4dc-43f1-9daf-676c5a29f942",
+          "f6d6a233-6738-4d16-88a8-00187bbc4711",
+          "35108d31-9e6b-458b-aac8-d5741066b7f8",
+          "c954aa4b-849d-405b-ad2a-cd1f6a291aa3",
+          "ab81147c-ec9a-4323-ad9d-46a7f1df94f8",
+          "ea6d4cb1-f7a5-4390-b8c4-f96f12828d67",
+          "e87a2114-3ad8-486d-b50e-707f23e64dd5",
+          "5016d1ec-0d06-4bce-a00d-62397a233a5c",
+          "baed1308-befb-4d69-bd41-7cf1603cf178",
+          "3982cad0-48f0-4aea-963c-31783e1e9653",
+          "e4ec47de-4b9f-4a66-8669-42d6fdad58c0",
+          "75ad2080-28f0-4bd1-8de3-4ebd10cdef14",
+          "5a755db4-2429-4f85-8404-1371180232ba",
+          "053b55a3-eaba-41e9-8c84-637aa91fc62b",
+          "1d67147b-ce07-410d-8100-1d0fcf16ce72",
+          "5b7eead5-2313-493c-9753-e13a92e08aed",
+          "64cb3b84-4263-46a6-b73e-62676fd74b7a"
+        ]
+      },
+      {
+        "id": "c1a423ab-0a11-49a2-bbd7-ae21f94885ce",
+        "name": "Fangorn",
+        "models": [
+          "abb76ce5-ec5f-4278-8063-ccc26fba6150",
+          "767ab144-edb6-4060-8c6b-c806015dd2a5",
+          "22451af7-73a6-4c12-9344-31b83a405a80"
+        ]
+      },
+      {
+        "id": "b771c964-0441-4e28-ae7a-977d9bee4468",
+        "name": "Moria",
+        "models": [
+          "e3316efa-111c-4961-a338-c5ff6c999434"
+        ]
+      }
+    ],
+    "models": [
+      {
+        "id": "92ac9b10-bdbd-4074-81b2-97469994e0ba",
+        "name": "Boromir -- on foot, banner",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "58fd7d09-86d9-4273-9857-9a652f1a410d",
+        "name": "Boromir -- on foot, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "240fdbbb-34fa-4db3-b095-55b66b2b6006",
+        "name": "Boromir -- mounted, banner",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "6a93776e-ccf1-45e6-909e-fef3e4b4d33c",
+        "name": "Gandalf the White -- mounted",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "48e0251c-30c6-4df1-b3c7-9c7ce27266e2",
+        "name": "Gandalf the White -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "73d3f5ee-ec5b-4841-85d3-b4c957657a9c",
+        "name": "Peregrin Took",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "fee65146-a132-41a5-985f-9c5d571d872c",
+        "name": "Aragorn, King Elessar -- mounted",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "f9b8d703-83c2-4b69-858c-5724a411eed1",
+        "name": "Aragorn, King Elessar -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "229a4ff9-1534-4496-93d7-b891a60419e9",
+        "name": "Faramir",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "451eb561-a4c5-4a71-9e8d-1ba017544019",
+        "name": "Madril",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "9bd79d53-c0db-464e-98df-c5f2af4b9f37",
+        "name": "Damrod",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "345b8ca7-9dcd-4955-8480-c71364957dd7",
+        "name": "Mablung",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "f813e294-b440-4f9f-b671-1a8a4bf4b96f",
+        "name": "Anborn",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "fd60d900-7e2d-452d-8369-b4ecde3c7dce",
+        "name": "Hurin -- mounted",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "20575970-a326-495c-8920-27152083104b",
+        "name": "Hurin -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "6a243ec1-29c4-476f-92cb-3570ea4a0f34",
+        "name": "Ingold",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "4594446c-c228-4d17-a247-df73662a4869",
+        "name": "Knight of the White Tower",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "0df01f5b-370f-4e14-a86b-b7687e753eb2",
+        "name": "Cirion",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "eb5e295d-5280-4dca-b6aa-9072d85e4651",
+        "name": "Beregond",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "f3027772-c1f9-43ce-9107-369d9bbd2f33",
+        "name": "Avenger Bolt Thrower",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "c0ad5cbb-0d79-4719-b3c0-bb7ba193991a",
+        "name": "Knight of Minas Tirith -- shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 12,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "e1a4fb39-f42f-4691-9120-d105408be5af",
+        "name": "Guard of the Fountain Court -- shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "19ac01bd-d6bd-4cd5-8196-725b4ca7d47f",
+        "name": "Citadel Guard -- spear",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 3,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "18fb250e-0a86-4941-a14c-dbedc992eb4d",
+        "name": "Citadel Guard -- longbow",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 3,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "2cf898fc-6159-43ae-84f3-103bec6bb113",
+        "name": "Osgiliath Veteran -- spear",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "9ba6d910-2233-4641-a83a-ceb128d65372",
+        "name": "Osgiliath Veteran -- shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "b64f4f92-3224-4bc4-b0aa-7d107d68da92",
+        "name": "Osgiliath Veteran -- bow",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "ecd5cbe8-8901-4909-bfa9-32163fe4e562",
+        "name": "Ranger of Gondor -- bow",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 7,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "3bd3f517-9f7b-4b56-92fa-fbfb695208ea",
+        "name": "Ranger of Gondor -- spear",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "0f6e4465-02fb-460d-8134-fa0a0cd75e6c",
+        "name": "Ranger of Gondor -- sword",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "63b87447-0e90-479a-a42f-916ee783f8f5",
+        "name": "Warrior of Minas Tirith -- shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 12,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "12facfa4-c2df-4991-853d-d8720e6f5c57",
+        "name": "Warrior of Minas Tirith -- shield, spear",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 8,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "f5e7c421-3a2d-49b7-bad7-36014ecacb73",
+        "name": "Warrior of Minas Tirith -- bow",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 8,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "7a354813-997f-440a-ac64-47c790c12855",
+        "name": "Warrior of Minas Tirith -- banner",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "2f576599-b597-48a5-9a8f-1d52717d89ef",
+        "name": "Warrior of Minas Tirith -- war horn",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "9c7804ba-a52b-433c-b56b-a4395990793a",
+        "name": "Theoden -- mounted, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "a84c8f74-ae56-48e6-895c-5455ba5437cf",
+        "name": "Theoden -- on foot, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "75a1d84c-03e0-47e6-bb36-5501cd7c2b96",
+        "name": "Eomer -- mounted, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "d20aa1b8-bb11-4a55-bc32-7990567ce4f5",
+        "name": "Eomer -- on foot, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "0af90dae-be90-4d48-a651-d5ce0664397b",
+        "name": "Deorwine -- mounted",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "cfc54416-3bcd-4c5d-ab97-5abc43229471",
+        "name": "Deorwine -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "302ba6b2-b510-40c9-b07b-ef0eb50fef4e",
+        "name": "Erkenbrand -- mounted",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "300838a7-5a5a-45e4-ba98-45b232215bb9",
+        "name": "Erkenbrand -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "7a1626a7-170f-4fa4-9e40-7a980de06fea",
+        "name": "Elfhelm -- mounted",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "fcfe7244-27d3-404c-983d-5eca4559274f",
+        "name": "Elfhelm -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "09ecb28e-bfb0-4643-b38e-fe563cde862b",
+        "name": "Gamling -- mounted, banner",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "6856f959-fd9a-4925-9853-9f013ca23f3a",
+        "name": "Gamling -- on foot, banner",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "b4ec2a66-b8e8-433d-bb48-ed54209d31df",
+        "name": "Hama -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "a907e9ee-4a06-4830-86a1-7d101a541f23",
+        "name": "Captain of Minas Tirith -- on foot, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "31fc12cf-0347-4111-9b7a-fc367f5bc08d",
+        "name": "Dernhelm",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "632d58fc-99dc-4ef0-8d07-77852d63c9bb",
+        "name": "Eowyn -- on foot, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "accb0c6d-bfce-4e5e-b921-7053737155e3",
+        "name": "Meriadoc Brandybuck -- on foot, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "eb46a5c4-e82b-44ad-969f-7477b5712900",
+        "name": "Rider of Rohan",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 23,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "a530485c-1369-4f65-8115-5739565ce482",
+        "name": "Rider of Rohan -- banner",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "7bddb820-85fa-4a36-a4fb-4356ba5fe873",
+        "name": "Warrior of Rohan -- bow",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "a424ef76-6cd7-4160-bd97-4e02678e648d",
+        "name": "Warrior of Rohan -- shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "7291ac40-d83e-4d03-9ab5-1dd0feec9af4",
+        "name": "Warrior of Rohan -- spear, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 3,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "d11b5b09-9799-4635-a2b8-76f6bd6d2bf1",
+        "name": "Warrior of Rohan -- banner, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "e34f8bf8-9516-4102-ae61-a8624f969e1e",
+        "name": "Rohan Royal Guard -- mounted",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 3,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "5510c016-9642-449e-b623-17828a3e8ca9",
+        "name": "Rohan Royal Guard -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 3,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "7a4365fc-bc5e-42b0-8bc7-bc0a0cdd4b60",
+        "name": "Aragorn, Strider -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "c4b628c0-44c1-46a2-ae16-d54d52088c69",
+        "name": "Legolas -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "e9f4ce65-231e-4ad9-bcd9-1f28b16c1f0d",
+        "name": "Gimli -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "d108a51f-2085-4aed-b1f2-70306599ed61",
+        "name": "Obi-wan Kenobi",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "e2dec7c8-c478-42b8-b839-b5aaabf51649",
+        "name": "Anakin Skywalker",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "9b9efd43-7b73-4ca6-947d-9b79afe9ae70",
+        "name": "Padme Amidala",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "7befa15b-9916-4006-9998-7038c94fcfdf",
+        "name": "Yoda -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "afc9785c-484a-4795-9af3-510b4d266417",
+        "name": "Yoda -- leaping",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "27ffec57-8a7b-40e9-b965-31e88a43363d",
+        "name": "Captain Rex",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "46c285be-b13d-453b-bda8-959662c1603f",
+        "name": "Commander Cody",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "65f1ec72-d98e-43ac-a3f3-6645b9b7a3c3",
+        "name": "TX-130 Saber Tank",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "dc1cb135-aac2-44f6-a92c-0e66be7dfe8b",
+        "name": "BARC Speeder",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 2,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "94a6c982-18b2-4826-befa-2a719e15f91c",
+        "name": "AT-RT",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "2673438d-3f22-4a5d-8131-f5ddc398e8b8",
+        "name": "Arc Trooper",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "fe545109-ec33-4e2f-930e-2d2aa08c480a",
+        "name": "Arc Trooper -- DC-15x",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "172dc179-219c-4a75-8719-1a4364173d11",
+        "name": "Arc Trooper -- Echo",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "3df8f164-3667-40db-8daf-0dc283b0b2cc",
+        "name": "Arc Trooper -- Fives",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "d250fa07-4549-4fb3-a16d-ecb6a0af1b9b",
+        "name": "Phase II Clone Trooper -- Waxer",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "918b5007-4c5b-4caf-8027-8a6c2be4649e",
+        "name": "Phase II Clone Trooper -- Boil",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "64188c80-d988-437d-aed5-44fbab6751a3",
+        "name": "Clone Commander",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "dc8ad84e-50db-4b4f-b5ad-1ffe62c44de0",
+        "name": "Clone Medic",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "fc40efa6-a305-4cc8-bdb4-776f3d55b83e",
+        "name": "Clone Engineer",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "71c03138-448f-4dc0-b13c-94075df1ec53",
+        "name": "Clone Comms Technician",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "f5501d77-056a-4cc5-bfaa-94e3f7e55fb5",
+        "name": "Phase I Clone Trooper -- Captain",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "ffbf7fe7-7010-4a4c-8c27-ae64d8a4d627",
+        "name": "Phase I Clone Trooper -- Specialist",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "de08febd-0560-47b8-af28-06a61ea4a711",
+        "name": "Phase I Clone Trooper -- DP-23",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "74570295-6d27-45ea-85ae-7349a22f7fc1",
+        "name": "Phase I Clone Trooper -- RSP-6",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "35108d31-9e6b-458b-aac8-d5741066b7f8",
+        "name": "Count Dooku",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "baed1308-befb-4d69-bd41-7cf1603cf178",
+        "name": "General Grevious",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "4046f17f-4814-4689-8841-279d086dcb7f",
+        "name": "Asajj Ventress",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "f6d6a233-6738-4d16-88a8-00187bbc4711",
+        "name": "Cad Bane",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "e87a2114-3ad8-486d-b50e-707f23e64dd5",
+        "name": "Droideka -- wheel mode",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "053b55a3-eaba-41e9-8c84-637aa91fc62b",
+        "name": "STAP Rider",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 2,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "d5b8675b-75ff-473e-b018-d2e80e3559c7",
+        "name": "AAT Battle Tank",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "e8511434-89f1-4b9f-b2a8-668efd518b2c",
+        "name": "B1 Battle Droid -- OOM-Series",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "210ec374-d020-4984-9cec-ba465091d94e",
+        "name": "B1 Battle Droid -- Security",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "5b7eead5-2313-493c-9753-e13a92e08aed",
+        "name": "T-Series Tactical Droid",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "5a755db4-2429-4f85-8404-1371180232ba",
+        "name": "PK-Series Worker Droid",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "64cb3b84-4263-46a6-b73e-62676fd74b7a",
+        "name": "Viper Recon Droid",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "5016d1ec-0d06-4bce-a00d-62397a233a5c",
+        "name": "EV-Series Medical Droid",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "1d67147b-ce07-410d-8100-1d0fcf16ce72",
+        "name": "Super Tactical Droid",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "c954aa4b-849d-405b-ad2a-cd1f6a291aa3",
+        "name": "Darth Maul",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "ab81147c-ec9a-4323-ad9d-46a7f1df94f8",
+        "name": "DRK-1 Sith Probe Droid",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 3,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "83ffb58b-3202-4666-979d-5879e9c778e8",
+        "name": "Saruman -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 2,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "b1af782b-7785-4a22-843d-b7870b0e8d7c",
+        "name": "Saruman -- mounted",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "9766e8dd-ea5c-4c45-8ef9-a1b90964f839",
+        "name": "The Palantir",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "a2d77fa2-afae-4502-9f2f-60adf3a59379",
+        "name": "Grima Wormtongue",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "4076aa52-b833-415e-87d5-8c2eacc4d646",
+        "name": "Uruk-hai Scout -- bow",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 8,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "3a5ba420-7b3b-4aee-a45c-e7625ca68b64",
+        "name": "Uruk-hai Scout -- shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 8,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "1d034d44-6355-46ee-9e0d-41ddfca72cc3",
+        "name": "Uruk-hai Scout -- sword only",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 8,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "9626b08f-1e75-4795-a8cb-9d16e96fd857",
+        "name": "Uruk-hai Warrior -- shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 10,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "79520e8d-941d-4feb-82e1-853df94a4bf4",
+        "name": "Uruk-hai Warrior -- pike",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 10,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "4ffcfac1-8e29-4cdf-a4dd-4f548d22ec47",
+        "name": "Uruk-hai Warrior -- crossbow ",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "2843344c-5421-4b29-904f-0db3dd3eb73d",
+        "name": "Uruk-hai Berserker",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "0fabe2eb-9c47-442a-85f3-6074f9a48f6a",
+        "name": "Uruk-hai Scout -- banner",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "839281d0-be2c-43b7-b330-4949ef6ff9d1",
+        "name": "Uruk-hai Shaman",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "9363f6df-4cc8-461a-8a86-6000f02fa192",
+        "name": "Uruk-hai Drummer",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "731b6184-1474-4b0e-af9b-03de340e1fcf",
+        "name": "Lurtz -- bow, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "a843df8e-c34d-40d0-b2cc-8018fbf9d423",
+        "name": "Vrasku",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "3d5403ff-fad0-4568-ae84-a2d33650cdf1",
+        "name": "Ugluk",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "bfb6a5e0-1d2a-4285-aaf2-f4336bd02f7b",
+        "name": "Mauhur",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "16041d5f-0cf9-4f59-ba02-6929434661d8",
+        "name": "Isengard Troll -- spear, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "d0fef5ee-d1f5-4817-ac2a-bce40fdee3b2",
+        "name": "Uruk-hai Scout Captain -- two-handed axe",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "f3e4e560-14a1-40cd-8a80-135267964c08",
+        "name": "Witch-king -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "6a7a65a8-ca5d-4c01-943c-4ba80d079082",
+        "name": "Witch-king -- mounted",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "628c559e-c899-43ec-91eb-b51c0da828a9",
+        "name": "Witch-King -- fell beast",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "55671f2f-cc17-459d-a0c8-f2a8d0d2be40",
+        "name": "Gorbag",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "7326134b-4d01-466d-961e-625ddf81a10e",
+        "name": "Guritz",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "900cb163-ae8f-4fea-bacc-e12d80e9a35b",
+        "name": "Shagrat",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "1e133e6a-9770-47eb-9bbe-28844c89054d",
+        "name": "Kardush",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "f1df902d-b2b0-4238-94cb-63eff969c112",
+        "name": "Gothmog -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "24c920f4-1347-4d52-81eb-8f165dc609e4",
+        "name": "Gothmog -- mounted",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "63ca041b-94ad-4675-a79c-c1b5acf91743",
+        "name": "Mordor Troll",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "cbc983f6-55a7-4ac3-96df-382574a35987",
+        "name": "Black Numenorean",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 12,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "34820884-530f-438b-aea2-83c72374479a",
+        "name": "Orc Captain -- on foot, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "63de5439-45c9-4372-8059-ef552554819e",
+        "name": "Orc Captain -- mounted, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "a65dd788-9742-40d0-976c-2225c35a1ede",
+        "name": "Warg Rider -- shield, spear",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 2,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "286fc94d-6e77-4766-a489-a2312baeed9c",
+        "name": "Morannon Orc -- banner, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "065a2cec-05db-4054-967c-0b4ffa2216d3",
+        "name": "Morannon Orc -- spear",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 9,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "1903ffd1-d2f9-4b34-bff7-9e902174f5ee",
+        "name": "Morannon Orc -- shield, spear",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 8,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "a05ba70e-9e51-4a12-a842-9ca5d6e11631",
+        "name": "Morannon Orc -- shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 18,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "86b4ac4b-eaab-4f2a-bb18-591779868850",
+        "name": "The Dragon Emperor -- palanquin",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "41f3b3b3-9016-4019-9515-1548abe22f7d",
+        "name": "The Dragon Emperor -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "02167ef9-c08b-4fa8-beea-99eb8885faa9",
+        "name": "Rutabi",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "3cadd70c-152b-4f6e-80f8-bddbf359c17a",
+        "name": "Brorgir",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "67b8ec52-60d5-4f47-8946-7b47789a8bc5",
+        "name": "Easterling Dragon Knight -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "d41aaa81-43e0-4d19-98e6-326417688acc",
+        "name": "Easterling Dragon Knight -- mounted",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "afeeb1c2-1c26-490e-9ba5-05e472ce3ff2",
+        "name": "Easterling Captain -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "02d31e47-0016-4380-a9f6-9c80bf20e5be",
+        "name": "Easterling Captain -- mounted, shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "d563ad68-ec02-4315-ae7e-9204b22c6cfa",
+        "name": "Easterling War Priest -- on foot",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "9aee54a7-93aa-40f0-b12b-f647977f7144",
+        "name": "Rhunish War Drake",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 3,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "b6c08d0b-fdd1-4ca7-8b5f-487312e1c618",
+        "name": "Dragon Cult Acolyte",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 6,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "9f6051b3-7d99-429c-b2c3-a2867194579e",
+        "name": "Easterling Kataphrakt -- war drum",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "fb80408c-2538-41c7-96c9-1dd378909f48",
+        "name": "Easterling Kataphrakt",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "bb5c36af-b033-44d8-bf05-6e89b2de8367",
+        "name": "King of the Dead",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "22ba42e1-35aa-474b-81eb-8f9d65b4d06d",
+        "name": "Rider of the Dead",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 3,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "f69d6e63-4a9e-448c-875c-3405bb4a0007",
+        "name": "Herald of the Dead -- shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 2,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "22451af7-73a6-4c12-9344-31b83a405a80",
+        "name": "Treebeard",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "abb76ce5-ec5f-4278-8063-ccc26fba6150",
+        "name": "Merry -- passenger",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "767ab144-edb6-4060-8c6b-c806015dd2a5",
+        "name": "Pippin -- passenger",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "1c6a95ce-16cd-46e7-906b-682cd9c8f3e8",
+        "name": "Peregrin Took",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "fb7257cb-758d-4064-ab3f-34d10f652941",
+        "name": "Meriadoc Brandybuck",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "e3316efa-111c-4961-a338-c5ff6c999434",
+        "name": "The Balrog",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "7012b663-f035-4c9a-a186-de3988a3a4c8",
+        "name": "Easterling Warrior -- shield, pike",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 22,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "1d122cfb-5aef-49e5-be04-ebd44a466477",
+        "name": "Easterling Warrior -- shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 10,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "b2ab1d59-e1e1-4d84-b102-8079815cac3e",
+        "name": "Warrior of the Dead -- shield",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 20,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "85a9507d-1c91-4542-a47f-b6e96495e9a6",
+        "name": "Warrior of the Dead -- spear",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 6,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "9ff0f43b-15eb-470d-a203-5fb32dc02d3d",
+        "name": "Easterling Warrior -- banner",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "07e455a1-9c59-4f62-9056-775eb6e75042",
+        "name": "Warrior of the Dead -- shield, spear",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "ebdd4f6d-fae1-4953-a6a0-73a0b3962877",
+        "name": "Bad Batch -- Hunter",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "8069cc46-1f3e-4fb4-b120-a16986a8a9ef",
+        "name": "Bad Batch -- Crosshair",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "f3ed2c09-48e8-42a9-97ec-9b7340d308a3",
+        "name": "Bad Batch -- Wrecker",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "bb4525af-da1f-4473-b883-5707caea1238",
+        "name": "Bad Batch -- Tech",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "6a25d086-2d98-458f-acbf-1e1668eadeb9",
+        "name": "Bad Batch -- Echo",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "643d681e-5e47-49ce-9742-4e194ebce615",
+        "name": "Bad Batch -- Omega",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "4ad3f2fe-e242-44cd-8518-c53fd812ba5d",
+        "name": "Delta Squad -- Fixer",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "30bc5d5a-3c37-4226-b33a-f09b5add7747",
+        "name": "Delta Squad -- Boss",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "1a8c4a40-85a6-4c65-bca9-395de81ff8a9",
+        "name": "Delta Squad -- Scorch",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "e134a8c9-4a4f-4929-8e93-04670554c8ce",
+        "name": "Delta Squad -- Sev",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "30fa0c7a-acbc-435f-bf77-937b00db1bbd",
+        "name": "Clone Commando -- Sniper",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 1,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 0,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "744c9256-63da-4292-83fc-b1e9c7601e3c",
+        "name": "Clone Commando -- Grenades",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 1,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 0,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "6e688ae5-bc3c-4ad5-9a12-fa927920b102",
+        "name": "Clone Commando",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 2,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 0,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "0d7e0b78-5f1e-4ffa-937f-e52c05bc1682",
+        "name": "Phase I Clone Trooper",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 16,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "15b80308-0a83-44c9-8916-17ad5e996671",
+        "name": "Phase I Clone Trooper -- Leader",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "465d0fe1-0426-4492-90ea-ac458bf72822",
+        "name": "Phase I Clone Trooper -- Z-6",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "91792326-069a-48b2-b26e-cf0d742ee4f7",
+        "name": "Phase I Clone Trooper -- DC-15",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "75a6f5ab-0489-4f04-9166-fcd881b8dddd",
+        "name": "Phase II Clone Trooper",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 8,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "f94afcbe-692d-40a4-9b8d-6fb5a6d7f2ed",
+        "name": "Phase II Clone Trooper -- Leader",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 2,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "be8afdf0-58ff-47b4-9935-26678c909ade",
+        "name": "Phase II Clone Trooper -- Z-6",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 2,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "2999748f-425c-4319-b05d-4062b79bbea8",
+        "name": "Phase II Clone Trooper -- Mortar",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 2,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "c38d3352-e384-4ef1-b2a3-aa6c2e86a4b4",
+        "name": "B2 Super Battle Droid",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 8,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "21d9a370-6a36-4ad2-a7bb-66d11c1df7fe",
+        "name": "B2 Super Battle Droid -- B2-ACM",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 2,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "9c5492ac-f921-4a77-a070-8b1c1f191951",
+        "name": "B2 Super Battle Droid -- B2-HA",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 2,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "eec79124-35fb-45ef-a996-8fd524346c5c",
+        "name": "BX-Series Droid Commando",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 5,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "e1359226-c4dc-43f1-9daf-676c5a29f942",
+        "name": "BX-Series Droid Commando -- Sniper",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "c9603f7e-f5c6-45b7-ac45-3a7ad9709cfb",
+        "name": "BX-Series Droid Commando -- Dioxis",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "3982cad0-48f0-4aea-963c-31783e1e9653",
+        "name": "IG-100 MagnaGuard",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "75ad2080-28f0-4bd1-8de3-4ebd10cdef14",
+        "name": "IG-100 MagnaGuard -- Whip",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "e4ec47de-4b9f-4a66-8669-42d6fdad58c0",
+        "name": "IG-100 MagnaGuard -- RPS-6",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "2548cff6-28a8-4b98-91d5-73a42535e705",
+        "name": "B1 Battle Droid",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 24,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "1ef0ec52-8df2-40ea-8d68-5c391eea0b8a",
+        "name": "B1 Battle Droid -- Leader",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "be264629-b7d1-4270-b73e-0128cb206cfa",
+        "name": "B1 Battle Droid -- E-60R",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "352feaec-0166-485c-9321-dcd78bbc7a3c",
+        "name": "B1 Battle Droid -- E-5s",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "bd1040bb-caff-4d36-b0db-a2e73c7f8c44",
+        "name": "B1 Battle Droid -- Radiation",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 1,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "655e7f79-8240-4b5e-9555-66e879c580d0",
+        "name": "Avenger Bolt Thrower -- Crew",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 3,
+            "stage": 3
+          }
+        ]
+      },
+      {
+        "id": "ea6d4cb1-f7a5-4390-b8c4-f96f12828d67",
+        "name": "Droideka -- upright",
+        "collection": [
+          {
+            "amount": 0,
+            "stage": 0
+          },
+          {
+            "amount": 0,
+            "stage": 1
+          },
+          {
+            "amount": 0,
+            "stage": 2
+          },
+          {
+            "amount": 4,
+            "stage": 3
+          }
+        ]
+      }
+    ]
+  },
+  "workflow": {
+    "workflowStages": [
+      "Unassembled",
+      "Assembled",
+      "Primed",
+      "Finished"
+    ]
+  }
+}

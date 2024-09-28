@@ -1,5 +1,11 @@
 {
-  "main": {},
+  "main": {
+    "added": [
+      "Added an API behind the application which saves your collections and workflow so its available on all your devices",
+      "Added firebase authentication to support email/password and google logins",
+      "Added support me buttons."
+    ]
+  },
   "0.5.1": {
     "removed": ["Removed advertisements."]
   },

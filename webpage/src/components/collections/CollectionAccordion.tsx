@@ -3,6 +3,7 @@ import {
   AccordionDetails,
   AccordionSummary,
   ClickAwayListener,
+  Collapse,
   Grow,
   MenuItem,
   MenuList,
@@ -16,7 +17,11 @@ import Alert from "@mui/material/Alert";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import Button from "@mui/material/Button";
 import { ModalTypes } from "@components/modal/modals.tsx";
-import { Collection, selectModelsForCollection } from "@state/inventory";
+import {
+  Collection,
+  selectInventorySlice,
+  selectModelsForCollection,
+} from "@state/inventory";
 import { useStore } from "@state/store.ts";
 import Typography from "@mui/material/Typography";
 import { selectModalSlice } from "@state/modal";
@@ -26,6 +31,8 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { Delete, Edit } from "@mui/icons-material";
 import { Droppable } from "@hello-pangea/dnd";
+import { selectAccountSlice } from "@state/account";
+import { MAX_GROUPS } from "../../constants.ts";
 
 const CollectionInfo = ({ collection }: { collection: Collection }) => {
   const models = useStore(selectModelsForCollection(collection.id));
@@ -44,6 +51,8 @@ const CollectionInfo = ({ collection }: { collection: Collection }) => {
 
 const CollectionActions = ({ collection }: { collection: Collection }) => {
   const modal = useStore(selectModalSlice);
+  const { groups } = useStore(selectInventorySlice);
+  const { supporter } = useStore(selectAccountSlice);
   const [open, setOpen] = useState(false);
   const anchorRef = useRef<HTMLButtonElement>(null);
 
@@ -85,9 +94,18 @@ const CollectionActions = ({ collection }: { collection: Collection }) => {
 
   return (
     <>
+      <Collapse in={!supporter && groups.length >= MAX_GROUPS}>
+        <Alert severity={"info"} variant={"filled"}>
+          <Typography>
+            Adding more than {MAX_GROUPS} groups is currently limited to
+            supporters only.
+          </Typography>
+        </Alert>
+      </Collapse>
       <ButtonGroup fullWidth>
         <Button
           aria-label={`Add a new group to ${collection.name}`}
+          disabled={!supporter && groups.length >= MAX_GROUPS}
           onClick={() =>
             modal.openModal(ModalTypes.CREATE_GROUP, {
               collectionId: collection.id,
