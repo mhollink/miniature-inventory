@@ -104,7 +104,7 @@ export const Home: FunctionComponent = () => {
 
   useEffect(() => {
     api.getStatistics().then(setStatistics);
-  });
+  }, [api, statistics]);
 
   return (
     <>

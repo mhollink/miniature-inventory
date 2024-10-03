@@ -19,7 +19,7 @@ import Stack from "@mui/material/Stack";
 import { SummaryItem } from "@components/collections/SummaryItem.tsx";
 import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 import HexagonOutlinedIcon from "@mui/icons-material/HexagonOutlined";
-import { ModelSummary } from "@components/collections/ModelSummary.tsx";
+import { ModelSummary } from "@components/groups/ModelSummary.tsx";
 import IconButton from "@mui/material/IconButton";
 import {
   Delete,
@@ -40,6 +40,7 @@ import { DragDropContext, Droppable, DropResult } from "@hello-pangea/dnd";
 import { moveItem } from "../utils/array.ts";
 import { selectAccountSlice } from "@state/account";
 import { useApi } from "../api/useApi.ts";
+import { GroupProgress } from "@components/groups/GroupProgress.tsx";
 
 const Summary = ({
   miniatures,
@@ -237,6 +238,10 @@ export const Group: FunctionComponent = () => {
                 modelTypes={models.length}
                 gradient={gradient}
               />
+              <Typography variant={"h5"} flexGrow={1}>
+                Progress in this group
+              </Typography>
+              <GroupProgress totalCollection={totalCollection} />
               <Stack direction={"row"} alignItems={"center"}>
                 <Typography variant={"h4"} flexGrow={1}>
                   Models in this group

@@ -1,5 +1,10 @@
 {
-  "main": {},
+  "main": {
+    "added": [
+      "Group progressbar indicting the progress of each stage in the group"
+    ],
+    "changed": ["Updated text on the homepage"]
+  },
   "1.0.0": {
     "added": [
       "Added an API behind the application which saves your collections and workflow so its available on all your devices",
