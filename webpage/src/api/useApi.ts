@@ -15,6 +15,7 @@ import { updateModel } from "./models/update-model.ts";
 import { getAccountInfo } from "./user/get-account-info.ts";
 import { reorderGroups } from "./sorting/reorder-groups.ts";
 import { reorderModels } from "./sorting/reorder-models.ts";
+import { getStatistics } from "./statistics/get-statistics.ts";
 
 export const apiUrl = import.meta.env.VITE_API_URL;
 
@@ -42,5 +43,7 @@ export const useApi = () => {
 
     reorderGroups: reorderGroups(idToken),
     reorderModels: reorderModels(idToken),
+
+    getStatistics: getStatistics(),
   };
 };
