@@ -1,5 +1,6 @@
 {
-  "main": {
+  "main": {},
+  "1.0.0": {
     "added": [
       "Added an API behind the application which saves your collections and workflow so its available on all your devices",
       "Added firebase authentication to support email/password and google logins",
