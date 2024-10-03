@@ -1,5 +1,6 @@
 {
-  "main": {
+  "main": {},
+  "1.1.0": {
     "added": [
       "Group progressbar indicting the progress of each stage in the group"
     ],
