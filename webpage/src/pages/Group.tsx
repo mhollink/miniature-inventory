@@ -33,7 +33,7 @@ import { ModalTypes } from "@components/modal/modals.tsx";
 import useTheme from "@mui/material/styles/useTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Button from "@mui/material/Button";
-import { Menu, MenuItem, MenuList, Tooltip } from "@mui/material";
+import { Menu, MenuItem, MenuList, Paper, Tooltip } from "@mui/material";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import { DragDropContext, Droppable, DropResult } from "@hello-pangea/dnd";
@@ -45,38 +45,38 @@ import { GroupProgress } from "@components/groups/GroupProgress.tsx";
 const Summary = ({
   miniatures,
   modelTypes,
-  gradient,
 }: {
   miniatures: number;
   modelTypes: number;
-  gradient: string;
 }) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   return (
-    <Stack
-      direction={isMobile ? "column" : "row"}
-      justifyContent="space-between"
-      spacing={isMobile ? 1 : 2}
+    <Paper
+      elevation={3}
       sx={{
         p: isMobile ? 1.5 : 3,
-        borderRadius: 2,
-        background: gradient,
       }}
     >
-      <SummaryItem
-        icon={<HexagonOutlinedIcon sx={{ fontSize: 40 }} />}
-        label={"Models"}
-        count={modelTypes}
-        size={isMobile ? 100 : 50}
-      />
-      <SummaryItem
-        icon={<CircleOutlinedIcon sx={{ fontSize: 40 }} />}
-        label="Miniatures"
-        count={miniatures}
-        size={isMobile ? 100 : 50}
-      />
-    </Stack>
+      <Stack
+        direction={isMobile ? "column" : "row"}
+        justifyContent="space-between"
+        spacing={isMobile ? 1 : 2}
+      >
+        <SummaryItem
+          icon={<HexagonOutlinedIcon sx={{ fontSize: 40 }} />}
+          label={"Models"}
+          count={modelTypes}
+          size={isMobile ? 100 : 50}
+        />
+        <SummaryItem
+          icon={<CircleOutlinedIcon sx={{ fontSize: 40 }} />}
+          label="Miniatures"
+          count={miniatures}
+          size={isMobile ? 100 : 50}
+        />
+      </Stack>
+    </Paper>
   );
 };
 
@@ -149,22 +149,15 @@ const GroupActions = ({ group }: { group: GroupType }) => {
 
 export const Group: FunctionComponent = () => {
   const { id: groupId } = useParams() as { id: string };
-  const workflow = useStore(selectWorkflowSlice);
-  const { supporter } = useStore(selectAccountSlice);
+  const api = useApi();
+  const modals = useStore(selectModalSlice);
   const group = useStore(selectGroup(groupId));
   const models = useStore(selectModelsForGroup(groupId));
-  const modals = useStore(selectModalSlice);
+  const { supporter } = useStore(selectAccountSlice);
   const { updateGroup } = useStore(selectInventorySlice);
-  const { convertCollectionToGradient } = useWorkflowColors();
-  const api = useApi();
 
   const totalCollection = models.flatMap((models) => models.collection);
   const modelCount = totalCollection.reduce((a, b) => a + b.amount, 0);
-
-  const gradient = convertCollectionToGradient(
-    totalCollection,
-    workflow.workflowStages.length,
-  );
 
   const updateStuff = async ({ destination, source }: DropResult) => {
     if (!destination) return;
@@ -233,14 +226,18 @@ export const Group: FunctionComponent = () => {
                 </Typography>
                 <GroupActions group={group} />
               </Stack>
-              <Summary
-                miniatures={modelCount}
-                modelTypes={models.length}
-                gradient={gradient}
-              />
+              <Summary miniatures={modelCount} modelTypes={models.length} />
               <Typography variant={"h5"} flexGrow={1}>
                 Progress in this group
               </Typography>
+              {models.length === 0 && (
+                <>
+                  <Alert severity={"info"} variant={"filled"}>
+                    This group is currently empty. You can start adding models
+                    to this group using the FAB in the bottom right corner.
+                  </Alert>
+                </>
+              )}
               <GroupProgress totalCollection={totalCollection} />
               <Stack direction={"row"} alignItems={"center"}>
                 <Typography variant={"h4"} flexGrow={1}>
@@ -252,14 +249,6 @@ export const Group: FunctionComponent = () => {
                   </IconButton>
                 </Tooltip>
               </Stack>
-              {models.length === 0 && (
-                <>
-                  <Alert severity={"info"} variant={"filled"}>
-                    This group is currently empty. You can start adding models
-                    to this group using the FAB in the bottom right corner.
-                  </Alert>
-                </>
-              )}
 
               <Droppable droppableId="dnd-models-container">
                 {(provided) => (

@@ -39,7 +39,7 @@ export const DeleteGroupModal = () => {
     setLoading(true);
     await api.deleteGroup(openedModalContext.groupId);
     deleteGroup(openedModalContext.groupId);
-    navigate("/collections");
+    navigate("/inventory");
     handleClose();
     setLoading(false);
   };

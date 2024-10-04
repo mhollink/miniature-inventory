@@ -7,6 +7,10 @@ const keysToPersist: StoreKey[] = [
   "collections",
   "groups",
   "models",
+  "workflowStages",
+  "workflowColors",
+  "supporter",
+  "supportTier",
 ];
 
 const getStateToPersist = (state: AppState): Partial<AppState> =>

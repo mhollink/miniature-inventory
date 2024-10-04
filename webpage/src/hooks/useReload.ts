@@ -1,9 +1,11 @@
 import { useCallback } from "react";
 import { useApi } from "../api/useApi.ts";
 import { useStore } from "@state/store.ts";
+import { useWorkflowColors } from "@hooks/useWorkflowColors.ts";
 
 export const useReload = () => {
   const api = useApi();
+  const colors = useWorkflowColors();
   const { setWorkflowStages, importInventory, setSupporter, setSupportTier } =
     useStore();
 
@@ -12,8 +14,8 @@ export const useReload = () => {
     const stages = workflow
       .sort((a, b) => Number(a.index) - Number(b.index))
       .map((a) => a.name);
-    setWorkflowStages(stages);
-  }, [api, setWorkflowStages]);
+    setWorkflowStages(stages, colors.generateRangeOfColors(stages.length));
+  }, [api, setWorkflowStages, colors]);
 
   const loadAccountInfo = useCallback(async () => {
     const account = await api.getAccountInfo();

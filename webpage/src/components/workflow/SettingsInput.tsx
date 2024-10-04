@@ -23,7 +23,7 @@ export const WorkflowEditForm = () => {
   const { workflowStages, setWorkflowStages: updateWorkflowStagesState } =
     useStore(selectWorkflowSlice);
   const { models } = useStore(selectInventorySlice);
-  const { getColorForStage } = useWorkflowColors();
+  const { generateRangeOfColors, getColorForStage } = useWorkflowColors();
   const api = useApi();
   const [loading, setLoading] = useState(false);
   const [updateSuccess, setUpdateSuccess] = useState(false);
@@ -54,7 +54,10 @@ export const WorkflowEditForm = () => {
     await api.updateWorkflow({
       stages: localWorkflowStages,
     });
-    updateWorkflowStagesState(localWorkflowStages);
+    updateWorkflowStagesState(
+      localWorkflowStages,
+      generateRangeOfColors(localWorkflowStages.length),
+    );
     setUpdateSuccess(true);
     setTimeout(() => setUpdateSuccess(false), 5000);
     setLoading(false);
@@ -92,7 +95,7 @@ export const WorkflowEditForm = () => {
       </Collapse>
 
       {localWorkflowStages.map((stageName, index) => {
-        const color = getColorForStage(index, localWorkflowStages.length).color;
+        const color = getColorForStage(index, localWorkflowStages.length);
         return (
           <div
             key={index}
