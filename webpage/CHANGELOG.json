@@ -1,5 +1,11 @@
 {
-  "main": {},
+  "main": {
+  },
+  "1.1.1": {
+    "changed": [
+      "Changed the way progress is shown to differentiate between Figure Case and Miniature Inventory."
+    ]
+  },
   "1.1.0": {
     "added": [
       "Group progressbar indicting the progress of each stage in the group"

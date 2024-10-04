@@ -12,14 +12,6 @@ import { auth } from "./firebase.ts";
 export const useFirebaseAuth = () => {
   const navigate = useNavigate();
 
-  // const makeAuthPersist = useCallback(async () => {
-  //   await setPersistence(auth, browserSessionPersistence);
-  // }, []);
-  //
-  // useEffect(() => {
-  //   makeAuthPersist().catch(console.error);
-  // }, [makeAuthPersist]);
-
   const signUp = async (
     email: string,
     password: string,
@@ -32,13 +24,13 @@ export const useFirebaseAuth = () => {
 
   const signIn = async (email: string, password: string) => {
     await signInWithEmailAndPassword(auth, email, password);
-    navigate("/collections");
+    navigate("/inventory");
   };
 
   const signInWithGoogle = async () => {
     const provider = new GoogleAuthProvider();
     await signInWithPopup(auth, provider);
-    navigate("/collections");
+    navigate("/inventory");
   };
 
   const signOutWrapper = async () => {

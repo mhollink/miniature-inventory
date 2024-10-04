@@ -28,7 +28,7 @@ import {
   PaletteOutlined,
   Settings,
 } from "@mui/icons-material";
-import CategoryOutlinedIcon from "@mui/icons-material/CategoryOutlined";
+import CategoryOutlinedIcon from "@mui/icons-material/Inventory2Outlined";
 import { useAuth } from "../../firebase/FirebaseAuthContext.tsx";
 
 function stringAvatar(name: string) {
@@ -136,8 +136,8 @@ export const AppHeader = () => {
       ? [
           {
             icon: <CategoryOutlinedIcon />,
-            label: "Collections",
-            onClick: () => navigate("/collections"),
+            label: "Inventory",
+            onClick: () => navigate("/inventory"),
           },
           {
             icon: <PaletteOutlined />,

@@ -61,8 +61,8 @@ export const routes: RouteObject[] = [
     errorElement: <AppFallback />,
     children: [
       route("/", <Home />),
-      route("collections", <Collections />),
-      routeWithChildren("collections", [route(":id", <Group />, "Group")]),
+      route("inventory", <Collections />),
+      routeWithChildren("inventory", [route(":id", <Group />, "Group")]),
       route("roadmap", <Roadmap />),
       route("settings", <Settings />),
       route("sign-up", <SignUp />, "Sign up"),
@@ -84,7 +84,7 @@ export const routes: RouteObject[] = [
   },
   {
     path: "/*",
-    element: <RedirectTo path={"/collections"} />,
+    element: <RedirectTo path={"/"} />,
     errorElement: <AppFallback />,
   },
 ];

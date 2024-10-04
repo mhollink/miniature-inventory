@@ -3,9 +3,9 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import useTheme from "@mui/material/styles/useTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import { Paper } from "@mui/material";
 
 export const SummaryItem = ({
-  icon,
   label,
   count,
   size,
@@ -23,30 +23,30 @@ export const SummaryItem = ({
       alignItems={isMobile ? "center" : "stretch"}
       justifyContent={"space-around"}
       sx={{
-        color: "white",
-        backgroundColor: "rgb(0,0,0,0.3)",
-        p: isMobile ? 0.5 : 2,
         width: `${size}%`,
-        borderRadius: 2,
       }}
     >
-      <Stack
-        direction={"row"}
-        justifyContent="space-between"
-        alignItems={isMobile ? "center" : "stretch"}
-        flexGrow={1}
+      <Paper
         sx={{
-          pr: 2,
+          p: 2,
+          flexGrow: 1,
         }}
+        elevation={5}
       >
-        {icon}
-        <Typography fontWeight="bolder" fontSize={"2rem"}>
-          {count}
-        </Typography>
-      </Stack>
-      <Typography variant="h5" textAlign="end">
-        {label}
-      </Typography>
+        <Stack
+          direction={"row-reverse"}
+          justifyContent="space-between"
+          alignItems={isMobile ? "center" : "stretch"}
+          sx={{
+            width: "100%",
+          }}
+        >
+          <Typography fontWeight="bolder" variant={"h5"}>
+            {count}
+          </Typography>
+          <Typography variant="h5">{label}</Typography>
+        </Stack>
+      </Paper>
     </Stack>
   );
 };

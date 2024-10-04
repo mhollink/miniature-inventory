@@ -1,18 +1,5 @@
 export type RGB = { r: number; g: number; b: number };
 export type Stage = { color: string; stop: number };
-export type GradientPart = { color: string; percentage: number };
-
-export function convertStagesToGradient(parts: GradientPart[]) {
-  const gradientSteps = parts
-    // Convert each color into a gradient step (IE. "rgb(255, 0, 0) 0% 8.33%")
-    .map(({ percentage, color }, i, a) => {
-      const prevPercentage = i === 0 ? 0 : a[i - 1].percentage;
-      const nextPercentage = i + 1 >= a.length ? 100 : percentage;
-      return `${color} ${prevPercentage}% ${nextPercentage}%`;
-    });
-  // Finally create the gradient which can be used in CSS.
-  return `linear-gradient(to right, ${gradientSteps.join(",")})`;
-}
 
 export function convertPercentageToColor(percentage: number, stages: Stage[]) {
   return interpolateMultiColor(percentage, stages);

@@ -4,7 +4,7 @@ import Typography from "@mui/material/Typography";
 import { Crumbs } from "@components/cumbs/Crumbs.tsx";
 import Stack from "@mui/material/Stack";
 import SquareOutlinedIcon from "@mui/icons-material/SquareOutlined";
-import CategoryOutlinedIcon from "@mui/icons-material/CategoryOutlined";
+import CategoryOutlinedIcon from "@mui/icons-material/Inventory2Outlined";
 import { useStore } from "@state/store.ts";
 import { selectInventorySlice } from "@state/inventory";
 import { selectWorkflowSlice } from "@state/workflow";
@@ -25,14 +25,13 @@ import { useApi } from "../api/useApi.ts";
 import { SportsBarOutlined } from "@mui/icons-material";
 import { selectAccountSlice } from "@state/account";
 import { MAX_COLLECTIONS } from "../constants.ts";
+import { Paper } from "@mui/material";
+import { GroupProgress } from "@components/groups/GroupProgress.tsx";
 
 const Summary = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const inventory = useStore(selectInventorySlice);
-  const workflow = useStore(selectWorkflowSlice);
-  const { generateGradientInSteps } = useWorkflowColors();
-  const gradient = generateGradientInSteps(workflow.workflowStages.length);
   const collections = inventory.collections.length;
   const groups = inventory.groups.length;
   const models = inventory.models
@@ -40,35 +39,48 @@ const Summary = () => {
     .reduce((a, b) => a + b, 0);
 
   return (
-    <Stack
-      direction={isMobile ? "column" : "row"}
-      justifyContent="space-between"
-      spacing={isMobile ? 1 : 2}
-      sx={{
-        p: isMobile ? 1.5 : 3,
-        borderRadius: 2,
-        background: gradient,
-      }}
-    >
-      <SummaryItem
-        icon={<CategoryOutlinedIcon sx={{ fontSize: isMobile ? 30 : 40 }} />}
-        label={collections === 1 ? "Collection" : "Collections"}
-        count={collections}
-        size={isMobile ? 100 : 33}
+    <>
+      <Paper
+        elevation={3}
+        sx={{
+          p: isMobile ? 1.5 : 3,
+          borderRadius: 0,
+        }}
+      >
+        <Stack
+          direction={isMobile ? "column" : "row"}
+          justifyContent="space-between"
+          spacing={isMobile ? 1 : 2}
+        >
+          <SummaryItem
+            icon={
+              <CategoryOutlinedIcon sx={{ fontSize: isMobile ? 30 : 40 }} />
+            }
+            label={collections === 1 ? "Collection" : "Collections"}
+            count={collections}
+            size={isMobile ? 100 : 33}
+          />
+          <SummaryItem
+            icon={<SquareOutlinedIcon sx={{ fontSize: isMobile ? 30 : 40 }} />}
+            label={groups === 1 ? "Group" : "Groups"}
+            count={groups}
+            size={isMobile ? 100 : 33}
+          />
+          <SummaryItem
+            icon={<CircleOutlinedIcon sx={{ fontSize: isMobile ? 30 : 40 }} />}
+            label={models === 1 ? "Miniature" : "Miniatures"}
+            count={models}
+            size={isMobile ? 100 : 33}
+          />
+        </Stack>
+      </Paper>
+      <Typography variant={"h5"} flexGrow={1}>
+        Total cumulative progress
+      </Typography>
+      <GroupProgress
+        totalCollection={inventory.models.flatMap((model) => model.collection)}
       />
-      <SummaryItem
-        icon={<SquareOutlinedIcon sx={{ fontSize: isMobile ? 30 : 40 }} />}
-        label={groups === 1 ? "Group" : "Groups"}
-        count={groups}
-        size={isMobile ? 100 : 33}
-      />
-      <SummaryItem
-        icon={<CircleOutlinedIcon sx={{ fontSize: isMobile ? 30 : 40 }} />}
-        label={models === 1 ? "Miniature" : "Miniatures"}
-        count={models}
-        size={isMobile ? 100 : 33}
-      />
-    </Stack>
+    </>
   );
 };
 
@@ -174,7 +186,7 @@ export const Collections = () => {
 
   return (
     <>
-      <Helmet title="My collections" />
+      <Helmet title="My inventory" />
       <Container
         maxWidth="md"
         sx={{
@@ -184,7 +196,7 @@ export const Collections = () => {
         }}
       >
         <Crumbs />
-        <Typography variant={"h3"}>Collections</Typography>
+        <Typography variant={"h3"}>Inventory</Typography>
         <Summary />
 
         {inventory.collections.length === 0 && (

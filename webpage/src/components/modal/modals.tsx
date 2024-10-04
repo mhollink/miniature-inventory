@@ -1,11 +1,8 @@
 import { ReactNode } from "react";
-import CategoryOutlinedIcon from "@mui/icons-material/CategoryOutlined";
-import SquareOutlinedIcon from "@mui/icons-material/SquareOutlined";
 import { CreateGroupModal } from "@components/modal/modals/CreateGroup.tsx";
 import { CreateNewCollectionModal } from "@components/modal/modals/CreateCollection.tsx";
 import { DeleteCollectionModal } from "@components/modal/modals/DeleteCollection.tsx";
 import { DeleteGroupModal } from "@components/modal/modals/DeleteGroup.tsx";
-import HexagonOutlinedIcon from "@mui/icons-material/HexagonOutlined";
 import CloudSyncIcon from "@mui/icons-material/CloudSync";
 import { AddModelModal } from "@components/modal/modals/CreateModel.tsx";
 import { EditModelModal } from "@components/modal/modals/UpdateModel.tsx";
@@ -13,6 +10,9 @@ import { DeleteModelModal } from "@components/modal/modals/DeleteModel.tsx";
 import { UpdateCollectionModal } from "@components/modal/modals/UpdateCollection.tsx";
 import { UpdateGroupModal } from "@components/modal/modals/UpdateGroup.tsx";
 import { OldVersionStorageModal } from "@components/modal/modals/OldVersionStorageModal.tsx";
+import InventoryOutlinedIcon from "@mui/icons-material/InventoryOutlined";
+import ViewListIcon from "@mui/icons-material/ViewList";
+import ExtensionIcon from "@mui/icons-material/Extension";
 
 export enum ModalTypes {
   CREATE_COLLECTION = "CREATE_COLLECTION",
@@ -40,7 +40,7 @@ export const modals = new Map<ModalTypes, ModalProps>([
   [
     ModalTypes.CREATE_COLLECTION,
     {
-      icon: <CategoryOutlinedIcon />,
+      icon: <InventoryOutlinedIcon />,
       title: "Add a new collection",
       children: <CreateNewCollectionModal />,
     },
@@ -48,7 +48,7 @@ export const modals = new Map<ModalTypes, ModalProps>([
   [
     ModalTypes.UPDATE_COLLECTION,
     {
-      icon: <CategoryOutlinedIcon />,
+      icon: <InventoryOutlinedIcon />,
       title: "Update collection",
       children: <UpdateCollectionModal />,
     },
@@ -56,7 +56,7 @@ export const modals = new Map<ModalTypes, ModalProps>([
   [
     ModalTypes.DELETE_COLLECTION,
     {
-      icon: <CategoryOutlinedIcon />,
+      icon: <InventoryOutlinedIcon />,
       title: "Delete collection",
       children: <DeleteCollectionModal />,
     },
@@ -64,7 +64,7 @@ export const modals = new Map<ModalTypes, ModalProps>([
   [
     ModalTypes.CREATE_GROUP,
     {
-      icon: <SquareOutlinedIcon />,
+      icon: <ViewListIcon />,
       title: "Add a new group",
       children: <CreateGroupModal />,
     },
@@ -72,7 +72,7 @@ export const modals = new Map<ModalTypes, ModalProps>([
   [
     ModalTypes.UPDATE_GROUP,
     {
-      icon: <SquareOutlinedIcon />,
+      icon: <ViewListIcon />,
       title: "Update group",
       children: <UpdateGroupModal />,
     },
@@ -80,7 +80,7 @@ export const modals = new Map<ModalTypes, ModalProps>([
   [
     ModalTypes.DELETE_GROUP,
     {
-      icon: <SquareOutlinedIcon />,
+      icon: <ViewListIcon />,
       title: "Delete group",
       children: <DeleteGroupModal />,
     },
@@ -88,7 +88,7 @@ export const modals = new Map<ModalTypes, ModalProps>([
   [
     ModalTypes.ADD_MODEL,
     {
-      icon: <HexagonOutlinedIcon />,
+      icon: <ExtensionIcon />,
       title: "Add new model type & miniatures",
       children: <AddModelModal />,
     },
@@ -96,7 +96,7 @@ export const modals = new Map<ModalTypes, ModalProps>([
   [
     ModalTypes.EDIT_MODEL,
     {
-      icon: <HexagonOutlinedIcon />,
+      icon: <ExtensionIcon />,
       title: "Update model & miniatures",
       children: <EditModelModal />,
     },
@@ -104,7 +104,7 @@ export const modals = new Map<ModalTypes, ModalProps>([
   [
     ModalTypes.DELETE_MODEL,
     {
-      icon: <HexagonOutlinedIcon />,
+      icon: <ExtensionIcon />,
       title: "Delete model",
       children: <DeleteModelModal />,
     },
