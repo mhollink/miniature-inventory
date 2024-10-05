@@ -1,5 +1,6 @@
 {
-  "main": {
+  "main": {},
+  "1.2.3": {
     "bugfixes": ["Fix issue with not staying logged in over multiple tabs"]
   },
   "1.2.2": {
