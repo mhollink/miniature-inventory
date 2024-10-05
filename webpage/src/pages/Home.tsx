@@ -15,6 +15,9 @@ import { useAuth } from "../firebase/FirebaseAuthContext.tsx";
 import useTheme from "@mui/material/styles/useTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useApi } from "../api/useApi.ts";
+import { useLocation } from "react-router-dom";
+import { analytics } from "../firebase/firebase.ts";
+import { logEvent } from "firebase/analytics";
 
 interface TabPanelProps {
   children?: ReactNode;
@@ -101,10 +104,21 @@ export const Home: FunctionComponent = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down("lg"));
   const [statistics, setStatistics] = useState<Record<string, number>>();
   const api = useApi();
+  const location = useLocation();
+
+  useEffect(() => {
+    // Send a page view event with a fixed page name
+    if (!analytics) return;
+    logEvent(analytics, "page_view", {
+      page_title: "Home",
+      page_location: window.location.href,
+      page_path: location.pathname,
+    });
+  }, [location]);
 
   useEffect(() => {
     api.getStatistics().then(setStatistics);
-  }, [api, statistics]);
+  }, []);
 
   return (
     <>

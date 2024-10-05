@@ -20,13 +20,16 @@ import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 import { CollectionAccordion } from "@components/collections/CollectionAccordion.tsx";
 import { DragDropContext, DropResult } from "@hello-pangea/dnd";
 import { moveItem, moveItemBetweenLists } from "../utils/array.ts";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import { useApi } from "../api/useApi.ts";
 import { SportsBarOutlined } from "@mui/icons-material";
 import { selectAccountSlice } from "@state/account";
 import { MAX_COLLECTIONS } from "../constants.ts";
 import { Paper } from "@mui/material";
 import { GroupProgress } from "@components/groups/GroupProgress.tsx";
+import { useLocation } from "react-router-dom";
+import { analytics } from "../firebase/firebase.ts";
+import { logEvent } from "firebase/analytics";
 
 const Summary = () => {
   const theme = useTheme();
@@ -89,6 +92,17 @@ export const Collections = () => {
   const { supporter } = useStore(selectAccountSlice);
   const modal = useStore(selectModalSlice);
   const api = useApi();
+  const location = useLocation();
+
+  useEffect(() => {
+    // Send a page view event with a fixed page name
+    if (!analytics) return;
+    logEvent(analytics, "page_view", {
+      page_title: "Collections",
+      page_location: window.location.href,
+      page_path: location.pathname,
+    });
+  }, [location]);
 
   const reorderInsideSameCollection = async (
     collectionId: string,

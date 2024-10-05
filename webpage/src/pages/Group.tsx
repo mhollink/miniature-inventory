@@ -1,8 +1,14 @@
-import { Fragment, FunctionComponent, MouseEvent, useState } from "react";
+import {
+  Fragment,
+  FunctionComponent,
+  MouseEvent,
+  useEffect,
+  useState,
+} from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { Crumbs } from "@components/cumbs/Crumbs.tsx";
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import { useStore } from "@state/store.ts";
 import {
   Group as GroupType,
@@ -41,6 +47,8 @@ import { moveItem } from "../utils/array.ts";
 import { selectAccountSlice } from "@state/account";
 import { useApi } from "../api/useApi.ts";
 import { GroupProgress } from "@components/groups/GroupProgress.tsx";
+import { analytics } from "../firebase/firebase.ts";
+import { logEvent } from "firebase/analytics";
 
 const Summary = ({
   miniatures,
@@ -155,9 +163,20 @@ export const Group: FunctionComponent = () => {
   const models = useStore(selectModelsForGroup(groupId));
   const { supporter } = useStore(selectAccountSlice);
   const { updateGroup } = useStore(selectInventorySlice);
+  const location = useLocation();
 
   const totalCollection = models.flatMap((models) => models.collection);
   const modelCount = totalCollection.reduce((a, b) => a + b.amount, 0);
+
+  useEffect(() => {
+    // Send a page view event with a fixed page name
+    if (!analytics) return;
+    logEvent(analytics, "page_view", {
+      page_title: "Group",
+      page_location: window.location.href,
+      page_path: location.pathname,
+    });
+  }, [location]);
 
   const updateStuff = async ({ destination, source }: DropResult) => {
     if (!destination) return;

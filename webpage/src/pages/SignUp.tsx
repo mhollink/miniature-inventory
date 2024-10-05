@@ -8,9 +8,11 @@ import Alert from "@mui/material/Alert";
 import LoadingButton from "@mui/lab/LoadingButton";
 import Divider from "@mui/material/Divider";
 import { Google } from "@mui/icons-material";
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { useFirebaseAuth } from "../firebase/useFirebaseAuth.ts";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import { analytics } from "../firebase/firebase.ts";
+import { logEvent } from "firebase/analytics";
 
 export const SignUp = () => {
   const [emailError, setEmailError] = useState(false);
@@ -27,6 +29,17 @@ export const SignUp = () => {
   const [signInErrorMessage, setSignInErrorMessage] = useState("");
 
   const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    // Send a page view event with a fixed page name
+    if (!analytics) return;
+    logEvent(analytics, "page_view", {
+      page_title: "Sign up",
+      page_location: window.location.href,
+      page_path: location.pathname,
+    });
+  }, [location]);
 
   const { signUp, signInWithGoogle } = useFirebaseAuth();
 
