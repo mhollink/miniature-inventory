@@ -7,7 +7,6 @@ import Link from "@mui/material/Link";
 import { useStore } from "@state/store.ts";
 import { selectGroup, selectModelsForGroup } from "@state/inventory";
 import { selectWorkflowSlice } from "@state/workflow";
-import { useWorkflowColors } from "@hooks/useWorkflowColors.ts";
 import { Draggable } from "@hello-pangea/dnd";
 import DragIndicatorIcon from "@mui/icons-material/DragIndicator";
 import { useNavigate } from "react-router-dom";

@@ -17,7 +17,7 @@ import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
 import { selectAlertSlice } from "@state/alert";
 import { Alerts } from "@components/alerts/alerts.tsx";
-import { logApiFailure } from "../../../firebase/firebase.ts";
+import { logApiFailure, logKeyEvent } from "../../../firebase/analytics.ts";
 
 export const AddModelModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
@@ -65,6 +65,7 @@ export const AddModelModal = () => {
         },
       );
       triggerAlert(Alerts.CREATE_MODEL_SUCCESS);
+      logKeyEvent("model created");
       addModel(openedModalContext.groupId, id, name, miniatures);
       handleClose();
     } catch (e) {

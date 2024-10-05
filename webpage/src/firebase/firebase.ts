@@ -1,11 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { browserSessionPersistence, getAuth } from "firebase/auth";
-import {
-  Analytics,
-  getAnalytics,
-  isSupported,
-  logEvent,
-} from "firebase/analytics";
+import { Analytics, getAnalytics, isSupported } from "firebase/analytics";
 
 const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID,
@@ -32,22 +27,3 @@ isSupported().then((supported) => {
     analytics = getAnalytics(app);
   }
 });
-
-export const logApiFailure = (error: Error | unknown, endpoint: string) => {
-  if (analytics) {
-    if (error instanceof Error) {
-      logEvent(analytics, "exception", {
-        error_message: error.message,
-        error_stack: error.stack,
-        endpoint,
-        timestamp: new Date().toISOString(),
-      });
-    } else {
-      logEvent(analytics, "exception", {
-        error_message: "An unknown error occurred",
-        endpoint,
-        timestamp: new Date().toISOString(),
-      });
-    }
-  }
-};

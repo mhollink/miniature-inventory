@@ -12,7 +12,7 @@ import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
 import { selectAlertSlice } from "@state/alert";
 import { Alerts } from "@components/alerts/alerts.tsx";
-import { logApiFailure } from "../../../firebase/firebase.ts";
+import { logApiFailure, logKeyEvent } from "../../../firebase/analytics.ts";
 
 export const DeleteGroupModal = () => {
   const navigate = useNavigate();
@@ -45,6 +45,7 @@ export const DeleteGroupModal = () => {
       setLoading(true);
       await api.deleteGroup(openedModalContext.groupId);
       triggerAlert(Alerts.DELETE_GROUP_SUCCESS);
+      logKeyEvent("group deleted");
       deleteGroup(openedModalContext.groupId);
       navigate("/inventory");
       handleClose();

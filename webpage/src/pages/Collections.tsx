@@ -7,8 +7,6 @@ import SquareOutlinedIcon from "@mui/icons-material/SquareOutlined";
 import CategoryOutlinedIcon from "@mui/icons-material/Inventory2Outlined";
 import { useStore } from "@state/store.ts";
 import { selectInventorySlice } from "@state/inventory";
-import { selectWorkflowSlice } from "@state/workflow";
-import { useWorkflowColors } from "@hooks/useWorkflowColors.ts";
 import { SummaryItem } from "@components/collections/SummaryItem";
 import Alert from "@mui/material/Alert";
 import Button from "@mui/material/Button";
@@ -30,6 +28,9 @@ import { GroupProgress } from "@components/groups/GroupProgress.tsx";
 import { useLocation } from "react-router-dom";
 import { analytics } from "../firebase/firebase.ts";
 import { logEvent } from "firebase/analytics";
+import { logApiFailure, logKeyEvent } from "../firebase/analytics.ts";
+import { selectAlertSlice } from "@state/alert";
+import { Alerts } from "@components/alerts/alerts.tsx";
 
 const Summary = () => {
   const theme = useTheme();
@@ -91,6 +92,7 @@ export const Collections = () => {
   const inventory = useStore(selectInventorySlice);
   const { supporter } = useStore(selectAccountSlice);
   const modal = useStore(selectModalSlice);
+  const { triggerAlert } = useStore(selectAlertSlice);
   const api = useApi();
   const location = useLocation();
 
@@ -118,17 +120,25 @@ export const Collections = () => {
       );
 
     const groups = moveItem(collection.groups, sourceIndex, destinationIndex);
-    await api.reorderGroups({
-      groups: groups.map((groupId, index) => ({
-        collectionId: collection.id,
-        groupId,
-        index,
-      })),
-    });
-    inventory.updateCollection({
-      ...collection,
-      groups: groups,
-    });
+    try {
+      await api.reorderGroups({
+        groups: groups.map((groupId, index) => ({
+          collectionId: collection.id,
+          groupId,
+          index,
+        })),
+      });
+      logKeyEvent("adjust sorting", {
+        type: "Group within collection",
+      });
+      inventory.updateCollection({
+        ...collection,
+        groups: groups,
+      });
+    } catch (e) {
+      triggerAlert(Alerts.REORDER_ERROR);
+      logApiFailure(e, "move group [within collection]");
+    }
   };
 
   const moveGroupToOtherCollection = async (
@@ -154,29 +164,36 @@ export const Collections = () => {
       destinationIndex,
     );
 
-    await api.reorderGroups({
-      groups: [
-        ...updatedSourceGroups.map((groupId, index) => ({
-          collectionId: sourceCollection.id,
-          groupId,
-          index,
-        })),
-        ...updateDestinationGroups.map((groupId, index) => ({
-          collectionId: destinationCollection.id,
-          groupId,
-          index,
-        })),
-      ],
-    });
-
-    inventory.updateCollection({
-      ...sourceCollection,
-      groups: updatedSourceGroups,
-    });
-    inventory.updateCollection({
-      ...destinationCollection,
-      groups: updateDestinationGroups,
-    });
+    try {
+      await api.reorderGroups({
+        groups: [
+          ...updatedSourceGroups.map((groupId, index) => ({
+            collectionId: sourceCollection.id,
+            groupId,
+            index,
+          })),
+          ...updateDestinationGroups.map((groupId, index) => ({
+            collectionId: destinationCollection.id,
+            groupId,
+            index,
+          })),
+        ],
+      });
+      logKeyEvent("adjust sorting", {
+        type: "Group between collections",
+      });
+      inventory.updateCollection({
+        ...sourceCollection,
+        groups: updatedSourceGroups,
+      });
+      inventory.updateCollection({
+        ...destinationCollection,
+        groups: updateDestinationGroups,
+      });
+    } catch (e) {
+      triggerAlert(Alerts.REORDER_ERROR);
+      logApiFailure(e, "move group [between collections]");
+    }
   };
 
   const updateGroups = ({ source, destination }: DropResult) => {

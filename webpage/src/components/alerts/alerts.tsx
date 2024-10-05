@@ -2,6 +2,7 @@ import { AlertColor } from "@mui/material";
 import { ReactNode } from "react";
 import Typography from "@mui/material/Typography";
 import { GenericErrorMessage } from "@components/alerts/GenericErrorAlert.tsx";
+import Link from "@mui/material/Link";
 
 export enum Alerts {
   CREATE_COLLECTION_SUCCESS = "CREATE_COLLECTION_SUCCESS",
@@ -22,6 +23,7 @@ export enum Alerts {
   DELETE_GROUP_ERROR = "DELETE_GROUP_ERROR",
   DELETE_MODEL_SUCCESS = "DELETE_MODEL_SUCCESS",
   DELETE_MODEL_ERROR = "DELETE_MODEL_ERROR",
+  REORDER_ERROR = "REORDER_ERROR",
 }
 
 type AlertOptions = {
@@ -198,6 +200,21 @@ export const alertMap = new Map<Alerts, AlertProps>([
       options: {
         autoHideAfter: 5000,
       },
+    },
+  ],
+  [
+    Alerts.REORDER_ERROR,
+    {
+      variant: "error",
+      content: (
+        <Typography>
+          Something went wrong updating the sorting. Please try again, and if
+          the problem persists contact me at{" "}
+          <Link href="mailto:support@miniature-inventory.nl">
+            support@miniature-inventory.nl
+          </Link>
+        </Typography>
+      ),
     },
   ],
 ]);

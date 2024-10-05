@@ -17,7 +17,7 @@ import { Delete } from "@mui/icons-material";
 import { ModalTypes } from "@components/modal/modals.tsx";
 import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
-import { logApiFailure } from "../../../firebase/firebase.ts";
+import { logApiFailure } from "../../../firebase/analytics.ts";
 import { selectAlertSlice } from "@state/alert";
 import { Alerts } from "@components/alerts/alerts.tsx";
 

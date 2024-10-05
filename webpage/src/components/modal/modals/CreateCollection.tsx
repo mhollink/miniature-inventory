@@ -10,7 +10,7 @@ import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
 import { selectAlertSlice } from "@state/alert";
 import { Alerts } from "@components/alerts/alerts.tsx";
-import { logApiFailure } from "../../../firebase/firebase.ts";
+import { logApiFailure, logKeyEvent } from "../../../firebase/analytics.ts";
 
 export const CreateNewCollectionModal = () => {
   const { closeModal } = useStore(selectModalSlice);
@@ -36,6 +36,7 @@ export const CreateNewCollectionModal = () => {
       setLoading(true);
       const { id } = await api.createCollection(name);
       triggerAlert(Alerts.CREATE_COLLECTION_SUCCESS);
+      logKeyEvent("collection created");
       addCollection(id, name);
       handleClose();
     } catch (e) {

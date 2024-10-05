@@ -18,8 +18,6 @@ import {
 } from "@state/inventory";
 import Alert from "@mui/material/Alert";
 import Link from "@mui/material/Link";
-import { useWorkflowColors } from "@hooks/useWorkflowColors.ts";
-import { selectWorkflowSlice } from "@state/workflow";
 import { Helmet } from "react-helmet-async";
 import Stack from "@mui/material/Stack";
 import { SummaryItem } from "@components/collections/SummaryItem.tsx";
@@ -49,6 +47,9 @@ import { useApi } from "../api/useApi.ts";
 import { GroupProgress } from "@components/groups/GroupProgress.tsx";
 import { analytics } from "../firebase/firebase.ts";
 import { logEvent } from "firebase/analytics";
+import { logApiFailure, logKeyEvent } from "../firebase/analytics.ts";
+import { Alerts } from "@components/alerts/alerts.tsx";
+import { selectAlertSlice } from "@state/alert";
 
 const Summary = ({
   miniatures,
@@ -164,6 +165,7 @@ export const Group: FunctionComponent = () => {
   const { supporter } = useStore(selectAccountSlice);
   const { updateGroup } = useStore(selectInventorySlice);
   const location = useLocation();
+  const { triggerAlert } = useStore(selectAlertSlice);
 
   const totalCollection = models.flatMap((models) => models.collection);
   const modelCount = totalCollection.reduce((a, b) => a + b.amount, 0);
@@ -178,21 +180,36 @@ export const Group: FunctionComponent = () => {
     });
   }, [location]);
 
-  const updateStuff = async ({ destination, source }: DropResult) => {
+  const updateSorting = async (reorderedModels: string[], type: string) => {
+    if (!group) return;
+    try {
+      await api.reorderModels(group.id, {
+        models: reorderedModels.map((model, index) => ({
+          id: model,
+          index: index,
+        })),
+      });
+      logKeyEvent("adjust sorting", { type });
+      updateGroup({
+        ...group,
+        models: reorderedModels,
+      });
+    } catch (e) {
+      triggerAlert(Alerts.REORDER_ERROR);
+      logApiFailure(e, "move models");
+    }
+  };
+
+  const dropSort = async ({ destination, source }: DropResult) => {
     if (!destination) return;
     if (!group) return;
 
-    const movedModels = moveItem(group.models, source.index, destination.index);
-    await api.reorderModels(group.id, {
-      models: movedModels.map((model, index) => ({
-        id: model,
-        index: index,
-      })),
-    });
-    updateGroup({
-      ...group,
-      models: movedModels,
-    });
+    const reorderedModels = moveItem(
+      group.models,
+      source.index,
+      destination.index,
+    );
+    return updateSorting(reorderedModels, "move model [drop sort]");
   };
 
   const quickSort = async () => {
@@ -200,16 +217,7 @@ export const Group: FunctionComponent = () => {
     const reorderedModels = models
       .sort((a, b) => a.name.localeCompare(b.name))
       .map((model) => model.id);
-    await api.reorderModels(group.id, {
-      models: reorderedModels.map((model, index) => ({
-        id: model,
-        index: index,
-      })),
-    });
-    updateGroup({
-      ...group,
-      models: reorderedModels,
-    });
+    return updateSorting(reorderedModels, "move model [quick sort]");
   };
 
   return (
@@ -238,7 +246,7 @@ export const Group: FunctionComponent = () => {
           </>
         ) : (
           <>
-            <DragDropContext onDragEnd={updateStuff}>
+            <DragDropContext onDragEnd={dropSort}>
               <Stack direction="row" alignItems="center">
                 <Typography variant={"h3"} flexGrow={1}>
                   {group.name}

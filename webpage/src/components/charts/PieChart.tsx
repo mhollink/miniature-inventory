@@ -1,13 +1,12 @@
-// DoughnutChart.tsx
 import React from "react";
-import { Doughnut, Pie } from "react-chartjs-2";
+import { Pie } from "react-chartjs-2";
 import {
-  Chart as ChartJS,
   ArcElement,
-  Tooltip,
-  Legend,
+  Chart as ChartJS,
   ChartData,
   ChartOptions,
+  Legend,
+  Tooltip,
 } from "chart.js";
 import Box from "@mui/material/Box";
 import useTheme from "@mui/material/styles/useTheme";

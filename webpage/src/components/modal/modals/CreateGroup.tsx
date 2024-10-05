@@ -10,7 +10,7 @@ import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
 import { selectAlertSlice } from "@state/alert";
 import { Alerts } from "@components/alerts/alerts.tsx";
-import { logApiFailure } from "../../../firebase/firebase.ts";
+import { logApiFailure, logKeyEvent } from "../../../firebase/analytics.ts";
 
 export const CreateGroupModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
@@ -41,6 +41,7 @@ export const CreateGroupModal = () => {
         name,
       );
       triggerAlert(Alerts.CREATE_GROUP_SUCCESS);
+      logKeyEvent("group created");
       addGroup(openedModalContext.collectionId, id, name);
       handleClose();
     } catch (e) {

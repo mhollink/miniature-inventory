@@ -11,7 +11,7 @@ import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
 import { selectAlertSlice } from "@state/alert";
 import { Alerts } from "@components/alerts/alerts.tsx";
-import { logApiFailure } from "../../../firebase/firebase.ts";
+import { logApiFailure, logKeyEvent } from "../../../firebase/analytics.ts";
 
 export const DeleteCollectionModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
@@ -39,6 +39,7 @@ export const DeleteCollectionModal = () => {
       setLoading(true);
       await api.deleteCollection(openedModalContext.collectionId);
       triggerAlert(Alerts.DELETE_COLLECTION_SUCCESS);
+      logKeyEvent("collection deleted");
       deleteCollection(openedModalContext.collectionId);
       handleClose();
     } catch (e) {
