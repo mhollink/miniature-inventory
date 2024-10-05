@@ -8,6 +8,9 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
+import { selectAlertSlice } from "@state/alert";
+import { Alerts } from "@components/alerts/alerts.tsx";
+import { logApiFailure } from "../../../firebase/firebase.ts";
 
 export const CreateNewCollectionModal = () => {
   const { closeModal } = useStore(selectModalSlice);
@@ -16,6 +19,7 @@ export const CreateNewCollectionModal = () => {
   const [nameError, setNameError] = useState(false);
   const api = useApi();
   const [loading, setLoading] = useState(false);
+  const { triggerAlert } = useStore(selectAlertSlice);
 
   const handleClose = () => {
     setNameError(false);
@@ -28,11 +32,18 @@ export const CreateNewCollectionModal = () => {
       return;
     }
 
-    setLoading(true);
-    const { id } = await api.createCollection(name);
-    addCollection(id, name);
-    handleClose();
-    setLoading(false);
+    try {
+      setLoading(true);
+      const { id } = await api.createCollection(name);
+      triggerAlert(Alerts.CREATE_COLLECTION_SUCCESS);
+      addCollection(id, name);
+      handleClose();
+    } catch (e) {
+      triggerAlert(Alerts.CREATE_COLLECTION_ERROR);
+      logApiFailure(e, "create collection");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {

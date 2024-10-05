@@ -15,6 +15,9 @@ import Stack from "@mui/material/Stack";
 import { selectWorkflowSlice } from "@state/workflow";
 import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
+import { selectAlertSlice } from "@state/alert";
+import { Alerts } from "@components/alerts/alerts.tsx";
+import { logApiFailure } from "../../../firebase/firebase.ts";
 
 export const AddModelModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
@@ -22,6 +25,7 @@ export const AddModelModal = () => {
   const { workflowStages } = useStore(selectWorkflowSlice);
   const group = findGroup(openedModalContext.groupId);
   const api = useApi();
+  const { triggerAlert } = useStore(selectAlertSlice);
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
@@ -48,21 +52,27 @@ export const AddModelModal = () => {
       setStagesError(true);
       return;
     }
-
-    setLoading(true);
-    const { id, miniatures } = await api.createModel(
-      openedModalContext.groupId,
-      {
-        name,
-        miniatures: stages.map((amount, index) => ({
-          amount: Number(amount),
-          stage: index,
-        })),
-      },
-    );
-    addModel(openedModalContext.groupId, id, name, miniatures);
-    handleClose();
-    setLoading(false);
+    try {
+      setLoading(true);
+      const { id, miniatures } = await api.createModel(
+        openedModalContext.groupId,
+        {
+          name,
+          miniatures: stages.map((amount, index) => ({
+            amount: Number(amount),
+            stage: index,
+          })),
+        },
+      );
+      triggerAlert(Alerts.CREATE_MODEL_SUCCESS);
+      addModel(openedModalContext.groupId, id, name, miniatures);
+      handleClose();
+    } catch (e) {
+      triggerAlert(Alerts.CREATE_MODEL_ERROR);
+      logApiFailure(e, "create model");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {

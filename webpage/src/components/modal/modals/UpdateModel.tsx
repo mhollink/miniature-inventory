@@ -17,6 +17,9 @@ import { Delete } from "@mui/icons-material";
 import { ModalTypes } from "@components/modal/modals.tsx";
 import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
+import { logApiFailure } from "../../../firebase/firebase.ts";
+import { selectAlertSlice } from "@state/alert";
+import { Alerts } from "@components/alerts/alerts.tsx";
 
 export const EditModelModal = () => {
   const { closeModal, openedModalContext, openModal } =
@@ -25,6 +28,7 @@ export const EditModelModal = () => {
   const { workflowStages } = useStore(selectWorkflowSlice);
   const api = useApi();
   const model = findModel(openedModalContext.modelId);
+  const { triggerAlert } = useStore(selectAlertSlice);
 
   const [name, setName] = useState(model?.name || "");
   const [nameError, setNameError] = useState(false);
@@ -56,24 +60,31 @@ export const EditModelModal = () => {
       return;
     }
 
-    setLoading(true);
-    await api.updateModel(model.id, {
-      name,
-      miniatures: stages.map((amount, index) => ({
-        amount: Number(amount),
-        stage: index,
-      })),
-    });
-    updateModel({
-      ...model,
-      name,
-      collection: stages.map((amount, index) => ({
-        amount: Number(amount),
-        stage: index,
-      })),
-    });
-    handleClose();
-    setLoading(false);
+    try {
+      setLoading(true);
+      await api.updateModel(model.id, {
+        name,
+        miniatures: stages.map((amount, index) => ({
+          amount: Number(amount),
+          stage: index,
+        })),
+      });
+      triggerAlert(Alerts.UPDATE_MODEL_SUCCESS);
+      updateModel({
+        ...model,
+        name,
+        collection: stages.map((amount, index) => ({
+          amount: Number(amount),
+          stage: index,
+        })),
+      });
+      handleClose();
+    } catch (e) {
+      triggerAlert(Alerts.UPDATE_MODEL_ERROR);
+      logApiFailure(e, "update model");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {

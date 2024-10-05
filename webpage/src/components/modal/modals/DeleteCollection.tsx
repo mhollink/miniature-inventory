@@ -9,12 +9,16 @@ import { selectInventorySlice } from "@state/inventory";
 import Alert from "@mui/material/Alert";
 import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
+import { selectAlertSlice } from "@state/alert";
+import { Alerts } from "@components/alerts/alerts.tsx";
+import { logApiFailure } from "../../../firebase/firebase.ts";
 
 export const DeleteCollectionModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
   const { findCollection, deleteCollection } = useStore(selectInventorySlice);
   const collection = findCollection(openedModalContext.collectionId);
   const api = useApi();
+  const { triggerAlert } = useStore(selectAlertSlice);
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
@@ -30,11 +34,19 @@ export const DeleteCollectionModal = () => {
       setNameError(true);
       return;
     }
-    setLoading(true);
-    await api.deleteCollection(openedModalContext.collectionId);
-    deleteCollection(openedModalContext.collectionId);
-    handleClose();
-    setLoading(false);
+
+    try {
+      setLoading(true);
+      await api.deleteCollection(openedModalContext.collectionId);
+      triggerAlert(Alerts.DELETE_COLLECTION_SUCCESS);
+      deleteCollection(openedModalContext.collectionId);
+      handleClose();
+    } catch (e) {
+      triggerAlert(Alerts.DELETE_COLLECTION_ERROR);
+      logApiFailure(e, "delete collection");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
