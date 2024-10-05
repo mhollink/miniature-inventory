@@ -1,11 +1,7 @@
 {
   "main": {
-    "added": [
-      "Added an 'About' page"
-    ],
-    "changed": [
-      "Changed the roadmap page"
-    ]
+    "added": ["Added an 'About' page"],
+    "changed": ["Changed the roadmap page"]
   },
   "1.2.0": {
     "added": [
