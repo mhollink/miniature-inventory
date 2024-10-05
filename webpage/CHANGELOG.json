@@ -1,5 +1,12 @@
 {
-  "main": {},
+  "main": {
+    "added": [
+      "Added an 'About' page"
+    ],
+    "changed": [
+      "Changed the roadmap page"
+    ]
+  },
   "1.2.0": {
     "added": [
       "Added chartjs to plot information about you collection",

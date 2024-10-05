@@ -82,26 +82,7 @@ export const Roadmap: FunctionComponent = () => {
           overtime. Any feedback on the current application is welcome, it will
           help everyone get the best experience in the long run.
         </Typography>
-        <Typography variant="body1">
-          Miniature Inventory is inspired by{" "}
-          <ExternalLink href="https://warganizer.app/figure-case/">
-            Figure Case
-          </ExternalLink>
-          . Sadly this app is only available on iOS. With a market share of
-          roughly 28% (
-          <ExternalLink href="https://gs.statcounter.com/os-market-share/mobile/worldwide">
-            source
-          </ExternalLink>
-          ) this means 72% of users who do not own an iOS supported device are
-          out of luck.
-        </Typography>
-        <Typography variant="body1">
-          The idea behind Miniature Inventory is that it is a progressive webapp
-          (PWA). This means any device that has an internet browser is able to
-          access the application. The PWA is installable on devices that support
-          this allowing you, the user, to access your data whenever you have an
-          live internet connection.
-        </Typography>
+
         <Typography>
           This application is developed in my free time and as such I am not
           able to spend 24/7 on development. With work, my wife and kids, and my
@@ -114,7 +95,7 @@ export const Roadmap: FunctionComponent = () => {
           </ExternalLink>
           .
         </Typography>
-        <Typography variant="body1">
+        <Typography variant="body1" component={"div"}>
           As for now, the following things are on my mind for the upcoming
           releases
           <ul>

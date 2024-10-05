@@ -11,6 +11,7 @@ import { capitalizeFirstLetter } from "../utils/string.ts";
 import { Group } from "../pages/Group.tsx";
 import { Home } from "../pages/Home.tsx";
 import { SignUp } from "../pages/SignUp.tsx";
+import { About } from "../pages/About.tsx";
 
 const route = (
   path: string,
@@ -64,6 +65,7 @@ export const routes: RouteObject[] = [
       route("inventory", <Collections />),
       routeWithChildren("inventory", [route(":id", <Group />, "Group")]),
       route("roadmap", <Roadmap />),
+      route("about", <About />),
       route("settings", <Settings />),
       route("sign-up", <SignUp />, "Sign up"),
       route("*", <RedirectTo path={"/"} />),

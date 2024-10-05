@@ -16,7 +16,7 @@ import ListItemText from "@mui/material/ListItemText";
 import Button from "@mui/material/Button";
 import { AppLogo } from "@components/app/AppLogo.tsx";
 import Typography from "@mui/material/Typography";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import Link from "@mui/material/Link";
 import { useFirebaseAuth } from "../../firebase/useFirebaseAuth.ts";
 import { User } from "firebase/auth";
@@ -24,6 +24,7 @@ import { Avatar, Menu, MenuItem, Theme, Tooltip } from "@mui/material";
 import { ThemeToggle } from "@components/dark-mode/ThemeToggle.tsx";
 import {
   ForkRightOutlined,
+  InfoOutlined,
   Lock,
   PaletteOutlined,
   Settings,
@@ -123,6 +124,7 @@ export const AppHeader = () => {
   const isTablet = useMediaQuery(theme.breakpoints.down("lg"));
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const navigate = useNavigate();
+  const location = useLocation();
 
   const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -138,19 +140,28 @@ export const AppHeader = () => {
             icon: <CategoryOutlinedIcon />,
             label: "Inventory",
             onClick: () => navigate("/inventory"),
+            active: location.pathname === "/inventory",
           },
           {
             icon: <PaletteOutlined />,
             label: "Paint Storage",
             onClick: () => navigate("/paints"),
             disabled: true,
+            active: location.pathname === "/paints",
           },
         ]
       : []),
     {
+      icon: <InfoOutlined />,
+      label: "About",
+      onClick: () => navigate("/about"),
+      active: location.pathname === "/about",
+    },
+    {
       icon: <ForkRightOutlined />,
       label: "Roadmap",
       onClick: () => navigate("/roadmap"),
+      active: location.pathname === "/roadmap",
     },
   ];
 
@@ -208,7 +219,7 @@ export const AppHeader = () => {
                     sx={{ p: 1, pt: 1, pb: 1, m: 1, minWidth: "144px" }}
                     variant="text"
                     disabled={button.disabled}
-                    color="inherit"
+                    color={button.active ? "primary" : "inherit"}
                     onClick={button.onClick}
                     size="large"
                     startIcon={button.icon}
@@ -230,7 +241,7 @@ export const AppHeader = () => {
         onClose={handleDrawerToggle}
         PaperProps={{
           sx: {
-            backgroundColor: theme.palette.primary.main,
+            backgroundColor: theme.palette.background.paper,
             color: theme.palette.primary.contrastText,
             minWidth: "42ch",
           },
@@ -241,8 +252,13 @@ export const AppHeader = () => {
           onClick={handleDrawerToggle}
           onKeyDown={handleDrawerToggle}
         >
-          <List>
-            <ListItem>
+          <List sx={{ pt: 0 }}>
+            <ListItem
+              sx={{
+                backgroundColor: theme.palette.primary.main,
+                color: theme.palette.primary.contrastText,
+              }}
+            >
               <AppLogo large />
               <ListItemText
                 primaryTypographyProps={{ fontSize: "2rem" }}
@@ -256,6 +272,7 @@ export const AppHeader = () => {
                 key={button.label}
                 disabled={button.disabled}
                 sx={{
+                  color: button.active ? theme.palette.primary.main : "inherit",
                   "&:hover": {
                     backgroundColor: theme.palette.primary.light,
                   },
@@ -264,7 +281,9 @@ export const AppHeader = () => {
                 {button.icon && (
                   <ListItemIcon
                     sx={{
-                      color: theme.palette.primary.contrastText,
+                      color: button.active
+                        ? theme.palette.primary.main
+                        : theme.palette.primary.contrastText,
                       fontSize: "1.5rem",
                     }}
                   >
