@@ -1,5 +1,6 @@
 {
-  "main": {
+  "main": {},
+  "1.2.2": {
     "bugfixes": ["Fixed a minor typo in the applications meta tags"]
   },
   "1.2.1": {
