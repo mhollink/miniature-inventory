@@ -4,6 +4,8 @@ export type WorkflowState = {
   workflowStages: string[];
   workflowColors: string[];
   setWorkflowStages: (stages: string[], colors: string[]) => void;
+  dismissedDefaultWorkflowAlert: boolean;
+  setDismissedDefaultWorkflowAlert: (value: boolean) => void;
 };
 
 const initialState = {
@@ -21,6 +23,7 @@ const initialState = {
     "rgb(255, 239, 0)",
     "rgb(150, 255, 0)",
   ],
+  dismissedDefaultWorkflowAlert: false,
 };
 
 export const workflowSlice: Slice<WorkflowState> = (set) => ({
@@ -33,10 +36,19 @@ export const workflowSlice: Slice<WorkflowState> = (set) => ({
       "SET_WORKFLOW",
     );
   },
+  setDismissedDefaultWorkflowAlert: (value) => {
+    set(
+      { dismissedDefaultWorkflowAlert: value },
+      undefined,
+      "SET_WORKFLOW_ALERT",
+    );
+  },
 });
 
 export const selectWorkflowSlice = (state: AppState): WorkflowState => ({
   workflowStages: state.workflowStages,
   workflowColors: state.workflowColors,
   setWorkflowStages: state.setWorkflowStages,
+  dismissedDefaultWorkflowAlert: state.dismissedDefaultWorkflowAlert,
+  setDismissedDefaultWorkflowAlert: state.setDismissedDefaultWorkflowAlert,
 });

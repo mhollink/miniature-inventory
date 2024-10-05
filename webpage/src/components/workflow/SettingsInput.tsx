@@ -20,8 +20,11 @@ import LoadingButton from "@mui/lab/LoadingButton";
 import { selectInventorySlice } from "@state/inventory";
 
 export const WorkflowEditForm = () => {
-  const { workflowStages, setWorkflowStages: updateWorkflowStagesState } =
-    useStore(selectWorkflowSlice);
+  const {
+    workflowStages,
+    setWorkflowStages: updateWorkflowStagesState,
+    setDismissedDefaultWorkflowAlert,
+  } = useStore(selectWorkflowSlice);
   const { models } = useStore(selectInventorySlice);
   const { generateRangeOfColors, getColorForStage } = useWorkflowColors();
   const api = useApi();
@@ -54,6 +57,7 @@ export const WorkflowEditForm = () => {
     await api.updateWorkflow({
       stages: localWorkflowStages,
     });
+    setDismissedDefaultWorkflowAlert(true);
     updateWorkflowStagesState(
       localWorkflowStages,
       generateRangeOfColors(localWorkflowStages.length),

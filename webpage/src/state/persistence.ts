@@ -11,6 +11,7 @@ const keysToPersist: StoreKey[] = [
   "workflowColors",
   "supporter",
   "supportTier",
+  "dismissedDefaultWorkflowAlert",
 ];
 
 const getStateToPersist = (state: AppState): Partial<AppState> =>

@@ -18,11 +18,25 @@ import LoadingButton from "@mui/lab/LoadingButton";
 import { selectAlertSlice } from "@state/alert";
 import { Alerts } from "@components/alerts/alerts.tsx";
 import { logApiFailure, logKeyEvent } from "../../../firebase/analytics.ts";
+import Alert from "@mui/material/Alert";
+import areArraysEqual from "@mui/material/utils/areArraysEqual";
 
 export const AddModelModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
   const { addModel, findGroup } = useStore(selectInventorySlice);
-  const { workflowStages } = useStore(selectWorkflowSlice);
+  const {
+    workflowStages,
+    dismissedDefaultWorkflowAlert,
+    setDismissedDefaultWorkflowAlert,
+  } = useStore(selectWorkflowSlice);
+
+  const usingDefaultWorkflow = areArraysEqual(workflowStages, [
+    "Not started",
+    "Primed",
+    "Painted",
+    "Based",
+    "Finished",
+  ]);
   const group = findGroup(openedModalContext.groupId);
   const api = useApi();
   const { triggerAlert } = useStore(selectAlertSlice);
@@ -113,6 +127,19 @@ export const AddModelModal = () => {
             <Typography>
               How many miniatures do you have, and how far along are they?
             </Typography>
+            {usingDefaultWorkflow && !dismissedDefaultWorkflowAlert && (
+              <Box sx={{ p: 1 }}>
+                <Alert
+                  severity={"info"}
+                  variant={"filled"}
+                  onClose={() => setDismissedDefaultWorkflowAlert(true)}
+                >
+                  You are using the default workflow, you can change the
+                  workflow for your account on the settings page.
+                </Alert>
+              </Box>
+            )}
+
             <Stack direction={"row"} flexWrap={"wrap"}>
               {workflowStages.map((stage, index) => (
                 <Box

@@ -1,5 +1,8 @@
 {
-  "main": {},
+  "main": {
+    "added": ["Added a small notification (which can be dismissed) when users are using the predefined workflow informing them about the option to customise it in settings"]
+
+  },
   "1.2.3": {
     "bugfixes": ["Fix issue with not staying logged in over multiple tabs"]
   },
