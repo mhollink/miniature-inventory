@@ -118,6 +118,7 @@ export const Home: FunctionComponent = () => {
 
   useEffect(() => {
     api.getStatistics().then(setStatistics);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

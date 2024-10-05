@@ -40,6 +40,7 @@ export const InitialLoad: FunctionComponent<PropsWithChildren> = ({
         openModal(ModalTypes.OLD_VERSION_DATA);
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loading, user]);
 
   return <>{!fetching || loading ? children : <Spinner />}</>;

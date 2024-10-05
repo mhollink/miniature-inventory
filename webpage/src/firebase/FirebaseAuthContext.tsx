@@ -19,6 +19,7 @@ interface AuthContextProps {
 // Define the default state of AuthContext
 const AuthContext = createContext<AuthContextProps | undefined>(undefined);
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useAuth = () => {
   const context = useContext(AuthContext);
   if (!context) {

@@ -1,5 +1,4 @@
 import { ModelStage } from "@state/inventory";
-import React from "react";
 import Stack from "@mui/material/Stack";
 import { useStore } from "@state/store.ts";
 import { selectWorkflowSlice } from "@state/workflow";

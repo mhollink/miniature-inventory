@@ -12,7 +12,7 @@ import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
 import { Alerts } from "@components/alerts/alerts.tsx";
 import { selectAlertSlice } from "@state/alert";
-import { logApiFailure } from "../../../firebase/firebase.ts";
+import { logApiFailure, logKeyEvent } from "../../../firebase/analytics.ts";
 
 export const DeleteModelModal = () => {
   const { closeModal, openModal, openedModalContext } =
@@ -46,6 +46,7 @@ export const DeleteModelModal = () => {
       setLoading(true);
       await api.deleteModel(openedModalContext.modelId);
       triggerAlert(Alerts.DELETE_MODEL_SUCCESS);
+      logKeyEvent("group model");
       deleteModel(openedModalContext.modelId);
       handleClose(true);
     } catch (e) {
