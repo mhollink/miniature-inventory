@@ -1,9 +1,16 @@
 {
   "main": {
-  },
-  "1.1.1": {
-    "changed": [
-      "Changed the way progress is shown to differentiate between Figure Case and Miniature Inventory."
+    "added": [
+      "Added chartjs to plot information about you collection",
+      "Added proper feedback notifications indicating success or failure of created/updated entities",
+      "Added monitoring to failed api calls so potential errors can be fixed"
+    ],
+    "fixed": [
+      "Added the workflow and supporter status to the persisted state so refreshing the page does not flicker some UI elements",
+      "Saved login state to browser session so an automatic refresh of login is not required anymore"
+    ],
+    "removed": [
+      "Removed the overlapping looks and aesthetics with the Figure Case app"
     ]
   },
   "1.1.0": {
