@@ -10,12 +10,16 @@ import Alert from "@mui/material/Alert";
 import { ModalTypes } from "@components/modal/modals.tsx";
 import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
+import { Alerts } from "@components/alerts/alerts.tsx";
+import { selectAlertSlice } from "@state/alert";
+import { logApiFailure } from "../../../firebase/firebase.ts";
 
 export const DeleteModelModal = () => {
   const { closeModal, openModal, openedModalContext } =
     useStore(selectModalSlice);
   const { findModel, deleteModel } = useStore(selectInventorySlice);
   const api = useApi();
+  const { triggerAlert } = useStore(selectAlertSlice);
 
   const model = findModel(openedModalContext.modelId);
 
@@ -37,11 +41,19 @@ export const DeleteModelModal = () => {
       setNameError(true);
       return;
     }
-    setLoading(true);
-    await api.deleteModel(openedModalContext.modelId);
-    deleteModel(openedModalContext.modelId);
-    handleClose(true);
-    setLoading(false);
+
+    try {
+      setLoading(true);
+      await api.deleteModel(openedModalContext.modelId);
+      triggerAlert(Alerts.DELETE_MODEL_SUCCESS);
+      deleteModel(openedModalContext.modelId);
+      handleClose(true);
+    } catch (e) {
+      triggerAlert(Alerts.DELETE_MODEL_ERROR);
+      logApiFailure(e, "delete model");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {

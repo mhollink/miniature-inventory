@@ -8,12 +8,16 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
+import { logApiFailure } from "../../../firebase/firebase.ts";
+import { selectAlertSlice } from "@state/alert";
+import { Alerts } from "@components/alerts/alerts.tsx";
 
 export const UpdateCollectionModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
   const { updateCollection, findCollection } = useStore(selectInventorySlice);
   const api = useApi();
   const collection = findCollection(openedModalContext.collectionId);
+  const { triggerAlert } = useStore(selectAlertSlice);
 
   const [name, setName] = useState(collection?.name || "");
   const [nameError, setNameError] = useState(false);
@@ -32,14 +36,21 @@ export const UpdateCollectionModal = () => {
 
     if (!collection) return;
 
-    setLoading(true);
-    await api.updateCollection(collection.id, name);
-    updateCollection({
-      ...collection,
-      name: name,
-    });
-    handleClose();
-    setLoading(false);
+    try {
+      setLoading(true);
+      await api.updateCollection(collection.id, name);
+      triggerAlert(Alerts.UPDATE_COLLECTION_SUCCESS);
+      updateCollection({
+        ...collection,
+        name: name,
+      });
+      handleClose();
+    } catch (e) {
+      triggerAlert(Alerts.UPDATE_COLLECTION_ERROR);
+      logApiFailure(e, "update collection");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {

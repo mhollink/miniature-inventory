@@ -10,6 +10,9 @@ import Alert from "@mui/material/Alert";
 import { useNavigate } from "react-router-dom";
 import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
+import { selectAlertSlice } from "@state/alert";
+import { Alerts } from "@components/alerts/alerts.tsx";
+import { logApiFailure } from "../../../firebase/firebase.ts";
 
 export const DeleteGroupModal = () => {
   const navigate = useNavigate();
@@ -21,6 +24,7 @@ export const DeleteGroupModal = () => {
   const modelCount = models
     .flatMap((models) => models.collection)
     .reduce((a, b) => a + b.amount, 0);
+  const { triggerAlert } = useStore(selectAlertSlice);
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
@@ -36,12 +40,20 @@ export const DeleteGroupModal = () => {
       setNameError(true);
       return;
     }
-    setLoading(true);
-    await api.deleteGroup(openedModalContext.groupId);
-    deleteGroup(openedModalContext.groupId);
-    navigate("/inventory");
-    handleClose();
-    setLoading(false);
+
+    try {
+      setLoading(true);
+      await api.deleteGroup(openedModalContext.groupId);
+      triggerAlert(Alerts.DELETE_GROUP_SUCCESS);
+      deleteGroup(openedModalContext.groupId);
+      navigate("/inventory");
+      handleClose();
+    } catch (e) {
+      triggerAlert(Alerts.DELETE_GROUP_ERROR);
+      logApiFailure(e, "delete group");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {

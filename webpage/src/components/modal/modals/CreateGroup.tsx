@@ -8,11 +8,15 @@ import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
+import { selectAlertSlice } from "@state/alert";
+import { Alerts } from "@components/alerts/alerts.tsx";
+import { logApiFailure } from "../../../firebase/firebase.ts";
 
 export const CreateGroupModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
   const { addGroup } = useStore(selectInventorySlice);
   const api = useApi();
+  const { triggerAlert } = useStore(selectAlertSlice);
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
@@ -30,11 +34,21 @@ export const CreateGroupModal = () => {
       return;
     }
 
-    setLoading(true);
-    const { id } = await api.createGroup(openedModalContext.collectionId, name);
-    addGroup(openedModalContext.collectionId, id, name);
-    handleClose();
-    setLoading(false);
+    try {
+      setLoading(true);
+      const { id } = await api.createGroup(
+        openedModalContext.collectionId,
+        name,
+      );
+      triggerAlert(Alerts.CREATE_GROUP_SUCCESS);
+      addGroup(openedModalContext.collectionId, id, name);
+      handleClose();
+    } catch (e) {
+      triggerAlert(Alerts.CREATE_GROUP_ERROR);
+      logApiFailure(e, "create group");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {

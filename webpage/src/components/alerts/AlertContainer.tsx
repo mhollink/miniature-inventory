@@ -1,10 +1,11 @@
 import { useEffect } from "react";
-import { AlertColor, Slide, Snackbar } from "@mui/material";
+import { AlertColor, AlertTitle, Portal, Slide, Snackbar } from "@mui/material";
 import Alert from "@mui/material/Alert";
-import Box from "@mui/material/Box";
 import { useStore } from "@state/store.ts";
 import { selectAlertSlice } from "@state/alert";
 import { alertMap } from "./alerts.tsx";
+import { capitalizeFirstLetter } from "../../utils/string.ts";
+import Box from "@mui/material/Box";
 
 export const AlertContainer = () => {
   const { activeAlert, dismissAlert } = useStore(selectAlertSlice);
@@ -28,20 +29,25 @@ export const AlertContainer = () => {
 
   const { variant, content } = alertMap.get(activeAlert)!;
   return (
-    <Snackbar
-      open={true}
-      anchorOrigin={{ vertical: "top", horizontal: "center" }}
-      TransitionComponent={Slide}
-      onClose={dismissAlert}
-    >
-      <Alert
+    <Portal>
+      <Snackbar
+        open={true}
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
+        TransitionComponent={Slide}
         onClose={dismissAlert}
-        variant={"filled"}
-        sx={{ width: "100%" }}
-        severity={variant as AlertColor}
       >
-        <Box sx={{ maxWidth: "72ch" }}>{content}</Box>
-      </Alert>
-    </Snackbar>
+        <Alert
+          onClose={dismissAlert}
+          variant={"filled"}
+          sx={{ width: "100%" }}
+          severity={variant as AlertColor}
+        >
+          <AlertTitle sx={{ fontWeight: "bolder" }}>
+            {capitalizeFirstLetter(variant)}
+          </AlertTitle>
+          <Box sx={{ width: "72ch" }}>{content}</Box>
+        </Alert>
+      </Snackbar>
+    </Portal>
   );
 };

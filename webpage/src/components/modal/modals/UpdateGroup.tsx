@@ -8,12 +8,16 @@ import Box from "@mui/material/Box";
 import { selectInventorySlice } from "@state/inventory";
 import { useApi } from "../../../api/useApi.ts";
 import LoadingButton from "@mui/lab/LoadingButton";
+import { logApiFailure } from "../../../firebase/firebase.ts";
+import { selectAlertSlice } from "@state/alert";
+import { Alerts } from "@components/alerts/alerts.tsx";
 
 export const UpdateGroupModal = () => {
   const { closeModal, openedModalContext } = useStore(selectModalSlice);
   const { findGroup, updateGroup } = useStore(selectInventorySlice);
   const api = useApi();
   const group = findGroup(openedModalContext.groupId);
+  const { triggerAlert } = useStore(selectAlertSlice);
 
   const [name, setName] = useState("");
   const [nameError, setNameError] = useState(false);
@@ -32,14 +36,21 @@ export const UpdateGroupModal = () => {
 
     if (!group) return;
 
-    setLoading(true);
-    await api.updateGroup(group.id, name);
-    updateGroup({
-      ...group,
-      name: name,
-    });
-    handleClose();
-    setLoading(false);
+    try {
+      setLoading(true);
+      await api.updateGroup(group.id, name);
+      triggerAlert(Alerts.UPDATE_GROUP_SUCCESS);
+      updateGroup({
+        ...group,
+        name: name,
+      });
+      handleClose();
+    } catch (e) {
+      triggerAlert(Alerts.UPDATE_GROUP_ERROR);
+      logApiFailure(e, "update group");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
