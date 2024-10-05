@@ -1,5 +1,7 @@
 {
-  "main": {},
+  "main": {
+    "bugfixes": ["Fixed a minor typo in the applications meta tags"]
+  },
   "1.2.1": {
     "added": ["Added an 'About' page"],
     "changed": ["Changed the roadmap page"]
@@ -10,7 +12,7 @@
       "Added proper feedback notifications indicating success or failure of created/updated entities",
       "Added monitoring to failed api calls so potential errors can be fixed"
     ],
-    "fixed": [
+    "bugfixes": [
       "Added the workflow and supporter status to the persisted state so refreshing the page does not flicker some UI elements",
       "Saved login state to browser session so an automatic refresh of login is not required anymore"
     ],
