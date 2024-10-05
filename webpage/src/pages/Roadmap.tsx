@@ -1,9 +1,12 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useEffect } from "react";
 import Typography from "@mui/material/Typography";
 import { Helmet } from "react-helmet-async";
 import Container from "@mui/material/Container";
 import { ExternalLink } from "@components/link/ExternalLink.tsx";
 import { Crumbs } from "@components/cumbs/Crumbs.tsx";
+import { useLocation } from "react-router-dom";
+import { analytics } from "../firebase/firebase.ts";
+import { logEvent } from "firebase/analytics";
 
 const features = [
   {
@@ -47,6 +50,18 @@ const features = [
 ];
 
 export const Roadmap: FunctionComponent = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    // Send a page view event with a fixed page name
+    if (!analytics) return;
+    logEvent(analytics, "page_view", {
+      page_title: "Roadmap",
+      page_location: window.location.href,
+      page_path: location.pathname,
+    });
+  }, [location]);
+
   return (
     <>
       <Helmet title="Roadmap" />

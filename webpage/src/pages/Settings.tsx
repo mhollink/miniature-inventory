@@ -1,5 +1,5 @@
 import Container from "@mui/material/Container";
-import { FunctionComponent } from "react";
+import { FunctionComponent, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Typography from "@mui/material/Typography";
 import { Crumbs } from "@components/cumbs/Crumbs.tsx";
@@ -10,9 +10,24 @@ import { selectAccountSlice } from "@state/account";
 import Button from "@mui/material/Button";
 import { SportsBarOutlined } from "@mui/icons-material";
 import { capitalizeFirstLetter } from "../utils/string.ts";
+import { analytics } from "../firebase/firebase.ts";
+import { logEvent } from "firebase/analytics";
+import { useLocation } from "react-router-dom";
 
 export const Settings: FunctionComponent = () => {
   const { supportTier, supporter } = useStore(selectAccountSlice);
+  const location = useLocation();
+
+  useEffect(() => {
+    // Send a page view event with a fixed page name
+    if (!analytics) return;
+    logEvent(analytics, "page_view", {
+      page_title: "Settings",
+      page_location: window.location.href,
+      page_path: location.pathname,
+    });
+  }, [location]);
+
   return (
     <>
       <Helmet title="Settings" />
