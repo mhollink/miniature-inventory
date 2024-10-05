@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { browserSessionPersistence, getAuth } from "firebase/auth";
+import { browserLocalPersistence, getAuth } from "firebase/auth";
 import { Analytics, getAnalytics, isSupported } from "firebase/analytics";
 
 const firebaseConfig = {
@@ -18,7 +18,7 @@ const app = initializeApp(firebaseConfig);
 // Firebase Authentication
 export const auth = getAuth(app);
 
-auth.setPersistence(browserSessionPersistence);
+auth.setPersistence(browserLocalPersistence);
 
 // Initialize Firebase Analytics (only on supported environments)
 export let analytics: Analytics | undefined;

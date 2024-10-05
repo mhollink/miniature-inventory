@@ -1,5 +1,7 @@
 {
-  "main": {},
+  "main": {
+    "bugfixes": ["Fix issue with not staying logged in over multiple tabs"]
+  },
   "1.2.2": {
     "bugfixes": ["Fixed a minor typo in the applications meta tags"]
   },
