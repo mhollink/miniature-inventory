@@ -1,8 +1,5 @@
 import { ModelStage } from "@state/inventory";
 import Stack from "@mui/material/Stack";
-import { useStore } from "@state/store.ts";
-import { selectWorkflowSlice } from "@state/workflow";
-import { useWorkflowColors } from "@hooks/useWorkflowColors.ts";
 import { PieChart } from "@components/charts/PieChart.tsx";
 import useTheme from "@mui/material/styles/useTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -13,14 +10,11 @@ export const GroupProgress = ({
   totalCollection,
   variant = "pie",
 }: {
-  totalCollection: ModelStage[][];
+  totalCollection: { label: string; values: ModelStage[] }[];
   variant?: "doughnut" | "pie";
 }) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
-
-  const { generateRangeOfColors } = useWorkflowColors();
-  const { workflowStages } = useStore(selectWorkflowSlice);
 
   return (
     <>
@@ -31,11 +25,12 @@ export const GroupProgress = ({
       >
         {variant === "pie" && (
           <PieChart
-            data={totalCollection.map((collection) =>
-              calculateSumForEachStage(collection).map(({ amount }) => amount),
-            )}
-            labels={workflowStages}
-            backgroundColors={generateRangeOfColors(workflowStages.length)}
+            data={totalCollection.map((collection) => ({
+              values: calculateSumForEachStage(collection.values).map(
+                ({ amount }) => amount,
+              ),
+              label: collection.label,
+            }))}
             size={isMobile ? "100%" : "50%"}
             options={{
               legend: true,
@@ -45,11 +40,12 @@ export const GroupProgress = ({
         )}
         {variant === "doughnut" && (
           <DoughnutChart
-            data={totalCollection.map((collection) =>
-              calculateSumForEachStage(collection).map(({ amount }) => amount),
-            )}
-            labels={workflowStages}
-            backgroundColors={generateRangeOfColors(workflowStages.length)}
+            data={totalCollection.map((collection) => ({
+              values: calculateSumForEachStage(collection.values).map(
+                ({ amount }) => amount,
+              ),
+              label: collection.label,
+            }))}
             size={isMobile ? "100%" : "50%"}
             options={{
               legend: true,

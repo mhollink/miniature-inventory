@@ -265,7 +265,9 @@ export const Group: FunctionComponent = () => {
                   </Alert>
                 </>
               ) : (
-                <GroupProgress totalCollection={[totalCollection]} />
+                <GroupProgress
+                  totalCollection={[{ label: "", values: totalCollection }]}
+                />
               )}
               <Stack direction={"row"} alignItems={"center"}>
                 <Typography variant={"h4"} flexGrow={1}>

@@ -79,9 +79,12 @@ export const ModelSummary = ({
               )}
             </Typography>
             <DoughnutChart
-              data={model.collection.map(({ amount }) => amount)}
-              labels={workflow.workflowStages}
-              backgroundColors={workflow.workflowColors}
+              data={[
+                {
+                  label: "",
+                  values: model.collection.map(({ amount }) => amount),
+                },
+              ]}
               size={"3rem"}
             />
             <NavigateNextIcon />

@@ -74,10 +74,16 @@ const Summary = () => {
           .flatMap((model) => model?.collection || []);
       });
       return {
-        [collection.id]: calculateSumForEachStage(data),
+        [collection.id]: {
+          label: collection.name,
+          values: calculateSumForEachStage(data),
+        },
       };
     })
-    .reduce((t, c) => ({ ...t, ...c }), {} as Record<string, ModelStage[]>);
+    .reduce(
+      (t, c) => ({ ...t, ...c }),
+      {} as Record<string, { label: string; values: ModelStage[] }>,
+    );
   return (
     <>
       <Paper
@@ -122,8 +128,11 @@ const Summary = () => {
           <GroupProgress
             totalCollection={
               visibleCollections.length === 0
-                ? [totalInventoryProgress]
-                : visibleCollections.map((c) => progressionPerCollection[c])
+                ? [{ label: "Total inventory", values: totalInventoryProgress }]
+                : visibleCollections.map((c) => ({
+                    label: progressionPerCollection[c].label,
+                    values: progressionPerCollection[c].values,
+                  }))
             }
           />
           <FormGroup>
@@ -132,7 +141,7 @@ const Summary = () => {
                 .filter(
                   // removes any collection that have no models inside.
                   (collection) =>
-                    progressionPerCollection[collection.id].length,
+                    progressionPerCollection[collection.id].values.length,
                 )
                 .sort((a, b) => a?.name.localeCompare(b.name))
                 .map((collection) => (
