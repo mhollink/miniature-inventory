@@ -1,5 +1,6 @@
 {
-  "main": {
+  "main": {},
+  "1.3.0": {
     "added": [
       "Added toggles on the inventory overview to show progress for specific collections",
       "Made it possible for the progress indicators to display multiple datasets"
