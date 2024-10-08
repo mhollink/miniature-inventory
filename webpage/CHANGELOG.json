@@ -1,5 +1,13 @@
 {
-  "main": {},
+  "main": {
+    "added": [
+      "Added toggles on the inventory overview to show progress for specific collections",
+      "Made it possible for the progress indicators to display multiple datasets"
+    ],
+    "bugfixes": [
+      "Fixed an issue with stale/old data when changing the currently logged in user"
+    ]
+  },
   "1.2.4": {
     "added": [
       "Added a small notification (which can be dismissed) when users are using the predefined workflow informing them about the option to customise it in settings"
