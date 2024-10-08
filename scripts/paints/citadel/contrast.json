@@ -1,0 +1,4272 @@
+[
+  {
+    "id": "f102674b-603c-4248-9ca8-8f0b07ab3baa",
+    "productType": "paint",
+    "version": 7123,
+    "name": "Nighthaunt Gloom",
+    "slug": "contrast-nighthaunt-gloom-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960286-99189960061",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960061_NighthauntGloom.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960286-99189960061",
+    "_highlightResult": {
+      "name": {
+        "value": "Nighthaunt Gloom",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "7439e8c0-e8d5-4192-8d35-6f3e53b2ad11",
+    "productType": "paint",
+    "version": 11037,
+    "name": "Hexwraith Flame",
+    "slug": "contrast-hexwraith-flame-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960285-99189960060",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960060_HexwraithFlame.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960285-99189960060",
+    "_highlightResult": {
+      "name": {
+        "value": "Hexwraith Flame",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "56fdb331-16a4-4acf-a510-a7d97b7148a6",
+    "productType": "paint",
+    "version": 11365,
+    "name": "Magmadroth Flame",
+    "slug": "contrast-magmadroth-flame-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960284-99189960059",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960059_Contrast_Magmadroth_Flame.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Orange",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960284-99189960059",
+    "_highlightResult": {
+      "name": {
+        "value": "Magmadroth Flame",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "93d57201-1b1f-45a5-bade-bbc67c44c4f1",
+    "productType": "paint",
+    "version": 14746,
+    "name": "Baal Red",
+    "slug": "contrast-baal-red-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960283-99189960058",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960058_Contrast_Baal_Red.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960283-99189960058",
+    "_highlightResult": {
+      "name": {
+        "value": "Baal Red",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "418bf2ea-591c-4dbd-9a64-948f9851d345",
+    "productType": "paint",
+    "version": 10982,
+    "name": "Doomfire Magenta",
+    "slug": "contrast-doomfire-magenta-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960282-99189960057",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960057_Contrast_Doomfire_Magenta.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Pink",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960282-99189960057",
+    "_highlightResult": {
+      "name": {
+        "value": "Doomfire Magenta",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "7cf2cc6b-13f9-47e8-a263-46b8c226c743",
+    "productType": "paint",
+    "version": 7945,
+    "name": "Dreadful Visage",
+    "slug": "contrast-dreadful-visage-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960281-99189960056",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960056_Contrast_Dreadful_Visage.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960281-99189960056",
+    "_highlightResult": {
+      "name": {
+        "value": "Dreadful Visage",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "4c13a083-6f90-40ca-9aab-5add56bab25d",
+    "productType": "paint",
+    "version": 10576,
+    "name": "Sigvald Burgundy",
+    "slug": "contrast-sigvald-burgundy-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960280-99189960055",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960055_Contrast_Sigvald_Burgundy.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960280-99189960055",
+    "_highlightResult": {
+      "name": {
+        "value": "Sigvald Burgundy",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "d0de6afb-f9a2-4c15-a391-75981e2790ca",
+    "productType": "paint",
+    "version": 10238,
+    "name": "Luxion Purple",
+    "slug": "contrast-luxion-purple-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960279-99189960054",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960054_Contrast_Luxion_Purple.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960279-99189960054",
+    "_highlightResult": {
+      "name": {
+        "value": "Luxion Purple",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "daced349-884e-4dc4-a49d-0b5085411b9a",
+    "productType": "paint",
+    "version": 9976,
+    "name": "Leviathan Purple",
+    "slug": "contrast-leviathan-purple-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960278-99189960053",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960053_Contrast_Leviathan_Purple.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960278-99189960053",
+    "_highlightResult": {
+      "name": {
+        "value": "Leviathan Purple",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "ee1739f7-d49f-41ec-81bb-bc5d265183b9",
+    "productType": "paint",
+    "version": 6085,
+    "name": "Stormfiend",
+    "slug": "contrast-stormfiend-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960277-99189960052",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960052_Contrast_Stormfiend.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960277-99189960052",
+    "_highlightResult": {
+      "name": {
+        "value": "Stormfiend",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "fd8ea96a-0b5f-415f-b512-630d5fd33f70",
+    "productType": "paint",
+    "version": 5204,
+    "name": "Celestium Blue",
+    "slug": "contrast-celestium-blue-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960276-99189960051",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960051_Contrast_Celestium_Blue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960276-99189960051",
+    "_highlightResult": {
+      "name": {
+        "value": "Celestium Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "f43f6896-b131-4250-8b29-b5a47aa5182e",
+    "productType": "paint",
+    "version": 6844,
+    "name": "Asurmen Blue",
+    "slug": "contrast-asurmen-blue-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960275-99189960050",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960050_Contrast_Asurmen_Blue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960275-99189960050",
+    "_highlightResult": {
+      "name": {
+        "value": "Asurmen Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "bb161aa6-9b25-4505-92dd-fe83f4758cf7",
+    "productType": "paint",
+    "version": 11514,
+    "name": "Pylar Glacier",
+    "slug": "contrast-pylar-glacier-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960274-99189960049",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960049_Contrast_Pylar_Glacier.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960274-99189960049",
+    "_highlightResult": {
+      "name": {
+        "value": "Pylar Glacier",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "af71fb6b-9b4b-482a-9fe3-4693e7d46b1f",
+    "productType": "paint",
+    "version": 11857,
+    "name": "Frostheart",
+    "slug": "contrast-frostheart-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960273-99189960048",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960048_Contrast_Frostheart.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960273-99189960048",
+    "_highlightResult": {
+      "name": {
+        "value": "Frostheart",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "c579cae3-bde9-40f8-ad09-42ef17e079a3",
+    "productType": "paint",
+    "version": 7037,
+    "name": "Briar Queen Chill",
+    "slug": "contrast-briar-queen-chill-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960272-99189960047",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960047_Contrast_Briar_Queen_Chill.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960272-99189960047",
+    "_highlightResult": {
+      "name": {
+        "value": "Briar Queen Chill",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "f21a6754-d249-4aa9-b43b-ca81b5454652",
+    "productType": "paint",
+    "version": 7971,
+    "name": "Kroxigor Scales",
+    "slug": "contrast-kroxigor-scales-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960271-99189960046",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960046_Contrast_Kroxigor_Scales.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960271-99189960046",
+    "_highlightResult": {
+      "name": {
+        "value": "Kroxigor Scales",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "1f3ca335-ff06-4a2a-8579-6962d550aa44",
+    "productType": "paint",
+    "version": 13129,
+    "name": "Imperial Fist",
+    "slug": "contrast-imperial-fist-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960270-99189960045",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960045_Contrast_Imperial_Fist.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Yellow",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960270-99189960045",
+    "_highlightResult": {
+      "name": {
+        "value": "Imperial Fist",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "8c7d4d83-4c38-49e8-a09f-463d9ce5a26f",
+    "productType": "paint",
+    "version": 10597,
+    "name": "Bad Moon Yellow",
+    "slug": "contrast-bad-moon-yellow-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960269-99189960044",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960044_Contrast_Bad_Moon_Yellow.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Yellow",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960269-99189960044",
+    "_highlightResult": {
+      "name": {
+        "value": "Bad Moon Yellow",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "5b155934-8c12-4828-8506-fe721cf54a7d",
+    "productType": "paint",
+    "version": 6036,
+    "name": "Ironjawz Yellow",
+    "slug": "contrast-ironjawz-yellow-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960268-99189960043",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960043_Contrast_Ironjawz_Yellow.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Yellow",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960268-99189960043",
+    "_highlightResult": {
+      "name": {
+        "value": "Ironjawz Yellow",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "ca084903-63e9-482f-8ebe-4da62da8e8d1",
+    "productType": "paint",
+    "version": 10573,
+    "name": "Striking Scorpion Green",
+    "slug": "contrast-striking-scorpion-green-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960267-99189960042",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960042_Contrast_Striking_Scorpion_Green.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960267-99189960042",
+    "_highlightResult": {
+      "name": {
+        "value": "Striking Scorpion Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "0f7cd034-d7b4-4580-a107-3d415ace40c9",
+    "productType": "paint",
+    "version": 8389,
+    "name": "Karandras Green",
+    "slug": "contrast-karandras-green-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960266-99189960041",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960041_Contrast_Karandras_Green.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960266-99189960041",
+    "_highlightResult": {
+      "name": {
+        "value": "Karandras Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "a0f595bb-0dbf-48c0-b517-a0d9b6164d60",
+    "productType": "paint",
+    "version": 7524,
+    "name": "Gutrippa Flesh",
+    "slug": "contrast-gutrippa-flesh-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960265-99189960040",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960040_Contrast_Gutrippa_Flesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960265-99189960040",
+    "_highlightResult": {
+      "name": {
+        "value": "Gutrippa Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "9a560232-b603-4a98-ac3b-d596fdcdfb0b",
+    "productType": "paint",
+    "version": 7551,
+    "name": "Aeldari Emerald",
+    "slug": "contrast-aeldari-emerald-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960264-99189960039",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960039_Contrast_Aeldari_Emerald.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960264-99189960039",
+    "_highlightResult": {
+      "name": {
+        "value": "Aeldari Emerald",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "34b69e53-4dbb-447c-ae6a-ef465bd6c85c",
+    "productType": "paint",
+    "version": 7544,
+    "name": "Mantis Warriors Green",
+    "slug": "contrast-mantis-warriors-green-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960263-99189960038",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960038_Contrast_Mantis_Warriors_Green.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960263-99189960038",
+    "_highlightResult": {
+      "name": {
+        "value": "Mantis Warriors Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "d4faa0ca-6389-4f29-8dcc-66739a384898",
+    "productType": "paint",
+    "version": 12486,
+    "name": "Ratling Grime",
+    "slug": "contrast-ratling-grime-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960262-99189960037",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960037_Contrast_Ratling_Grime.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960262-99189960037",
+    "_highlightResult": {
+      "name": {
+        "value": "Ratling Grime",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "498da5c3-8491-41d9-9b5d-208a655eb62d",
+    "productType": "paint",
+    "version": 18642,
+    "name": "Black Legion",
+    "slug": "contrast-black-legion-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960261-99189960036",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960036_Contrast_Black_Legion.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Black",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960261-99189960036",
+    "_highlightResult": {
+      "name": {
+        "value": "Black Legion",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "8a29ffa5-6d1e-4927-91e2-6d13454472fc",
+    "productType": "paint",
+    "version": 9041,
+    "name": "Garaghak's Sewer",
+    "slug": "contrast-garaghaks-sewer-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960260-99189960035",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960035_Contrast_Garaghak_s_Sewer.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960260-99189960035",
+    "_highlightResult": {
+      "name": {
+        "value": "Garaghak's Sewer",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "95560d40-3032-4f63-aa59-05358424bc27",
+    "productType": "paint",
+    "version": 9886,
+    "name": "Terradon Turquoise",
+    "slug": "Terradon-Turquoise-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190310-99189960129",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960034_contrastTerradonTurquoise.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Turquoise",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190310-99189960129",
+    "_highlightResult": {
+      "name": {
+        "value": "Terradon Turquoise",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "93f5261b-e521-4a0c-8c32-a54f0554652f",
+    "productType": "paint",
+    "version": 11016,
+    "name": "Plaguebearer Flesh",
+    "slug": "Plaguebearer-Flesh-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190309-99189960128",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960033_contrastPlaguebearerFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190309-99189960128",
+    "_highlightResult": {
+      "name": {
+        "value": "Plaguebearer Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "6b22111d-951e-4670-846f-9b91911d6be7",
+    "productType": "paint",
+    "version": 11108,
+    "name": "Aethermatic Blue",
+    "slug": "Aethermatic-Blue-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190308-99189960127",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960032_contrastAethermaticBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190308-99189960127",
+    "_highlightResult": {
+      "name": {
+        "value": "Aethermatic Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "07ab1696-0388-421b-8a2a-e1e597df3b27",
+    "productType": "paint",
+    "version": 9497,
+    "name": "Warp Lightning",
+    "slug": "Warp-Lightning-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190307-99189960126",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960031_contrastWarpLightning.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190307-99189960126",
+    "_highlightResult": {
+      "name": {
+        "value": "Warp Lightning",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "fed4df56-075e-4838-a2f4-c7661e4aefba",
+    "productType": "paint",
+    "version": 11379,
+    "name": "Talassar Blue",
+    "slug": "Talassar-Blue-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190306-99189960125",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960030_contrastTalassarBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190306-99189960125",
+    "_highlightResult": {
+      "name": {
+        "value": "Talassar Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "10049c33-cc51-4fc2-9b4b-3ab0e6fd18fe",
+    "productType": "paint",
+    "version": 20687,
+    "name": "Black Templar",
+    "slug": "Black-Templar-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190305-99189960124",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960029_contrastBlackTemplar.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Black",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190305-99189960124",
+    "_highlightResult": {
+      "name": {
+        "value": "Black Templar",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "a28a1b1a-5232-4225-acb2-554ad7f5771c",
+    "productType": "paint",
+    "version": 16509,
+    "name": "Basilicanum Grey",
+    "slug": "Basilicanum-Grey-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190304-99189960123",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960028_contrastBasilicanumGrey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190304-99189960123",
+    "_highlightResult": {
+      "name": {
+        "value": "Basilicanum Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "e3e059de-e6da-4ae4-8a5a-18309198bfa8",
+    "productType": "paint",
+    "version": 9477,
+    "name": "Space Wolves Grey",
+    "slug": "Space-Wolves-Grey-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190303-99189960122",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960027_contrastSpaceWolvesGrey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190303-99189960122",
+    "_highlightResult": {
+      "name": {
+        "value": "Space Wolves Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "62e69be0-b73a-45d2-b827-4c3e5c6bed21",
+    "productType": "paint",
+    "version": 8904,
+    "name": "Gryph-Charger Grey",
+    "slug": "Gryph-charger-Grey-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190302-99189960121",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960026_contrastGryphChargerGrey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190302-99189960121",
+    "_highlightResult": {
+      "name": {
+        "value": "Gryph-Charger Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "a1d1c696-d806-4980-940b-ded1a90d8a35",
+    "productType": "paint",
+    "version": 15556,
+    "name": "Apothecary White",
+    "slug": "Apothecary-White-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190301-99189960120",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960025_contrastApothecaryWhite.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "White",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190301-99189960120",
+    "_highlightResult": {
+      "name": {
+        "value": "Apothecary White",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "599a3348-2eee-49e0-afe5-4c1872ff5c72",
+    "productType": "paint",
+    "version": 10707,
+    "name": "Darkoath Flesh",
+    "slug": "Darkoath-Flesh-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190300-99189960119",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960024_contrastDarkoathFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190300-99189960119",
+    "_highlightResult": {
+      "name": {
+        "value": "Darkoath Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "6fc65bef-e40f-447b-9f71-7d0d31c58d13",
+    "productType": "paint",
+    "version": 17126,
+    "name": "Guilliman Flesh",
+    "slug": "Guilliman-Flesh-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190299-99189960118",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960023_contrastGuillimanFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190299-99189960118",
+    "_highlightResult": {
+      "name": {
+        "value": "Guilliman Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "ff5108c0-7c1b-43ea-88b5-36bfbcd73737",
+    "productType": "paint",
+    "version": 9446,
+    "name": "Fyreslayer Flesh",
+    "slug": "Fyreslayer-Flesh-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190298-99189960117",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960022_contrastFyreslayerFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190298-99189960117",
+    "_highlightResult": {
+      "name": {
+        "value": "Fyreslayer Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "684faf98-cb41-46ad-8bbe-31070dd29e88",
+    "productType": "paint",
+    "version": 14486,
+    "name": "Wyldwood",
+    "slug": "Wyldwood-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190297-99189960116",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960021_contrastWyldwood.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190297-99189960116",
+    "_highlightResult": {
+      "name": {
+        "value": "Wyldwood",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "ab3a451b-691a-4ef4-a799-820b17dc9501",
+    "productType": "paint",
+    "version": 11131,
+    "name": "Cygor Brown",
+    "slug": "Cygor-Brown-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190296-99189960115",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960020_contrastCygorBrown.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190296-99189960115",
+    "_highlightResult": {
+      "name": {
+        "value": "Cygor Brown",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "5e5f8a1b-9d04-4480-a9c1-60de55a531cb",
+    "productType": "paint",
+    "version": 12387,
+    "name": "Gore-Grunta Fur",
+    "slug": "Gore-grunta-Fur-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190295-99189960114",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960019_contrastGoreGruntaFur.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190295-99189960114",
+    "_highlightResult": {
+      "name": {
+        "value": "Gore-Grunta Fur",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "f0c4fd37-23f7-4958-9958-91236a30a477",
+    "productType": "paint",
+    "version": 14123,
+    "name": "Snakebite Leather",
+    "slug": "Snakebite-Leather-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190294-99189960113",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960018_contrastSnakebiteLeather.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190294-99189960113",
+    "_highlightResult": {
+      "name": {
+        "value": "Snakebite Leather",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3a3b8542-8d2c-412a-b2f0-abe9ce552ad2",
+    "productType": "paint",
+    "version": 21303,
+    "name": "Skeleton Horde",
+    "slug": "Skeleton-Horde-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190293-99189960112",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960017_contrastSkeletonHorde.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Bone",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190293-99189960112",
+    "_highlightResult": {
+      "name": {
+        "value": "Skeleton Horde",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3665bef7-4460-4386-a400-66d30349a30b",
+    "productType": "paint",
+    "version": 10248,
+    "name": "Aggaros Dunes",
+    "slug": "Aggaros-Dunes-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190292-99189960111",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960016_contrastAggarosDunes.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190292-99189960111",
+    "_highlightResult": {
+      "name": {
+        "value": "Aggaros Dunes",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "b2b3b6df-2f9a-4f2e-9f43-915efe4701df",
+    "productType": "paint",
+    "version": 10109,
+    "name": "Militarum Green",
+    "slug": "Militarum-Green-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190291-99189960110",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960015_contrastMilitarumGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190291-99189960110",
+    "_highlightResult": {
+      "name": {
+        "value": "Militarum Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "2831267b-40f4-4215-9a68-d8ab5f2f29d8",
+    "productType": "paint",
+    "version": 7344,
+    "name": "Creed Camo",
+    "slug": "Creed-Camo-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190290-99189960109",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960014_contrastCreedCamo.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190290-99189960109",
+    "_highlightResult": {
+      "name": {
+        "value": "Creed Camo",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "92c64444-fd06-4809-a255-355fa1d6908a",
+    "productType": "paint",
+    "version": 10380,
+    "name": "Ork Flesh",
+    "slug": "Ork-Flesh-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190289-99189960108",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960013_contrastOrkFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190289-99189960108",
+    "_highlightResult": {
+      "name": {
+        "value": "Ork Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "fb013691-218e-4e0b-befd-439bbda8dcf9",
+    "productType": "paint",
+    "version": 8177,
+    "name": "Nazdreg Yellow",
+    "slug": "Nazdreg-Yellow-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190288-99189960107",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960012_contrastNazdregYellow.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Yellow",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190288-99189960107",
+    "_highlightResult": {
+      "name": {
+        "value": "Nazdreg Yellow",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "a673ae1d-f6e0-41ef-8954-0aa8afd792c4",
+    "productType": "paint",
+    "version": 12343,
+    "name": "Dark Angels Green",
+    "slug": "Dark-Angels-Green-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190287-99189960106",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960011_contrastDarkAngelsGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190287-99189960106",
+    "_highlightResult": {
+      "name": {
+        "value": "Dark Angels Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3d363943-8360-4b85-9eb3-a32670616ae8",
+    "productType": "paint",
+    "version": 9366,
+    "name": "Akhelian Green",
+    "slug": "Akhelian-Green-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190286-99189960105",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960010_contrastAkhelianGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190286-99189960105",
+    "_highlightResult": {
+      "name": {
+        "value": "Akhelian Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "dc503b2e-05d9-4cc6-b6e7-a1cff2d8af9d",
+    "productType": "paint",
+    "version": 10746,
+    "name": "Ultramarines Blue",
+    "slug": "Ultramarines-Blue-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190285-99189960104",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960009_contrastUltramarineBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190285-99189960104",
+    "_highlightResult": {
+      "name": {
+        "value": "Ultramarines Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "b46de4ae-79a1-4cc9-8e49-f52ef092cadb",
+    "productType": "paint",
+    "version": 8901,
+    "name": "Leviadon Blue",
+    "slug": "Leviadon-Blue-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190284-99189960103",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960008_contrastLeviadonBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190284-99189960103",
+    "_highlightResult": {
+      "name": {
+        "value": "Leviadon Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "88822a7c-98e2-4bd4-a753-0847e053bc09",
+    "productType": "paint",
+    "version": 12917,
+    "name": "Magos Purple",
+    "slug": "Magos-Purple-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190283-99189960102",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960007_contrastMagosPurple.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190283-99189960102",
+    "_highlightResult": {
+      "name": {
+        "value": "Magos Purple",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "f1faf4ea-c9fc-4ec1-bca9-74dcf3927099",
+    "productType": "paint",
+    "version": 9527,
+    "name": "Shyish Purple",
+    "slug": "Shyish-Purple-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190282-99189960101",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960006_contrastShyishPurple.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190282-99189960101",
+    "_highlightResult": {
+      "name": {
+        "value": "Shyish Purple",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "71158117-32e9-4d1f-8bb7-8097386ff8a9",
+    "productType": "paint",
+    "version": 12378,
+    "name": "Volupus Pink",
+    "slug": "Volupus-Pink-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190281-99189960100",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960005_contrastVolupusPink.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Pink",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190281-99189960100",
+    "_highlightResult": {
+      "name": {
+        "value": "Volupus Pink",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "03d3a464-493b-4ada-80b4-09dab97f452d",
+    "productType": "paint",
+    "version": 16426,
+    "name": "Flesh Tearers Red",
+    "slug": "Flesh-Tearers-Red-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190280-99189960099",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960004_contrastFleshTearersRed.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190280-99189960099",
+    "_highlightResult": {
+      "name": {
+        "value": "Flesh Tearers Red",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "2bd57ab8-1870-4165-bfe7-de2b5f290c75",
+    "productType": "paint",
+    "version": 17920,
+    "name": "Blood Angels Red",
+    "slug": "Blood-Angels-Red-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190279-99189960098",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960003_contrastBloodAngelsRed.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190279-99189960098",
+    "_highlightResult": {
+      "name": {
+        "value": "Blood Angels Red",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "c4584493-65c0-451c-abaf-d95108531f18",
+    "productType": "paint",
+    "version": 10096,
+    "name": "Gryph-Hound Orange",
+    "slug": "Gryph-hound-Orange-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190278-99189960097",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960002_contrastGryphHoundOrange.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Orange",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190278-99189960097",
+    "_highlightResult": {
+      "name": {
+        "value": "Gryph-Hound Orange",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "f3c9ef35-5524-4a53-8b28-b202fcfef305",
+    "productType": "paint",
+    "version": 12107,
+    "name": "Iyanden Yellow",
+    "slug": "Iyanden-Yellow-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190277-99189960096",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189960001_contrastIyandenYellow.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Contrast"
+    ],
+    "paintColourRange": "Yellow",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190277-99189960096",
+    "_highlightResult": {
+      "name": {
+        "value": "Iyanden Yellow",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  }
+]

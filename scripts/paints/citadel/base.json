@@ -1,0 +1,3992 @@
+[
+  {
+    "id": "b29fc728-3204-4cfd-9863-43ef43deaa9b",
+    "productType": "paint",
+    "version": 18265,
+    "name": "Caliban Green",
+    "slug": "Base-Caliban-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210272-99189950219",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950012_baseCalibanGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210272-99189950219",
+    "_highlightResult": {
+      "name": {
+        "value": "Caliban Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "bc64b8aa-67d0-4421-a260-adbf0dea04f4",
+    "productType": "paint",
+    "version": 11908,
+    "name": "Caledor Sky",
+    "slug": "Base-Caledor-Sky-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210271-99189950216",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950009_baseCaledorSky.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210271-99189950216",
+    "_highlightResult": {
+      "name": {
+        "value": "Caledor Sky",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "21c63076-500e-454c-bb55-e093f86962e4",
+    "productType": "paint",
+    "version": 11427,
+    "name": "Bugman's Glow",
+    "slug": "Base-Bugmans-Glow-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210270-99189950225",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950018_baseBugmansGlow.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210270-99189950225",
+    "_highlightResult": {
+      "name": {
+        "value": "Bugman's Glow",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "f982d90f-b699-44fe-bea0-1d2b296a33b2",
+    "productType": "paint",
+    "version": 18867,
+    "name": "Averland Sunset",
+    "slug": "Base-Averland-Sunset-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210269-99189950208",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950001_baseAverlandSunset.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Yellow",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210269-99189950208",
+    "_highlightResult": {
+      "name": {
+        "value": "Averland Sunset",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "c965a193-f75d-4ea5-97ea-36977262dca9",
+    "productType": "paint",
+    "version": 33112,
+    "name": "Abaddon Black",
+    "slug": "Base-Abaddon-Black-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210268-99189950232",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950025_baseAbaddonBlack.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Black",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210268-99189950232",
+    "_highlightResult": {
+      "name": {
+        "value": "Abaddon Black",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "afed8b1f-4f25-416b-b9fd-0845e75771aa",
+    "productType": "paint",
+    "version": 17186,
+    "name": "Grey Seer",
+    "slug": "Base-Grey-Seer-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190167-99189950260",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950174_baseGreySeer.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190167-99189950260",
+    "_highlightResult": {
+      "name": {
+        "value": "Grey Seer",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3d6d8832-f9c9-4092-aecd-77dba3ddb94e",
+    "productType": "paint",
+    "version": 24034,
+    "name": "Wraithbone",
+    "slug": "Base-Wraithbone-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190166-99189950259",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950173_baseWraithBone.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Bone",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190166-99189950259",
+    "_highlightResult": {
+      "name": {
+        "value": "Wraithbone",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "79ceef78-5d1f-4d28-8005-cf650fc8d51f",
+    "productType": "paint",
+    "version": 24461,
+    "name": "Corax White",
+    "slug": "Base-Corax-White-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190165-99189950258",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950172_baseCoraxWhite.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "White",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190165-99189950258",
+    "_highlightResult": {
+      "name": {
+        "value": "Corax White",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "2778d547-3e3b-44a0-9b77-d099e53ce42b",
+    "productType": "paint",
+    "version": 13515,
+    "name": "Morghast Bone",
+    "slug": "Base-Morghast-Bone-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190164-99189950257",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950171_baseMorghastBone.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Bone",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190164-99189950257",
+    "_highlightResult": {
+      "name": {
+        "value": "Morghast Bone",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "a2718c8b-f8ed-4f9d-b3d4-40ff3a511dc0",
+    "productType": "paint",
+    "version": 9140,
+    "name": "Catachan Flesh",
+    "slug": "Base-Catachan-Fleshtone-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190163-99189950256",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950170_baseCatachanFleshtone.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190163-99189950256",
+    "_highlightResult": {
+      "name": {
+        "value": "Catachan Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "499f6f68-f12b-42f8-8bd6-e95273f050b0",
+    "productType": "paint",
+    "version": 9469,
+    "name": "Barak-Nar Burgundy",
+    "slug": "Base-Barak-nar-Burgundy-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190162-99189950255",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950169_baseBarakNarBurgundy.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190162-99189950255",
+    "_highlightResult": {
+      "name": {
+        "value": "Barak-Nar Burgundy",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "15ba7f30-f28c-4bc9-9353-508795dcc338",
+    "productType": "paint",
+    "version": 17100,
+    "name": "Iron Warriors",
+    "slug": "Base-Iron-Warriors-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190161-99189950254",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950168_baseIronWarriors.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Silver",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190161-99189950254",
+    "_highlightResult": {
+      "name": {
+        "value": "Iron Warriors",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "befda3c0-11c9-40eb-a80d-8a3c8683c988",
+    "productType": "paint",
+    "version": 11575,
+    "name": "Grey Knights Steel",
+    "slug": "Base-Grey-Knights-Steel-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190160-99189950252",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950129_baseGreyKnightsSteel.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Silver",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190160-99189950252",
+    "_highlightResult": {
+      "name": {
+        "value": "Grey Knights Steel",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "527d9da2-494f-414f-943a-20691f88ec79",
+    "productType": "paint",
+    "version": 18028,
+    "name": "Iron Hands Steel",
+    "slug": "Base-Iron-Hands-Steel-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190159-99189950251",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950128_baseIronHandsSteel.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Silver",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190159-99189950251",
+    "_highlightResult": {
+      "name": {
+        "value": "Iron Hands Steel",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "80c01976-8d1d-4a5d-8b47-2b31de2aa481",
+    "productType": "paint",
+    "version": 7137,
+    "name": "Lupercal Green",
+    "slug": "Base-Lupercal-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190158-99189950250",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950127_baseLupercalGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190158-99189950250",
+    "_highlightResult": {
+      "name": {
+        "value": "Lupercal Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "474b233f-768b-4bda-9d10-0c1e3d87187c",
+    "productType": "paint",
+    "version": 18523,
+    "name": "Corvus Black",
+    "slug": "Base-Corvus-Black-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190157-99189950249",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950126_baseCorvusBlack.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Black",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190157-99189950249",
+    "_highlightResult": {
+      "name": {
+        "value": "Corvus Black",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3631c163-4c80-40ec-a2a4-d77d9ef3f880",
+    "productType": "paint",
+    "version": 6083,
+    "name": "Nocturne Green",
+    "slug": "Base-Nocturne-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190156-99189950248",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950125_baseNocturneGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190156-99189950248",
+    "_highlightResult": {
+      "name": {
+        "value": "Nocturne Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "bf83876b-0385-4ed5-9faa-9eaf1385b205",
+    "productType": "paint",
+    "version": 8836,
+    "name": "Night Lords Blue",
+    "slug": "Base-Night-Lords-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190155-99189950247",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950124_baseNightLordsBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190155-99189950247",
+    "_highlightResult": {
+      "name": {
+        "value": "Night Lords Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "76f4fc9b-7839-400d-b4ed-14b4a97b2fb1",
+    "productType": "paint",
+    "version": 9156,
+    "name": "Gal Vorbak Red",
+    "slug": "Base-Gal-Vorbak-Red-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190154-99189950246",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950123_baseGalVorbakRed.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190154-99189950246",
+    "_highlightResult": {
+      "name": {
+        "value": "Gal Vorbak Red",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "069bebc3-7bae-4944-a777-195edce2b2ae",
+    "productType": "paint",
+    "version": 6341,
+    "name": "Death Korps Drab",
+    "slug": "Base-Death-Korps-Drab-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190153-99189950245",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950122_baseDeathKorpsDrab.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190153-99189950245",
+    "_highlightResult": {
+      "name": {
+        "value": "Death Korps Drab",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "11a0d4a7-0b1d-478e-b74c-454e562b4523",
+    "productType": "paint",
+    "version": 10453,
+    "name": "Phoenician Purple",
+    "slug": "Base-Phoenician-Purple-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190152-99189950244",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950121_basePhoenicianPurple.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190152-99189950244",
+    "_highlightResult": {
+      "name": {
+        "value": "Phoenician Purple",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3d2e0440-bf69-4043-8a2b-0686ae6efdf7",
+    "productType": "paint",
+    "version": 8990,
+    "name": "Thondia Brown",
+    "slug": "Base-Thondia-Brown-2021",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4690156-99189950264",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950207_baseThondiaBrown.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4690156-99189950264",
+    "_highlightResult": {
+      "name": {
+        "value": "Thondia Brown",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "16f23f5a-b6a7-4045-bcc6-a7928eac2dce",
+    "productType": "paint",
+    "version": 4850,
+    "name": "Hobgrot Hide",
+    "slug": "Base-Hobgrot-Hide-2021",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4690155-99189950263",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950206_baseHobgrotHide.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4690155-99189950263",
+    "_highlightResult": {
+      "name": {
+        "value": "Hobgrot Hide",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "d7bdb153-20b6-4217-bada-22b2343e3f0a",
+    "productType": "paint",
+    "version": 10432,
+    "name": "Orruk Flesh",
+    "slug": "Base-Orruk-Flesh-2021",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4690154-99189950262",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950205_baseOrrukFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4690154-99189950262",
+    "_highlightResult": {
+      "name": {
+        "value": "Orruk Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "1ae717c9-c287-42b7-afcf-ff6de978d705",
+    "productType": "paint",
+    "version": 17860,
+    "name": "Runelord Brass",
+    "slug": "Base-Runelord-Brass-2020",
+    "price": 4.8,
+    "ctPrice": {
+      "centAmount": 480,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4480162-99189950261",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950204_layerRunelordBrass.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Brass",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4480162-99189950261",
+    "_highlightResult": {
+      "name": {
+        "value": "Runelord Brass",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "4.8",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "38253206-911d-4396-a0f5-133f4f5f1502",
+    "productType": "paint",
+    "version": 11976,
+    "name": "Death Guard Green",
+    "slug": "Base-Death-Guard-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210413-99189950242",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950122_baseDeathGuardGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210413-99189950242",
+    "_highlightResult": {
+      "name": {
+        "value": "Death Guard Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "b08b826e-d241-4766-b5c6-ee7981367506",
+    "productType": "paint",
+    "version": 19249,
+    "name": "Balthasar Gold",
+    "slug": "Base-Balthasar-Gold-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210395-99189950253",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950130_baseBalthasarGold.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Gold",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210395-99189950253",
+    "_highlightResult": {
+      "name": {
+        "value": "Balthasar Gold",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "545ab51d-af7f-4669-975b-4191377e8942",
+    "productType": "paint",
+    "version": 20083,
+    "name": "Zandri Dust",
+    "slug": "Base-Zandri-Dust-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210302-99189950223",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950016_baseZandriDust.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Bone",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210302-99189950223",
+    "_highlightResult": {
+      "name": {
+        "value": "Zandri Dust",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "7cfd0c3b-28f9-4e34-8a63-b93972e3ebf2",
+    "productType": "paint",
+    "version": 11851,
+    "name": "XV-88",
+    "slug": "Base-XV88-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210301-99189950228",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950021_baseXV88.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210301-99189950228",
+    "_highlightResult": {
+      "name": {
+        "value": "XV-88",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "a6987e3e-c7b2-4174-b1f8-b7f91d6c07c7",
+    "productType": "paint",
+    "version": 13231,
+    "name": "Warplock Bronze",
+    "slug": "Base-Warplock-Bronze-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210300-99189950237",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950031_baseWarplockBronze.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Bronze",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210300-99189950237",
+    "_highlightResult": {
+      "name": {
+        "value": "Warplock Bronze",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "e7d0518e-3b69-4d35-a9b0-1ec218770afd",
+    "productType": "paint",
+    "version": 13651,
+    "name": "Waaagh! Flesh",
+    "slug": "Base-Waaagh-Flesh-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210299-99189950220",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950013_baseWaaaghFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210299-99189950220",
+    "_highlightResult": {
+      "name": {
+        "value": "Waaagh! Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3bf5d931-f068-4b45-9a57-25014c8dca14",
+    "productType": "paint",
+    "version": 13810,
+    "name": "Thousand Sons Blue",
+    "slug": "Base-Thousand-Sons-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210298-99189950241",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950071_baseThousandSonsBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210298-99189950241",
+    "_highlightResult": {
+      "name": {
+        "value": "Thousand Sons Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "73cca4fe-3b8c-43b2-9560-af3a433965ed",
+    "productType": "paint",
+    "version": 11182,
+    "name": "The Fang",
+    "slug": "Base-The-Fang-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210297-99189950238",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950032_baseTheFang.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210297-99189950238",
+    "_highlightResult": {
+      "name": {
+        "value": "The Fang",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "66ed3f95-e594-4f9f-8fc3-2b32c2e3bd3f",
+    "productType": "paint",
+    "version": 9990,
+    "name": "Stegadon Scale Green",
+    "slug": "Base-Stegadon-Scale-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210296-99189950217",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950010_baseStegadonScaleGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210296-99189950217",
+    "_highlightResult": {
+      "name": {
+        "value": "Stegadon Scale Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "51d4e289-5fe8-4bf2-8ec7-7960601563b9",
+    "productType": "paint",
+    "version": 17443,
+    "name": "Steel Legion Drab",
+    "slug": "Base-Steel-Legion-Drab-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210295-99189950224",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950017_baseSteelLegionDrab.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210295-99189950224",
+    "_highlightResult": {
+      "name": {
+        "value": "Steel Legion Drab",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "c142a1d7-dcb2-4c85-904c-f1772685b437",
+    "productType": "paint",
+    "version": 9884,
+    "name": "Screaming Bell",
+    "slug": "Base-Screaming-Bell-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210294-99189950236",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950030_baseScreamingBell.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Brass",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210294-99189950236",
+    "_highlightResult": {
+      "name": {
+        "value": "Screaming Bell",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "2a183794-9916-45dd-8841-1fe1d4c53739",
+    "productType": "paint",
+    "version": 16804,
+    "name": "Screamer Pink",
+    "slug": "Base-Screamer-Pink-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210293-99189950239",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950033_baseScreamerPink.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Pink",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210293-99189950239",
+    "_highlightResult": {
+      "name": {
+        "value": "Screamer Pink",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "bb53a15b-4b5a-44f6-921c-b624446965c0",
+    "productType": "paint",
+    "version": 20708,
+    "name": "Rhinox Hide",
+    "slug": "Base-Rhinox-Hide-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210292-99189950229",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950022_baseRhinoxHide.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210292-99189950229",
+    "_highlightResult": {
+      "name": {
+        "value": "Rhinox Hide",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "19b395fb-f810-4738-b83f-42bbf6bdcd91",
+    "productType": "paint",
+    "version": 30375,
+    "name": "Retributor Armour",
+    "slug": "Base-Retributor-Armour-2019",
+    "price": 4.8,
+    "ctPrice": {
+      "centAmount": 480,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210291-99189950240",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950039_baseRetributorArmour.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Gold",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210291-99189950240",
+    "_highlightResult": {
+      "name": {
+        "value": "Retributor Armour",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "4.8",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "722adb11-a5e2-4a3f-92ba-45ee7114e5d1",
+    "productType": "paint",
+    "version": 7995,
+    "name": "Ratskin Flesh",
+    "slug": "Base-Ratskin-Flesh-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210290-99189950226",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950019_baseRatskinFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210290-99189950226",
+    "_highlightResult": {
+      "name": {
+        "value": "Ratskin Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "7b2b56a5-8706-46ee-aec7-76af2c763bbd",
+    "productType": "paint",
+    "version": 21318,
+    "name": "Rakarth Flesh",
+    "slug": "Base-Rakarth-Flesh-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210289-99189950234",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950027_baseRakarthFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210289-99189950234",
+    "_highlightResult": {
+      "name": {
+        "value": "Rakarth Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "c7f24f9c-2f9e-4b09-bfb8-5c47b1174e08",
+    "productType": "paint",
+    "version": 12761,
+    "name": "Naggaroth Night",
+    "slug": "Base-Naggaroth-Night-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210288-99189950212",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950005_baseNaggarothNight.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210288-99189950212",
+    "_highlightResult": {
+      "name": {
+        "value": "Naggaroth Night",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "151092dc-dcf8-4ee9-ba80-89e264cd512d",
+    "productType": "paint",
+    "version": 20496,
+    "name": "Mournfang Brown",
+    "slug": "Base-Mournfang-Brown-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210287-99189950227",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950020_baseMournfangBrown.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210287-99189950227",
+    "_highlightResult": {
+      "name": {
+        "value": "Mournfang Brown",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "2dc98f48-6c0d-4bff-9662-a38fae7ec4a1",
+    "productType": "paint",
+    "version": 28152,
+    "name": "Mephiston Red",
+    "slug": "Base-Mephiston-Red-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210286-99189950210",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950003_baseMephistonRed.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210286-99189950210",
+    "_highlightResult": {
+      "name": {
+        "value": "Mephiston Red",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "929affe8-e59e-44f0-95ba-0136bf8e76fa",
+    "productType": "paint",
+    "version": 20659,
+    "name": "Mechanicus Standard Grey",
+    "slug": "Base-Mechanicus-Standard-Grey-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210285-99189950231",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950024_baseMechanicusStandardGrey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210285-99189950231",
+    "_highlightResult": {
+      "name": {
+        "value": "Mechanicus Standard Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "76560400-2503-4aeb-b9c4-3ee679499351",
+    "productType": "paint",
+    "version": 14860,
+    "name": "Macragge Blue",
+    "slug": "Base-Macragge-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210284-99189950215",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950008_baseMacraggeBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210284-99189950215",
+    "_highlightResult": {
+      "name": {
+        "value": "Macragge Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "7e65291e-5930-41aa-b1a6-e16e069b80f3",
+    "productType": "paint",
+    "version": 34482,
+    "name": "Leadbelcher",
+    "slug": "Base-Leadbelcher-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210283-99189950235",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950028_baseLeadbelcher.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Silver",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210283-99189950235",
+    "_highlightResult": {
+      "name": {
+        "value": "Leadbelcher",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "b6cd6e4c-31c5-4ddb-897a-ba6cdf1d9852",
+    "productType": "paint",
+    "version": 25035,
+    "name": "Khorne Red",
+    "slug": "Base-Khorne-Red-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210282-99189950211",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950004_baseKhorneRed.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210282-99189950211",
+    "_highlightResult": {
+      "name": {
+        "value": "Khorne Red",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "446da6c5-668a-4015-9bfd-45e5252b0b27",
+    "productType": "paint",
+    "version": 13572,
+    "name": "Kantor Blue",
+    "slug": "Base-Kantor-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210281-99189950214",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950007_baseKantorBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210281-99189950214",
+    "_highlightResult": {
+      "name": {
+        "value": "Kantor Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "5f018176-99ef-43e1-ac2f-5194ca5b25f1",
+    "productType": "paint",
+    "version": 11391,
+    "name": "Jokaero Orange",
+    "slug": "Base-Jokaero-Orange-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210280-99189950209",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950002_baseJokaeroOrange.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Orange",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210280-99189950209",
+    "_highlightResult": {
+      "name": {
+        "value": "Jokaero Orange",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3b3d8424-c8ae-4536-8495-610d696b86ae",
+    "productType": "paint",
+    "version": 7496,
+    "name": "Ionrach Skin",
+    "slug": "Base-Ionrach-Skin-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210279-99189950243",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950082_baseIonrachSkin.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210279-99189950243",
+    "_highlightResult": {
+      "name": {
+        "value": "Ionrach Skin",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "746fe704-057b-46f9-bbd9-621b1b284525",
+    "productType": "paint",
+    "version": 11783,
+    "name": "Incubi Darkness",
+    "slug": "Base-Incubi-Darkness-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210278-99189950218",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950011_baseIncubiDarkness.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210278-99189950218",
+    "_highlightResult": {
+      "name": {
+        "value": "Incubi Darkness",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "33a76432-c7be-48f5-aed9-5fa774fea44d",
+    "productType": "paint",
+    "version": 15555,
+    "name": "Dryad Bark",
+    "slug": "Base-Dryad-Bark-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210277-99189950230",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950023_baseDryadBark.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210277-99189950230",
+    "_highlightResult": {
+      "name": {
+        "value": "Dryad Bark",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "1bc5aee0-7cdb-46df-9789-cd94f2fa3776",
+    "productType": "paint",
+    "version": 9823,
+    "name": "Deathworld Forest",
+    "slug": "Base-Death-World-Forest-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210276-99189950222",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950015_baseDeathworldForest.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210276-99189950222",
+    "_highlightResult": {
+      "name": {
+        "value": "Deathworld Forest",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "6754eecb-c6aa-42a6-b1f1-8a0c43faa7ce",
+    "productType": "paint",
+    "version": 8562,
+    "name": "Daemonette Hide",
+    "slug": "Base-Daemonette-Hide-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210275-99189950213",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950006_baseDaemonetteHide.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210275-99189950213",
+    "_highlightResult": {
+      "name": {
+        "value": "Daemonette Hide",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "bd0f0cef-18fa-41c0-8791-13d99798edbd",
+    "productType": "paint",
+    "version": 18314,
+    "name": "Celestra Grey",
+    "slug": "Base-Celestra-Grey-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210274-99189950233",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950026_baseCelestraGrey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210274-99189950233",
+    "_highlightResult": {
+      "name": {
+        "value": "Celestra Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "7037358f-3ac2-4e96-8d18-ee5f979fa367",
+    "productType": "paint",
+    "version": 12715,
+    "name": "Castellan Green",
+    "slug": "Base-Castellan-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210273-99189950221",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189950014_baseCastellanGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Base"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210273-99189950221",
+    "_highlightResult": {
+      "name": {
+        "value": "Castellan Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  }
+]

@@ -1,0 +1,1468 @@
+[
+  {
+    "id": "dbd589e2-557a-4ffd-8b3b-db5efc6f4710",
+    "productType": "paint",
+    "version": 13934,
+    "name": "Tesseract Glow",
+    "slug": "Technical-Tesseract-Glow-2020",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4480165-99189956083",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956053_technicalTesseractGlow.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4480165-99189956083",
+    "_highlightResult": {
+      "name": {
+        "value": "Tesseract Glow",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "9fc7d6fc-b70c-4643-bfc7-1aa601e6b7df",
+    "productType": "paint",
+    "version": 19376,
+    "name": "Blood For The Blood God",
+    "slug": "Technical-Blood-for-the-Blood-God-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210415-99189956060",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956005_technicalBloodForTheBloodGod.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210415-99189956060",
+    "_highlightResult": {
+      "name": {
+        "value": "Blood For The Blood God",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "6b8542d1-559a-40a7-b5dd-330c5ca74a6a",
+    "productType": "paint",
+    "version": 12198,
+    "name": "Ardcoat",
+    "slug": "Technical-Ardcoat-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210414-99189956080",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956050_technicalArdcoat.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210414-99189956080",
+    "_highlightResult": {
+      "name": {
+        "value": "Ardcoat",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "c57cbcb4-9d88-49ee-b879-677c0777e327",
+    "productType": "paint",
+    "version": 7150,
+    "name": "Waystone Green",
+    "slug": "Technical-Waystone-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210393-99189956066",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956017_technicalWaystoneGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210393-99189956066",
+    "_highlightResult": {
+      "name": {
+        "value": "Waystone Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "d70ffb3b-2c57-412a-9c5b-ce49590dc731",
+    "productType": "paint",
+    "version": 11569,
+    "name": "Typhus Corrosion",
+    "slug": "Technical-Typhus-Corrosion-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210392-99189956063",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956010_technicalTyphusCorrosion.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210392-99189956063",
+    "_highlightResult": {
+      "name": {
+        "value": "Typhus Corrosion",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "1e148047-8699-45ab-b67b-12cd2bb367d5",
+    "productType": "paint",
+    "version": 8965,
+    "name": "Nurgles Rot",
+    "slug": "Technical-Nurgles-Rot-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210389-99189956062",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956009_technicalNurglesRot.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210389-99189956062",
+    "_highlightResult": {
+      "name": {
+        "value": "Nurgles Rot",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "cb21346a-77f2-4901-ac0b-84c13977c24a",
+    "productType": "paint",
+    "version": 12832,
+    "name": "Nihilakh Oxide",
+    "slug": "Technical-Nihilakh-Oxide-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210388-99189956061",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956006_technicalNihilakhOxide.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210388-99189956061",
+    "_highlightResult": {
+      "name": {
+        "value": "Nihilakh Oxide",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "9d799957-dda2-45bd-8f97-d14908c81c62",
+    "productType": "paint",
+    "version": 8336,
+    "name": "Spiritstone Red",
+    "slug": "Technical-Spiritstone-Red-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210386-99189956064",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956015_technicalSpiritstoneRed.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210386-99189956064",
+    "_highlightResult": {
+      "name": {
+        "value": "Spiritstone Red",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "b53ef390-b05c-4235-a9b5-3b9194807f63",
+    "productType": "paint",
+    "version": 7317,
+    "name": "Soulstone Blue",
+    "slug": "Technical-Soulstone-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210385-99189956065",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956016_technicalSoulstoneBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210385-99189956065",
+    "_highlightResult": {
+      "name": {
+        "value": "Soulstone Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3f7a98be-4c2c-4bd2-87f0-816199097571",
+    "productType": "paint",
+    "version": 8508,
+    "name": "Stormshield",
+    "slug": "Stormshield-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190199-99189956082",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956052_technicalStormShield.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190199-99189956082",
+    "_highlightResult": {
+      "name": {
+        "value": "Stormshield",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "aaa59040-778a-4714-aa15-f4b9e12ab4a9",
+    "productType": "paint",
+    "version": 19860,
+    "name": "Contrast Medium",
+    "slug": "Contrast-Medium-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190198-99189956081",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956051_technicalContrastMedium.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190198-99189956081",
+    "_highlightResult": {
+      "name": {
+        "value": "Contrast Medium",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "8b0c9a22-3b08-4c9f-91da-f81655f2cfb3",
+    "productType": "paint",
+    "version": 19666,
+    "name": "Lahmian Medium",
+    "slug": "Technical-Lahmian-Medium-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190196-99189956079",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956049_technicalLahmianMedium.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190196-99189956079",
+    "_highlightResult": {
+      "name": {
+        "value": "Lahmian Medium",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "467e09a6-3682-411e-b487-7a873cd8e4d0",
+    "productType": "paint",
+    "version": 13489,
+    "name": "Valhallan Blizzard",
+    "slug": "Technical-Valhallan-Blizzard-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190195-99189956078",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956048_technicalValhallanBlizzard.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "White",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190195-99189956078",
+    "_highlightResult": {
+      "name": {
+        "value": "Valhallan Blizzard",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "5727ee29-3042-45f3-b5e8-a5df6001bfe9",
+    "productType": "paint",
+    "version": 16776,
+    "name": "Astrogranite",
+    "slug": "Technical-Astrogranite-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190193-99189956076",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956046_technicalAstrogranite.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190193-99189956076",
+    "_highlightResult": {
+      "name": {
+        "value": "Astrogranite",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "f8127f6f-82f2-4e50-baa6-1b222bdee787",
+    "productType": "paint",
+    "version": 11694,
+    "name": "Armageddon Dust",
+    "slug": "Technical-Armageddon-Dust-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190191-99189956074",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956044_technicalArmageddonDust.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190191-99189956074",
+    "_highlightResult": {
+      "name": {
+        "value": "Armageddon Dust",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "5305aecd-e202-44fa-9d8e-06c2cab598ac",
+    "productType": "paint",
+    "version": 19610,
+    "name": "Stirland Mud",
+    "slug": "Technical-Stirland-Mud-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190189-99189956072",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956042_technicalStirlandMud.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190189-99189956072",
+    "_highlightResult": {
+      "name": {
+        "value": "Stirland Mud",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3a3abbda-f9be-4f69-a8a3-97e774c93973",
+    "productType": "paint",
+    "version": 9991,
+    "name": "Martian Ironcrust",
+    "slug": "Technical-Martian-Ironcrust-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190188-99189956071",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956041_technicalMartianIroncrust.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190188-99189956071",
+    "_highlightResult": {
+      "name": {
+        "value": "Martian Ironcrust",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "1290045a-0260-405e-9329-889f8cf77f5e",
+    "productType": "paint",
+    "version": 9470,
+    "name": "Martian Ironearth",
+    "slug": "Technical-Martian-Ironearth-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190187-99189956070",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956040_technicalMartianIronearth.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190187-99189956070",
+    "_highlightResult": {
+      "name": {
+        "value": "Martian Ironearth",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "a8107f4f-1678-40a5-aee7-12a3cd7a81da",
+    "productType": "paint",
+    "version": 10494,
+    "name": "Agrellan Badland",
+    "slug": "Technical-Agrellan-Badland-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190186-99189956069",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956039_technicalAgrellanBadland.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190186-99189956069",
+    "_highlightResult": {
+      "name": {
+        "value": "Agrellan Badland",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "59c03052-a4a2-4f35-b6d9-bea85719beac",
+    "productType": "paint",
+    "version": 12738,
+    "name": "Agrellan Earth",
+    "slug": "Technical-Agrellan-Earth-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190185-99189956068",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956038_technicalAgrellanEarth.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190185-99189956068",
+    "_highlightResult": {
+      "name": {
+        "value": "Agrellan Earth",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "63808bd6-d315-4830-81b0-dc4231dcdc77",
+    "productType": "paint",
+    "version": 13338,
+    "name": "Mordant Earth",
+    "slug": "Mordant-Earth-2019",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190184-99189956067",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189956037_technicalMordantEarth.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Technical"
+    ],
+    "paintColourRange": "Black",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190184-99189956067",
+    "_highlightResult": {
+      "name": {
+        "value": "Mordant Earth",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  }
+]

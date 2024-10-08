@@ -1,0 +1,210 @@
+[
+  {
+    "id": "6622e70c-6945-4549-adda-c00b2e627207",
+    "productType": "paint",
+    "version": 2947,
+    "name": "White Scar",
+    "slug": "white-scar-spray-paint-2022-roe",
+    "price": 19,
+    "ctPrice": {
+      "centAmount": 1900,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960238-80209999102",
+    "images": [
+      "/app/resources/catalog/product/920x950/60249999620_Spray_White_Scar.svg"
+    ],
+    "description": ".",
+    "paintType": [
+      "Spray"
+    ],
+    "paintColourRange": "White",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": true,
+    "isHazardous": true,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:SPRAY",
+      "ageRestriction:NA",
+      "hazardous:true",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 2,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960238-80209999102",
+    "_highlightResult": {
+      "name": {
+        "value": "White Scar",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "19",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": ".",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "77abc03a-066b-480f-ac47-d0f713cc95a8",
+    "productType": "paint",
+    "version": 4327,
+    "name": "Chaos Black",
+    "slug": "Chaos-Black-Spray-NE-2020",
+    "price": 15.75,
+    "ctPrice": {
+      "centAmount": 1575,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4580218-80209999077",
+    "images": [
+      "/app/resources/catalog/product/920x950/80209999042_sprayChaosBlack.svg"
+    ],
+    "description": ".",
+    "paintType": [
+      "Spray"
+    ],
+    "paintColourRange": "Black",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": true,
+    "isHazardous": true,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:SPRAY",
+      "ageRestriction:NA",
+      "hazardous:true",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 3,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4580218-80209999077",
+    "_highlightResult": {
+      "name": {
+        "value": "Chaos Black",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "15.75",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": ".",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "ec814e48-d540-4a25-9c42-b98ab859e06c",
+    "productType": "paint",
+    "version": 459,
+    "name": "Munitorum Varnish",
+    "slug": "Munitorum-Varnish-NE-2020",
+    "price": 19,
+    "ctPrice": {
+      "centAmount": 1900,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "P-179420-80209999107",
+    "images": [
+      "/app/resources/catalog/product/920x950/99209999058_sprayMunitorumVarnish.svg"
+    ],
+    "description": "<a href=\"https://citadelcolour.com/videos/sprays/\" target=_blank\">Tutorial: Sprays</a>",
+    "paintType": [
+      "Spray"
+    ],
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": true,
+    "isHazardous": true,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:SPRAY",
+      "ageRestriction:NA",
+      "hazardous:true",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 2,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "P-179420-80209999107",
+    "_highlightResult": {
+      "name": {
+        "value": "Munitorum Varnish",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "19",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "<a href=\"https://citadelcolour.com/videos/sprays/\" target=_blank\">Tutorial: Sprays</a>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  }
+]

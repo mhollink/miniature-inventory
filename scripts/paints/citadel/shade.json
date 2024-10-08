@@ -1,0 +1,1332 @@
+[
+  {
+    "id": "185aff94-5bd1-4e6c-aa9f-cd9db224d191",
+    "productType": "paint",
+    "version": 7471,
+    "name": "Fuegan Orange",
+    "slug": "shade-fuegan-orange-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960259-99189953059",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953023_shadeFueganOrange.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Orange",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960259-99189953059",
+    "_highlightResult": {
+      "name": {
+        "value": "Fuegan Orange",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "db067f19-d701-42d0-9a37-0c0134212375",
+    "productType": "paint",
+    "version": 13361,
+    "name": "Coelia Greenshade",
+    "slug": "shade-coelia-greenshade-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960258-99189953058",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953025_shadeCoeliaGreenshade.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960258-99189953058",
+    "_highlightResult": {
+      "name": {
+        "value": "Coelia Greenshade",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "57db8b07-50a0-4f9c-8c13-e50b7fe1c12e",
+    "productType": "paint",
+    "version": 15337,
+    "name": "Druchii Violet",
+    "slug": "shade-druchii-violet-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960257-99189953057",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953019_shadeDruchiiViolet.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960257-99189953057",
+    "_highlightResult": {
+      "name": {
+        "value": "Druchii Violet",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3b548a8a-34c2-45e1-a6e6-65b0ba6f08be",
+    "productType": "paint",
+    "version": 10379,
+    "name": "Casandora Yellow",
+    "slug": "shade-casandora-yellow-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960256-99189953056",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953021_shadeCasandoraYellow.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Yellow",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960256-99189953056",
+    "_highlightResult": {
+      "name": {
+        "value": "Casandora Yellow",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "d9aae292-8627-4076-99c6-b5b323211dcb",
+    "productType": "paint",
+    "version": 16215,
+    "name": "Carroburg Crimson",
+    "slug": "shade-carroburg-crimson-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960255-99189953055",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953016_shadeCarroburgCrimson.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960255-99189953055",
+    "_highlightResult": {
+      "name": {
+        "value": "Carroburg Crimson",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "50aec0a8-ba92-4c77-81ac-87821f51b40f",
+    "productType": "paint",
+    "version": 20312,
+    "name": "Seraphim Sepia",
+    "slug": "shade-seraphim-sepia-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960254-99189953054",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953026_shadeSeraphimSepia.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960254-99189953054",
+    "_highlightResult": {
+      "name": {
+        "value": "Seraphim Sepia",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "8fe308c3-4caf-44af-9bfe-efd6ae444983",
+    "productType": "paint",
+    "version": 16767,
+    "name": "Drakenhof Nightshade",
+    "slug": "shade-drakenhof-nightshade-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960253-99189953053",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953020_shadeDrakenhofNightshade.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960253-99189953053",
+    "_highlightResult": {
+      "name": {
+        "value": "Drakenhof Nightshade",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "e563a796-d952-419b-9bea-fd4eff240d8f",
+    "productType": "paint",
+    "version": 10034,
+    "name": "Athonian Camoshade",
+    "slug": "shade-athonian-camoshade-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960252-99189953052",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953024_shadeAthonianCamoshade.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960252-99189953052",
+    "_highlightResult": {
+      "name": {
+        "value": "Athonian Camoshade",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "24d39dad-f1a4-4914-9c80-342b195c0c43",
+    "productType": "paint",
+    "version": 11960,
+    "name": "Biel-Tan Green",
+    "slug": "shade-biel-tan-green-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960251-99189953051",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953022_shadeBielTanGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960251-99189953051",
+    "_highlightResult": {
+      "name": {
+        "value": "Biel-Tan Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "6c5f5fd1-a408-4d9e-9666-da562cc096d1",
+    "productType": "paint",
+    "version": 29799,
+    "name": "Agrax Earthshade",
+    "slug": "shade-agrax-earthshade-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960250-99189953050",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953018_shadeAgraxEarthshade.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960250-99189953050",
+    "_highlightResult": {
+      "name": {
+        "value": "Agrax Earthshade",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "426cc542-47e6-45ff-9ae1-2b1b309985f5",
+    "productType": "paint",
+    "version": 26196,
+    "name": "Reikland Fleshshade",
+    "slug": "shade-reikland-fleshshade-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960249-99189953049",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953027_shadeReiklandFleshshade.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960249-99189953049",
+    "_highlightResult": {
+      "name": {
+        "value": "Reikland Fleshshade",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "6cfe96bf-f474-442e-b2aa-6d378ccfb662",
+    "productType": "paint",
+    "version": 40693,
+    "name": "Nuln Oil",
+    "slug": "shade-nuln-oil-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960248-99189953048",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953017_shadeNulnOil.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Black",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960248-99189953048",
+    "_highlightResult": {
+      "name": {
+        "value": "Nuln Oil",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "2b19be78-203e-4445-bba8-5963fd8b05a6",
+    "productType": "paint",
+    "version": 10113,
+    "name": "Soulblight Grey",
+    "slug": "shade-soulblight-grey-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960247-99189953047",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953047_Shade_Soulblight_Grey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960247-99189953047",
+    "_highlightResult": {
+      "name": {
+        "value": "Soulblight Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "fdd5e193-8c32-48b4-92f6-fe7fae4cba27",
+    "productType": "paint",
+    "version": 11187,
+    "name": "Berserker Bloodshade",
+    "slug": "shade-berserker-bloodshade-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960246-99189953046",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953046_Shade_Berserker_Bloodshade.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960246-99189953046",
+    "_highlightResult": {
+      "name": {
+        "value": "Berserker Bloodshade",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "0aa91fb2-37ff-4e46-8b67-7113e6b4560e",
+    "productType": "paint",
+    "version": 8210,
+    "name": "Tyran Blue",
+    "slug": "shade-tyran-blue-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960245-99189953045",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953045_Shade_Tyran_Blue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960245-99189953045",
+    "_highlightResult": {
+      "name": {
+        "value": "Tyran Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "994f941a-ea14-4f84-8f0d-0bb6cbc0e558",
+    "productType": "paint",
+    "version": 6530,
+    "name": "Mortarion Grime",
+    "slug": "shade-mortarion-grime-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960244-99189953044",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953044_Shade_Mortarion_Grime.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Yellow",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960244-99189953044",
+    "_highlightResult": {
+      "name": {
+        "value": "Mortarion Grime",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "49183c05-53f8-4388-9498-f97d58d57db6",
+    "productType": "paint",
+    "version": 7084,
+    "name": "Targor Rageshade",
+    "slug": "shade-targor-rageshade-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960243-99189953043",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953043_Shade_Targor_Rageshade.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960243-99189953043",
+    "_highlightResult": {
+      "name": {
+        "value": "Targor Rageshade",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "a2f63d78-377e-4546-a2d3-dd097a03b053",
+    "productType": "paint",
+    "version": 5985,
+    "name": "Poxwalker",
+    "slug": "shade-poxwalker-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960242-99189953042",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953042_Shade_Poxwalker.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960242-99189953042",
+    "_highlightResult": {
+      "name": {
+        "value": "Poxwalker",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "210ee440-fe4b-4055-a720-50f28745703f",
+    "productType": "paint",
+    "version": 4825,
+    "name": "Kroak Green",
+    "slug": "shade-kroak-green-18ml-2022",
+    "price": 6.3,
+    "ctPrice": {
+      "centAmount": 630,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4960241-99189953041",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189953041_Shade_Kroak_Green.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Shade"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4960241-99189953041",
+    "_highlightResult": {
+      "name": {
+        "value": "Kroak Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "6.3",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  }
+]

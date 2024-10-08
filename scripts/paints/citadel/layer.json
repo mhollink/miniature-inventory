@@ -1,0 +1,6512 @@
+[
+  {
+    "id": "a3bb3024-d901-48be-9415-3418bb850a56",
+    "productType": "paint",
+    "version": 10059,
+    "name": "Canoptek Alloy",
+    "slug": "Layer-Canoptek-Alloy-2020",
+    "price": 4.8,
+    "ctPrice": {
+      "centAmount": 480,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4480163-99189951298",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951205_layerCanoptekAlloy.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brass",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4480163-99189951298",
+    "_highlightResult": {
+      "name": {
+        "value": "Canoptek Alloy",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "4.8",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "0b749368-d3c7-4c31-ae6b-0d772b524c30",
+    "productType": "paint",
+    "version": 5992,
+    "name": "Zamesi Desert",
+    "slug": "Layer-Zamesi-Desert-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210381-99189951249",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951044_layerZamesiDesert.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210381-99189951249",
+    "_highlightResult": {
+      "name": {
+        "value": "Zamesi Desert",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "4d0a9e02-3eb3-4d50-ba45-a77fcf4d9186",
+    "productType": "paint",
+    "version": 14763,
+    "name": "Yriel Yellow",
+    "slug": "Layer-Yriel-Yellow-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210380-99189951206",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951001_layerYrielYellow.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Yellow",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210380-99189951206",
+    "_highlightResult": {
+      "name": {
+        "value": "Yriel Yellow",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "ef2a1d69-b17b-42ef-a8b5-84402ec5120b",
+    "productType": "paint",
+    "version": 12424,
+    "name": "Xereus Purple",
+    "slug": "Layer-Xereus-Purple-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210379-99189951214",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951009_layerXereusPurple.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210379-99189951214",
+    "_highlightResult": {
+      "name": {
+        "value": "Xereus Purple",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "c5c3f602-b09e-4e61-a2e8-a0e4df40b465",
+    "productType": "paint",
+    "version": 17632,
+    "name": "Wild Rider Red",
+    "slug": "Layer-Wild-Rider-Red-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210378-99189951211",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951006_layerWildRiderRed.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210378-99189951211",
+    "_highlightResult": {
+      "name": {
+        "value": "Wild Rider Red",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "e00d0a27-a972-4fab-90fb-a4eb0d6ca952",
+    "productType": "paint",
+    "version": 26431,
+    "name": "White Scar",
+    "slug": "Layer-White-Scar-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210377-99189951262",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951057_layerWhiteScar.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "White",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210377-99189951262",
+    "_highlightResult": {
+      "name": {
+        "value": "White Scar",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "113955df-611e-4f67-ba9a-591928b3404b",
+    "productType": "paint",
+    "version": 12327,
+    "name": "Wazdakka Red",
+    "slug": "Layer-Wazdakka-Red-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210376-99189951212",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951007_layerWazdakkaRed.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210376-99189951212",
+    "_highlightResult": {
+      "name": {
+        "value": "Wazdakka Red",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "83dbaefb-4a0a-4fbd-b764-76fd6dbf7b3a",
+    "productType": "paint",
+    "version": 17878,
+    "name": "Warpstone Glow",
+    "slug": "Layer-Warpstone-Glow-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210375-99189951228",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951023_layerWarpstoneGlow.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210375-99189951228",
+    "_highlightResult": {
+      "name": {
+        "value": "Warpstone Glow",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "482beddf-1748-4921-b121-b0a1145d81f1",
+    "productType": "paint",
+    "version": 6379,
+    "name": "Warpfiend Grey",
+    "slug": "Layer-Warpfiend-Grey-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210374-99189951216",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951011_layerWarpfiendGrey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210374-99189951216",
+    "_highlightResult": {
+      "name": {
+        "value": "Warpfiend Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3d2a935b-9d8e-43d1-afad-1e8b35f6f0c4",
+    "productType": "paint",
+    "version": 9030,
+    "name": "Warboss Green",
+    "slug": "Layer-Warboss-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210373-99189951230",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951025_layerWarbossGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210373-99189951230",
+    "_highlightResult": {
+      "name": {
+        "value": "Warboss Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "4c8abd88-1471-4f41-9592-65de78bdc258",
+    "productType": "paint",
+    "version": 20277,
+    "name": "Ushabti Bone",
+    "slug": "Layer-Ushabti-Bone-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210372-99189951237",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951032_layerUshabtiBone.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Bone",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210372-99189951237",
+    "_highlightResult": {
+      "name": {
+        "value": "Ushabti Bone",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "ec615e26-9dd1-44fe-8a1c-7ce037b9754a",
+    "productType": "paint",
+    "version": 6081,
+    "name": "Ungor Flesh",
+    "slug": "Layer-Ungor-Flesh-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210371-99189951244",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951039_layerUngorFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210371-99189951244",
+    "_highlightResult": {
+      "name": {
+        "value": "Ungor Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "c891e4de-aad5-4f9b-9ee5-563a4ee93862",
+    "productType": "paint",
+    "version": 16537,
+    "name": "Ulthuan Grey",
+    "slug": "Layer-Ulthuan-Grey-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210370-99189951261",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951056_layerUlthuanGrey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210370-99189951261",
+    "_highlightResult": {
+      "name": {
+        "value": "Ulthuan Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "b7d07eee-7fae-4586-9556-deacaf0edbd2",
+    "productType": "paint",
+    "version": 7374,
+    "name": "Tuskgor Fur",
+    "slug": "Layer-Tuskgor-Fur-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210369-99189951251",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951046_layerTuskgorFur.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210369-99189951251",
+    "_highlightResult": {
+      "name": {
+        "value": "Tuskgor Fur",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "1690fe68-edce-467a-9bf7-95397d2d1e96",
+    "productType": "paint",
+    "version": 15368,
+    "name": "Troll Slayer Orange",
+    "slug": "Layer-Troll-Slayer-Orange-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210368-99189951208",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951003_layerTrollSlayerOrange.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Orange",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210368-99189951208",
+    "_highlightResult": {
+      "name": {
+        "value": "Troll Slayer Orange",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "9208e4a3-2944-4154-a6f7-466dbefb2c8a",
+    "productType": "paint",
+    "version": 12852,
+    "name": "Thunderhawk Blue",
+    "slug": "Layer-Thunderhawk-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210367-99189951258",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951053_layerThunderhawkBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210367-99189951258",
+    "_highlightResult": {
+      "name": {
+        "value": "Thunderhawk Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "e5d1fe3b-f111-4323-b509-4b5e4796a540",
+    "productType": "paint",
+    "version": 12911,
+    "name": "Temple Guard Blue",
+    "slug": "Layer-Temple-Guard-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210366-99189951225",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951020_layerTempleGuardBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210366-99189951225",
+    "_highlightResult": {
+      "name": {
+        "value": "Temple Guard Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "2b9279d4-2eb6-49c1-af70-00a4ec5de26c",
+    "productType": "paint",
+    "version": 9494,
+    "name": "Teclis Blue",
+    "slug": "Layer-Teclis-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210365-99189951222",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951017_layerTeclisBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210365-99189951222",
+    "_highlightResult": {
+      "name": {
+        "value": "Teclis Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "8f39f2ac-85a2-4291-8d7c-bdb311d878b9",
+    "productType": "paint",
+    "version": 8780,
+    "name": "Tau Light Ochre",
+    "slug": "Layer-Tau-Light-Ochre-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210364-99189951247",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951042_layerTauLightOchre.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210364-99189951247",
+    "_highlightResult": {
+      "name": {
+        "value": "Tau Light Ochre",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "f7ac4c7d-84aa-4256-bcbe-ec27e0273100",
+    "productType": "paint",
+    "version": 6273,
+    "name": "Tallarn Sand",
+    "slug": "Layer-Tallarn-Sand-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210363-99189951239",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951034_layerTallarnSand.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210363-99189951239",
+    "_highlightResult": {
+      "name": {
+        "value": "Tallarn Sand",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "6fcc9ec9-436b-4e9a-ba63-4192b742ef26",
+    "productType": "paint",
+    "version": 12212,
+    "name": "Sycorax Bronze",
+    "slug": "Layer-Sycorax-Bronze-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210362-99189951268",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951064_layerSycoraxBronze.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Bronze",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210362-99189951268",
+    "_highlightResult": {
+      "name": {
+        "value": "Sycorax Bronze",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "69a11efa-875a-4dd2-b512-97ada47064db",
+    "productType": "paint",
+    "version": 10307,
+    "name": "Sybarite Green",
+    "slug": "Layer-Sybarite-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210361-99189951227",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951022_layerSybariteGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210361-99189951227",
+    "_highlightResult": {
+      "name": {
+        "value": "Sybarite Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "95ef9d44-fd0a-4fdf-bf47-27ec50b67990",
+    "productType": "paint",
+    "version": 7636,
+    "name": "Straken Green",
+    "slug": "Layer-Straken-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210360-99189951233",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951028_layerStrakenGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210360-99189951233",
+    "_highlightResult": {
+      "name": {
+        "value": "Straken Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "90012efe-7f04-4960-b3ee-bbe3d3d127ba",
+    "productType": "paint",
+    "version": 9286,
+    "name": "Stormvermin Fur",
+    "slug": "Layer-Stormvermin-Fur-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210359-99189951260",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951055_layerStormverminFur.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210359-99189951260",
+    "_highlightResult": {
+      "name": {
+        "value": "Stormvermin Fur",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "8aaf0612-3520-486a-81b5-4cc6285f5665",
+    "productType": "paint",
+    "version": 23599,
+    "name": "Stormhost Silver",
+    "slug": "Layer-Stormhost-Silver-2019",
+    "price": 4.8,
+    "ctPrice": {
+      "centAmount": 480,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210358-99189951278",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951083_layerStormhostSilver.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Silver",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210358-99189951278",
+    "_highlightResult": {
+      "name": {
+        "value": "Stormhost Silver",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "4.8",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "a89e5910-4816-4658-9f21-def3537ccd28",
+    "productType": "paint",
+    "version": 8464,
+    "name": "Squig Orange",
+    "slug": "Layer-Squig-Orange-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210357-99189951213",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951008_layerSquigOrange.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Orange",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210357-99189951213",
+    "_highlightResult": {
+      "name": {
+        "value": "Squig Orange",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "cea927bd-ceb2-4c4b-8d6f-cc6c853a6a15",
+    "productType": "paint",
+    "version": 11565,
+    "name": "Sotek Green",
+    "slug": "Layer-Sotek-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210356-99189951224",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951019_layerSotekGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210356-99189951224",
+    "_highlightResult": {
+      "name": {
+        "value": "Sotek Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "d800eaa8-3aa1-4fb6-b5ea-e3fdbd08fc78",
+    "productType": "paint",
+    "version": 8934,
+    "name": "Slaanesh Grey",
+    "slug": "Layer-Slaanesh-Grey-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210355-99189951217",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951012_layerSlaaneshGrey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210355-99189951217",
+    "_highlightResult": {
+      "name": {
+        "value": "Slaanesh Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "54aee22a-4410-48fb-8c7d-07f4acb904eb",
+    "productType": "paint",
+    "version": 7285,
+    "name": "Skullcrusher Brass",
+    "slug": "Layer-Skullcrusher-Brass-2019",
+    "price": 4.8,
+    "ctPrice": {
+      "centAmount": 480,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210354-99189951276",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951081_layerSkullcrusherBrass.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brass",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210354-99189951276",
+    "_highlightResult": {
+      "name": {
+        "value": "Skullcrusher Brass",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "4.8",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "ac65f2af-3f65-455e-a2de-a9c190ef277c",
+    "productType": "paint",
+    "version": 13372,
+    "name": "Skrag Brown",
+    "slug": "Layer-Skrag-Brown-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210353-99189951245",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951040_layerSkragBrown.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210353-99189951245",
+    "_highlightResult": {
+      "name": {
+        "value": "Skrag Brown",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "166cec34-8fc4-4615-8bce-b3b74414e000",
+    "productType": "paint",
+    "version": 9920,
+    "name": "Skavenblight Dinge",
+    "slug": "Layer-Skavenblight-Dinge-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210352-99189951259",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951054_layerSkavenblightDinge.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210352-99189951259",
+    "_highlightResult": {
+      "name": {
+        "value": "Skavenblight Dinge",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "957fb4c0-3d78-466e-b818-f87e922cf6c6",
+    "productType": "paint",
+    "version": 8086,
+    "name": "Skarsnik Green",
+    "slug": "Layer-Skarsnik-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210351-99189951231",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951026_layerSkarsnikGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210351-99189951231",
+    "_highlightResult": {
+      "name": {
+        "value": "Skarsnik Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "f3221576-d8e3-4b25-83d3-1485a377d544",
+    "productType": "paint",
+    "version": 18720,
+    "name": "Screaming Skull",
+    "slug": "Layer-Screaming-Skull-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210350-99189951238",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951033_layerScreamingSkull.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Bone",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210350-99189951238",
+    "_highlightResult": {
+      "name": {
+        "value": "Screaming Skull",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "5ea9bc68-7030-4d1c-8eea-ceaff46c8a10",
+    "productType": "paint",
+    "version": 9888,
+    "name": "Russ Grey",
+    "slug": "Layer-Russ-Grey-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210349-99189951270",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951067_layerRussGrey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210349-99189951270",
+    "_highlightResult": {
+      "name": {
+        "value": "Russ Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "4e15ea2f-fe2f-4bca-9165-e5d8691175b7",
+    "productType": "paint",
+    "version": 14385,
+    "name": "Runefang Steel",
+    "slug": "Layer-Runefang-Steel-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210347-99189951265",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951060_layerRunefangSteel.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Silver",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210347-99189951265",
+    "_highlightResult": {
+      "name": {
+        "value": "Runefang Steel",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "dc887a2a-ee06-466c-a5d8-c77aada85464",
+    "productType": "paint",
+    "version": 13032,
+    "name": "Pink Horror",
+    "slug": "Layer-Pink-Horror-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210346-99189951272",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951069_layerPinkHorror.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Pink",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210346-99189951272",
+    "_highlightResult": {
+      "name": {
+        "value": "Pink Horror",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "0966c054-4620-4590-bdd0-40dbff97a8dd",
+    "productType": "paint",
+    "version": 17185,
+    "name": "Pallid Wych Flesh",
+    "slug": "Layer-Pallid-Wych-Flesh-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210345-99189951263",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951058_layerPallidWychFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210345-99189951263",
+    "_highlightResult": {
+      "name": {
+        "value": "Pallid Wych Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "6dc532e8-84b6-4eaf-b8c8-0b7b8cc76ab1",
+    "productType": "paint",
+    "version": 9523,
+    "name": "Ogryn Camo",
+    "slug": "Layer-Ogryn-Camo-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210344-99189951236",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951031_layerOgrynCamo.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210344-99189951236",
+    "_highlightResult": {
+      "name": {
+        "value": "Ogryn Camo",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "9f2c59d7-40ff-4ee4-af56-fa655ad4819c",
+    "productType": "paint",
+    "version": 7151,
+    "name": "Nurgling Green",
+    "slug": "Layer-Nurgling-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210343-99189951234",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951029_layerNurglingGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210343-99189951234",
+    "_highlightResult": {
+      "name": {
+        "value": "Nurgling Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "57abd11b-2815-4ef7-a2f7-0cadcac5fdbe",
+    "productType": "paint",
+    "version": 17312,
+    "name": "Moot Green",
+    "slug": "Layer-Moot-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210342-99189951229",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951024_layerMootGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210342-99189951229",
+    "_highlightResult": {
+      "name": {
+        "value": "Moot Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "cd3fd10b-336f-4291-bb54-79f408e86787",
+    "productType": "paint",
+    "version": 10733,
+    "name": "Lothern Blue",
+    "slug": "Layer-Lothern-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210341-99189951223",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951018_layerLothernBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210341-99189951223",
+    "_highlightResult": {
+      "name": {
+        "value": "Lothern Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "899a96de-b073-4755-9248-c0211f41ea4d",
+    "productType": "paint",
+    "version": 9341,
+    "name": "Loren Forest",
+    "slug": "Layer-Loren-Forest-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210340-99189951232",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951027_layerLorenForest.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210340-99189951232",
+    "_highlightResult": {
+      "name": {
+        "value": "Loren Forest",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "7aad6ebc-0dd8-41f2-a830-8a4046450b35",
+    "productType": "paint",
+    "version": 17586,
+    "name": "Liberator Gold",
+    "slug": "Layer-Liberator-Gold-2019",
+    "price": 4.8,
+    "ctPrice": {
+      "centAmount": 480,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210339-99189951274",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951073_layerLiberatorGold.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Gold",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210339-99189951274",
+    "_highlightResult": {
+      "name": {
+        "value": "Liberator Gold",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "4.8",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "c8a47fec-92d1-4424-b448-40a628a10aa5",
+    "productType": "paint",
+    "version": 18787,
+    "name": "Kislev Flesh",
+    "slug": "Layer-Kislev-Flesh-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210338-99189951242",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951037_layerKislevFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210338-99189951242",
+    "_highlightResult": {
+      "name": {
+        "value": "Kislev Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "547fe498-8c65-40ee-9f76-ee8258292c26",
+    "productType": "paint",
+    "version": 12353,
+    "name": "Karak Stone",
+    "slug": "Layer-Karak-Stone-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210337-99189951240",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951035_layerKarakStone.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Bone",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210337-99189951240",
+    "_highlightResult": {
+      "name": {
+        "value": "Karak Stone",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "dc5abcc4-8fd3-46e9-903b-513c5e3def62",
+    "productType": "paint",
+    "version": 10399,
+    "name": "Kabalite Green",
+    "slug": "Layer-Kabalite-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210336-99189951226",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951021_layerKabaliteGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210336-99189951226",
+    "_highlightResult": {
+      "name": {
+        "value": "Kabalite Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "ee9be1ac-620f-4961-b07a-772b9d4dac8e",
+    "productType": "paint",
+    "version": 16654,
+    "name": "Ironbreaker",
+    "slug": "Layer-Ironbreaker-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210335-99189951264",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951059_layerIronbreaker.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Silver",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210335-99189951264",
+    "_highlightResult": {
+      "name": {
+        "value": "Ironbreaker",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "adf8660f-14ad-4fe3-951a-b2062b561096",
+    "productType": "paint",
+    "version": 7934,
+    "name": "Hoeth Blue",
+    "slug": "Layer-Hoeth-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210334-99189951219",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951014_layerHoethBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210334-99189951219",
+    "_highlightResult": {
+      "name": {
+        "value": "Hoeth Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "00c69db8-4830-4f62-95f4-bbc7ab6335a0",
+    "productType": "paint",
+    "version": 12591,
+    "name": "Gorthor Brown",
+    "slug": "Layer-Gorthor-Brown-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210332-99189951252",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951047_layerGorthorBrown.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210332-99189951252",
+    "_highlightResult": {
+      "name": {
+        "value": "Gorthor Brown",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "41a7a89e-838d-4b73-b460-e9ed257ecaba",
+    "productType": "paint",
+    "version": 12320,
+    "name": "Genestealer Purple",
+    "slug": "Layer-Genestealer-Purple-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210331-99189951215",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951010_layerGenestealerPurple.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210331-99189951215",
+    "_highlightResult": {
+      "name": {
+        "value": "Genestealer Purple",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "7548369c-e8ab-43eb-bc9f-188cf96a744e",
+    "productType": "paint",
+    "version": 10771,
+    "name": "Gehenna's Gold",
+    "slug": "Layer-Gehennas-Gold-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210330-99189951266",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951061_layerGehennasGold.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Gold",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210330-99189951266",
+    "_highlightResult": {
+      "name": {
+        "value": "Gehenna's Gold",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "30b9bfa3-da7e-47da-927d-a9622e0634e0",
+    "productType": "paint",
+    "version": 8710,
+    "name": "Hashut Copper",
+    "slug": "Layer-Hashut-Copper-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210328-99189951295",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951116_layerHashutCopper.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Copper",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210328-99189951295",
+    "_highlightResult": {
+      "name": {
+        "value": "Hashut Copper",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "6720d668-6d3e-4257-8909-0a80e5a8ec43",
+    "productType": "paint",
+    "version": 12093,
+    "name": "Flash Gitz Yellow",
+    "slug": "Layer-Flash-Gitz-Yellow-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210327-99189951207",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951002_layerFlashGitzYellow.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Yellow",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210327-99189951207",
+    "_highlightResult": {
+      "name": {
+        "value": "Flash Gitz Yellow",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "4860a1f8-38d0-45a2-a2dd-103ab4d5ddaa",
+    "productType": "paint",
+    "version": 14779,
+    "name": "Fire Dragon Bright",
+    "slug": "Layer-Fire-Dragon-Bright-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210326-99189951209",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951004_layerFireDragonBright.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Orange",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210326-99189951209",
+    "_highlightResult": {
+      "name": {
+        "value": "Fire Dragon Bright",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "2c2b8de0-ff71-4047-82a3-6dd193b5bf70",
+    "productType": "paint",
+    "version": 17426,
+    "name": "Fenrisian Grey",
+    "slug": "Layer-Fenrisian-Grey-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210325-99189951271",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951068_layerFenrisianGrey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210325-99189951271",
+    "_highlightResult": {
+      "name": {
+        "value": "Fenrisian Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "dec49ae0-557b-4a02-8b7c-4810277f07f4",
+    "productType": "paint",
+    "version": 22463,
+    "name": "Evil Sunz Scarlet",
+    "slug": "Layer-Evil-Sunz-Scarlet-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210324-99189951210",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951005_layerEvilSunzScarlet.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210324-99189951210",
+    "_highlightResult": {
+      "name": {
+        "value": "Evil Sunz Scarlet",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "9fa02fa9-95b0-466c-9b6f-d5f141f9cb44",
+    "productType": "paint",
+    "version": 17769,
+    "name": "Eshin Grey",
+    "slug": "Layer-Eshin-Grey-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210323-99189951256",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951051_layerEshinGrey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210323-99189951256",
+    "_highlightResult": {
+      "name": {
+        "value": "Eshin Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3d1ef059-eafb-4879-8b13-d2cf3d23e5e8",
+    "productType": "paint",
+    "version": 11649,
+    "name": "Emperor's Children",
+    "slug": "Layer-Emperors-Children-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210322-99189951273",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951070_layerEmperorsChildren.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Pink",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210322-99189951273",
+    "_highlightResult": {
+      "name": {
+        "value": "Emperor's Children",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "8265545f-105c-4fd0-8245-76ac9e57e8b2",
+    "productType": "paint",
+    "version": 9013,
+    "name": "Elysian Green",
+    "slug": "Layer-Elysian-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210321-99189951235",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951030_layerElysianGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210321-99189951235",
+    "_highlightResult": {
+      "name": {
+        "value": "Elysian Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "9f646c86-c030-467e-af36-e5bcd461f1ef",
+    "productType": "paint",
+    "version": 12997,
+    "name": "Doombull Brown",
+    "slug": "Layer-Doombull-Brown-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210320-99189951250",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951045_layerDoombullBrown.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210320-99189951250",
+    "_highlightResult": {
+      "name": {
+        "value": "Doombull Brown",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "9cd71e3f-9460-4b09-92b2-89e18ec6d14c",
+    "productType": "paint",
+    "version": 7391,
+    "name": "Deepkin Flesh",
+    "slug": "Layer-Deepkin-Flesh-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210319-99189951280",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951101_layerDeepkinFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210319-99189951280",
+    "_highlightResult": {
+      "name": {
+        "value": "Deepkin Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "ace7b807-2a21-4e26-8799-496503271bd2",
+    "productType": "paint",
+    "version": 6514,
+    "name": "Deathclaw Brown",
+    "slug": "Layer-Deathclaw-Brown-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210318-99189951246",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951041_layerDeathclawBrown.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210318-99189951246",
+    "_highlightResult": {
+      "name": {
+        "value": "Deathclaw Brown",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "36591701-0ed4-4c2f-884b-a8435925742c",
+    "productType": "paint",
+    "version": 19989,
+    "name": "Dawnstone",
+    "slug": "Layer-Dawnstone-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210317-99189951254",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951049_layerDawnstone.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210317-99189951254",
+    "_highlightResult": {
+      "name": {
+        "value": "Dawnstone",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "5bad396b-7d63-4991-b6c9-22db8cb96038",
+    "productType": "paint",
+    "version": 13950,
+    "name": "Dark Reaper",
+    "slug": "Layer-Dark-Reaper-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210316-99189951257",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951052_layerDarkReaper.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210316-99189951257",
+    "_highlightResult": {
+      "name": {
+        "value": "Dark Reaper",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "7499f6e0-e0b8-44b3-acda-6edc1fd0d6a2",
+    "productType": "paint",
+    "version": 11035,
+    "name": "Calgar Blue",
+    "slug": "Layer-Calgar-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210315-99189951221",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951016_layerCalgarBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210315-99189951221",
+    "_highlightResult": {
+      "name": {
+        "value": "Calgar Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "6887ed9d-60db-461e-9f3a-2cd80cc4126a",
+    "productType": "paint",
+    "version": 18141,
+    "name": "Cadian Fleshtone",
+    "slug": "Layer-Cadian-Fleshtone-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210314-99189951241",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951036_layerCadianFleshtone.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210314-99189951241",
+    "_highlightResult": {
+      "name": {
+        "value": "Cadian Fleshtone",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "875e52ee-151a-4257-be7b-f4110fac879d",
+    "productType": "paint",
+    "version": 12162,
+    "name": "Brass Scorpion",
+    "slug": "Layer-Brass-Scorpion-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210313-99189951269",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951065_layerBrassScorpion.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brass",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210313-99189951269",
+    "_highlightResult": {
+      "name": {
+        "value": "Brass Scorpion",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "2f717671-039c-44de-9887-331bfd6326d9",
+    "productType": "paint",
+    "version": 4532,
+    "name": "Bestigor Flesh",
+    "slug": "Layer-Bestigor-Flesh-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210312-99189951243",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951038_layerBestigorFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210312-99189951243",
+    "_highlightResult": {
+      "name": {
+        "value": "Bestigor Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "e96533c1-6154-4edf-8620-487198a6e990",
+    "productType": "paint",
+    "version": 11914,
+    "name": "Baneblade Brown",
+    "slug": "Layer-Baneblade-Brown-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210311-99189951253",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951048_layerBanebladeBrown.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210311-99189951253",
+    "_highlightResult": {
+      "name": {
+        "value": "Baneblade Brown",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "4c2e44d0-11cf-40a3-b7b6-c990f01dbd16",
+    "productType": "paint",
+    "version": 7872,
+    "name": "Balor Brown",
+    "slug": "Layer-Balor-Brown-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210310-99189951248",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951043_layerBalorBrown.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Brown",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210310-99189951248",
+    "_highlightResult": {
+      "name": {
+        "value": "Balor Brown",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "0451cd1a-4e2b-44b8-b54a-9ee93eef8a2f",
+    "productType": "paint",
+    "version": 15730,
+    "name": "Auric Armour Gold",
+    "slug": "Layer-Auric-Armour-Gold-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210309-99189951267",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951062_layerAuricArmourGold.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Gold",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210309-99189951267",
+    "_highlightResult": {
+      "name": {
+        "value": "Auric Armour Gold",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "0a659c14-1339-4cfe-a3cb-f36eb7a2f849",
+    "productType": "paint",
+    "version": 7020,
+    "name": "Altdorf Guard Blue",
+    "slug": "Layer-Altdorf-Guard-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210308-99189951220",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951015_layerAltdorfGuardBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210308-99189951220",
+    "_highlightResult": {
+      "name": {
+        "value": "Altdorf Guard Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "8b6b0313-c921-41e3-8869-d2120d4d897e",
+    "productType": "paint",
+    "version": 6317,
+    "name": "Alaitoc Blue",
+    "slug": "Layer-Alaitoc-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210307-99189951218",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951013_layerAlaitocBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210307-99189951218",
+    "_highlightResult": {
+      "name": {
+        "value": "Alaitoc Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "47f75147-4af2-49c7-9bc6-559800e4edc9",
+    "productType": "paint",
+    "version": 10980,
+    "name": "Ahriman Blue",
+    "slug": "Layer-Ahriman-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210306-99189951279",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951084_layerAhrimanBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210306-99189951279",
+    "_highlightResult": {
+      "name": {
+        "value": "Ahriman Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "ac23000f-02a2-456f-b967-cde6901f5a1d",
+    "productType": "paint",
+    "version": 15385,
+    "name": "Administratum Grey",
+    "slug": "Layer-Administratum-Grey-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210305-99189951255",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189952029_layerAdministratumGrey.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Grey",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210305-99189951255",
+    "_highlightResult": {
+      "name": {
+        "value": "Administratum Grey",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "3e7fbccb-f766-4776-91fa-85f3865eea26",
+    "productType": "paint",
+    "version": 6183,
+    "name": "Fulgurite Copper",
+    "slug": "Layer-Fulgurite-Copper-2019",
+    "price": 4.8,
+    "ctPrice": {
+      "centAmount": 480,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210304-99189951277",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951082_layerFulguriteCopper.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Copper",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210304-99189951277",
+    "_highlightResult": {
+      "name": {
+        "value": "Fulgurite Copper",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "4.8",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "7a8be545-e760-43bc-afab-9ceb0ef98984",
+    "productType": "paint",
+    "version": 14639,
+    "name": "Flayed One Flesh",
+    "slug": "Layer-Flayed-One-Flesh-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4210303-99189951275",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951074_layerFlayedOneFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4210303-99189951275",
+    "_highlightResult": {
+      "name": {
+        "value": "Flayed One Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "9fe6b75b-19b6-4a3a-8509-3e408cbcdc24",
+    "productType": "paint",
+    "version": 6374,
+    "name": "Knight-Questor Flesh",
+    "slug": "Knight-questor-Flesh-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190183-99189951297",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951195_layerKnightQuestorFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190183-99189951297",
+    "_highlightResult": {
+      "name": {
+        "value": "Knight-Questor Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "a0254a25-67b3-496e-9e65-1d68cc3a1da2",
+    "productType": "paint",
+    "version": 6447,
+    "name": "Bloodreaver Flesh",
+    "slug": "Bloodreaver-Flesh-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190182-99189951296",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951194_layerBloodreaverFlesh.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Flesh",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190182-99189951296",
+    "_highlightResult": {
+      "name": {
+        "value": "Bloodreaver Flesh",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "f41c5bab-c567-48b1-9ea1-e9c0da9203da",
+    "productType": "paint",
+    "version": 8128,
+    "name": "Word Bearers Red",
+    "slug": "Word-Bearers-Red-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190181-99189951294",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951115_layerWordBearersRed.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Red",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190181-99189951294",
+    "_highlightResult": {
+      "name": {
+        "value": "Word Bearers Red",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "285c8558-20fd-4d54-b877-6d9e42d43e75",
+    "productType": "paint",
+    "version": 5652,
+    "name": "Vulkan Green",
+    "slug": "Vulkan-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190180-99189951293",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951114_layerVulkanGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190180-99189951293",
+    "_highlightResult": {
+      "name": {
+        "value": "Vulkan Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "2886995c-01a3-4abb-91fa-289eadb063b5",
+    "productType": "paint",
+    "version": 6501,
+    "name": "Castellax Bronze",
+    "slug": "Castellax-Bronze-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190179-99189951292",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951113_layerCastellaxBronze.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Bronze",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190179-99189951292",
+    "_highlightResult": {
+      "name": {
+        "value": "Castellax Bronze",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "d54dc330-ea54-45f5-b753-7313261daf01",
+    "productType": "paint",
+    "version": 8652,
+    "name": "Phalanx Yellow",
+    "slug": "Phalanx-Yellow-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190178-99189951291",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951112_layerPhalanxYellow.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Yellow",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190178-99189951291",
+    "_highlightResult": {
+      "name": {
+        "value": "Phalanx Yellow",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "20cc80d4-4ea2-4006-b308-7ccb72168668",
+    "productType": "paint",
+    "version": 9639,
+    "name": "Sons of Horus Green",
+    "slug": "Sons-Of-Horus-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190177-99189951290",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951111_layerSonsOfHorusGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190177-99189951290",
+    "_highlightResult": {
+      "name": {
+        "value": "Sons of Horus Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "53b1f00a-c5e6-468d-9f56-992853329443",
+    "productType": "paint",
+    "version": 6254,
+    "name": "Kakophoni Purple",
+    "slug": "Kakophoni-Purple-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190176-99189951289",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951110_layerKakophoniPurple.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190176-99189951289",
+    "_highlightResult": {
+      "name": {
+        "value": "Kakophoni Purple",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "1d878eec-2223-4488-b090-3c233673c258",
+    "productType": "paint",
+    "version": 6058,
+    "name": "Lugganath Orange",
+    "slug": "Layer-Lugganath-Orange-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190175-99189951288",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951109_layerLugganathOrange.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Orange",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190175-99189951288",
+    "_highlightResult": {
+      "name": {
+        "value": "Lugganath Orange",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "dc331948-737a-4a88-a2a7-068421bb9525",
+    "productType": "paint",
+    "version": 9848,
+    "name": "Blue Horror",
+    "slug": "Layer-Blue-Horror-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190174-99189951287",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951108_layerBlueHorror.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190174-99189951287",
+    "_highlightResult": {
+      "name": {
+        "value": "Blue Horror",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "dde83db3-b908-4172-8229-e444badcb042",
+    "productType": "paint",
+    "version": 6307,
+    "name": "Krieg Khaki",
+    "slug": "Layer-Krieg-Khaki-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190173-99189951286",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951107_layerKriegKhaki.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Bone",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190173-99189951286",
+    "_highlightResult": {
+      "name": {
+        "value": "Krieg Khaki",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "fc2c6e53-42ae-4f1c-b486-0f5bc860de7c",
+    "productType": "paint",
+    "version": 7367,
+    "name": "Dechala Lilac",
+    "slug": "Layer-Dechala-Lilac-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190172-99189951285",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951106_layerDechalaLilac.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Purple",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190172-99189951285",
+    "_highlightResult": {
+      "name": {
+        "value": "Dechala Lilac",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "d7d7e437-afb9-4263-9da1-12d3332ab426",
+    "productType": "paint",
+    "version": 10533,
+    "name": "Fulgrim Pink",
+    "slug": "Layer-Fulgrim-Pink-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190171-99189951284",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951105_layerFulgrimPink.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Pink",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190171-99189951284",
+    "_highlightResult": {
+      "name": {
+        "value": "Fulgrim Pink",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "9a7e08af-2c04-4f27-be08-4c1c4ce4e00c",
+    "productType": "paint",
+    "version": 8968,
+    "name": "Dorn Yellow",
+    "slug": "Layer-Dorn-Yellow-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190170-99189951283",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951104_layerDornYellow.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Yellow",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190170-99189951283",
+    "_highlightResult": {
+      "name": {
+        "value": "Dorn Yellow",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "a546e0da-19b9-440c-b2e0-bc27e1b0b12e",
+    "productType": "paint",
+    "version": 14434,
+    "name": "Baharroth Blue",
+    "slug": "Layer-Baharroth-Blue-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190169-99189951282",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951103_layerBaharrothBlue.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Blue",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190169-99189951282",
+    "_highlightResult": {
+      "name": {
+        "value": "Baharroth Blue",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  },
+  {
+    "id": "7f6a4bca-a535-472e-9750-c1c6129ac9c4",
+    "productType": "paint",
+    "version": 8397,
+    "name": "Gauss Blaster Green",
+    "slug": "Layer-Gauss-Blaster-Green-2019",
+    "price": 3.6,
+    "ctPrice": {
+      "centAmount": 360,
+      "fractionDigits": 2,
+      "currencyCode": "EUR"
+    },
+    "sku": "prod4190168-99189951281",
+    "images": [
+      "/app/resources/catalog/product/920x950/99189951102_layerGaussBlasterGreen.svg"
+    ],
+    "description": "</br>",
+    "paintType": [
+      "Layer"
+    ],
+    "paintColourRange": "Green",
+    "isAvailable": true,
+    "isPreOrder": false,
+    "isNewRelease": false,
+    "isSellingFast": false,
+    "isWarhammerPlusExclusive": false,
+    "isSpecialOrderItem": false,
+    "isGiftProduct": false,
+    "isRestricted": false,
+    "isDangerous": false,
+    "isHazardous": false,
+    "tabs": [
+      "deliveries:HARD",
+      "warning:RECYCLING_GEN",
+      "ageRestriction:NA",
+      "hazardous:false",
+      "shippingOrderType:Hard"
+    ],
+    "statusCode": "A",
+    "isInStock": true,
+    "isProductGuaranteed": false,
+    "quantityLimits": 9999,
+    "isWebstoreExclusive": false,
+    "isAvailableWhileStocksLast": false,
+    "isLastChanceToBuy": false,
+    "colourVariants": [],
+    "formatVariants": [],
+    "shipsFromAbroad": false,
+    "supplyChannel": "lenton",
+    "externalVendorLink": "",
+    "showProductPrice": true,
+    "objectID": "prod4190168-99189951281",
+    "_highlightResult": {
+      "name": {
+        "value": "Gauss Blaster Green",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "price": {
+        "value": "3.6",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "description": {
+        "value": "</br>",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    }
+  }
+]
