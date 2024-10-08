@@ -12,6 +12,7 @@ import { Group } from "../pages/Group.tsx";
 import { Home } from "../pages/Home.tsx";
 import { SignUp } from "../pages/SignUp.tsx";
 import { About } from "../pages/About.tsx";
+import { Paints } from "../pages/Paints.tsx";
 
 const route = (
   path: string,
@@ -64,6 +65,7 @@ export const routes: RouteObject[] = [
       route("/", <Home />),
       route("inventory", <Collections />),
       routeWithChildren("inventory", [route(":id", <Group />, "Group")]),
+      route("paint-storage", <Paints />),
       route("roadmap", <Roadmap />),
       route("about", <About />),
       route("settings", <Settings />),
