@@ -272,7 +272,9 @@ export const AppHeader = () => {
                 key={button.label}
                 disabled={button.disabled}
                 sx={{
-                  color: button.active ? theme.palette.primary.main : "inherit",
+                  color: button.active
+                    ? theme.palette.primary.main
+                    : theme.palette.text.primary,
                   "&:hover": {
                     backgroundColor: theme.palette.primary.light,
                   },
@@ -283,7 +285,7 @@ export const AppHeader = () => {
                     sx={{
                       color: button.active
                         ? theme.palette.primary.main
-                        : theme.palette.primary.contrastText,
+                        : theme.palette.text.primary,
                       fontSize: "1.5rem",
                     }}
                   >
