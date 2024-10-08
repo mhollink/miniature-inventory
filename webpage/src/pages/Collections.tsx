@@ -128,7 +128,7 @@ const Summary = () => {
           <GroupProgress
             totalCollection={
               visibleCollections.length === 0
-                ? [{ label: "Total inventory", values: totalInventoryProgress }]
+                ? [{ label: "", values: totalInventoryProgress }]
                 : visibleCollections.map((c) => ({
                     label: progressionPerCollection[c].label,
                     values: progressionPerCollection[c].values,
