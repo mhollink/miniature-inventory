@@ -6,7 +6,7 @@ import Stack from "@mui/material/Stack";
 import SquareOutlinedIcon from "@mui/icons-material/SquareOutlined";
 import CategoryOutlinedIcon from "@mui/icons-material/Inventory2Outlined";
 import { useStore } from "@state/store.ts";
-import { selectInventorySlice } from "@state/inventory";
+import { ModelStage, selectInventorySlice } from "@state/inventory";
 import { SummaryItem } from "@components/collections/SummaryItem";
 import Alert from "@mui/material/Alert";
 import Button from "@mui/material/Button";
@@ -18,12 +18,18 @@ import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 import { CollectionAccordion } from "@components/collections/CollectionAccordion.tsx";
 import { DragDropContext, DropResult } from "@hello-pangea/dnd";
 import { moveItem, moveItemBetweenLists } from "../utils/array.ts";
-import { Fragment, useEffect } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { useApi } from "../api/useApi.ts";
 import { SportsBarOutlined } from "@mui/icons-material";
 import { selectAccountSlice } from "@state/account";
 import { MAX_COLLECTIONS } from "../constants.ts";
-import { Paper } from "@mui/material";
+import {
+  Checkbox,
+  FormControlLabel,
+  FormGroup,
+  FormHelperText,
+  Paper,
+} from "@mui/material";
 import { GroupProgress } from "@components/groups/GroupProgress.tsx";
 import { useLocation } from "react-router-dom";
 import { analytics } from "../firebase/firebase.ts";
@@ -31,6 +37,7 @@ import { logEvent } from "firebase/analytics";
 import { logApiFailure, logKeyEvent } from "../firebase/analytics.ts";
 import { selectAlertSlice } from "@state/alert";
 import { Alerts } from "@components/alerts/alerts.tsx";
+import { calculateSumForEachStage } from "../utils/collection.ts";
 
 const Summary = () => {
   const theme = useTheme();
@@ -41,6 +48,33 @@ const Summary = () => {
   const models = inventory.models
     .flatMap((models) => models.collection.map((c) => c.amount as number))
     .reduce((a, b) => a + b, 0);
+
+  const [visibleCollections, setVisibleCollections] = useState<string[]>([]);
+  const handleCheckboxChange = (collectionId: string) => {
+    setVisibleCollections((prev) =>
+      prev.includes(collectionId)
+        ? prev.filter((id) => id !== collectionId)
+        : [...prev, collectionId]
+            .map((c) => inventory.findCollection(c))
+            .filter((c) => !!c)
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .map((c) => c.id),
+    );
+  };
+
+  const progressionPerCollection = inventory.collections
+    .map((collection) => {
+      const data = collection.groups.flatMap((group) => {
+        const models = inventory.findGroup(group)?.models || [];
+        return models
+          .flatMap(inventory.findModel)
+          .flatMap((model) => model?.collection || []);
+      });
+      return {
+        [collection.id]: calculateSumForEachStage(data),
+      };
+    })
+    .reduce((t, c) => ({ ...t, ...c }), {} as Record<string, ModelStage[]>);
 
   return (
     <>
@@ -82,8 +116,37 @@ const Summary = () => {
         Total cumulative progress
       </Typography>
       <GroupProgress
-        totalCollection={inventory.models.flatMap((model) => model.collection)}
+        totalCollection={
+          visibleCollections.length === 0
+            ? [inventory.models.flatMap((model) => model.collection)]
+            : visibleCollections.map((c) => progressionPerCollection[c])
+        }
       />
+      <FormGroup>
+        <Stack direction={"row"} gap={2}>
+          {inventory.collections
+            .filter(
+              // removes any collection that have no models inside.
+              (collection) => progressionPerCollection[collection.id].length,
+            )
+            .sort((a, b) => a?.name.localeCompare(b.name))
+            .map((collection) => (
+              <FormControlLabel
+                key={collection.id}
+                control={
+                  <Checkbox
+                    checked={visibleCollections.includes(collection.id)}
+                    onChange={() => handleCheckboxChange(collection.id)}
+                  />
+                }
+                label={collection.name}
+              />
+            ))}
+        </Stack>
+        <FormHelperText>
+          Select which collections to plot, none = entire inventory
+        </FormHelperText>
+      </FormGroup>
     </>
   );
 };
@@ -238,34 +301,36 @@ export const Collections = () => {
         )}
 
         <DragDropContext onDragEnd={updateGroups}>
-          {inventory.collections.map((collection, index) => (
-            <Fragment key={collection.id}>
-              <CollectionAccordion collection={collection} />
-              {!supporter && index === 0 && (
-                <Button
-                  onClick={() =>
-                    window.open(
-                      "https://www.buymeacoffee.com/mhollink",
-                      "_blank",
-                    )
-                  }
-                  sx={{
-                    backgroundColor: "#F9C74F",
-                    color: (theme) => theme.palette.common.black,
-                    fontWeight: "bold",
-                    padding: (theme) => theme.spacing(2),
-                    borderRadius: "8px",
-                    "&:hover": {
-                      backgroundColor: "#F6B93A",
-                    },
-                  }}
-                  startIcon={<SportsBarOutlined fontSize={"large"} />}
-                >
-                  Support this page by buying me a beer!
-                </Button>
-              )}
-            </Fragment>
-          ))}
+          {inventory.collections
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .map((collection, index) => (
+              <Fragment key={collection.id}>
+                <CollectionAccordion collection={collection} />
+                {!supporter && index === 0 && (
+                  <Button
+                    onClick={() =>
+                      window.open(
+                        "https://www.buymeacoffee.com/mhollink",
+                        "_blank",
+                      )
+                    }
+                    sx={{
+                      backgroundColor: "#F9C74F",
+                      color: (theme) => theme.palette.common.black,
+                      fontWeight: "bold",
+                      padding: (theme) => theme.spacing(2),
+                      borderRadius: "8px",
+                      "&:hover": {
+                        backgroundColor: "#F6B93A",
+                      },
+                    }}
+                    startIcon={<SportsBarOutlined fontSize={"large"} />}
+                  >
+                    Support this page by buying me a beer!
+                  </Button>
+                )}
+              </Fragment>
+            ))}
         </DragDropContext>
 
         {supporter || inventory.collections.length < MAX_COLLECTIONS ? (

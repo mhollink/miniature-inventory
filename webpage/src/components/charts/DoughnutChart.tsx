@@ -10,20 +10,12 @@ import {
 } from "chart.js";
 import Box from "@mui/material/Box";
 import useTheme from "@mui/material/styles/useTheme";
+import { PieChartProps } from "@components/charts/PieChart.tsx";
 
 // Register the necessary Chart.js components
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-interface DoughnutChartProps {
-  labels: string[];
-  data: number[];
-  backgroundColors: string[];
-  size?: string;
-  options?: {
-    legend: boolean;
-    tooltip: boolean;
-  };
-}
+type DoughnutChartProps = PieChartProps;
 
 export const DoughnutChart: React.FC<DoughnutChartProps> = ({
   labels,
@@ -38,14 +30,12 @@ export const DoughnutChart: React.FC<DoughnutChartProps> = ({
   const theme = useTheme();
   const chartData: ChartData<"doughnut"> = {
     labels: labels,
-    datasets: [
-      {
-        data: data,
-        backgroundColor: backgroundColors,
-        borderWidth: legend ? 5 : 0,
-        borderColor: theme.palette.background.default,
-      },
-    ],
+    datasets: data.map((set) => ({
+      data: set,
+      backgroundColor: backgroundColors,
+      borderWidth: legend ? 5 : 0,
+      borderColor: theme.palette.background.default,
+    })),
   };
 
   const options: ChartOptions<"doughnut"> = {

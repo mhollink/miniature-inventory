@@ -14,18 +14,18 @@ import useTheme from "@mui/material/styles/useTheme";
 // Register the necessary Chart.js components
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-interface DoughnutChartProps {
+export type PieChartProps = {
   labels: string[];
-  data: number[];
+  data: number[][];
   backgroundColors: string[];
   size?: string;
   options?: {
     legend: boolean;
     tooltip: boolean;
   };
-}
+};
 
-export const PieChart: React.FC<DoughnutChartProps> = ({
+export const PieChart: React.FC<PieChartProps> = ({
   labels,
   data,
   backgroundColors,
@@ -38,14 +38,12 @@ export const PieChart: React.FC<DoughnutChartProps> = ({
   const theme = useTheme();
   const chartData: ChartData<"pie"> = {
     labels: labels,
-    datasets: [
-      {
-        data: data,
-        backgroundColor: backgroundColors,
-        borderWidth: legend ? 2 : 0,
-        borderColor: theme.palette.background.default,
-      },
-    ],
+    datasets: data.map((set: number[]) => ({
+      data: set,
+      backgroundColor: backgroundColors,
+      borderWidth: legend ? 2 : 0,
+      borderColor: theme.palette.background.default,
+    })),
   };
 
   const options: ChartOptions<"pie"> = {

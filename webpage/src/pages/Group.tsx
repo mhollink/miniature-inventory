@@ -257,15 +257,16 @@ export const Group: FunctionComponent = () => {
               <Typography variant={"h5"} flexGrow={1}>
                 Progress in this group
               </Typography>
-              {models.length === 0 && (
+              {models.length === 0 ? (
                 <>
                   <Alert severity={"info"} variant={"filled"}>
                     This group is currently empty. You can start adding models
                     to this group using the FAB in the bottom right corner.
                   </Alert>
                 </>
+              ) : (
+                <GroupProgress totalCollection={[totalCollection]} />
               )}
-              <GroupProgress totalCollection={totalCollection} />
               <Stack direction={"row"} alignItems={"center"}>
                 <Typography variant={"h4"} flexGrow={1}>
                   Models in this group

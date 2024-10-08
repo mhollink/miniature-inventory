@@ -101,7 +101,7 @@ export const GroupLink: FunctionComponent<CollectionSummaryProps> = ({
                   )}
                 </Typography>
                 <DoughnutChart
-                  data={summedStages.map((s) => s.amount)}
+                  data={[summedStages.map((s) => s.amount)]}
                   labels={workflow.workflowStages}
                   backgroundColors={workflow.workflowColors}
                   size={"4rem"}
