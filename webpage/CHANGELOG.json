@@ -1,5 +1,12 @@
 {
-  "main": {},
+  "main": {
+    "changes": [
+      "Some 'under the hood' changes like cleaning up code"
+    ],
+    "bugfixes": [
+      "Fixed issue with dropping groups into collections that were collapsed on the overview"
+    ]
+  },
   "1.3.0": {
     "added": [
       "Added toggles on the inventory overview to show progress for specific collections",
