@@ -95,9 +95,18 @@ export const inventorySlice: Slice<InventoryState> = (set, get) => ({
     ),
   deleteCollection: (id: string) =>
     set(
-      ({ collections }) => ({
-        collections: collections.filter((collection) => collection.id !== id),
-      }),
+      ({ collections, groups, models }) => {
+        const deletedGroups =
+          collections.find((c) => c.id === id)?.groups || [];
+        const deletedModels = deletedGroups.flatMap(
+          (group) => groups.find((g) => g.id === group)?.models || [],
+        );
+        return {
+          collections: collections.filter((collection) => collection.id !== id),
+          groups: groups.filter((group) => !deletedGroups.includes(group.id)),
+          models: models.filter((model) => !deletedModels.includes(model.id)),
+        };
+      },
       undefined,
       "DELETE_COLLECTION",
     ),

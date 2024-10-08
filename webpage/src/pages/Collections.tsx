@@ -62,6 +62,9 @@ const Summary = () => {
     );
   };
 
+  const totalInventoryProgress = inventory.models.flatMap(
+    (model) => model.collection,
+  );
   const progressionPerCollection = inventory.collections
     .map((collection) => {
       const data = collection.groups.flatMap((group) => {
@@ -75,7 +78,6 @@ const Summary = () => {
       };
     })
     .reduce((t, c) => ({ ...t, ...c }), {} as Record<string, ModelStage[]>);
-
   return (
     <>
       <Paper
@@ -112,41 +114,46 @@ const Summary = () => {
           />
         </Stack>
       </Paper>
-      <Typography variant={"h5"} flexGrow={1}>
-        Total cumulative progress
-      </Typography>
-      <GroupProgress
-        totalCollection={
-          visibleCollections.length === 0
-            ? [inventory.models.flatMap((model) => model.collection)]
-            : visibleCollections.map((c) => progressionPerCollection[c])
-        }
-      />
-      <FormGroup>
-        <Stack direction={"row"} gap={2}>
-          {inventory.collections
-            .filter(
-              // removes any collection that have no models inside.
-              (collection) => progressionPerCollection[collection.id].length,
-            )
-            .sort((a, b) => a?.name.localeCompare(b.name))
-            .map((collection) => (
-              <FormControlLabel
-                key={collection.id}
-                control={
-                  <Checkbox
-                    checked={visibleCollections.includes(collection.id)}
-                    onChange={() => handleCheckboxChange(collection.id)}
+      {totalInventoryProgress.length !== 0 && (
+        <>
+          <Typography variant={"h5"} flexGrow={1}>
+            Total cumulative progress
+          </Typography>
+          <GroupProgress
+            totalCollection={
+              visibleCollections.length === 0
+                ? [totalInventoryProgress]
+                : visibleCollections.map((c) => progressionPerCollection[c])
+            }
+          />
+          <FormGroup>
+            <Stack direction={"row"} gap={2}>
+              {inventory.collections
+                .filter(
+                  // removes any collection that have no models inside.
+                  (collection) =>
+                    progressionPerCollection[collection.id].length,
+                )
+                .sort((a, b) => a?.name.localeCompare(b.name))
+                .map((collection) => (
+                  <FormControlLabel
+                    key={collection.id}
+                    control={
+                      <Checkbox
+                        checked={visibleCollections.includes(collection.id)}
+                        onChange={() => handleCheckboxChange(collection.id)}
+                      />
+                    }
+                    label={collection.name}
                   />
-                }
-                label={collection.name}
-              />
-            ))}
-        </Stack>
-        <FormHelperText>
-          Select which collections to plot, none = entire inventory
-        </FormHelperText>
-      </FormGroup>
+                ))}
+            </Stack>
+            <FormHelperText>
+              Select which collections to plot, none = entire inventory
+            </FormHelperText>
+          </FormGroup>
+        </>
+      )}
     </>
   );
 };
