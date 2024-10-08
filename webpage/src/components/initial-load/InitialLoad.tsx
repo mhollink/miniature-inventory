@@ -21,11 +21,11 @@ export const InitialLoad: FunctionComponent<PropsWithChildren> = ({
 
   useEffect(() => {
     if (loading) return;
-    if (loaded) return;
-
     if (!user) {
       clearInventory();
+      setLoaded(false);
     } else {
+      if (loaded) return;
       setFetching(true);
       Promise.all([
         loadWorkflow(),
