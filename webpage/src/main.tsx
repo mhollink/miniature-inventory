@@ -6,7 +6,7 @@ import { HelmetProvider } from "react-helmet-async";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { routes } from "./router/routes.tsx";
 
-import "./styles/index.scss";
+import "../styles/index.scss";
 import { AuthProvider } from "./firebase/FirebaseAuthContext.tsx";
 
 createRoot(document.getElementById("root")!).render(
