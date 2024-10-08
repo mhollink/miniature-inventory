@@ -16,7 +16,7 @@ export const ExternalLink: FunctionComponent<
       rel="noopener noreferrer"
       href={href}
       sx={{
-        display: "inline-flex",
+        display: "inline",
       }}
     >
       {children}

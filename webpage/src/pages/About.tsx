@@ -66,7 +66,7 @@ export const About: FunctionComponent = () => {
           <ExternalLink
             href={"https://github.com/mhollink/miniature-inventory/issues"}
           >
-            https://github.com/mhollink/miniature-inventory/issues
+            https://github.com/mhollink/miniature-inventory/issues{" "}
           </ExternalLink>
           .
         </Typography>
