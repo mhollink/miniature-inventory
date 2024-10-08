@@ -6,7 +6,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { calculateSumForEachStage } from "../../utils/collection.ts";
 import { DoughnutChart } from "@components/charts/DoughnutChart.tsx";
 
-export const GroupProgress = ({
+export const ProgressSummary = ({
   totalCollection,
   variant = "pie",
 }: {

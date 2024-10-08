@@ -109,12 +109,6 @@ export const GroupLink: FunctionComponent<CollectionSummaryProps> = ({
                 <NavigateNextIcon />
               </Stack>
             </Link>
-            {/*<Box*/}
-            {/*  sx={{*/}
-            {/*    p: 0.2,*/}
-            {/*    background: gradient,*/}
-            {/*  }}*/}
-            {/*/>*/}
           </Paper>
         )}
       </Draggable>
