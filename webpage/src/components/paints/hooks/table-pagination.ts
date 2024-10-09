@@ -2,7 +2,7 @@ import { ChangeEvent, useState } from "react";
 
 export const usePagination = () => {
   const [page, setPage] = useState(0);
-  const [rowsPerPage, setRowsPerPage] = useState(5);
+  const [rowsPerPage, setRowsPerPage] = useState(20);
 
   const handleChangePage = (_: unknown, newPage: number) => {
     setPage(newPage);

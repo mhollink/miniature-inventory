@@ -1,15 +1,23 @@
 import { ChangeEvent, MouseEvent, useState } from "react";
-import { Data } from "@components/paints/PaintType.ts";
+import { Paint } from "@state/paints";
 
 export const useTableSelection = () => {
   const [selected, setSelected] = useState<readonly string[]>([]);
 
   const handleSelectAllClick = (
     event: ChangeEvent<HTMLInputElement>,
-    rows: Data[],
+    rows: Paint[],
+    searchTerm: string = "",
   ) => {
     if (event.target.checked) {
-      const newSelected = rows.map((n) => n.id);
+      const newSelected = rows
+        .filter((paint) => {
+          const searchString = searchTerm.toLowerCase().trim();
+          return [paint.brand, paint.range, paint.name].some((value) =>
+            value.toLowerCase().trim().includes(searchString),
+          );
+        })
+        .map((n) => n.id);
       setSelected(newSelected);
       return;
     }

@@ -8,15 +8,15 @@ import {
 } from "@mui/material";
 import Box from "@mui/material/Box";
 import { visuallyHidden } from "@mui/utils";
-import { Data } from "@components/paints/PaintType.ts";
 import useTheme from "@mui/material/styles/useTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import { Paint } from "@state/paints";
 
 export type SortOrder = "asc" | "desc";
 
 interface TableToolbar {
   numSelected: number;
-  onRequestSort: (event: MouseEvent<unknown>, property: keyof Data) => void;
+  onRequestSort: (event: MouseEvent<unknown>, property: keyof Paint) => void;
   onSelectAllClick: (event: ChangeEvent<HTMLInputElement>) => void;
   order: SortOrder;
   orderBy: string;
@@ -25,7 +25,7 @@ interface TableToolbar {
 
 interface HeadCell {
   disablePadding: boolean;
-  id: keyof Data;
+  id: keyof Paint;
   label: string;
   numeric: boolean;
   hideOnMobile: boolean;
@@ -52,7 +52,7 @@ const headCells: readonly HeadCell[] = [
     numeric: false,
     disablePadding: false,
     label: "Range",
-    hideOnMobile: false,
+    hideOnMobile: true,
   },
   {
     id: "color",
@@ -75,7 +75,7 @@ export const TableHeader = (props: TableToolbar) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const createSortHandler =
-    (property: keyof Data) => (event: MouseEvent<unknown>) => {
+    (property: keyof Paint) => (event: MouseEvent<unknown>) => {
       onRequestSort(event, property);
     };
 

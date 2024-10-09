@@ -3,11 +3,33 @@ import { Crumbs } from "@components/cumbs/Crumbs.tsx";
 import Typography from "@mui/material/Typography";
 import { Container } from "@mui/material";
 import { PaintCollectionTable } from "@components/paints/PaintCollectionTable.tsx";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import { analytics } from "../firebase/firebase.ts";
+import { logEvent } from "firebase/analytics";
+import Button from "@mui/material/Button";
+import { Add } from "@mui/icons-material";
+import { ModalTypes } from "@components/modal/modals.tsx";
+import { selectModalSlice } from "@state/modal";
+import { useStore } from "@state/store.ts";
 
 export const Paints = () => {
+  const location = useLocation();
+  const modal = useStore(selectModalSlice);
+
+  useEffect(() => {
+    // Send a page view event with a fixed page name
+    if (!analytics) return;
+    logEvent(analytics, "page_view", {
+      page_title: "Paint storage",
+      page_location: window.location.href,
+      page_path: location.pathname,
+    });
+  }, [location]);
+
   return (
     <>
-      <Helmet title="Roadmap" />
+      <Helmet title="Paints" />
       <Container
         maxWidth="md"
         sx={{
@@ -25,6 +47,13 @@ export const Paints = () => {
           check what you have at a glance, and never buy duplicates again.
         </Typography>
         <PaintCollectionTable />
+        <Button
+          sx={{ minWidth: "17ch" }}
+          startIcon={<Add />}
+          onClick={() => modal.openModal(ModalTypes.ADD_PAINT)}
+        >
+          Add paint
+        </Button>
       </Container>
     </>
   );

@@ -65,7 +65,7 @@ export const routes: RouteObject[] = [
       route("/", <Home />),
       route("inventory", <Collections />),
       routeWithChildren("inventory", [route(":id", <Group />, "Group")]),
-      route("paint-storage", <Paints />),
+      route("paint-storage", <Paints />, "Paint storage"),
       route("roadmap", <Roadmap />),
       route("about", <About />),
       route("settings", <Settings />),

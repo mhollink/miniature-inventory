@@ -1,10 +1,10 @@
 import { SortOrder } from "@components/paints/TableHeader.tsx";
 import { MouseEvent, useState } from "react";
-import { Data } from "@components/paints/PaintType.ts";
+import { Paint } from "@state/paints";
 
 export const useTableSorting = () => {
-  const [order, setOrder] = useState<SortOrder>("asc");
-  const [orderBy, setOrderBy] = useState<keyof Data>("band");
+  const [order, setOrder] = useState<SortOrder>("desc");
+  const [orderBy, setOrderBy] = useState<keyof Paint>("brand");
 
   const descendingComparator = <T>(a: T, b: T, orderBy: keyof T) => {
     if (b[orderBy] < a[orderBy]) {
@@ -16,7 +16,7 @@ export const useTableSorting = () => {
     return 0;
   };
 
-  const getComparator = <Key extends keyof any>(
+  const getComparator = <Key extends keyof Paint>(
     order: SortOrder,
     orderBy: Key,
   ): ((
@@ -27,7 +27,7 @@ export const useTableSorting = () => {
       ? (a, b) => descendingComparator(a, b, orderBy)
       : (a, b) => -descendingComparator(a, b, orderBy);
 
-  const handleRequestSort = (_: MouseEvent<unknown>, property: keyof Data) => {
+  const handleRequestSort = (_: MouseEvent<unknown>, property: keyof Paint) => {
     const isAsc = orderBy === property && order === "asc";
     setOrder(isAsc ? "desc" : "asc");
     setOrderBy(property);

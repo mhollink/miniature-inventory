@@ -10,60 +10,16 @@ import {
   TableRow,
 } from "@mui/material";
 import { TableHeader } from "@components/paints/TableHeader.tsx";
-import { useMemo } from "react";
-import { Data } from "@components/paints/PaintType.ts";
+import { useMemo, useState } from "react";
 import { useTableSorting } from "@components/paints/hooks/table-sorting.ts";
 import { useTableSelection } from "@components/paints/hooks/table-selection.ts";
 import { usePagination } from "@components/paints/hooks/table-pagination.ts";
 import useTheme from "@mui/material/styles/useTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import { useStore } from "@state/store.ts";
 
 export const PaintCollectionTable = () => {
-  const rows: Data[] = [
-    {
-      id: "5594fa2d-57e6-43ec-90cb-8841232a148b",
-      color: "rgb(15, 61, 124)",
-      brand: "Citadel",
-      range: "Base",
-      name: "Macragge Blue",
-    },
-    {
-      id: "5c9bafc0-7f63-4d73-bb60-994f84053cdc",
-      color: "rgb(193, 21, 25)",
-      brand: "Citadel",
-      range: "Contrast",
-      name: "Blood Angels Red",
-    },
-    {
-      id: "6b942a7e-40eb-4c92-8540-4b0cd3627e6a",
-      color: "rgb(192, 20, 17)",
-      brand: "Citadel",
-      range: "Layer",
-      name: "Evil Sunz Scarlet",
-    },
-
-    {
-      id: "fc526edb-f9e4-4699-9ddb-b3fc7e5b703b",
-      color: "rgb(24, 24, 24)",
-      brand: "Citadel",
-      range: "Shade",
-      name: "Nuln Oil",
-    },
-    {
-      id: "fcb1c2a4-66ec-4e64-9460-685fa9eeca0b",
-      color: "rgb(255, 245, 90)",
-      brand: "Citadel",
-      range: "Dry",
-      name: "Hexos Palesun",
-    },
-    {
-      id: "0818504a-c9b2-4984-8e0f-8f7781e44ce1",
-      color: "rgb(179, 158, 128)",
-      brand: "Citadel",
-      range: "Texture",
-      name: "Agrellan Earth",
-    },
-  ];
+  const rows = useStore((state) => state.ownedPaints);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
@@ -72,11 +28,18 @@ export const PaintCollectionTable = () => {
     useTableSorting();
   const { page, rowsPerPage, handleChangeRowsPerPage, handleChangePage } =
     usePagination();
+  const [filter, setFilter] = useState("");
 
   const visibleRows = useMemo(
     () =>
       [...rows]
         .sort(getComparator(order, orderBy))
+        .filter((paint) => {
+          const searchString = filter.toLowerCase().trim();
+          return [paint.brand, paint.range, paint.name].some((value) =>
+            value.toLowerCase().trim().includes(searchString),
+          );
+        })
         .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage),
     [order, orderBy, page, rowsPerPage, getComparator],
   );
@@ -85,16 +48,25 @@ export const PaintCollectionTable = () => {
   const emptyRows =
     page > 0 ? Math.max(0, (1 + page) * rowsPerPage - rows.length) : 0;
 
+  const onSearchTermChanged = (term: string) => {
+    setFilter(term);
+  };
+
   return (
     <Box>
-      <TableToolbar numSelected={selected.length} />
+      <TableToolbar
+        numSelected={selected.length}
+        search={onSearchTermChanged}
+      />
       <TableContainer>
         <Table>
           <TableHeader
             numSelected={selected.length}
             order={order}
             orderBy={orderBy}
-            onSelectAllClick={(event) => handleSelectAllClick(event, rows)}
+            onSelectAllClick={(event) =>
+              handleSelectAllClick(event, rows, filter)
+            }
             onRequestSort={handleRequestSort}
             rowCount={rows.length}
           />
@@ -130,10 +102,15 @@ export const PaintCollectionTable = () => {
                     scope="row"
                     padding="none"
                   >
-                    {row.name}
+                    {row.name}{" "}
+                    {isMobile && (
+                      <i>
+                        <br />({row.range})
+                      </i>
+                    )}
                   </TableCell>
                   <TableCell>{row.brand}</TableCell>
-                  <TableCell>{row.range}</TableCell>
+                  {!isMobile && <TableCell>{row.range}</TableCell>}
                   {!isMobile && (
                     <TableCell align="center">
                       <Box
@@ -165,7 +142,7 @@ export const PaintCollectionTable = () => {
         </Table>
       </TableContainer>
       <TablePagination
-        rowsPerPageOptions={[5, 10, 25]}
+        rowsPerPageOptions={[]}
         component="div"
         count={rows.length}
         rowsPerPage={rowsPerPage}

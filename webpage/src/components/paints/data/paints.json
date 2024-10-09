@@ -1,0 +1,1320 @@
+{
+  "Citadel": {
+    "Air": [
+      {
+        "name": "Macragge Blue",
+        "color": "#0F3D7C"
+      },
+      {
+        "name": "Thallax Gold",
+        "color": "#722A0B"
+      },
+      {
+        "name": "Grey Knights Steel",
+        "color": "#465863"
+      },
+      {
+        "name": "Valdor Gold",
+        "color": "#6D2711"
+      },
+      {
+        "name": "Phalanx Yellow",
+        "color": "#FFE200"
+      },
+      {
+        "name": "Typhon Ash",
+        "color": "#E4D8C1"
+      },
+      {
+        "name": "Corvus Black",
+        "color": "#171314"
+      },
+      {
+        "name": "Night Lords Blue",
+        "color": "#002B5C"
+      },
+      {
+        "name": "Phoenician Purple",
+        "color": "#440052"
+      },
+      {
+        "name": "Mortarion Green Clear",
+        "color": "#00832B"
+      },
+      {
+        "name": "Eidolon Purple Clear",
+        "color": "#7D4D99"
+      },
+      {
+        "name": "Calth Blue Clear",
+        "color": "#0087D1"
+      },
+      {
+        "name": "Angron Red Clear",
+        "color": "#E21823"
+      },
+      {
+        "name": "Fenrisian Grey",
+        "color": "#6D94B3"
+      },
+      {
+        "name": "Russ Grey",
+        "color": "#507085"
+      },
+      {
+        "name": "Runefang Steel",
+        "color": "#797F82"
+      },
+      {
+        "name": "White Scar",
+        "color": "#292929"
+      },
+      {
+        "name": "Ulthuan Grey",
+        "color": "#C4DDD5"
+      },
+      {
+        "name": "Administratum Grey",
+        "color": "#8F9690"
+      },
+      {
+        "name": "Dawnstone",
+        "color": "#697068"
+      },
+      {
+        "name": "Baneblade Brown",
+        "color": "#8F7C68"
+      },
+      {
+        "name": "Kislev Flesh",
+        "color": "#D1A570"
+      },
+      {
+        "name": "Tallarn Sand",
+        "color": "#A07409"
+      },
+      {
+        "name": "Air Caste Thinner",
+        "color": "#292929"
+      },
+      {
+        "name": "Ushabti Bone",
+        "color": "#ABA173"
+      },
+      {
+        "name": "Ogryn Camo",
+        "color": "#96A648"
+      },
+      {
+        "name": "Elysian Green",
+        "color": "#6B8C37"
+      },
+      {
+        "name": "Moot Green",
+        "color": "#3DAF44"
+      },
+      {
+        "name": "Temple Guard Blue",
+        "color": "#239489"
+      },
+      {
+        "name": "Lothern Blue",
+        "color": "#2C9BCC"
+      },
+      {
+        "name": "Evil Sunz Scarlet",
+        "color": "#C01411"
+      },
+      {
+        "name": "Troll Slayer Orange",
+        "color": "#F16C23"
+      },
+      {
+        "name": "Flash Gitz Yellow",
+        "color": "#FFF300"
+      },
+      {
+        "name": "The Fang",
+        "color": "#405B71"
+      },
+      {
+        "name": "Balthasar Gold",
+        "color": "#1D0F07"
+      },
+      {
+        "name": "Leadbelcher",
+        "color": "#151E24"
+      },
+      {
+        "name": "Abaddon Black",
+        "color": "#ffffff"
+      },
+      {
+        "name": "Mechanicus Standard Grey",
+        "color": "#39484A"
+      },
+      {
+        "name": "Mournfang Brown",
+        "color": "#490F06"
+      },
+      {
+        "name": "Zandri Dust",
+        "color": "#988E56"
+      },
+      {
+        "name": "Deathworld Forest",
+        "color": "#556229"
+      },
+      {
+        "name": "Castellan Green",
+        "color": "#264715"
+      },
+      {
+        "name": "Caliban Green",
+        "color": "#003D15"
+      },
+      {
+        "name": "Kantor Blue",
+        "color": "#02134E"
+      },
+      {
+        "name": "Khorne Red",
+        "color": "#650001"
+      },
+      {
+        "name": "Mephiston Red",
+        "color": "#960C09"
+      },
+      {
+        "name": "Averland Sunset",
+        "color": "#FBB81C"
+      }
+    ],
+    "Base": [
+      {
+        "name": "Caliban Green",
+        "color": "#003D15"
+      },
+      {
+        "name": "Caledor Sky",
+        "color": "#366699"
+      },
+      {
+        "name": "Bugman's Glow",
+        "color": "#804C43"
+      },
+      {
+        "name": "Averland Sunset",
+        "color": "#FBB81C"
+      },
+      {
+        "name": "Abaddon Black",
+        "color": "#000000"
+      },
+      {
+        "name": "Grey Seer",
+        "color": "#A2A5A7"
+      },
+      {
+        "name": "Wraithbone",
+        "color": "#DBD1B2"
+      },
+      {
+        "name": "Corax White",
+        "color": "#FFFFFF"
+      },
+      {
+        "name": "Morghast Bone",
+        "color": "#C0A973"
+      },
+      {
+        "name": "Catachan Flesh",
+        "color": "#442B25"
+      },
+      {
+        "name": "Barak-Nar Burgundy",
+        "color": "#451636"
+      },
+      {
+        "name": "Iron Warriors",
+        "color": "#292725"
+      },
+      {
+        "name": "Grey Knights Steel",
+        "color": "#465863"
+      },
+      {
+        "name": "Iron Hands Steel",
+        "color": "#44423F"
+      },
+      {
+        "name": "Lupercal Green",
+        "color": "#002C2B"
+      },
+      {
+        "name": "Corvus Black",
+        "color": "#171314"
+      },
+      {
+        "name": "Nocturne Green",
+        "color": "#162A29"
+      },
+      {
+        "name": "Night Lords Blue",
+        "color": "#002B5C"
+      },
+      {
+        "name": "Gal Vorbak Red",
+        "color": "#4B213C"
+      },
+      {
+        "name": "Death Korps Drab",
+        "color": "#3D4539"
+      },
+      {
+        "name": "Phoenician Purple",
+        "color": "#440052"
+      },
+      {
+        "name": "Thondia Brown",
+        "color": "#54302a"
+      },
+      {
+        "name": "Hobgrot Hide",
+        "color": "#a1812a"
+      },
+      {
+        "name": "Orruk Flesh",
+        "color": "#8cc276"
+      },
+      {
+        "name": "Runelord Brass",
+        "color": "#190E07"
+      },
+      {
+        "name": "Death Guard Green",
+        "color": "#6D774D"
+      },
+      {
+        "name": "Balthasar Gold",
+        "color": "#1D0F07"
+      },
+      {
+        "name": "Zandri Dust",
+        "color": "#988E56"
+      },
+      {
+        "name": "XV-88",
+        "color": "#6C4811"
+      },
+      {
+        "name": "Warplock Bronze",
+        "color": "#440808"
+      },
+      {
+        "name": "Waaagh! Flesh",
+        "color": "#0B3B36"
+      },
+      {
+        "name": "Thousand Sons Blue",
+        "color": "#00506F"
+      },
+      {
+        "name": "The Fang",
+        "color": "#405B71"
+      },
+      {
+        "name": "Stegadon Scale Green",
+        "color": "#06455D"
+      },
+      {
+        "name": "Steel Legion Drab",
+        "color": "#584E2D"
+      },
+      {
+        "name": "Screaming Bell",
+        "color": "#642F1F"
+      },
+      {
+        "name": "Screamer Pink",
+        "color": "#7A0E44"
+      },
+      {
+        "name": "Rhinox Hide",
+        "color": "#462F30"
+      },
+      {
+        "name": "Retributor Armour",
+        "color": "#89571D"
+      },
+      {
+        "name": "Ratskin Flesh",
+        "color": "#A86648"
+      },
+      {
+        "name": "Rakarth Flesh",
+        "color": "#9C998D"
+      },
+      {
+        "name": "Naggaroth Night",
+        "color": "#3B2B50"
+      },
+      {
+        "name": "Mournfang Brown",
+        "color": "#490F06"
+      },
+      {
+        "name": "Mephiston Red",
+        "color": "#960C09"
+      },
+      {
+        "name": "Mechanicus Standard Grey",
+        "color": "#39484A"
+      },
+      {
+        "name": "Macragge Blue",
+        "color": "#0F3D7C"
+      },
+      {
+        "name": "Leadbelcher",
+        "color": "#151E24"
+      },
+      {
+        "name": "Khorne Red",
+        "color": "#650001"
+      },
+      {
+        "name": "Kantor Blue",
+        "color": "#02134E"
+      },
+      {
+        "name": "Jokaero Orange",
+        "color": "#ED3814"
+      },
+      {
+        "name": "Ionrach Skin",
+        "color": "#97A384"
+      },
+      {
+        "name": "Incubi Darkness",
+        "color": "#082E32"
+      },
+      {
+        "name": "Dryad Bark",
+        "color": "#2B2A24"
+      },
+      {
+        "name": "Deathworld Forest",
+        "color": "#556229"
+      },
+      {
+        "name": "Daemonette Hide",
+        "color": "#655F81"
+      },
+      {
+        "name": "Celestra Grey",
+        "color": "#8BA3A3"
+      },
+      {
+        "name": "Castellan Green",
+        "color": "#264715"
+      }
+    ],
+    "Contrast": [
+      {
+        "name": "Nighthaunt Gloom",
+        "color": "#4C838A"
+      },
+      {
+        "name": "Hexwraith Flame",
+        "color": "#00A237"
+      },
+      {
+        "name": "Magmadroth Flame",
+        "color": "#f26524"
+      },
+      {
+        "name": "Baal Red",
+        "color": "#d51c29"
+      },
+      {
+        "name": "Doomfire Magenta",
+        "color": "#ec008c"
+      },
+      {
+        "name": "Dreadful Visage",
+        "color": "#e4d3df"
+      },
+      {
+        "name": "Sigvald Burgundy",
+        "color": "#810054"
+      },
+      {
+        "name": "Luxion Purple",
+        "color": "transparent"
+      },
+      {
+        "name": "Leviathan Purple",
+        "color": "transparent"
+      },
+      {
+        "name": "Stormfiend",
+        "color": "transparent"
+      },
+      {
+        "name": "Celestium Blue",
+        "color": "transparent"
+      },
+      {
+        "name": "Asurmen Blue",
+        "color": "transparent"
+      },
+      {
+        "name": "Pylar Glacier",
+        "color": "transparent"
+      },
+      {
+        "name": "Frostheart",
+        "color": "transparent"
+      },
+      {
+        "name": "Briar Queen Chill",
+        "color": "transparent"
+      },
+      {
+        "name": "Kroxigor Scales",
+        "color": "transparent"
+      },
+      {
+        "name": "Imperial Fist",
+        "color": "transparent"
+      },
+      {
+        "name": "Bad Moon Yellow",
+        "color": "transparent"
+      },
+      {
+        "name": "Ironjawz Yellow",
+        "color": "transparent"
+      },
+      {
+        "name": "Striking Scorpion Green",
+        "color": "transparent"
+      },
+      {
+        "name": "Karandras Green",
+        "color": "transparent"
+      },
+      {
+        "name": "Gutrippa Flesh",
+        "color": "transparent"
+      },
+      {
+        "name": "Aeldari Emerald",
+        "color": "transparent"
+      },
+      {
+        "name": "Mantis Warriors Green",
+        "color": "transparent"
+      },
+      {
+        "name": "Ratling Grime",
+        "color": "transparent"
+      },
+      {
+        "name": "Black Legion",
+        "color": "transparent"
+      },
+      {
+        "name": "Garaghak's Sewer",
+        "color": "transparent"
+      },
+      {
+        "name": "Terradon Turquoise",
+        "color": "#008DA5"
+      },
+      {
+        "name": "Plaguebearer Flesh",
+        "color": "#C8CEA3"
+      },
+      {
+        "name": "Aethermatic Blue",
+        "color": "#82BCC8"
+      },
+      {
+        "name": "Warp Lightning",
+        "color": "#00964E"
+      },
+      {
+        "name": "Talassar Blue",
+        "color": "#0073C2"
+      },
+      {
+        "name": "Black Templar",
+        "color": "#6A6A69"
+      },
+      {
+        "name": "Basilicanum Grey",
+        "color": "#989897"
+      },
+      {
+        "name": "Space Wolves Grey",
+        "color": "#8FADC8"
+      },
+      {
+        "name": "Gryph-Charger Grey",
+        "color": "#AAC9DA"
+      },
+      {
+        "name": "Apothecary White",
+        "color": "#F6FBFF"
+      },
+      {
+        "name": "Darkoath Flesh",
+        "color": "#D89987"
+      },
+      {
+        "name": "Guilliman Flesh",
+        "color": "#D1A194"
+      },
+      {
+        "name": "Fyreslayer Flesh",
+        "color": "#BD7866"
+      },
+      {
+        "name": "Wyldwood",
+        "color": "#6A504B"
+      },
+      {
+        "name": "Cygor Brown",
+        "color": "#754A47"
+      },
+      {
+        "name": "Gore-Grunta Fur",
+        "color": "#8F4001"
+      },
+      {
+        "name": "Snakebite Leather",
+        "color": "#B26B0C"
+      },
+      {
+        "name": "Skeleton Horde",
+        "color": "#EBE2C2"
+      },
+      {
+        "name": "Aggaros Dunes",
+        "color": "#D0BF6D"
+      },
+      {
+        "name": "Militarum Green",
+        "color": "#989C4D"
+      },
+      {
+        "name": "Creed Camo",
+        "color": "#5D9272"
+      },
+      {
+        "name": "Ork Flesh",
+        "color": "#00832B"
+      },
+      {
+        "name": "Nazdreg Yellow",
+        "color": "#D99A00"
+      },
+      {
+        "name": "Dark Angels Green",
+        "color": "#004E45"
+      },
+      {
+        "name": "Akhelian Green",
+        "color": "#007B9B"
+      },
+      {
+        "name": "Ultramarines Blue",
+        "color": "#294F86"
+      },
+      {
+        "name": "Leviadon Blue",
+        "color": "#002D59"
+      },
+      {
+        "name": "Magos Purple",
+        "color": "#C2A7C3"
+      },
+      {
+        "name": "Shyish Purple",
+        "color": "#573F6A"
+      },
+      {
+        "name": "Volupus Pink",
+        "color": "#8F0243"
+      },
+      {
+        "name": "Flesh Tearers Red",
+        "color": "#880E0B"
+      },
+      {
+        "name": "Blood Angels Red",
+        "color": "#C11519"
+      },
+      {
+        "name": "Gryph-Hound Orange",
+        "color": "#E96134"
+      },
+      {
+        "name": "Iyanden Yellow",
+        "color": "#FBC827"
+      }
+    ],
+    "Dry": [
+      {
+        "name": "Hoeth Blue",
+        "color": "#4C78AF"
+      },
+      {
+        "name": "Wrack White",
+        "color": "#D3D0CF"
+      },
+      {
+        "name": "Underhive Ash",
+        "color": "#BCBB7E"
+      },
+      {
+        "name": "Tyrant Skull",
+        "color": "#C8C483"
+      },
+      {
+        "name": "Terminatus Stone",
+        "color": "#C8B79D"
+      },
+      {
+        "name": "Sylvaneth Bark",
+        "color": "#4E483B"
+      },
+      {
+        "name": "Stormfang",
+        "color": "#5A7FA3"
+      },
+      {
+        "name": "Skink Blue",
+        "color": "#54BDCA"
+      },
+      {
+        "name": "Sigmarite",
+        "color": "#C6863A"
+      },
+      {
+        "name": "Ryza Rust",
+        "color": "#F16C23"
+      },
+      {
+        "name": "Praxeti White",
+        "color": "#292929"
+      },
+      {
+        "name": "Nurgling Green",
+        "color": "#7E975E"
+      },
+      {
+        "name": "Niblet Green",
+        "color": "#378C35"
+      },
+      {
+        "name": "Necron Compound",
+        "color": "#9DA3A7"
+      },
+      {
+        "name": "Lucius Lilac",
+        "color": "#B598C9"
+      },
+      {
+        "name": "Longbeard Grey",
+        "color": "#DBDCC6"
+      },
+      {
+        "name": "Imrik Blue",
+        "color": "#208ABF"
+      },
+      {
+        "name": "Hexos Palesun",
+        "color": "#FFF55A"
+      },
+      {
+        "name": "Golgfag Brown",
+        "color": "#8F502A"
+      },
+      {
+        "name": "Golden Griffon",
+        "color": "#886625"
+      },
+      {
+        "name": "Etherium Blue",
+        "color": "#9EB5CE"
+      },
+      {
+        "name": "Eldar Flesh",
+        "color": "#E8C07F"
+      },
+      {
+        "name": "Dawnstone",
+        "color": "#697068"
+      },
+      {
+        "name": "Astorath Red",
+        "color": "#A9311E"
+      }
+    ],
+    "Layer": [
+      {
+        "name": "Canoptek Alloy",
+        "color": "#967F7A"
+      },
+      {
+        "name": "Zamesi Desert",
+        "color": "#D89D1B"
+      },
+      {
+        "name": "Yriel Yellow",
+        "color": "#FFD900"
+      },
+      {
+        "name": "Xereus Purple",
+        "color": "#47125A"
+      },
+      {
+        "name": "Wild Rider Red",
+        "color": "#E82E1B"
+      },
+      {
+        "name": "White Scar",
+        "color": "#FFFFFF"
+      },
+      {
+        "name": "Wazdakka Red",
+        "color": "#880804"
+      },
+      {
+        "name": "Warpstone Glow",
+        "color": "#0F702A"
+      },
+      {
+        "name": "Warpfiend Grey",
+        "color": "#66656E"
+      },
+      {
+        "name": "Warboss Green",
+        "color": "#317E57"
+      },
+      {
+        "name": "Ushabti Bone",
+        "color": "#ABA173"
+      },
+      {
+        "name": "Ungor Flesh",
+        "color": "#D1A560"
+      },
+      {
+        "name": "Ulthuan Grey",
+        "color": "#C4DDD5"
+      },
+      {
+        "name": "Tuskgor Fur",
+        "color": "#863231"
+      },
+      {
+        "name": "Troll Slayer Orange",
+        "color": "#F16C23"
+      },
+      {
+        "name": "Thunderhawk Blue",
+        "color": "#396A70"
+      },
+      {
+        "name": "Temple Guard Blue",
+        "color": "#239489"
+      },
+      {
+        "name": "Teclis Blue",
+        "color": "#3877BF"
+      },
+      {
+        "name": "Tau Light Ochre",
+        "color": "#BC6B10"
+      },
+      {
+        "name": "Tallarn Sand",
+        "color": "#A07409"
+      },
+      {
+        "name": "Sycorax Bronze",
+        "color": "#59322D"
+      },
+      {
+        "name": "Sybarite Green",
+        "color": "#17A166"
+      },
+      {
+        "name": "Straken Green",
+        "color": "#597F1C"
+      },
+      {
+        "name": "Stormvermin Fur",
+        "color": "#6D655F"
+      },
+      {
+        "name": "Stormhost Silver",
+        "color": "#9DA3A7"
+      },
+      {
+        "name": "Squig Orange",
+        "color": "#A74D42"
+      },
+      {
+        "name": "Sotek Green",
+        "color": "#0B6371"
+      },
+      {
+        "name": "Slaanesh Grey",
+        "color": "#8B8893"
+      },
+      {
+        "name": "Skullcrusher Brass",
+        "color": "#C38841"
+      },
+      {
+        "name": "Skrag Brown",
+        "color": "#8B4806"
+      },
+      {
+        "name": "Skavenblight Dinge",
+        "color": "#45413B"
+      },
+      {
+        "name": "Skarsnik Green",
+        "color": "#588F6B"
+      },
+      {
+        "name": "Screaming Skull",
+        "color": "#B9C099"
+      },
+      {
+        "name": "Russ Grey",
+        "color": "#507085"
+      },
+      {
+        "name": "Runefang Steel",
+        "color": "#797F82"
+      },
+      {
+        "name": "Pink Horror",
+        "color": "#8E2757"
+      },
+      {
+        "name": "Pallid Wych Flesh",
+        "color": "#CACCBB"
+      },
+      {
+        "name": "Ogryn Camo",
+        "color": "#96A648"
+      },
+      {
+        "name": "Nurgling Green",
+        "color": "#7E975E"
+      },
+      {
+        "name": "Moot Green",
+        "color": "#3DAF44"
+      },
+      {
+        "name": "Lothern Blue",
+        "color": "#2C9BCC"
+      },
+      {
+        "name": "Loren Forest",
+        "color": "#486C25"
+      },
+      {
+        "name": "Liberator Gold",
+        "color": "#886625"
+      },
+      {
+        "name": "Kislev Flesh",
+        "color": "#D1A570"
+      },
+      {
+        "name": "Karak Stone",
+        "color": "#B7945C"
+      },
+      {
+        "name": "Kabalite Green",
+        "color": "#008962"
+      },
+      {
+        "name": "Ironbreaker",
+        "color": "#414141"
+      },
+      {
+        "name": "Hoeth Blue",
+        "color": "#4C78AF"
+      },
+      {
+        "name": "Gorthor Brown",
+        "color": "#5F463F"
+      },
+      {
+        "name": "Genestealer Purple",
+        "color": "#7658A5"
+      },
+      {
+        "name": "Gehenna's Gold",
+        "color": "#722A0B"
+      },
+      {
+        "name": "Hashut Copper",
+        "color": "#492109"
+      },
+      {
+        "name": "Flash Gitz Yellow",
+        "color": "#FFF300"
+      },
+      {
+        "name": "Fire Dragon Bright",
+        "color": "#F4874E"
+      },
+      {
+        "name": "Fenrisian Grey",
+        "color": "#6D94B3"
+      },
+      {
+        "name": "Evil Sunz Scarlet",
+        "color": "#C01411"
+      },
+      {
+        "name": "Eshin Grey",
+        "color": "#484B4E"
+      },
+      {
+        "name": "Emperor's Children",
+        "color": "#B74073"
+      },
+      {
+        "name": "Elysian Green",
+        "color": "#6B8C37"
+      },
+      {
+        "name": "Doombull Brown",
+        "color": "#570003"
+      },
+      {
+        "name": "Deepkin Flesh",
+        "color": "#A9B79F"
+      },
+      {
+        "name": "Deathclaw Brown",
+        "color": "#AF634F"
+      },
+      {
+        "name": "Dawnstone",
+        "color": "#697068"
+      },
+      {
+        "name": "Dark Reaper",
+        "color": "#354D4C"
+      },
+      {
+        "name": "Calgar Blue",
+        "color": "#2A497F"
+      },
+      {
+        "name": "Cadian Fleshtone",
+        "color": "#C47652"
+      },
+      {
+        "name": "Brass Scorpion",
+        "color": "#3D0700"
+      },
+      {
+        "name": "Bestigor Flesh",
+        "color": "#D08951"
+      },
+      {
+        "name": "Baneblade Brown",
+        "color": "#8F7C68"
+      },
+      {
+        "name": "Balor Brown",
+        "color": "#875408"
+      },
+      {
+        "name": "Auric Armour Gold",
+        "color": "#B05A25"
+      },
+      {
+        "name": "Altdorf Guard Blue",
+        "color": "#2D4696"
+      },
+      {
+        "name": "Alaitoc Blue",
+        "color": "#2F4F85"
+      },
+      {
+        "name": "Ahriman Blue",
+        "color": "#00708A"
+      },
+      {
+        "name": "Administratum Grey",
+        "color": "#989C94"
+      },
+      {
+        "name": "Fulgurite Copper",
+        "color": "#6D2711"
+      },
+      {
+        "name": "Flayed One Flesh",
+        "color": "#EEC483"
+      },
+      {
+        "name": "Knight-Questor Flesh",
+        "color": "#996563"
+      },
+      {
+        "name": "Bloodreaver Flesh",
+        "color": "#6A4848"
+      },
+      {
+        "name": "Word Bearers Red",
+        "color": "#620104"
+      },
+      {
+        "name": "Vulkan Green",
+        "color": "#223C2E"
+      },
+      {
+        "name": "Castellax Bronze",
+        "color": "#3D0700"
+      },
+      {
+        "name": "Phalanx Yellow",
+        "color": "#FFE200"
+      },
+      {
+        "name": "Sons of Horus Green",
+        "color": "#00545E"
+      },
+      {
+        "name": "Kakophoni Purple",
+        "color": "#8869AE"
+      },
+      {
+        "name": "Lugganath Orange",
+        "color": "#F69B82"
+      },
+      {
+        "name": "Blue Horror",
+        "color": "#9EB5CE"
+      },
+      {
+        "name": "Krieg Khaki",
+        "color": "#BCBB7E"
+      },
+      {
+        "name": "Dechala Lilac",
+        "color": "#B598C9"
+      },
+      {
+        "name": "Fulgrim Pink",
+        "color": "#F3ABCA"
+      },
+      {
+        "name": "Dorn Yellow",
+        "color": "#FFF55A"
+      },
+      {
+        "name": "Baharroth Blue",
+        "color": "#54BDCA"
+      },
+      {
+        "name": "Gauss Blaster Green",
+        "color": "#7FC1A5"
+      }
+    ],
+    "Shade": [
+      {
+        "name": "Fuegan Orange",
+        "color": "#6C1C03"
+      },
+      {
+        "name": "Coelia Greenshade",
+        "color": "#113431"
+      },
+      {
+        "name": "Druchii Violet",
+        "color": "#250B27"
+      },
+      {
+        "name": "Casandora Yellow",
+        "color": "#E78035"
+      },
+      {
+        "name": "Carroburg Crimson",
+        "color": "#310808"
+      },
+      {
+        "name": "Seraphim Sepia",
+        "color": "#2E1F08"
+      },
+      {
+        "name": "Drakenhof Nightshade",
+        "color": "#0A131B"
+      },
+      {
+        "name": "Athonian Camoshade",
+        "color": "#1C1C10"
+      },
+      {
+        "name": "Biel-Tan Green",
+        "color": "#132E21"
+      },
+      {
+        "name": "Agrax Earthshade",
+        "color": "#2D190C"
+      },
+      {
+        "name": "Reikland Fleshshade",
+        "color": "#311908"
+      },
+      {
+        "name": "Nuln Oil",
+        "color": "#101010"
+      },
+      {
+        "name": "Soulblight Grey",
+        "color": "#a6a1a5"
+      },
+      {
+        "name": "Berserker Bloodshade",
+        "color": "#b8083e"
+      },
+      {
+        "name": "Tyran Blue",
+        "color": "#0083ca"
+      },
+      {
+        "name": "Mortarion Grime",
+        "color": "#afa400"
+      },
+      {
+        "name": "Targor Rageshade",
+        "color": "#614e66"
+      },
+      {
+        "name": "Poxwalker",
+        "color": "#54989c"
+      },
+      {
+        "name": "Kroak Green",
+        "color": "#7dbf92"
+      }
+    ],
+    "Spay": [
+      {
+        "name": "White Scar",
+        "color": "#FFFFFF"
+      },
+      {
+        "name": "Chaos Black",
+        "color": "#000000"
+      },
+      {
+        "name": "Munitorum Varnish",
+        "color": "transparent"
+      }
+    ],
+    "Technical": [
+      {
+        "name": "Tesseract Glow",
+        "color": "#49ad33"
+      },
+      {
+        "name": "Blood For The Blood God",
+        "color": "#600005"
+      },
+      {
+        "name": "Ardcoat",
+        "color": "transparent"
+      },
+      {
+        "name": "Waystone Green",
+        "color": "#007958"
+      },
+      {
+        "name": "Typhus Corrosion",
+        "color": "#373A22"
+      },
+      {
+        "name": "Nurgles Rot",
+        "color": "#9D8B16"
+      },
+      {
+        "name": "Nihilakh Oxide",
+        "color": "#66B39A"
+      },
+      {
+        "name": "Spiritstone Red",
+        "color": "#DA2308"
+      },
+      {
+        "name": "Soulstone Blue",
+        "color": "#01458F"
+      },
+      {
+        "name": "Stormshield",
+        "color": "transparent"
+      },
+      {
+        "name": "Contrast Medium",
+        "color": "transparent"
+      },
+      {
+        "name": "Lahmian Medium",
+        "color": "transparent"
+      },
+      {
+        "name": "Valhallan Blizzard",
+        "color": "#E1E1E1"
+      },
+      {
+        "name": "Astrogranite",
+        "color": "#9D9D9D"
+      },
+      {
+        "name": "Armageddon Dust",
+        "color": "#E8D36F"
+      },
+      {
+        "name": "Stirland Mud",
+        "color": "#70490D"
+      },
+      {
+        "name": "Martian Ironcrust",
+        "color": "#CF705D"
+      },
+      {
+        "name": "Martian Ironearth",
+        "color": "#CF705D"
+      },
+      {
+        "name": "Agrellan Badland",
+        "color": "#B39E80"
+      },
+      {
+        "name": "Agrellan Earth",
+        "color": "#B39E80"
+      },
+      {
+        "name": "Mordant Earth",
+        "color": "#171314"
+      }
+    ]
+  }
+}

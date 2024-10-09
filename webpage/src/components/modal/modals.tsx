@@ -13,6 +13,8 @@ import { OldVersionStorageModal } from "@components/modal/modals/OldVersionStora
 import InventoryOutlinedIcon from "@mui/icons-material/InventoryOutlined";
 import ViewListIcon from "@mui/icons-material/ViewList";
 import ExtensionIcon from "@mui/icons-material/Extension";
+import { PaletteOutlined } from "@mui/icons-material";
+import { AddPaintModal } from "@components/modal/modals/AddPaint.tsx";
 
 export enum ModalTypes {
   CREATE_COLLECTION = "CREATE_COLLECTION",
@@ -26,6 +28,8 @@ export enum ModalTypes {
   ADD_MODEL = "ADD_MODEL",
   EDIT_MODEL = "EDIT_MODEL",
   DELETE_MODEL = "DELETE_MODEL",
+
+  ADD_PAINT = "ADD_PAINT",
 
   OLD_VERSION_DATA = "OLD_VERSION_DATA",
 }
@@ -115,6 +119,14 @@ export const modals = new Map<ModalTypes, ModalProps>([
       icon: <CloudSyncIcon />,
       title: "Sync old data with cloud",
       children: <OldVersionStorageModal />,
+    },
+  ],
+  [
+    ModalTypes.ADD_PAINT,
+    {
+      icon: <PaletteOutlined />,
+      title: "Add paint to storage",
+      children: <AddPaintModal />,
     },
   ],
 ]);

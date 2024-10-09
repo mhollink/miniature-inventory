@@ -9,6 +9,7 @@ import { darkModeSlice } from "@state/dark-mode";
 import { inventorySlice } from "@state/inventory";
 import { workflowSlice } from "@state/workflow";
 import { accountSlice } from "@state/account";
+import { paintsSlice } from "@state/paints";
 
 export const useStore = create<
   AppState,
@@ -24,6 +25,7 @@ export const useStore = create<
         ...inventorySlice(...args),
         ...workflowSlice(...args),
         ...accountSlice(...args),
+        ...paintsSlice(...args),
       }),
       persistOptions,
     ),

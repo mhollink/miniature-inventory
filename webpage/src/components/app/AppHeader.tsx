@@ -145,9 +145,8 @@ export const AppHeader = () => {
           {
             icon: <PaletteOutlined />,
             label: "Paint Storage",
-            onClick: () => navigate("/paints"),
-            disabled: true,
-            active: location.pathname === "/paints",
+            onClick: () => navigate("/paint-storage"),
+            active: location.pathname === "/paint-storage",
           },
         ]
       : []),
@@ -218,8 +217,7 @@ export const AppHeader = () => {
                     key={index}
                     sx={{ p: 1, pt: 1, pb: 1, m: 1, minWidth: "144px" }}
                     variant="text"
-                    disabled={button.disabled}
-                    color={button.active ? "primary" : "inherit"}
+                    color={button.active ? "info" : "inherit"}
                     onClick={button.onClick}
                     size="large"
                     startIcon={button.icon}
@@ -270,7 +268,6 @@ export const AppHeader = () => {
               <ListItemButton
                 onClick={button.onClick}
                 key={button.label}
-                disabled={button.disabled}
                 sx={{
                   color: button.active
                     ? theme.palette.primary.main
