@@ -9,20 +9,22 @@ export const AppLogo: FunctionComponent<AppLogoProps> = ({ large }) => {
   const theme = useTheme();
   return (
     <img
-      src="/icons/icon.png"
+      src={
+        theme.palette.mode === "dark"
+          ? "/icons/icon-dark.png"
+          : "/icons/icon.png"
+      }
       alt="MESBG List Builder"
       style={
         large
           ? {
-              maxWidth: "72px",
-              padding: ".5rem",
+              maxWidth: "75px",
               marginRight: "1rem",
               borderRadius: ".5rem",
               backgroundColor: theme.palette.common.white,
             }
           : {
               maxWidth: "50px",
-              padding: ".2rem",
               marginRight: "1rem",
               borderRadius: ".5rem",
               backgroundColor: theme.palette.common.white,
