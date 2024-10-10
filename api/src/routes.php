@@ -17,4 +17,5 @@ include "routes/collections.php";
 include "routes/groups.php";
 include "routes/models.php";
 include "routes/sorting.php";
+include "routes/paints.php";
 include "routes/statistics.php";
