@@ -2,10 +2,10 @@ import { AppState, Slice } from "../types.ts";
 
 export type Paint = {
   id: string;
-  color: string;
-  name: string;
   brand: string;
   range: string;
+  name: string;
+  color: string;
 };
 
 export type PaintState = {

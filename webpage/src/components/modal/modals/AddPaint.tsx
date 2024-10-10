@@ -1,7 +1,9 @@
 import {
   Autocomplete,
+  Checkbox,
   DialogActions,
   DialogContent,
+  FormControlLabel,
   FormGroup,
   FormHelperText,
   TextField,
@@ -50,6 +52,8 @@ export const AddPaintModal = () => {
   });
   const [colorError, setColorError] = useState("");
 
+  const [keepModalOpen, setKeepOpen] = useState(false);
+
   const clearErrors = () => {
     setBrandError("");
     setRangeError("");
@@ -57,7 +61,6 @@ export const AddPaintModal = () => {
   };
 
   const clearInput = () => {
-    setBrand("");
     setCustomBrand("");
     setRange("");
     setColor({ name: "", color: theme.palette.primary.light });
@@ -66,8 +69,7 @@ export const AddPaintModal = () => {
   const changeBrand = (newValue: string | null) => {
     clearErrors();
     setBrand(newValue);
-    setRange("");
-    setColor({ name: "", color: theme.palette.primary.light });
+    clearInput();
   };
 
   const changeRange = (newValue: string | null) => {
@@ -100,6 +102,9 @@ export const AddPaintModal = () => {
     return true;
   };
 
+  const isSamePaint = (a: Paint) => (b: Paint) =>
+    a.name === b.name && a.range === b.range && a.brand === b.brand;
+
   const submit = () => {
     clearErrors();
     if (
@@ -117,9 +122,6 @@ export const AddPaintModal = () => {
       range: range,
     } as unknown as Paint;
 
-    const isSamePaint = (a: Paint) => (b: Paint) =>
-      a.name === b.name && a.range === b.range && a.brand === b.brand;
-
     if (ownedPaints.some(isSamePaint(newPaint))) {
       setColorError("You already have this exact color in your collection");
       return;
@@ -127,11 +129,10 @@ export const AddPaintModal = () => {
 
     setLoading(true);
     setTimeout(() => {
-      // todo: await api call
       addPaint({ ...newPaint, id: v4() });
       clearInput();
       clearErrors();
-      closeModal();
+      if (!keepModalOpen) closeModal();
       setLoading(false);
     }, 1200);
   };
@@ -210,7 +211,20 @@ export const AddPaintModal = () => {
                       setColor(newValue);
                     }}
                     id="add-paint-color"
-                    options={brand && range ? data[brand][range] : []}
+                    options={
+                      brand && range
+                        ? data[brand][range].filter(
+                            (color) =>
+                              !ownedPaints.some(
+                                isSamePaint({
+                                  brand,
+                                  range,
+                                  name: color.name,
+                                } as Paint),
+                              ),
+                          )
+                        : []
+                    }
                     getOptionLabel={(option) => option.name}
                     renderInput={(params) => (
                       <TextField
@@ -299,6 +313,18 @@ export const AddPaintModal = () => {
             </Stack>
           </FormGroup>
         </form>
+        <Stack flexDirection={"row-reverse"}>
+          <FormControlLabel
+            sx={{}}
+            control={
+              <Checkbox
+                checked={keepModalOpen}
+                onChange={() => setKeepOpen(!keepModalOpen)}
+              />
+            }
+            label={"Add another paint after this one"}
+          />
+        </Stack>
       </DialogContent>
       <DialogActions>
         <Button onClick={() => closeModal()}>cancel</Button>
