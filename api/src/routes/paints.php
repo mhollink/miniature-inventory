@@ -40,19 +40,28 @@ $app->post('/paints', function (Request $request, Response $response) use ($pdo)
     $stmt->bindParam(':name', $name);
     $stmt->bindParam(':color', $color);
 
-    if ($stmt->execute()) {
-        // Return the created collection
-        $response->getBody()->write(json_encode([
-            'id' => $paintId,
-            'brand' => $brand,
-            'range' => $range,
-            'name' => $name,
-            'color' => $color,
-        ], JSON_PRETTY_PRINT));
-        return $response->withHeader('Content-Type', 'application/json')->withStatus(201);
-    } else {
-        $response->getBody()->write(json_encode(['error' => 'Failed to create collection'], JSON_PRETTY_PRINT));
-        return $response->withStatus(500);
+    try {
+        if ($stmt->execute()) {
+            // Return the created collection
+            $response->getBody()->write(json_encode([
+                'id' => $paintId,
+                'brand' => $brand,
+                'range' => $range,
+                'name' => $name,
+                'color' => $color,
+            ], JSON_PRETTY_PRINT));
+            return $response->withHeader('Content-Type', 'application/json')->withStatus(201);
+        } else {
+            $response->getBody()->write(json_encode(['error' => 'Failed to create paint'], JSON_PRETTY_PRINT));
+            return $response->withStatus(500);
+        }
+    } catch (PDOException $e) {
+        if ($e->errorInfo[1] == 1062) {
+            $response->getBody()->write(json_encode(['error' => 'Failed to add paint, already in storage'], JSON_PRETTY_PRINT));
+            return $response->withStatus(409);
+        } else {
+            throw $e;
+        }
     }
 })->add($tokenMiddleware);
 
@@ -60,7 +69,7 @@ $app->get('/paints', function (Request $request, Response $response) use ($pdo) 
     $userId = $request->getAttribute('firebaseUser');
 
     $sql = "
-        SELECT paint_id as id, paint_brand as brand, paint_range as `range`, paint_name as name, paint_color_code as code
+        SELECT paint_id as id, paint_brand as brand, paint_range as `range`, paint_name as name, paint_color_code as color
         FROM `paints`
         WHERE user_id = :user_id
     ";
