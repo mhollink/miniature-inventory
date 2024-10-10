@@ -10,7 +10,7 @@ export type Paint = {
 
 export type PaintState = {
   ownedPaints: Paint[];
-  addPaints: (paints: Paint[]) => void;
+  setPaints: (paints: Paint[]) => void;
   addPaint: (paint: Paint) => void;
   deletePaints: (paintIds: string[]) => void;
 };
@@ -22,10 +22,10 @@ const initialModalState = {
 export const paintsSlice: Slice<PaintState> = (set) => ({
   ...initialModalState,
 
-  addPaints: (paints) =>
+  setPaints: (paints) =>
     set(
-      ({ ownedPaints }) => ({
-        ownedPaints: [...ownedPaints, ...paints],
+      () => ({
+        ownedPaints: [...paints],
       }),
       undefined,
       "ADD_PAINTS",
@@ -53,6 +53,6 @@ export const paintsSlice: Slice<PaintState> = (set) => ({
 export const selectPaintsSlice = (state: AppState): PaintState => ({
   ownedPaints: state.ownedPaints,
   addPaint: state.addPaint,
-  addPaints: state.addPaints,
+  setPaints: state.setPaints,
   deletePaints: state.deletePaints,
 });

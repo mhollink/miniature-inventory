@@ -6,8 +6,13 @@ import { useWorkflowColors } from "@hooks/useWorkflowColors.ts";
 export const useReload = () => {
   const api = useApi();
   const colors = useWorkflowColors();
-  const { setWorkflowStages, importInventory, setSupporter, setSupportTier } =
-    useStore();
+  const {
+    setWorkflowStages,
+    importInventory,
+    setSupporter,
+    setSupportTier,
+    setPaints,
+  } = useStore();
 
   const loadWorkflow = useCallback(async () => {
     const workflow = await api.fetchWorkflow();
@@ -57,9 +62,15 @@ export const useReload = () => {
     importInventory(loadedInventory);
   }, [api, importInventory]);
 
+  const loadPaints = useCallback(async () => {
+    const paints = await api.fetchPaints();
+    setPaints(paints);
+  }, [api, setPaints]);
+
   return {
     loadWorkflow,
     loadAccountInfo,
     loadCollections,
+    loadPaints,
   };
 };

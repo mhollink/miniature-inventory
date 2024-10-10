@@ -14,7 +14,8 @@ export const InitialLoad: FunctionComponent<PropsWithChildren> = ({
   children,
 }) => {
   const { user, loading } = useAuth();
-  const { loadAccountInfo, loadCollections, loadWorkflow } = useReload();
+  const { loadAccountInfo, loadCollections, loadWorkflow, loadPaints } =
+    useReload();
   const { clearInventory, openModal } = useStore();
   const [fetching, setFetching] = useState(false);
   const [loaded, setLoaded] = useState(false);
@@ -31,6 +32,7 @@ export const InitialLoad: FunctionComponent<PropsWithChildren> = ({
         loadWorkflow(),
         loadCollections(),
         loadAccountInfo(),
+        loadPaints(),
       ]).finally(() => {
         setFetching(false);
         setLoaded(true);

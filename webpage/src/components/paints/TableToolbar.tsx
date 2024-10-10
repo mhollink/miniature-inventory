@@ -5,11 +5,13 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import Button from "@mui/material/Button";
 import { ChangeEvent, useEffect, useState } from "react";
 import IconButton from "@mui/material/IconButton";
+import LoadingButton from "@mui/lab/LoadingButton";
 
 interface TableToolbarProps {
   numSelected: number;
   search: (term: string) => void;
   onDelete: () => void;
+  deleteInProgress?: boolean;
 }
 
 export const TableToolbar = (props: TableToolbarProps) => {
@@ -75,13 +77,14 @@ export const TableToolbar = (props: TableToolbarProps) => {
           >
             {numSelected} selected
           </Typography>
-          <Button
+          <LoadingButton
+            loading={props.deleteInProgress}
             sx={{ minWidth: "20ch" }}
             startIcon={<DeleteIcon fontSize="large" />}
             onClick={props.onDelete}
           >
             Delete
-          </Button>
+          </LoadingButton>
         </>
       ) : (
         <>

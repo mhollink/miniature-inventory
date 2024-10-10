@@ -16,6 +16,9 @@ import { getAccountInfo } from "./user/get-account-info.ts";
 import { reorderGroups } from "./sorting/reorder-groups.ts";
 import { reorderModels } from "./sorting/reorder-models.ts";
 import { getStatistics } from "./statistics/get-statistics.ts";
+import { addPaint } from "./paints/add-paint.ts";
+import { getAllPaints } from "./paints/get-all-paints.ts";
+import { deletePaints } from "./paints/delete-paints.ts";
 
 export const apiUrl = import.meta.env.VITE_API_URL;
 
@@ -43,6 +46,10 @@ export const useApi = () => {
 
     reorderGroups: reorderGroups(idToken),
     reorderModels: reorderModels(idToken),
+
+    addPaint: addPaint(idToken),
+    fetchPaints: getAllPaints(idToken),
+    deletePaints: deletePaints(idToken),
 
     getStatistics: getStatistics(),
   };

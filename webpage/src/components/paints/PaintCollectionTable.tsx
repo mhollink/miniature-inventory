@@ -18,9 +18,15 @@ import useTheme from "@mui/material/styles/useTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useStore } from "@state/store.ts";
 import { selectPaintsSlice } from "@state/paints";
+import { useApi } from "../../api/useApi.ts";
+import { Alerts } from "@components/alerts/alerts.tsx";
+import { logApiFailure, logKeyEvent } from "../../firebase/analytics.ts";
+import { selectAlertSlice } from "@state/alert";
 
 export const PaintCollectionTable = () => {
   const { ownedPaints: rows, deletePaints } = useStore(selectPaintsSlice);
+  const { triggerAlert } = useStore(selectAlertSlice);
+  const api = useApi();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
@@ -31,6 +37,7 @@ export const PaintCollectionTable = () => {
   const { page, rowsPerPage, handleChangeRowsPerPage, handleChangePage } =
     usePagination();
   const [filter, setFilter] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const visibleRows = useMemo(
     () =>
@@ -54,9 +61,20 @@ export const PaintCollectionTable = () => {
     setFilter(term);
   };
 
-  const deleteSelectedPaints = () => {
-    deletePaints(selected);
-    clearSelection();
+  const deleteSelectedPaints = async () => {
+    try {
+      setLoading(true);
+      await api.deletePaints({ ids: selected });
+      triggerAlert(Alerts.ADD_PAINT_SUCCESS);
+      logKeyEvent("delete paints", { amount: selected.length.toString() });
+      deletePaints(selected);
+      clearSelection();
+    } catch (e) {
+      triggerAlert(Alerts.ADD_PAINT_ERROR);
+      logApiFailure(e, "delete paints");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -65,6 +83,7 @@ export const PaintCollectionTable = () => {
         numSelected={selected.length}
         search={onSearchTermChanged}
         onDelete={deleteSelectedPaints}
+        deleteInProgress={loading}
       />
       <TableContainer>
         <Table>

@@ -24,6 +24,10 @@ export enum Alerts {
   DELETE_MODEL_SUCCESS = "DELETE_MODEL_SUCCESS",
   DELETE_MODEL_ERROR = "DELETE_MODEL_ERROR",
   REORDER_ERROR = "REORDER_ERROR",
+  ADD_PAINT_SUCCESS = "ADD_PAINT_SUCCESS",
+  ADD_PAINT_ERROR = "ADD_PAINT_ERROR",
+  DELETE_PAINT_SUCCESS = "DELETE_PAINT_SUCCESS",
+  DELETE_PAINT_ERROR = "DELETE_PAINT_ERROR",
 }
 
 type AlertOptions = {
@@ -140,7 +144,20 @@ export const alertMap = new Map<Alerts, AlertProps>([
       content: <GenericErrorMessage action={"removing"} type={"model"} />,
     },
   ],
-
+  [
+    Alerts.DELETE_PAINT_ERROR,
+    {
+      variant: "error",
+      content: <GenericErrorMessage action={"removing"} type={"paints"} />,
+    },
+  ],
+  [
+    Alerts.ADD_PAINT_ERROR,
+    {
+      variant: "error",
+      content: <GenericErrorMessage action={"adding"} type={"paint"} />,
+    },
+  ],
   [
     Alerts.UPDATE_COLLECTION_SUCCESS,
     {
@@ -187,6 +204,30 @@ export const alertMap = new Map<Alerts, AlertProps>([
     {
       variant: "success",
       content: <Typography>Your group was deleted!</Typography>,
+      options: {
+        autoHideAfter: 5000,
+      },
+    },
+  ],
+  [
+    Alerts.ADD_PAINT_SUCCESS,
+    {
+      variant: "success",
+      content: <Typography>Your paint was added!</Typography>,
+      options: {
+        autoHideAfter: 5000,
+      },
+    },
+  ],
+  [
+    Alerts.DELETE_PAINT_SUCCESS,
+    {
+      variant: "success",
+      content: (
+        <Typography>
+          The selection of paints was successfully removed!
+        </Typography>
+      ),
       options: {
         autoHideAfter: 5000,
       },

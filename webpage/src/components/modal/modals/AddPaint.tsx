@@ -19,8 +19,11 @@ import useTheme from "@mui/material/styles/useTheme";
 import LoadingButton from "@mui/lab/LoadingButton";
 import { Paint, selectPaintsSlice } from "@state/paints";
 import { useStore } from "@state/store.ts";
-import { v4 } from "uuid";
 import { selectModalSlice } from "@state/modal";
+import { useApi } from "../../../api/useApi.ts";
+import { logApiFailure, logKeyEvent } from "../../../firebase/analytics.ts";
+import { Alerts } from "@components/alerts/alerts.tsx";
+import { selectAlertSlice } from "@state/alert";
 
 type Paints = {
   [brand: string]: {
@@ -37,6 +40,8 @@ export const AddPaintModal = () => {
   const theme = useTheme();
   const { addPaint, ownedPaints } = useStore(selectPaintsSlice);
   const { closeModal } = useStore(selectModalSlice);
+  const { triggerAlert } = useStore(selectAlertSlice);
+  const api = useApi();
   const [loading, setLoading] = useState(false);
 
   const [brand, setBrand] = useState<string | null>("");
@@ -105,7 +110,7 @@ export const AddPaintModal = () => {
   const isSamePaint = (a: Paint) => (b: Paint) =>
     a.name === b.name && a.range === b.range && a.brand === b.brand;
 
-  const submit = () => {
+  const submit = async () => {
     clearErrors();
     if (
       [validateBrand(), validateRange(), validateColor()].some(
@@ -128,13 +133,21 @@ export const AddPaintModal = () => {
     }
 
     setLoading(true);
-    setTimeout(() => {
-      addPaint({ ...newPaint, id: v4() });
-      clearInput();
-      clearErrors();
+
+    try {
+      setLoading(true);
+      const { id } = await api.addPaint(newPaint);
+      triggerAlert(Alerts.ADD_PAINT_SUCCESS);
+      logKeyEvent("add paint");
+      addPaint({ ...newPaint, id });
       if (!keepModalOpen) closeModal();
+      clearInput();
+    } catch (e) {
+      triggerAlert(Alerts.ADD_PAINT_ERROR);
+      logApiFailure(e, "add paint");
+    } finally {
       setLoading(false);
-    }, 1200);
+    }
   };
 
   const customPaint = "Custom paint";
