@@ -25,6 +25,7 @@ export const TableToolbar = (props: TableToolbarProps) => {
       setSearchTerm("");
       props.search("");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searching, searchTerm]);
 
   const { numSelected } = props;

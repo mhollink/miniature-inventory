@@ -50,7 +50,7 @@ export const PaintCollectionTable = () => {
           );
         })
         .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage),
-    [order, orderBy, page, rowsPerPage, getComparator],
+    [rows, getComparator, order, orderBy, page, rowsPerPage, filter],
   );
 
   // Avoid a layout jump when reaching the last page with empty rows.

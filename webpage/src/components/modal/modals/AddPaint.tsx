@@ -13,7 +13,7 @@ import { Add } from "@mui/icons-material";
 import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import { ExternalLink } from "@components/link/ExternalLink.tsx";
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, FormEvent, MouseEvent, useState } from "react";
 import allPaints from "@components/paints/data/paints.json";
 import useTheme from "@mui/material/styles/useTheme";
 import LoadingButton from "@mui/lab/LoadingButton";
@@ -110,7 +110,10 @@ export const AddPaintModal = () => {
   const isSamePaint = (a: Paint) => (b: Paint) =>
     a.name === b.name && a.range === b.range && a.brand === b.brand;
 
-  const submit = async () => {
+  const submit = async (
+    e: FormEvent<HTMLFormElement> | MouseEvent<HTMLButtonElement>,
+  ) => {
+    e.preventDefault();
     clearErrors();
     if (
       [validateBrand(), validateRange(), validateColor()].some(
@@ -140,7 +143,13 @@ export const AddPaintModal = () => {
       triggerAlert(Alerts.ADD_PAINT_SUCCESS);
       logKeyEvent("add paint");
       addPaint({ ...newPaint, id });
-      if (!keepModalOpen) closeModal();
+      if (!keepModalOpen) {
+        closeModal();
+      } else {
+        document
+          .getElementById("add-paint-range")
+          ?.focus({ preventScroll: true });
+      }
       clearInput();
     } catch (e) {
       triggerAlert(Alerts.ADD_PAINT_ERROR);
@@ -156,7 +165,7 @@ export const AddPaintModal = () => {
   return (
     <>
       <DialogContent>
-        <form>
+        <form onSubmit={submit}>
           <FormGroup>
             <Stack direction={"column"} spacing={2}>
               <Box>
@@ -166,7 +175,10 @@ export const AddPaintModal = () => {
                     changeBrand(newValue);
                   }}
                   id="add-paint-brand"
-                  options={[...supportedBrands, customPaint]}
+                  options={[
+                    ...supportedBrands.sort((a, b) => a.localeCompare(b)),
+                    customPaint,
+                  ]}
                   renderInput={(params) => (
                     <TextField
                       {...params}
@@ -204,7 +216,13 @@ export const AddPaintModal = () => {
                       changeRange(newValue);
                     }}
                     id="add-paint-range"
-                    options={brand ? Object.keys(data[brand]) : []}
+                    options={
+                      brand
+                        ? Object.keys(data[brand]).sort((a, b) =>
+                            a.localeCompare(b),
+                          )
+                        : []
+                    }
                     renderInput={(params) => (
                       <TextField
                         {...params}
@@ -226,16 +244,18 @@ export const AddPaintModal = () => {
                     id="add-paint-color"
                     options={
                       brand && range
-                        ? data[brand][range].filter(
-                            (color) =>
-                              !ownedPaints.some(
-                                isSamePaint({
-                                  brand,
-                                  range,
-                                  name: color.name,
-                                } as Paint),
-                              ),
-                          )
+                        ? data[brand][range]
+                            .filter(
+                              (color) =>
+                                !ownedPaints.some(
+                                  isSamePaint({
+                                    brand,
+                                    range,
+                                    name: color.name,
+                                  } as Paint),
+                                ),
+                            )
+                            .sort((a, b) => a.name.localeCompare(b.name))
                         : []
                     }
                     getOptionLabel={(option) => option.name}
@@ -280,6 +300,7 @@ export const AddPaintModal = () => {
                     }}
                   />
                   <TextField
+                    id="add-paint-range"
                     label="Paint range"
                     value={range}
                     helperText={rangeError}
@@ -325,6 +346,7 @@ export const AddPaintModal = () => {
               )}
             </Stack>
           </FormGroup>
+          <Button type="submit" sx={{ display: "none" }} />
         </form>
         <Stack flexDirection={"row-reverse"}>
           <FormControlLabel
@@ -346,7 +368,7 @@ export const AddPaintModal = () => {
           variant={"contained"}
           color={"primary"}
           startIcon={<Add />}
-          onClick={() => submit()}
+          onClick={(e) => submit(e)}
         >
           Add to collection
         </LoadingButton>
