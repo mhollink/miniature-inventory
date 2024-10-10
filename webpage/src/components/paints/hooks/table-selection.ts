@@ -2,7 +2,7 @@ import { ChangeEvent, MouseEvent, useState } from "react";
 import { Paint } from "@state/paints";
 
 export const useTableSelection = () => {
-  const [selected, setSelected] = useState<readonly string[]>([]);
+  const [selected, setSelected] = useState<string[]>([]);
 
   const handleSelectAllClick = (
     event: ChangeEvent<HTMLInputElement>,
@@ -26,7 +26,7 @@ export const useTableSelection = () => {
 
   const handleClick = (_: MouseEvent<unknown>, id: string) => {
     const selectedIndex = selected.indexOf(id);
-    let newSelected: readonly string[] = [];
+    let newSelected: string[] = [];
 
     if (selectedIndex === -1) {
       newSelected = newSelected.concat(selected, id);
@@ -43,9 +43,14 @@ export const useTableSelection = () => {
     setSelected(newSelected);
   };
 
+  const clearSelection = () => {
+    setSelected([]);
+  };
+
   return {
     handleClick,
     handleSelectAllClick,
+    clearSelection,
     selected,
   };
 };

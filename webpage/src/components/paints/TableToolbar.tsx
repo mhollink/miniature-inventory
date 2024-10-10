@@ -9,6 +9,7 @@ import IconButton from "@mui/material/IconButton";
 interface TableToolbarProps {
   numSelected: number;
   search: (term: string) => void;
+  onDelete: () => void;
 }
 
 export const TableToolbar = (props: TableToolbarProps) => {
@@ -77,6 +78,7 @@ export const TableToolbar = (props: TableToolbarProps) => {
           <Button
             sx={{ minWidth: "20ch" }}
             startIcon={<DeleteIcon fontSize="large" />}
+            onClick={props.onDelete}
           >
             Delete
           </Button>

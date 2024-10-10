@@ -17,13 +17,15 @@ import { usePagination } from "@components/paints/hooks/table-pagination.ts";
 import useTheme from "@mui/material/styles/useTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useStore } from "@state/store.ts";
+import { selectPaintsSlice } from "@state/paints";
 
 export const PaintCollectionTable = () => {
-  const rows = useStore((state) => state.ownedPaints);
+  const { ownedPaints: rows, deletePaints } = useStore(selectPaintsSlice);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-  const { selected, handleSelectAllClick, handleClick } = useTableSelection();
+  const { selected, handleSelectAllClick, handleClick, clearSelection } =
+    useTableSelection();
   const { order, orderBy, handleRequestSort, getComparator } =
     useTableSorting();
   const { page, rowsPerPage, handleChangeRowsPerPage, handleChangePage } =
@@ -52,11 +54,17 @@ export const PaintCollectionTable = () => {
     setFilter(term);
   };
 
+  const deleteSelectedPaints = () => {
+    deletePaints(selected);
+    clearSelection();
+  };
+
   return (
     <Box>
       <TableToolbar
         numSelected={selected.length}
         search={onSearchTermChanged}
+        onDelete={deleteSelectedPaints}
       />
       <TableContainer>
         <Table>
