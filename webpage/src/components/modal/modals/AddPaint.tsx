@@ -15,7 +15,8 @@ import { ChangeEvent, useState } from "react";
 import allPaints from "@components/paints/data/paints.json";
 import useTheme from "@mui/material/styles/useTheme";
 import LoadingButton from "@mui/lab/LoadingButton";
-import { Paint } from "@state/paints";
+import { Paint, selectPaintsSlice } from "@state/paints";
+import { useStore } from "@state/store.ts";
 import { v4 } from "uuid";
 
 type Paints = {
@@ -31,6 +32,7 @@ const data: Paints = allPaints;
 
 export const AddPaintModal = () => {
   const theme = useTheme();
+  const { addPaint, ownedPaints } = useStore(selectPaintsSlice);
   const [loading, setLoading] = useState(false);
 
   const [brand, setBrand] = useState<string | null>("");
@@ -40,52 +42,86 @@ export const AddPaintModal = () => {
     null,
   );
 
+  const [brandError, setBrandError] = useState("");
+  const [rangeError, setRangeError] = useState("");
+  const [colorError, setColorError] = useState("");
+
   const changeBrand = (newValue: string | null) => {
     setBrand(newValue);
     setRange(null);
     setColor({ name: "", color: theme.palette.primary.light });
+    setBrandError("");
+    setRangeError("");
+    setColorError("");
   };
   const changeRange = (newValue: string | null) => {
     setRange(newValue);
     setColor(null);
+    setColorError("");
+    setRangeError("");
+  };
+
+  const validateBrand = () => {
+    if (!brand?.trim() || (brand === customPaint && !customBrand?.trim())) {
+      setBrandError("You must select a paint brand.");
+      return false;
+    }
+    setBrandError("");
+    return true;
+  };
+
+  const validateRange = () => {
+    if (!range?.trim()) {
+      setRangeError("You must select a paint range.");
+      return false;
+    }
+    setRangeError("");
+    return true;
+  };
+
+  const validateColor = () => {
+    if (!color || !color.name || !color.color) {
+      setColorError("You must select a color.");
+      return false;
+    }
+    setColorError("");
+    return true;
   };
 
   const submit = () => {
     if (
-      !(
-        brand?.trim() &&
-        range?.trim() &&
-        color &&
-        color.name?.trim() &&
-        color.color?.trim() &&
-        (brand !== customPaint || customBrand)
+      [validateBrand(), validateRange(), validateColor()].some(
+        (error) => !error,
       )
     ) {
-      console.log("Field not set...");
       return;
     }
 
-    const newPaint: Paint =
-      brand === customPaint
-        ? {
-            id: v4(),
-            brand: customBrand!,
-            color: color?.color,
-            name: color?.name,
-            range: range,
-          }
-        : {
-            id: v4(),
-            brand: brand,
-            color: color?.color,
-            name: color?.name,
-            range: range,
-          };
+    const newPaint = (brand === customPaint
+      ? {
+          brand: customBrand,
+          color: color?.color,
+          name: color?.name,
+          range: range,
+        }
+      : {
+          brand: brand,
+          color: color?.color,
+          name: color?.name,
+          range: range,
+        }) as unknown as Paint;
 
-    console.log(newPaint);
+    const isSamePaint = (a: Paint) => (b: Paint) =>
+      a.name === b.name && a.range === b.range && a.brand === b.brand;
+
+    if (ownedPaints.some(isSamePaint(newPaint))) {
+      setColorError("You already have this exact color in your collection");
+      return;
+    }
 
     setLoading(true);
     setTimeout(() => {
+      addPaint({ ...newPaint, id: v4() });
       setBrand(null);
       setCustomBrand(null);
       setRange(null);
@@ -112,7 +148,12 @@ export const AddPaintModal = () => {
                   id="add-paint-brand"
                   options={[...supportedBrands, customPaint]}
                   renderInput={(params) => (
-                    <TextField {...params} label="Paint brand" />
+                    <TextField
+                      {...params}
+                      label="Paint brand"
+                      helperText={brand !== customPaint ? brandError : ""}
+                      error={brand !== customPaint && !!brandError}
+                    />
                   )}
                 />
                 <FormHelperText sx={{ px: 1 }}>
@@ -145,7 +186,12 @@ export const AddPaintModal = () => {
                     id="add-paint-range"
                     options={brand ? Object.keys(data[brand]) : []}
                     renderInput={(params) => (
-                      <TextField {...params} label="Paint range" />
+                      <TextField
+                        {...params}
+                        label="Paint range"
+                        helperText={rangeError}
+                        error={!!rangeError}
+                      />
                     )}
                   />
 
@@ -161,7 +207,12 @@ export const AddPaintModal = () => {
                     options={brand && range ? data[brand][range] : []}
                     getOptionLabel={(option) => option.name}
                     renderInput={(params) => (
-                      <TextField {...params} label="Color" />
+                      <TextField
+                        {...params}
+                        label="Color"
+                        helperText={colorError}
+                        error={!!colorError}
+                      />
                     )}
                     renderOption={(props, option) => (
                       <li {...props} key={option.name}>
@@ -189,6 +240,8 @@ export const AddPaintModal = () => {
                   <TextField
                     label="Brand name"
                     value={customBrand}
+                    helperText={brandError}
+                    error={!!brandError}
                     onChange={(event: ChangeEvent<HTMLInputElement>) => {
                       setCustomBrand(event.target.value);
                     }}
@@ -196,6 +249,8 @@ export const AddPaintModal = () => {
                   <TextField
                     label="Paint range"
                     value={range}
+                    helperText={rangeError}
+                    error={!!rangeError}
                     onChange={(event: ChangeEvent<HTMLInputElement>) => {
                       setRange(event.target.value);
                     }}
@@ -204,6 +259,8 @@ export const AddPaintModal = () => {
                     <TextField
                       label="Color name"
                       value={color?.name}
+                      helperText={colorError}
+                      error={!!colorError}
                       fullWidth
                       onChange={(event: ChangeEvent<HTMLInputElement>) => {
                         setColor((prev) =>

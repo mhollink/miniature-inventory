@@ -10,6 +10,7 @@ export type Paint = {
 
 export type PaintState = {
   ownedPaints: Paint[];
+  addPaint: (paint: Paint) => void;
 };
 
 const initialModalState = {
@@ -60,10 +61,16 @@ const initialModalState = {
   ],
 };
 
-export const paintsSlice: Slice<PaintState> = () => ({
+export const paintsSlice: Slice<PaintState> = (set) => ({
   ...initialModalState,
+
+  addPaint: (paint) =>
+    set(({ ownedPaints }) => ({
+      ownedPaints: [...ownedPaints, paint],
+    })),
 });
 
 export const selectPaintsSlice = (state: AppState): PaintState => ({
   ownedPaints: state.ownedPaints,
+  addPaint: state.addPaint,
 });
