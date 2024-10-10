@@ -49,19 +49,30 @@ export const AddPaintModal = () => {
   );
   const [colorError, setColorError] = useState("");
 
-  const changeBrand = (newValue: string | null) => {
-    setBrand(newValue);
-    setRange(null);
-    setColor({ name: "", color: theme.palette.primary.light });
+  const clearErrors = () => {
     setBrandError("");
     setRangeError("");
     setColorError("");
   };
+
+  const clearInput = () => {
+    setBrand(null);
+    setCustomBrand(null);
+    setRange(null);
+    setColor(null);
+  };
+
+  const changeBrand = (newValue: string | null) => {
+    clearErrors();
+    setBrand(newValue);
+    setRange(null);
+    setColor({ name: "", color: theme.palette.primary.light });
+  };
+
   const changeRange = (newValue: string | null) => {
+    clearErrors();
     setRange(newValue);
     setColor(null);
-    setColorError("");
-    setRangeError("");
   };
 
   const validateBrand = () => {
@@ -69,7 +80,6 @@ export const AddPaintModal = () => {
       setBrandError("You must select a paint brand.");
       return false;
     }
-    setBrandError("");
     return true;
   };
 
@@ -78,7 +88,6 @@ export const AddPaintModal = () => {
       setRangeError("You must select a paint range.");
       return false;
     }
-    setRangeError("");
     return true;
   };
 
@@ -87,11 +96,11 @@ export const AddPaintModal = () => {
       setColorError("You must select a color.");
       return false;
     }
-    setColorError("");
     return true;
   };
 
   const submit = () => {
+    clearErrors();
     if (
       [validateBrand(), validateRange(), validateColor()].some(
         (error) => !error,
@@ -118,10 +127,8 @@ export const AddPaintModal = () => {
     setLoading(true);
     setTimeout(() => {
       addPaint({ ...newPaint, id: v4() });
-      setBrand(null);
-      setCustomBrand(null);
-      setRange(null);
-      setColor(null);
+      clearInput();
+      clearErrors();
       closeModal();
       setLoading(false);
     }, 1200);
