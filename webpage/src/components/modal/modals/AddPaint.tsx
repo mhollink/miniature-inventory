@@ -18,6 +18,7 @@ import LoadingButton from "@mui/lab/LoadingButton";
 import { Paint, selectPaintsSlice } from "@state/paints";
 import { useStore } from "@state/store.ts";
 import { v4 } from "uuid";
+import { selectModalSlice } from "@state/modal";
 
 type Paints = {
   [brand: string]: {
@@ -33,17 +34,19 @@ const data: Paints = allPaints;
 export const AddPaintModal = () => {
   const theme = useTheme();
   const { addPaint, ownedPaints } = useStore(selectPaintsSlice);
+  const { closeModal } = useStore(selectModalSlice);
   const [loading, setLoading] = useState(false);
 
   const [brand, setBrand] = useState<string | null>("");
   const [customBrand, setCustomBrand] = useState<string | null>("");
+  const [brandError, setBrandError] = useState("");
+
   const [range, setRange] = useState<string | null>(null);
+  const [rangeError, setRangeError] = useState("");
+
   const [color, setColor] = useState<{ name: string; color: string } | null>(
     null,
   );
-
-  const [brandError, setBrandError] = useState("");
-  const [rangeError, setRangeError] = useState("");
   const [colorError, setColorError] = useState("");
 
   const changeBrand = (newValue: string | null) => {
@@ -97,19 +100,12 @@ export const AddPaintModal = () => {
       return;
     }
 
-    const newPaint = (brand === customPaint
-      ? {
-          brand: customBrand,
-          color: color?.color,
-          name: color?.name,
-          range: range,
-        }
-      : {
-          brand: brand,
-          color: color?.color,
-          name: color?.name,
-          range: range,
-        }) as unknown as Paint;
+    const newPaint = {
+      brand: brand === customPaint ? customBrand : brand,
+      color: color?.color,
+      name: color?.name,
+      range: range,
+    } as unknown as Paint;
 
     const isSamePaint = (a: Paint) => (b: Paint) =>
       a.name === b.name && a.range === b.range && a.brand === b.brand;
@@ -126,6 +122,7 @@ export const AddPaintModal = () => {
       setCustomBrand(null);
       setRange(null);
       setColor(null);
+      closeModal();
       setLoading(false);
     }, 1200);
   };
@@ -295,7 +292,7 @@ export const AddPaintModal = () => {
         </form>
       </DialogContent>
       <DialogActions>
-        <Button>cancel</Button>
+        <Button onClick={() => closeModal()}>cancel</Button>
         <LoadingButton
           loading={loading}
           variant={"contained"}
