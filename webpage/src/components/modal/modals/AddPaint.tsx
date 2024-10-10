@@ -1,4 +1,5 @@
 import {
+  AlertTitle,
   Autocomplete,
   Checkbox,
   DialogActions,
@@ -24,6 +25,8 @@ import { useApi } from "../../../api/useApi.ts";
 import { logApiFailure, logKeyEvent } from "../../../firebase/analytics.ts";
 import { Alerts } from "@components/alerts/alerts.tsx";
 import { selectAlertSlice } from "@state/alert";
+import Alert from "@mui/material/Alert";
+import Typography from "@mui/material/Typography";
 
 type Paints = {
   [brand: string]: {
@@ -165,6 +168,19 @@ export const AddPaintModal = () => {
   return (
     <>
       <DialogContent>
+        <Alert severity={"info"} variant={"filled"} sx={{ mb: 2 }}>
+          <AlertTitle>
+            <b>Supported paint brands</b>
+          </AlertTitle>
+          <Typography variant={"body2"}>
+            Miniature Inventory currently only supports paints of the Citadel
+            paint range. This is because creating the data files for all paint
+            colors of range takes a lot of time. <em>Vallejo</em> and{" "}
+            <em>The Army Painter</em> will be added in the near future. You can
+            already add them using the <em>{customPaint}</em> option.
+          </Typography>
+        </Alert>
+
         <form onSubmit={submit}>
           <FormGroup>
             <Stack direction={"column"} spacing={2}>
