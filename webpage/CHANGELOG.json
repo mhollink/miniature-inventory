@@ -1,6 +1,10 @@
 {
   "main": {
+    "added": [
+      "Added a paint storage section to keep track of which paints which allows you to check which paints you have so you dont accidentally buy doubles."
+    ],
     "changes": [
+      "Changed the logo to a fresh new logo that aligns with the look and feel of the app",
       "Some 'under the hood' changes like cleaning up code"
     ],
     "bugfixes": [
