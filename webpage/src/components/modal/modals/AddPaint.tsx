@@ -41,12 +41,13 @@ export const AddPaintModal = () => {
   const [customBrand, setCustomBrand] = useState<string | null>("");
   const [brandError, setBrandError] = useState("");
 
-  const [range, setRange] = useState<string | null>(null);
+  const [range, setRange] = useState<string | null>("");
   const [rangeError, setRangeError] = useState("");
 
-  const [color, setColor] = useState<{ name: string; color: string } | null>(
-    null,
-  );
+  const [color, setColor] = useState<{ name: string; color: string } | null>({
+    name: "",
+    color: "",
+  });
   const [colorError, setColorError] = useState("");
 
   const clearErrors = () => {
@@ -56,23 +57,23 @@ export const AddPaintModal = () => {
   };
 
   const clearInput = () => {
-    setBrand(null);
-    setCustomBrand(null);
-    setRange(null);
-    setColor(null);
+    setBrand("");
+    setCustomBrand("");
+    setRange("");
+    setColor({ name: "", color: theme.palette.primary.light });
   };
 
   const changeBrand = (newValue: string | null) => {
     clearErrors();
     setBrand(newValue);
-    setRange(null);
+    setRange("");
     setColor({ name: "", color: theme.palette.primary.light });
   };
 
   const changeRange = (newValue: string | null) => {
     clearErrors();
     setRange(newValue);
-    setColor(null);
+    setColor({ name: "", color: theme.palette.primary.light });
   };
 
   const validateBrand = () => {
@@ -126,6 +127,7 @@ export const AddPaintModal = () => {
 
     setLoading(true);
     setTimeout(() => {
+      // todo: await api call
       addPaint({ ...newPaint, id: v4() });
       clearInput();
       clearErrors();
