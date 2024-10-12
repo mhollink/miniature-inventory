@@ -1,0 +1,38 @@
+services:
+  api:
+    container_name: "api"
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - ./api/:/var/www/html
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+  db:
+    container_name: "db"
+    image: mariadb:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: my_database
+      MYSQL_USER: my_user
+      MYSQL_PASSWORD: my_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      - ./database:/docker-entrypoint-initdb.d
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mariadb_data:
