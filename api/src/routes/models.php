@@ -97,6 +97,8 @@ $app->post("/groups/{groupId}/models", function (Request $request, Response $res
     $stmtMiniatures->execute($values);
 
     if ($pdo->commit()) {
+        upsertLastInteractions($pdo, $userId, "create model");
+
         // Return the created model
         $response->getBody()->write(json_encode([
             'id' => $modelId,
@@ -154,6 +156,8 @@ $app->put("/models/{modelId}", function (Request $request, Response $response, a
     }
 
     if ($pdo->commit()) {
+        upsertLastInteractions($pdo, $userId, "update model");
+
         // Return the created model
         $response->getBody()->write(json_encode([
             'id' => $modelId,
@@ -183,6 +187,7 @@ $app->delete("/models/{modelId}", function (Request $request, Response $response
     $stmt->bindParam(':model_id', $modelId);
 
     if ($stmt->execute()) {
+        upsertLastInteractions($pdo, $userId, "delete model");
         return $response->withHeader('Content-Type', 'application/json')->withStatus(204);
     } else {
         $response->getBody()->write(json_encode(['error' => 'Failed to delete model'], JSON_PRETTY_PRINT));

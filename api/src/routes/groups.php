@@ -49,6 +49,7 @@ $app->post("/collections/{collectionId}/groups", function (Request $request, Res
     $stmt->bindParam(':name', $name);
 
     if ($stmt->execute()) {
+        upsertLastInteractions($pdo, $userId, "create group");
         // Return the created group
         $response->getBody()->write(json_encode([
             'id' => $groupId,
@@ -163,6 +164,8 @@ $app->put("/groups/{groupId}", function (Request $request, Response $response, a
     $stmt->bindParam(':name', $name);
 
     if ($stmt->execute()) {
+        upsertLastInteractions($pdo, $userId, "update group");
+
         // Return the created collection
         $response->getBody()->write(json_encode([
             'id' => $groupId,
@@ -191,6 +194,7 @@ $app->delete("/groups/{groupId}", function (Request $request, Response $response
 
     if ($stmt->execute()) {
         // Return the created collection
+        upsertLastInteractions($pdo, $userId, "delete group");
         return $response->withHeader('Content-Type', 'application/json')->withStatus(204);
     } else {
         $response->getBody()->write(json_encode(['error' => 'Failed to delete group'], JSON_PRETTY_PRINT));
