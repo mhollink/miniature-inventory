@@ -15,12 +15,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/profile",
-							"protocol": "https",
+							"raw": "{{baseurl}}/profile",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"profile"
@@ -35,12 +32,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/workflow",
-							"protocol": "https",
+							"raw": "{{baseurl}}/workflow",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"workflow"
@@ -55,12 +49,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/workflow",
-							"protocol": "https",
+							"raw": "{{baseurl}}/workflow",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"workflow"
@@ -89,12 +80,9 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/collections",
-							"protocol": "https",
+							"raw": "{{baseurl}}/collections",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"collections"
@@ -109,12 +97,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/collections",
-							"protocol": "https",
+							"raw": "{{baseurl}}/collections",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"collections"
@@ -138,12 +123,9 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/collections/{{collectionId}}",
-							"protocol": "https",
+							"raw": "{{baseurl}}/collections/{{collectionId}}",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"collections",
@@ -159,12 +141,9 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/collections/{{collectionId}}",
-							"protocol": "https",
+							"raw": "{{baseurl}}/collections/{{collectionId}}",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"collections",
@@ -194,12 +173,9 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/collections/{{collectionId}}/groups",
-							"protocol": "https",
+							"raw": "{{baseurl}}/collections/{{collectionId}}/groups",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"collections",
@@ -216,12 +192,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/groups/{{groupId}}",
-							"protocol": "https",
+							"raw": "{{baseurl}}/groups/{{groupId}}",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"groups",
@@ -246,12 +219,9 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/groups/{{groupId}}",
-							"protocol": "https",
+							"raw": "{{baseurl}}/groups/{{groupId}}",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"groups",
@@ -267,12 +237,9 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/groups/{{groupId}}",
-							"protocol": "https",
+							"raw": "{{baseurl}}/groups/{{groupId}}",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"groups",
@@ -302,12 +269,9 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/groups/{{groupId}}/models",
-							"protocol": "https",
+							"raw": "{{baseurl}}/groups/{{groupId}}/models",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"groups",
@@ -333,12 +297,9 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/models/{{modelId}}",
-							"protocol": "https",
+							"raw": "{{baseurl}}/models/{{modelId}}",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"models",
@@ -354,12 +315,9 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/models/{{modelId}}",
-							"protocol": "https",
+							"raw": "{{baseurl}}/models/{{modelId}}",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"models",
@@ -389,12 +347,9 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/collections",
-							"protocol": "https",
+							"raw": "{{baseurl}}/collections",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"collections"
@@ -410,7 +365,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"models\": [\n        {\n            \"id\": \"\",\n            \"index\": \"0\"\n        },\n                {\n            \"id\": \"\",\n            \"index\": \"0\"\n        }\n    ]\n}",
+							"raw": "{\n    \"models\": [\n        {\n            \"id\": \"28cec0e6-027d-41ce-8a6d-37183efc5c1e\",\n            \"index\": 1\n        },\n        {\n            \"id\": \"b1b85360-562a-4f7e-bb17-9d1715263b7e\",\n            \"index\": \"0\"\n        },\n        {\n            \"id\": \"97e1158a-118c-407c-af62-37200fecbe94\",\n            \"index\": \"5\"\n        }\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -418,16 +373,87 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.miniature-inventory.nl/groups/{{groupId}}",
-							"protocol": "https",
+							"raw": "{{baseurl}}/groups/{{groupId}}",
 							"host": [
-								"api",
-								"miniature-inventory",
-								"nl"
+								"{{baseurl}}"
 							],
 							"path": [
 								"groups",
 								"{{groupId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Paints",
+			"item": [
+				{
+					"name": "Create paint",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"brand\": \"Citadel\",\n    \"range\": \"Layer\",\n    \"name\": \"Screaming Skull\",\n    \"color\": \"#FAFAFA\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseurl}}/paints",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"paints"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get paints",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/paints",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"paints"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete paints",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"ids\": [\"\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseurl}}/paints",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"paints"
 							]
 						}
 					},
@@ -441,7 +467,7 @@
 		"bearer": [
 			{
 				"key": "token",
-				"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZjYzNmY2I2NDAzMjc2MGVlYjljMjZmNzdkNDA3YTY5NGM1MmIwZTMiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiTWFyY2VsIEhvbGxpbmsiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSVF3YXJmcHJrZE1Jb2hqSm5TTnlUZUFfSHRRdmxNZ0k4eWllQ2Q3LVhVWU9wcC1BRT1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9taW5pYXR1cmUtaW52ZW50b3J5IiwiYXVkIjoibWluaWF0dXJlLWludmVudG9yeSIsImF1dGhfdGltZSI6MTcyNzg2Mjc4MCwidXNlcl9pZCI6IlFVWjB1bEZoc0hOUXRuTmxyUnAwRHZrVmZrSzIiLCJzdWIiOiJRVVowdWxGaHNITlF0bk5sclJwMER2a1Zma0syIiwiaWF0IjoxNzI3ODcwNjIzLCJleHAiOjE3Mjc4NzQyMjMsImVtYWlsIjoiaG9sbGluay5taEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjEwOTA3NTc5OTg4ODQ0NDI2NjYwMSJdLCJlbWFpbCI6WyJob2xsaW5rLm1oQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.YEo0ZQkrFucbgDxFVIBu85tN8UyNJLJIGJk6A2765bzatzhGgm53scxCvX0xqjevudBaH4vpVohJW3kBSEG8ItkEf1qfwHEsMU-dqKdoljWREC8bZ9wOzIHrKj47MIH0XySiolq8LkUX94o7NV7yekGBlWHg_DtemrmymBojJDSX6oiBrb003zqOyBG9FhfRsUIeUxoLpk9gKS2WiNRU5WDfxJLSntYWr_9NK3rk4fNcVgovsPtuOKnwRVMSy75w_K2oyEVUIlTErnCHBkio0VhtJrO-xthHW1352MsXxgX4zDqhN1b18ae90LzHNn3WwvvsagTvgN-bYzzlWOO3pA",
+				"value": "",
 				"type": "string"
 			}
 		]
@@ -480,6 +506,10 @@
 		{
 			"key": "modelId",
 			"value": "7541fbc5-cafb-49ca-a3da-961374ed53ba"
+		},
+		{
+			"key": "baseurl",
+			"value": "http://localhost:8080"
 		}
 	]
 }
