@@ -23,6 +23,22 @@ function getSupporterLevel($pdo, $userId)
     else return 'none';
 }
 
+function upsertLastInteractions($pdo, $userId, $action): void {
+    $sql = "
+        INSERT INTO `last_interaction` (`user_id`, `action`, `action_time`) 
+        VALUES (:user_id, :action, CURRENT_TIME())
+        ON DUPLICATE KEY UPDATE `action` = :action_update, `action_time` = CURRENT_TIME();
+    ";
+
+
+    $stmt = $pdo->prepare($sql);
+    $stmt->bindParam(':user_id', $userId, PDO::PARAM_INT);
+    $stmt->bindParam(':action', $action, PDO::PARAM_INT);
+    $stmt->bindParam(':action_update', $action, PDO::PARAM_INT);
+
+    $stmt->execute();
+}
+
 $app->get('/profile', function (Request $request, Response $response) use ($pdo) {
     $firebaseUserId = $request->getAttribute('firebaseUser');
     $verified = $request->getAttribute('verified');
@@ -109,6 +125,8 @@ $app->post('/workflow', function (Request $request, Response $response) use ($pd
     $stmtMiniatures->bindParam(':user_id', $userId, PDO::PARAM_INT);
     $stmtMiniatures->bindParam(':stage_max', $stageCap, PDO::PARAM_INT);
     $stmtMiniatures->execute();
+
+    upsertLastInteractions($pdo, $userId, "update workflow");
 
     if ($pdo->commit()) {
         $mappedStages = array_map(function($value, $index) {

@@ -47,6 +47,7 @@ $app->post("/collections", function (Request $request, Response $response) use (
     $stmt->bindParam(':name', $name);
 
     if ($stmt->execute()) {
+        upsertLastInteractions($pdo, $userId, "create collection");
         // Return the created collection
         $response->getBody()->write(json_encode([
             'id' => $collectionId,
@@ -141,6 +142,7 @@ $app->put("/collections/{collectionId}", function (Request $request, Response $r
     $stmt->bindParam(':name', $name);
 
     if ($stmt->execute()) {
+        upsertLastInteractions($pdo, $userId, "update collection");
         // Return the created collection
         $response->getBody()->write(json_encode([
             'id' => $collectionId,
@@ -168,6 +170,7 @@ $app->delete("/collections/{collectionId}", function (Request $request, Response
     $stmt->bindParam(':collection_id', $collectionId);
 
     if ($stmt->execute()) {
+        upsertLastInteractions($pdo, $userId, "delete collection");
         // Return the created collection
         return $response->withHeader('Content-Type', 'application/json')->withStatus(204);
     } else {
