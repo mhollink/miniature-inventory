@@ -2,7 +2,6 @@
 
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
-use Slim\Psr7\Response as SlimResponse;
 
 global $app, $tokenMiddleware, $pdo;
 
@@ -20,5 +19,11 @@ $app->get('/statistics', function (Request $request, Response $response) use ($p
 
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
     $response->getBody()->write(json_encode($result, JSON_UNESCAPED_UNICODE));
+    return $response;
+});
+
+$app->get('/health', function (Request $request, Response $response) {
+
+    $response->getBody()->write(json_encode(['status' => "up"], JSON_UNESCAPED_UNICODE));
     return $response;
 });

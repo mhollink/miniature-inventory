@@ -1,4 +1,12 @@
+# PHP files
 composer.phar
 /vendor/
+
+# Firebase service account
 /firebase_sa.json
-/.env
+
+# Test Coverage
+/coverage
+/.phpunit.result.cache
+
+/.env-prod

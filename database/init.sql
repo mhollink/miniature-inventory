@@ -14,7 +14,7 @@ time_zone = "+00:00";
 
 CREATE TABLE `collections`
 (
-    `user_id`       varchar(255) NOT NULL COMMENT 'firebase user id',
+    `user_id`       varchar(255) NOT NULL,
     `collection_id` varchar(255) NOT NULL,
     `name`          varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
@@ -39,7 +39,7 @@ CREATE TABLE `donators`
 
 CREATE TABLE `groups`
 (
-    `user_id`       varchar(255) NOT NULL COMMENT 'firebase user id',
+    `user_id`       varchar(255) NOT NULL,
     `group_id`      varchar(255) NOT NULL,
     `collection_id` varchar(255) NOT NULL,
     `name`          varchar(255) NOT NULL,
@@ -192,7 +192,7 @@ ALTER TABLE `groups`
 -- Constraints for table `miniatures`
 --
 ALTER TABLE `miniatures`
-    ADD CONSTRAINT `miniatures_ibfk_1` FOREIGN KEY (`model_id`) REFERENCES `models` (`model_id`) ON DELETE CASCADE;
+    ADD CONSTRAINT `miniatures_of_model` FOREIGN KEY (`model_id`) REFERENCES `models` (`model_id`) ON DELETE CASCADE;
 
 --
 -- Constraints for table `models`

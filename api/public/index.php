@@ -19,15 +19,17 @@ $firebase = (new Factory)
 
 $app = AppFactory::create();
 
-require __DIR__ . '/../src/middleware.php';
 require __DIR__ . '/../src/database.php';
+require __DIR__ . '/../src/dependencies.php';
+require __DIR__ . '/../src/middleware.php';
 
 // Routes
 require __DIR__ . '/../src/routes.php';
 
 // Add Error Middleware
-$errorMiddleware = $app->addErrorMiddleware(true, true, true);
+$errorMiddleware = $app->addErrorMiddleware($_ENV["PROFILE"] == "development", true, true);
 $errorMiddleware->setDefaultErrorHandler($customErrorHandler);
+
 $app->add($addHeadersMiddleware);
 
 

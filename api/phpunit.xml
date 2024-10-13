@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.0/phpunit.xsd"
+         bootstrap="tests/bootstrap.php"
+         colors="true">
+
+    <testsuites>
+        <testsuite name="Application Test Suite">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <source>
+        <include>
+            <directory>src</directory>
+        </include>
+        <exclude>
+            <directory suffix="index.php">src</directory>
+            <directory suffix="database.php">src</directory>
+            <directory suffix="dependencies.php">src</directory>
+            <directory suffix="routes.php">src</directory>
+            <directory suffix="middleware.php">src</directory>
+        </exclude>
+    </source>
+
+    <coverage includeUncoveredFiles="true"
+              pathCoverage="false"
+              ignoreDeprecatedCodeUnits="false"
+              disableCodeCoverageIgnore="false">
+        <report>
+            <html outputDirectory="coverage/html" lowUpperBound="50" highLowerBound="90"/>
+            <xml outputDirectory="coverage/xml"/>
+        </report>
+    </coverage>
+
+    <php>
+        <ini name="serialize_precision" value="14"/>
+        <ini name="xdebug.mode" value="coverage"/>
+    </php>
+</phpunit>
