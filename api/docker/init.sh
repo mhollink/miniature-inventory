@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo "DB_HOST=mariadb
+echo "PROFILE=development
+DB_HOST=mariadb
 DB_PORT=3306
 DB_DATABASE=my_database
 DB_USERNAME=my_user

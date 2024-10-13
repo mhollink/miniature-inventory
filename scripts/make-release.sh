@@ -4,13 +4,12 @@
 cd "$(cd "$(dirname "$0")" && pwd)";
 
 rm -rf ../release
-rsync -a ../webpage/dist/ ../release/
+rsync -a ../app/dist/ ../release/
 rsync -a \
-  --exclude='.gitignore' \
-  --exclude='composer.json' \
-  --exclude='composer.lock' \
-  --exclude='docker/' \
-  --exclude='Dockerfile' \
-  --exclude='apache.conf' \
-  --exclude='Miniature Inventory.postman_collection.json' \
-  ../api ../release
+  --include='vendor/***' \
+  --include='public/***' \
+  --include='src/***' \
+  --include='.htaccess' \
+  --include='firebase_sa.json' \
+  --exclude='*' \
+  ../api/ ../release/api/
