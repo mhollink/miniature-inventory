@@ -12,14 +12,10 @@
 
     <source>
         <include>
-            <directory>src</directory>
+            <directory>src/services</directory>
         </include>
         <exclude>
             <directory suffix="index.php">src</directory>
-            <directory suffix="database.php">src</directory>
-            <directory suffix="dependencies.php">src</directory>
-            <directory suffix="routes.php">src</directory>
-            <directory suffix="middleware.php">src</directory>
         </exclude>
     </source>
 
