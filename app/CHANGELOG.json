@@ -2,7 +2,7 @@
   "main": {},
   "1.4.1": {
     "changed": [
-      "Majorly change the API allowing to automatically regression test any new coming changes",
+      "Majorly changed the API allowing to automatically regression test any new coming changes",
       "Updated the roadmap"
     ]
   },
