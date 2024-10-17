@@ -70,8 +70,9 @@ const ScreenshotTabs = () => {
         variant={"fullWidth"}
       >
         <Tab label="Decide your workflow" {...a11yProps(0)} />
-        <Tab label="Create collections and groups" {...a11yProps(1)} />
-        <Tab label="Organize Models in groups" {...a11yProps(2)} />
+        <Tab label="Create collections" {...a11yProps(1)} />
+        <Tab label="Manage Models" {...a11yProps(2)} />
+        <Tab label="Manage your paints" {...a11yProps(3)} />
       </Tabs>
       <CustomTabPanel value={value} index={0}>
         <img
@@ -90,6 +91,13 @@ const ScreenshotTabs = () => {
       <CustomTabPanel value={value} index={2}>
         <img
           src={`/assets/images/screenshots/${mode}/group.png`}
+          alt={"Screenshot of models in a group"}
+          style={{ width: "100%" }}
+        />
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={3}>
+        <img
+          src={`/assets/images/screenshots/${mode}/paints.png`}
           alt={"Screenshot of models in a group"}
           style={{ width: "100%" }}
         />
