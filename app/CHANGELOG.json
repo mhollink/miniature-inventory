@@ -1,5 +1,10 @@
 {
-  "main": {},
+  "main": {
+    "changed": [
+      "Majorly change the API allowing to automatically regression test any new coming changes",
+      "Updated the roadmap"
+    ]
+  },
   "1.4.0": {
     "added": [
       "Added a paint storage section to keep track of which paints which allows you to check which paints you have so you dont accidentally buy doubles."
