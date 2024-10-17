@@ -39,9 +39,10 @@ const features = [
       "Allowing users to create accounts or log in with their social media accounts. This will allow us to save data outside of the web application and eventually enable cross platform accounts.",
   },
   {
+    done: true,
     feature: "Allow to keep track of your current paints",
     description:
-      "Whenever you are doing little bit of painting at a time, or just wanna remember your paint scheme in half a year when you buy some new minis. It would be great to be able to recall what paints you used.",
+      "When you are strolling through your local mall and find your self in front of the paints sections of the Warhammer store, it would be nice to know which paints you already have. Not buying your 4th pot of Liquid Green stuff for instance...",
   },
   {
     feature: "And more..",
