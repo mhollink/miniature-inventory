@@ -145,7 +145,13 @@ export const PaintCollectionTable = () => {
                           width: 25,
                           height: 25,
                           margin: "0 auto",
-                          backgroundColor: row.color,
+                          background:
+                            row.color === ""
+                              ? "linear-gradient(45deg, transparent 42%, red 42%, red 58%, transparent 58%)," +
+                                "linear-gradient(-45deg, transparent 42%, red 42%, red 58%, transparent 58%);"
+                              : row.color === "transparent"
+                                ? "linear-gradient(45deg, #DDDDDD 0%, #333333 100%)"
+                                : row.color,
                           border: (theme) =>
                             "1px solid " + theme.palette.text.primary,
                           boxShadow: 5,

@@ -103,7 +103,7 @@ export const AddPaintModal = () => {
   };
 
   const validateColor = () => {
-    if (!color || !color.name || !color.color) {
+    if (!color || !color.name) {
       setColorError("You must select a color.");
       return false;
     }
@@ -291,9 +291,13 @@ export const AddPaintModal = () => {
                             height: 20,
                             mr: 4,
                             background:
-                              option.color === "transparent"
-                                ? "linear-gradient(210deg, white 0%, black 100%)"
-                                : option.color,
+                              option.color === ""
+                                ? "linear-gradient(45deg, transparent 42%, red 42%, red 58%, transparent 58%)," +
+                                  "linear-gradient(-45deg, transparent 42%, red 42%, red 58%, transparent 58%);"
+                                : option.color === "transparent"
+                                  ? "linear-gradient(45deg, #DDDDDD 0%, #333333 100%)"
+                                  : option.color,
+                            backgroundSize: "100% 100%",
                             border: (theme) =>
                               "1px solid " + theme.palette.text.primary,
                             boxShadow: 5,
