@@ -4001,7 +4001,7 @@
       },
       {
         "name": "Anti Shine",
-        "color": ""
+        "color": "transparent"
       },
       {
         "name": "Uniform Grey",
@@ -4077,7 +4077,7 @@
       },
       {
         "name": "Gun Metal",
-        "color": ""
+        "color": "#635a53"
       }
     ],
     "Speedpaints": [
