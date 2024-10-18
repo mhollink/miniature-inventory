@@ -1,7 +1,7 @@
 {
   "Game Air": [
     {
-      "name": "Desert Yellow",
+      "name": "Desert Yellow (72763)",
       "color": "#8e7846"
     },
     {
@@ -13,7 +13,7 @@
       "color": "#4e2b29"
     },
     {
-      "name": "Beasty Brown",
+      "name": "Beasty Brown (72743)",
       "color": "#55452c"
     },
     {
@@ -25,7 +25,7 @@
       "color": "#de975c"
     },
     {
-      "name": "Imperial Blue",
+      "name": "Imperial Blue (72720)",
       "color": "#231c4f"
     },
     {
@@ -89,7 +89,7 @@
       "color": "transparent"
     },
     {
-      "name": "Imperial Blue",
+      "name": "Imperial Blue (76020)",
       "color": "transparent"
     },
     {
@@ -149,7 +149,7 @@
       "color": "transparent"
     },
     {
-      "name": "Beasty Brown",
+      "name": "Beasty Brown (76043)",
       "color": "transparent"
     },
     {
@@ -181,7 +181,7 @@
       "color": "transparent"
     },
     {
-      "name": "Desert Yellow",
+      "name": "Desert Yellow (76063)",
       "color": "transparent"
     },
     {
@@ -761,7 +761,7 @@
       "color": "#fcaf16"
     },
     {
-      "name": "Red RLM23",
+      "name": "Scarlet Red",
       "color": "#cb2b27"
     },
     {
@@ -949,7 +949,7 @@
       "color": "#999e98"
     },
     {
-      "name": "Red",
+      "name": "Red (71102)",
       "color": "#b0323b"
     },
     {
@@ -1401,11 +1401,11 @@
       "color": "#434842"
     },
     {
-      "name": "Red",
+      "name": "Red (71269)",
       "color": "#99403b"
     },
     {
-      "name": "Off",
+      "name": "Off-White",
       "color": "#e0d2b7"
     },
     {
@@ -1517,7 +1517,7 @@
       "color": "#1d2a33"
     },
     {
-      "name": "AMT",
+      "name": "AMT-4 Camouflage Green",
       "color": "#605c43"
     },
     {
@@ -1525,11 +1525,11 @@
       "color": "#99a08e"
     },
     {
-      "name": "A",
+      "name": "A-24M Camouflage Green",
       "color": "#535748"
     },
     {
-      "name": "AMT",
+      "name": "AMT-11 Blue Grey",
       "color": "#5a626d"
     },
     {
@@ -1541,7 +1541,7 @@
       "color": "#7c878d"
     },
     {
-      "name": "AMT",
+      "name": "AMT-12 Dark Grey",
       "color": "#40474f"
     },
     {
@@ -1577,15 +1577,15 @@
       "color": "#6ac5d7"
     },
     {
-      "name": "AMT",
+      "name": "AMT-7 Greyish Blue",
       "color": "#5d8ba0"
     },
     {
-      "name": "A",
+      "name": "A-28M Greyish Blue",
       "color": "#6b9e99"
     },
     {
-      "name": "AMT",
+      "name": "AMT-1 Light Grey Brown",
       "color": "#8d8882"
     },
     {
@@ -1657,7 +1657,7 @@
       "color": "#515441"
     },
     {
-      "name": "A",
+      "name": "A-19F Grass Green",
       "color": "#64653c"
     },
     {
@@ -1665,15 +1665,15 @@
       "color": "#9caa9b"
     },
     {
-      "name": "A",
+      "name": "A-18F Light Blue",
       "color": "#a8b4a0"
     },
     {
-      "name": "AEH",
+      "name": "AEH-9 Light Grey",
       "color": "#c0c5c1"
     },
     {
-      "name": "A",
+      "name": "A-21 Light Greyish Brown",
       "color": "#807a64"
     },
     {
@@ -1729,7 +1729,7 @@
       "color": "#586355"
     },
     {
-      "name": "A",
+      "name": "A-14 Steel Grey",
       "color": "#687271"
     },
     {
@@ -2035,7 +2035,7 @@
       "color": "#1c94a5"
     },
     {
-      "name": "Yellow Green",
+      "name": "Yellow Green (70954)",
       "color": "#c0d84c"
     },
     {
@@ -2371,7 +2371,7 @@
       "color": "#806b50"
     },
     {
-      "name": "Yellow Green",
+      "name": "Yellow Green (70881)",
       "color": "#706b4b"
     },
     {
