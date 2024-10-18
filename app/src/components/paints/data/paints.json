@@ -3924,67 +3924,67 @@
     ],
     "Washes": [
       {
-        "name": "Model Wash Light Grey",
-        "color": "nieuw"
-      },
-      {
-        "name": "Model Wash Rust",
+        "name": "Light Grey",
         "color": ""
       },
       {
-        "name": "Model Wash Light Rust",
+        "name": "Rust",
         "color": ""
       },
       {
-        "name": "Model Wash White",
+        "name": "Light Rust",
         "color": ""
       },
       {
-        "name": "Model Wash Dark Yellow",
+        "name": "White",
         "color": ""
       },
       {
-        "name": "Model Wash Dark Rust",
+        "name": "Dark Yellow",
         "color": ""
       },
       {
-        "name": "Model Wash Dark Green",
+        "name": "Dark Rust",
         "color": ""
       },
       {
-        "name": "Model Wash Brown",
+        "name": "Dark Green",
         "color": ""
       },
       {
-        "name": "Model Wash Grey",
+        "name": "Brown",
         "color": ""
       },
       {
-        "name": "Model Wash Dark Grey",
+        "name": "Grey",
         "color": ""
       },
       {
-        "name": "Model Wash Olive Green",
+        "name": "Dark Grey",
         "color": ""
       },
       {
-        "name": "Model Wash Dark Khaki Green",
+        "name": "Olive Green",
         "color": ""
       },
       {
-        "name": "Model Wash Oiled Earth",
+        "name": "Dark Khaki Green",
         "color": ""
       },
       {
-        "name": "Model Wash Desert Dust",
+        "name": "Oiled Earth",
         "color": ""
       },
       {
-        "name": "Model Wash European Dust",
+        "name": "Desert Dust",
         "color": ""
       },
       {
-        "name": "Model Wash Blue Grey",
+        "name": "European Dust",
+        "color": ""
+      },
+      {
+        "name": "Blue Grey",
         "color": ""
       }
     ]
