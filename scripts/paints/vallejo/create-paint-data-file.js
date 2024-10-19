@@ -32,7 +32,7 @@ function loadVallejo() {
             const paints = JSON.parse(data);
             const paintArray = Object.values(paints);
             const mapped = paintArray
-                .filter(paint => paint.price.price <= 3.2 || paint.price.price === 5.73)
+                .filter(paint => paint.price.price <= 3.2 || paint.price.price === 5.73  || paint.price.price === 4.04)
                 .map(paint => ({
                 name: paint.title.split(" -")[0].replaceAll("Vallejo", "").replaceAll(capitalizeWords(fileNameWithoutExt), "").trim(),
                 color: paint.data_01 || "transparent",

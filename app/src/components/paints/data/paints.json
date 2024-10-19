@@ -2117,7 +2117,7 @@
       },
       {
         "name": "Airbrush Thinner",
-        "color": ""
+        "color": "transparent"
       },
       {
         "name": "Dark Yellow",
@@ -2133,7 +2133,7 @@
       },
       {
         "name": "Airbrush Flow Improver",
-        "color": ""
+        "color": "transparent"
       },
       {
         "name": "UK BSC 64 Port. Stone",
@@ -3922,7 +3922,7 @@
         "color": ""
       }
     ],
-    "Washes": [
+    "Model Wash": [
       {
         "name": "Light Grey",
         "color": ""
@@ -3985,6 +3985,248 @@
       },
       {
         "name": "Blue Grey",
+        "color": ""
+      }
+    ],
+    "Xpress Color": [
+      {
+        "name": "Templar White",
+        "color": "#a2aaad"
+      },
+      {
+        "name": "Dwarf Skin",
+        "color": "#522a20"
+      },
+      {
+        "name": "Imperial Yellow",
+        "color": "#df8412"
+      },
+      {
+        "name": "Nuclear Yellow",
+        "color": "#b05416"
+      },
+      {
+        "name": "Martian Orange",
+        "color": "#902c16"
+      },
+      {
+        "name": "Plasma Red",
+        "color": "#831d17"
+      },
+      {
+        "name": "Velvet Red",
+        "color": "#5c2220"
+      },
+      {
+        "name": "Cardinal Purple",
+        "color": "#871a20"
+      },
+      {
+        "name": "Deep Purple",
+        "color": "#582333"
+      },
+      {
+        "name": "Gloomy Violet",
+        "color": "#392645"
+      },
+      {
+        "name": "Mystic Blue",
+        "color": "#1c3463"
+      },
+      {
+        "name": "Storm Blue",
+        "color": "#5a6da7"
+      },
+      {
+        "name": "Omega Blue",
+        "color": "#415fb9"
+      },
+      {
+        "name": "Caribbean Turquoise",
+        "color": "#0b91a1"
+      },
+      {
+        "name": "Orc Skin",
+        "color": "#9cb147"
+      },
+      {
+        "name": "Troll Green",
+        "color": "#168453"
+      },
+      {
+        "name": "Snake Green",
+        "color": "#128283"
+      },
+      {
+        "name": "Lizard Green",
+        "color": "#88c287"
+      },
+      {
+        "name": "Plague Green",
+        "color": "#879966"
+      },
+      {
+        "name": "Wasteland Brown",
+        "color": "#d86f1e"
+      },
+      {
+        "name": "Copper Brown",
+        "color": "#9d3d1c"
+      },
+      {
+        "name": "Space Grey",
+        "color": "#558ba0"
+      },
+      {
+        "name": "Black Lotus",
+        "color": "#0c0808"
+      },
+      {
+        "name": "Xpress Medium",
+        "color": "#fefefe"
+      },
+      {
+        "name": "Mummy White",
+        "color": ""
+      },
+      {
+        "name": "Bag of Bones",
+        "color": ""
+      },
+      {
+        "name": "Khaki Drill",
+        "color": ""
+      },
+      {
+        "name": "Rotten Flesh",
+        "color": ""
+      },
+      {
+        "name": "Military Yellow",
+        "color": ""
+      },
+      {
+        "name": "Desert Ochre",
+        "color": ""
+      },
+      {
+        "name": "Chameleon Orange",
+        "color": ""
+      },
+      {
+        "name": "Wicked Purple",
+        "color": ""
+      },
+      {
+        "name": "Fairy Skin",
+        "color": ""
+      },
+      {
+        "name": "Demonic Skin",
+        "color": ""
+      },
+      {
+        "name": "Fluid Pink",
+        "color": ""
+      },
+      {
+        "name": "Twilight Rose",
+        "color": ""
+      },
+      {
+        "name": "Vampiric Purple",
+        "color": ""
+      },
+      {
+        "name": "Starship Steel",
+        "color": ""
+      },
+      {
+        "name": "Iceberg Grey",
+        "color": ""
+      },
+      {
+        "name": "Wagram Blue",
+        "color": ""
+      },
+      {
+        "name": "Forest Green",
+        "color": ""
+      },
+      {
+        "name": "Armor Green",
+        "color": ""
+      },
+      {
+        "name": "Camouflage Green",
+        "color": ""
+      },
+      {
+        "name": "Commando Green",
+        "color": ""
+      },
+      {
+        "name": "Landser Grey",
+        "color": ""
+      },
+      {
+        "name": "Zombie Flesh",
+        "color": ""
+      },
+      {
+        "name": "Tanned Skin",
+        "color": ""
+      },
+      {
+        "name": "Mahogany",
+        "color": ""
+      },
+      {
+        "name": "Battledress Brown",
+        "color": ""
+      },
+      {
+        "name": "Willow Bark",
+        "color": ""
+      },
+      {
+        "name": "Muddy Ground",
+        "color": ""
+      },
+      {
+        "name": "Greasy Black",
+        "color": ""
+      },
+      {
+        "name": "Intense Dreadnought Yellow",
+        "color": ""
+      },
+      {
+        "name": "Intense Phoenix Orange",
+        "color": ""
+      },
+      {
+        "name": "Intense Seraph Red",
+        "color": ""
+      },
+      {
+        "name": "Intense Legacy Blue",
+        "color": ""
+      },
+      {
+        "name": "Intense Heretic Turquoise",
+        "color": ""
+      },
+      {
+        "name": "Intense Monastic Green",
+        "color": ""
+      },
+      {
+        "name": "Intense Viking Grey",
+        "color": ""
+      },
+      {
+        "name": "Intense Hospitallier Black",
         "color": ""
       }
     ]
