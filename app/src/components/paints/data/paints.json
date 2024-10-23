@@ -1357,211 +1357,211 @@
       },
       {
         "name": "Dead White",
-        "color": ""
+        "color": "#fbfbfb"
       },
       {
         "name": "Pale Flesh",
-        "color": ""
+        "color": "#cba47f"
       },
       {
         "name": "Elf Skin Tone",
-        "color": ""
+        "color": "#cc8955"
       },
       {
         "name": "Moon Yellow",
-        "color": ""
+        "color": "#f1b709"
       },
       {
         "name": "Sun Yellow",
-        "color": ""
+        "color": "#f8a30c"
       },
       {
         "name": "Gold Yellow",
-        "color": ""
+        "color": "#d87318"
       },
       {
         "name": "Orange Fire",
-        "color": ""
+        "color": "#ed5c1b"
       },
       {
         "name": "Bloody Red",
-        "color": ""
+        "color": "#781c1e"
       },
       {
         "name": "Scarlet Red",
-        "color": ""
+        "color": "#781c1e"
       },
       {
         "name": "Squid Pink",
-        "color": ""
+        "color": "#c976a6"
       },
       {
         "name": "Warlord Purple",
-        "color": ""
+        "color": "#862354"
       },
       {
         "name": "Royal Purple",
-        "color": ""
+        "color": "#2f2337"
       },
       {
         "name": "Night Blue",
-        "color": ""
+        "color": "#212332"
       },
       {
         "name": "Imperial Blue (76020)",
-        "color": ""
+        "color": "#221c50"
       },
       {
         "name": "Magic Blue",
-        "color": ""
+        "color": "#0169a5"
       },
       {
         "name": "Ultramarine Blue",
-        "color": ""
+        "color": "#363a66"
       },
       {
         "name": "Electric Blue",
-        "color": ""
+        "color": "#4399b5"
       },
       {
         "name": "Turquoise",
-        "color": ""
+        "color": "#0d6162"
       },
       {
         "name": "Jade Green",
-        "color": ""
+        "color": "#026f56"
       },
       {
         "name": "Scurvy Green",
-        "color": ""
+        "color": "#194e41"
       },
       {
         "name": "Dark Green",
-        "color": ""
+        "color": "#1f3723"
       },
       {
         "name": "Camouflage Green",
-        "color": ""
+        "color": "#897732"
       },
       {
         "name": "Scorpy Green",
-        "color": ""
+        "color": "#4d8333"
       },
       {
         "name": "Bone White",
-        "color": ""
+        "color": "#bfa275"
       },
       {
         "name": "Dead Flesh",
-        "color": ""
+        "color": "#c2aa4e"
       },
       {
         "name": "Bronze Brown",
-        "color": ""
+        "color": "#b16622"
       },
       {
         "name": "Leather Brown",
-        "color": ""
+        "color": "#8e5e28"
       },
       {
         "name": "Parasite Brown",
-        "color": ""
+        "color": "#a25c1f"
       },
       {
         "name": "Beasty Brown (76043)",
-        "color": ""
+        "color": "#7d5225"
       },
       {
         "name": "Charred Brown",
-        "color": ""
+        "color": "#422a25"
       },
       {
         "name": "Wolf Grey",
-        "color": ""
+        "color": "#c3d1d1"
       },
       {
         "name": "Sombre Grey",
-        "color": ""
+        "color": "#565c6a"
       },
       {
         "name": "Stonewall Grey",
-        "color": ""
+        "color": "#9a9482"
       },
       {
         "name": "Neutral Grey",
-        "color": ""
+        "color": "#716c60"
       },
       {
         "name": "Black",
-        "color": ""
+        "color": "#000000"
       },
       {
         "name": "Earth",
-        "color": ""
+        "color": "#795630"
       },
       {
         "name": "Desert Yellow (76063)",
-        "color": ""
+        "color": "#996631"
       },
       {
         "name": "Barbarian Skin",
-        "color": ""
+        "color": "#936743"
       },
       {
         "name": "Alien Purple",
-        "color": ""
+        "color": "#7262a9"
       },
       {
         "name": "Rosy Flesh",
-        "color": ""
+        "color": "#e58b69"
       },
       {
         "name": "Athena Skin",
-        "color": ""
+        "color": "#c85c55"
       },
       {
         "name": "Toxic Yellow",
-        "color": ""
+        "color": "#ead55a"
       },
       {
         "name": "Nocturnal Red",
-        "color": ""
+        "color": "#561d22"
       },
       {
         "name": "Lustful Purple",
-        "color": ""
+        "color": "#b78abd"
       },
       {
         "name": "Grunge Brown",
-        "color": ""
+        "color": "#874122"
       },
       {
         "name": "Midnight Purple",
-        "color": ""
+        "color": "#2d2035"
       },
       {
         "name": "Sunrise Blue",
-        "color": ""
+        "color": "76cae9"
       },
       {
         "name": "Abyssal Turquoise",
-        "color": ""
+        "color": "#193e56"
       },
       {
         "name": "Ghost Green",
-        "color": ""
+        "color": "#83c095"
       },
       {
         "name": "Bile Green",
-        "color": ""
+        "color": "#d6d910"
       },
       {
         "name": "Angel Green",
-        "color": ""
+        "color": "#d6d910"
       },
       {
         "name": "Flesh",
-        "color": ""
+        "color": "#f6b68e"
       }
     ],
     "Game Color": [
@@ -3086,1148 +3086,1148 @@
     ],
     "Model Color": [
       {
-        "name": "Cork Brown",
-        "color": "#a1775f"
-      },
-      {
-        "name": "Deep Sky Blue",
-        "color": "#29b1df"
-      },
-      {
-        "name": "Sunny Skintone",
-        "color": "#e9aa77"
-      },
-      {
-        "name": "Mahogany Brown",
-        "color": "#6e524f"
-      },
-      {
-        "name": "Dark Sand",
-        "color": "#c9ac85"
-      },
-      {
-        "name": "Medium Olive",
-        "color": "#2d6b24"
-      },
-      {
-        "name": "Bright Orange",
-        "color": "#f36637"
-      },
-      {
-        "name": "Ochre Brown",
-        "color": "#a87534"
-      },
-      {
-        "name": "Glossy Black",
-        "color": "#141414"
-      },
-      {
-        "name": "Chocolat Brown",
-        "color": "#514a42"
-      },
-      {
-        "name": "Beige Brown",
-        "color": "#8c7565"
-      },
-      {
-        "name": "Intermediate Green",
-        "color": "#46924e"
-      },
-      {
-        "name": "Dark Prusia Blue",
-        "color": "#14293c"
-      },
-      {
-        "name": "Pastel Blue",
-        "color": "#67869a"
-      },
-      {
-        "name": "Carmine Red",
-        "color": "#b2252e"
-      },
-      {
-        "name": "Deep Yellow",
-        "color": "#fbe531"
-      },
-      {
-        "name": "Cold White",
-        "color": "#fefefe"
-      },
-      {
-        "name": "Red",
-        "color": "#8d2732"
-      },
-      {
-        "name": "Dark Flesh",
-        "color": "#d49a67"
-      },
-      {
-        "name": "Saddle Brown",
-        "color": "#6d5450"
-      },
-      {
-        "name": "Medium Blue",
-        "color": "#2d6489"
-      },
-      {
-        "name": "Military Green",
-        "color": "#414640"
-      },
-      {
-        "name": "Orange Brown",
-        "color": "#b66d42"
-      },
-      {
-        "name": "Flat Brown",
-        "color": "#5b4641"
-      },
-      {
-        "name": "Sky Grey",
-        "color": "#9da0a9"
-      },
-      {
-        "name": "Dark Sea Grey",
-        "color": "#777a81"
-      },
-      {
-        "name": "Black",
-        "color": "#010101"
-      },
-      {
-        "name": "White",
-        "color": "#fefefe"
-      },
-      {
-        "name": "Gold",
-        "color": "#a5883b"
-      },
-      {
-        "name": "Silver",
-        "color": "#a7b2b4"
-      },
-      {
-        "name": "Prussia Blue",
-        "color": "#425d7b"
-      },
-      {
-        "name": "Light Green Blue",
-        "color": "#739d99"
-      },
-      {
-        "name": "Smoke",
-        "color": "#423e3b"
-      },
-      {
-        "name": "US Olive Drab",
-        "color": "#5b574c"
-      },
-      {
-        "name": "Ivory",
-        "color": "#edeccd"
-      },
-      {
-        "name": "Light Orange",
-        "color": "#f58847"
-      },
-      {
-        "name": "Sand Yellow",
-        "color": "#e0b274"
-      },
-      {
-        "name": "Burnt Umber",
-        "color": "#57504a"
-      },
-      {
-        "name": "Deck Tan",
-        "color": "#b5baa6"
-      },
-      {
-        "name": "Medium Grey",
-        "color": "#928980"
-      },
-      {
-        "name": "Dark Grey",
-        "color": "#4a5159"
-      },
-      {
-        "name": "Light Flesh",
-        "color": "#f8d4c1"
-      },
-      {
-        "name": "Off White",
-        "color": "#e6e7d9"
-      },
-      {
-        "name": "Oxford Blue",
-        "color": "#4f5275"
-      },
-      {
-        "name": "Oily Steel",
-        "color": "#787971"
-      },
-      {
-        "name": "Light Grey",
-        "color": "#878f9c"
-      },
-      {
-        "name": "Sky Blue",
-        "color": "#64c9f2"
-      },
-      {
-        "name": "Flat Yellow",
-        "color": "#fcb543"
-      },
-      {
-        "name": "Goldbrown",
-        "color": "#ae834e"
-      },
-      {
-        "name": "Blue",
-        "color": "#1e3567"
-      },
-      {
-        "name": "German Extra Dark Green",
-        "color": "#315048"
-      },
-      {
-        "name": "Iraqui Sand",
-        "color": "#b49a7d"
-      },
-      {
-        "name": "Pale Greyblue",
-        "color": "#9aacb6"
-      },
-      {
-        "name": "Green Brown",
-        "color": "#7e6a49"
-      },
-      {
-        "name": "Middlestone",
-        "color": "#8c7d57"
-      },
-      {
-        "name": "Stone Grey",
-        "color": "#999387"
-      },
-      {
-        "name": "Green Grey",
-        "color": "#71726d"
-      },
-      {
-        "name": "Emerald",
-        "color": "#0b8b68"
-      },
-      {
-        "name": "Royal Purple",
-        "color": "#544363"
-      },
-      {
         "name": "Amarantha Red",
         "color": "#bb5944"
-      },
-      {
-        "name": "Royal Blue",
-        "color": "#316398"
-      },
-      {
-        "name": "Blue Green",
-        "color": "#16a2a3"
-      },
-      {
-        "name": "Medium Fleshtone",
-        "color": "#b68356"
-      },
-      {
-        "name": "Bronze",
-        "color": "#7c7446"
-      },
-      {
-        "name": "Dark Vermillion",
-        "color": "#b53e40"
-      },
-      {
-        "name": "Black Red",
-        "color": "#4c383a"
-      },
-      {
-        "name": "Light Turquoise",
-        "color": "#1c94a5"
-      },
-      {
-        "name": "Yellow Green (70954)",
-        "color": "#c0d84c"
-      },
-      {
-        "name": "Basic Skintone",
-        "color": "#f1b498"
-      },
-      {
-        "name": "Beige Red",
-        "color": "#b78373"
-      },
-      {
-        "name": "Gunmetal Blue",
-        "color": "#455763"
-      },
-      {
-        "name": "Intermediate Blue",
-        "color": "#556d71"
-      },
-      {
-        "name": "Brown Sand",
-        "color": "#866749"
-      },
-      {
-        "name": "Desert Yellow",
-        "color": "#ae8c6b"
-      },
-      {
-        "name": "Violet Red",
-        "color": "#682642"
-      },
-      {
-        "name": "Lemon Yellow",
-        "color": "#f5ee3b"
-      },
-      {
-        "name": "Medium Sea Grey",
-        "color": "#7e818a"
-      },
-      {
-        "name": "Dark Blue",
-        "color": "#3a669f"
-      },
-      {
-        "name": "Cavalry Brown",
-        "color": "#803633"
-      },
-      {
-        "name": "Light Green Grey",
-        "color": "#a9b9af"
-      },
-      {
-        "name": "White Grey",
-        "color": "#eaebf0"
-      },
-      {
-        "name": "Neutral Grey",
-        "color": "#676f7c"
-      },
-      {
-        "name": "Silvergrey",
-        "color": "#c2bdb7"
-      },
-      {
-        "name": "Grey Green",
-        "color": "#575a61"
-      },
-      {
-        "name": "Deep Green",
-        "color": "#366555"
-      },
-      {
-        "name": "US Dark Green",
-        "color": "#53564d"
-      },
-      {
-        "name": "German Grey",
-        "color": "#3f4650"
-      },
-      {
-        "name": "Reflective Green",
-        "color": "#515346"
-      },
-      {
-        "name": "Old Gold",
-        "color": "#8c7a4a"
-      },
-      {
-        "name": "Flat Earth",
-        "color": "#6e5747"
-      },
-      {
-        "name": "German Uniform",
-        "color": "#4e6060"
-      },
-      {
-        "name": "USA Olive Brown",
-        "color": "#4d4c4a"
-      },
-      {
-        "name": "Green Ochre",
-        "color": "#a18361"
-      },
-      {
-        "name": "Vermillion",
-        "color": "#d32a2d"
-      },
-      {
-        "name": "Yellow Ochre",
-        "color": "#be9055"
-      },
-      {
-        "name": "Brass",
-        "color": "#a27427"
-      },
-      {
-        "name": "English Uniform",
-        "color": "#6c5b44"
-      },
-      {
-        "name": "German Camouflage Orange Ochre",
-        "color": "#9b7a51"
-      },
-      {
-        "name": "Beige",
-        "color": "#d6b582"
-      },
-      {
-        "name": "Russian Unif. WWII",
-        "color": "#616254"
-      },
-      {
-        "name": "German Fieldgrey WWII",
-        "color": "#5c5e59"
-      },
-      {
-        "name": "Scarlet",
-        "color": "#bc474d"
-      },
-      {
-        "name": "Red Leather",
-        "color": "#885748"
-      },
-      {
-        "name": "Lime Green",
-        "color": "#88934e"
-      },
-      {
-        "name": "Purple",
-        "color": "#79445e"
-      },
-      {
-        "name": "Flat Flesh",
-        "color": "#dc9f7e"
-      },
-      {
-        "name": "Flat Red",
-        "color": "#a44042"
-      },
-      {
-        "name": "Khaki",
-        "color": "#7e7663"
-      },
-      {
-        "name": "Clear Orange",
-        "color": "#cc5240"
-      },
-      {
-        "name": "Gunmetal Grey",
-        "color": "#6d7170"
-      },
-      {
-        "name": "Copper",
-        "color": "#9b6446"
-      },
-      {
-        "name": "Gunship Green",
-        "color": "#52615a"
-      },
-      {
-        "name": "Black Green",
-        "color": "#3a4944"
-      },
-      {
-        "name": "Ice Yellow",
-        "color": "#f5d390"
-      },
-      {
-        "name": "Pale Sand",
-        "color": "#f4d2ad"
-      },
-      {
-        "name": "Dark Sea Blue",
-        "color": "#3e454d"
-      },
-      {
-        "name": "Luftwaffe Camo Green",
-        "color": "#455048"
-      },
-      {
-        "name": "German Camouflage Black Brown",
-        "color": "#474143"
-      },
-      {
-        "name": "Black Grey",
-        "color": "#45484d"
-      },
-      {
-        "name": "Hull Red",
-        "color": "#4a231c"
-      },
-      {
-        "name": "Basalt Grey",
-        "color": "#626973"
-      },
-      {
-        "name": "Uniform Green",
-        "color": "#576a4e"
-      },
-      {
-        "name": "Tan Yellow",
-        "color": "#bc9471"
-      },
-      {
-        "name": "Salmon Rose",
-        "color": "#f2a89b"
-      },
-      {
-        "name": "German Camouflage Beige",
-        "color": "#898373"
-      },
-      {
-        "name": "Flat Blue",
-        "color": "#486ba0"
-      },
-      {
-        "name": "Flat Green",
-        "color": "#485d4a"
-      },
-      {
-        "name": "Buff",
-        "color": "#c7aa80"
-      },
-      {
-        "name": "Sunset Red",
-        "color": "#bf2154"
-      },
-      {
-        "name": "Brown Rose",
-        "color": "#af8187"
-      },
-      {
-        "name": "German Orange",
-        "color": "#ca8379"
-      },
-      {
-        "name": "German Yellow",
-        "color": "#c1b87f"
-      },
-      {
-        "name": "Blue Violet",
-        "color": "#6e6bb0"
-      },
-      {
-        "name": "Burnt Red",
-        "color": "#5e4040"
-      },
-      {
-        "name": "Luftwaffe Uniform",
-        "color": "#4e596b"
-      },
-      {
-        "name": "German Camouflage Pale Brown",
-        "color": "#78655e"
-      },
-      {
-        "name": "German Camouflage Medium Brown",
-        "color": "#5a5046"
-      },
-      {
-        "name": "Transparant Woodgrain",
-        "color": "#463b35"
-      },
-      {
-        "name": "Tan Glaze",
-        "color": "#d19040"
-      },
-      {
-        "name": "German Camouflage Bright Green",
-        "color": "#597053"
-      },
-      {
-        "name": "Transparant Natural Woodgrain",
-        "color": "#eaa03d"
-      },
-      {
-        "name": "London Grey",
-        "color": "#616b77"
       },
       {
         "name": "Andrea Blue",
         "color": "#1e98c7"
       },
       {
-        "name": "Brown Glaze",
-        "color": "#493f3e"
-      },
-      {
-        "name": "Natural Steel",
-        "color": "#787c7b"
-      },
-      {
-        "name": "Dark Bluegrey",
-        "color": "#45524b"
-      },
-      {
-        "name": "Dark Seagreen",
-        "color": "#525866"
-      },
-      {
-        "name": "Leather Brown",
-        "color": "#584f4a"
-      },
-      {
-        "name": "US Field Drab",
-        "color": "#756454"
-      },
-      {
-        "name": "Tan Earth",
-        "color": "#897262"
-      },
-      {
-        "name": "Khaki Grey",
-        "color": "#806b50"
-      },
-      {
-        "name": "Yellow Green (70881)",
-        "color": "#706b4b"
-      },
-      {
-        "name": "Olive Grey",
-        "color": "#51544b"
-      },
-      {
-        "name": "Yellow Olive",
-        "color": "#4a4f49"
-      },
-      {
-        "name": "Camouflage Olive Green",
-        "color": "#4f5249"
-      },
-      {
-        "name": "Bronze Green",
-        "color": "#4e5156"
-      },
-      {
-        "name": "French Mirage Blue",
-        "color": "#5c6876"
-      },
-      {
         "name": "Azure",
         "color": "#6688bf"
+      },
+      {
+        "name": "BC Dark Brown",
+        "color": "#503d2f"
+      },
+      {
+        "name": "Basalt Grey",
+        "color": "#626973"
+      },
+      {
+        "name": "Basic Skintone",
+        "color": "#f1b498"
+      },
+      {
+        "name": "Beige",
+        "color": "#d6b582"
+      },
+      {
+        "name": "Beige Brown",
+        "color": "#8c7565"
+      },
+      {
+        "name": "Beige Red",
+        "color": "#b78373"
+      },
+      {
+        "name": "Black",
+        "color": "#010101"
+      },
+      {
+        "name": "Black Green",
+        "color": "#3a4944"
+      },
+      {
+        "name": "Black Grey",
+        "color": "#45484d"
+      },
+      {
+        "name": "Black Red",
+        "color": "#4c383a"
+      },
+      {
+        "name": "Black Violet",
+        "color": "#342e37"
+      },
+      {
+        "name": "Blue",
+        "color": "#1e3567"
+      },
+      {
+        "name": "Blue Green",
+        "color": "#16a2a3"
+      },
+      {
+        "name": "Blue Violet",
+        "color": "#6e6bb0"
       },
       {
         "name": "Bluegrey Pale",
         "color": "#7b8793"
       },
       {
-        "name": "Pale Blue",
-        "color": "#8ea3a6"
+        "name": "Brass",
+        "color": "#a27427"
       },
       {
-        "name": "Japan Uniform WWII",
-        "color": "#977945"
+        "name": "Bright Green",
+        "color": "#7d8a54"
       },
       {
-        "name": "Light Brown",
-        "color": "#a57252"
+        "name": "Bright Orange",
+        "color": "#f36637"
       },
       {
-        "name": "Transparant Orange",
-        "color": "#f26b27"
+        "name": "Bronze",
+        "color": "#7c7446"
       },
       {
-        "name": "Transparant Blue",
-        "color": "#353d61"
+        "name": "Bronze Green",
+        "color": "#4e5156"
       },
       {
-        "name": "Grey Blue",
-        "color": "#6b839f"
+        "name": "Brown Glaze",
+        "color": "#493f3e"
       },
       {
-        "name": "Old Rose",
-        "color": "#d77d7c"
+        "name": "Brown Rose",
+        "color": "#af8187"
       },
       {
-        "name": "Magenta",
-        "color": "#ab435a"
+        "name": "Brown Sand",
+        "color": "#866749"
+      },
+      {
+        "name": "Buff",
+        "color": "#c7aa80"
+      },
+      {
+        "name": "Burnt Red",
+        "color": "#5e4040"
+      },
+      {
+        "name": "Burnt Umber",
+        "color": "#57504a"
+      },
+      {
+        "name": "Camouflage Black Green",
+        "color": "#303226"
+      },
+      {
+        "name": "Camouflage Middle Brown",
+        "color": "#413e34"
+      },
+      {
+        "name": "Camouflage Olive Green",
+        "color": "#4f5249"
+      },
+      {
+        "name": "Canvas",
+        "color": "#47433b"
+      },
+      {
+        "name": "Carmine Red",
+        "color": "#b2252e"
+      },
+      {
+        "name": "Cavalry Brown",
+        "color": "#803633"
+      },
+      {
+        "name": "Chestnut Brown",
+        "color": "#4a3b35"
+      },
+      {
+        "name": "Chocolat Brown",
+        "color": "#514a42"
+      },
+      {
+        "name": "Clear Orange",
+        "color": "#cc5240"
+      },
+      {
+        "name": "Cold White",
+        "color": "#fefefe"
+      },
+      {
+        "name": "Continental Blue",
+        "color": "#24282e"
+      },
+      {
+        "name": "Copper",
+        "color": "#9b6446"
+      },
+      {
+        "name": "Cork Brown",
+        "color": "#a1775f"
+      },
+      {
+        "name": "Cream White",
+        "color": "#baa68b"
+      },
+      {
+        "name": "Dark Blue",
+        "color": "#3a669f"
+      },
+      {
+        "name": "Dark Bluegrey",
+        "color": "#45524b"
+      },
+      {
+        "name": "Dark Flesh",
+        "color": "#d49a67"
+      },
+      {
+        "name": "Dark Grey",
+        "color": "#4a5159"
+      },
+      {
+        "name": "Dark Prusia Blue",
+        "color": "#14293c"
+      },
+      {
+        "name": "Dark Purple",
+        "color": "#3e3340"
       },
       {
         "name": "Dark Red",
         "color": "#884456"
       },
       {
-        "name": "Golden Yellow",
-        "color": "#fbb15c"
+        "name": "Dark Rose",
+        "color": "#785f5e"
       },
       {
-        "name": "Light Yellow",
-        "color": "#f6e962"
+        "name": "Dark Sand",
+        "color": "#c9ac85"
       },
       {
-        "name": "Pink",
-        "color": "#fe93b7"
+        "name": "Dark Sea Blue",
+        "color": "#3e454d"
       },
       {
-        "name": "Violet",
-        "color": "#4c456f"
+        "name": "Dark Sea Grey",
+        "color": "#777a81"
       },
       {
-        "name": "Field Blue",
-        "color": "#406166"
+        "name": "Dark Seagreen",
+        "color": "#525866"
       },
       {
-        "name": "Turquoise",
-        "color": "#346d80"
-      },
-      {
-        "name": "Olive Green",
-        "color": "#5d6c4b"
-      },
-      {
-        "name": "Park Green Flat",
-        "color": "#05784d"
-      },
-      {
-        "name": "Green Sky",
-        "color": "#839d82"
+        "name": "Dark Vermillion",
+        "color": "#b53e40"
       },
       {
         "name": "Dark Yellow",
         "color": "#898153"
       },
       {
+        "name": "Deck Tan",
+        "color": "#b5baa6"
+      },
+      {
+        "name": "Deep Green",
+        "color": "#366555"
+      },
+      {
+        "name": "Deep Sky Blue",
+        "color": "#29b1df"
+      },
+      {
+        "name": "Deep Yellow",
+        "color": "#fbe531"
+      },
+      {
+        "name": "Desert Brown",
+        "color": "#a4815b"
+      },
+      {
+        "name": "Desert Tan",
+        "color": "#84785f"
+      },
+      {
+        "name": "Desert Yellow",
+        "color": "#ae8c6b"
+      },
+      {
+        "name": "Emerald",
+        "color": "#0b8b68"
+      },
+      {
+        "name": "English Uniform",
+        "color": "#6c5b44"
+      },
+      {
+        "name": "Faded Red",
+        "color": "#9b5a52"
+      },
+      {
+        "name": "Field Blue",
+        "color": "#406166"
+      },
+      {
+        "name": "Flat Blue",
+        "color": "#486ba0"
+      },
+      {
+        "name": "Flat Brown",
+        "color": "#5b4641"
+      },
+      {
+        "name": "Flat Earth",
+        "color": "#6e5747"
+      },
+      {
+        "name": "Flat Flesh",
+        "color": "#dc9f7e"
+      },
+      {
+        "name": "Flat Green",
+        "color": "#485d4a"
+      },
+      {
+        "name": "Flat Red",
+        "color": "#a44042"
+      },
+      {
+        "name": "Flat Yellow",
+        "color": "#fcb543"
+      },
+      {
+        "name": "French Mirage Blue",
+        "color": "#5c6876"
+      },
+      {
+        "name": "German Camouflage Beige",
+        "color": "#898373"
+      },
+      {
+        "name": "German Camouflage Black Brown",
+        "color": "#474143"
+      },
+      {
+        "name": "German Camouflage Bright Green",
+        "color": "#597053"
+      },
+      {
         "name": "German Camouflage Darkgreen",
         "color": "#474b4a"
+      },
+      {
+        "name": "German Camouflage Medium Brown",
+        "color": "#5a5046"
+      },
+      {
+        "name": "German Camouflage Orange Ochre",
+        "color": "#9b7a51"
+      },
+      {
+        "name": "German Camouflage Pale Brown",
+        "color": "#78655e"
+      },
+      {
+        "name": "German Extra Dark Green",
+        "color": "#315048"
+      },
+      {
+        "name": "German Fieldgrey WWII",
+        "color": "#5c5e59"
+      },
+      {
+        "name": "German Grey",
+        "color": "#3f4650"
+      },
+      {
+        "name": "German Orange",
+        "color": "#ca8379"
+      },
+      {
+        "name": "German Tank Crew",
+        "color": "#9b5a52"
+      },
+      {
+        "name": "German Uniform",
+        "color": "#4e6060"
+      },
+      {
+        "name": "German Yellow",
+        "color": "#c1b87f"
+      },
+      {
+        "name": "Glossy Black",
+        "color": "#141414"
+      },
+      {
+        "name": "Gold",
+        "color": "#a5883b"
+      },
+      {
+        "name": "Goldbrown",
+        "color": "#ae834e"
+      },
+      {
+        "name": "Golden Yellow",
+        "color": "#fbb15c"
+      },
+      {
+        "name": "Green Brown",
+        "color": "#7e6a49"
+      },
+      {
+        "name": "Green Grey",
+        "color": "#71726d"
+      },
+      {
+        "name": "Green Ochre",
+        "color": "#a18361"
+      },
+      {
+        "name": "Green Sky",
+        "color": "#839d82"
+      },
+      {
+        "name": "Grey Blue",
+        "color": "#6b839f"
+      },
+      {
+        "name": "Grey Brown",
+        "color": "#9b5a52"
+      },
+      {
+        "name": "Grey Green",
+        "color": "#575a61"
+      },
+      {
+        "name": "Gunmetal Blue",
+        "color": "#455763"
+      },
+      {
+        "name": "Gunmetal Grey",
+        "color": "#6d7170"
+      },
+      {
+        "name": "Gunship Green",
+        "color": "#52615a"
+      },
+      {
+        "name": "Hull Red",
+        "color": "#4a231c"
+      },
+      {
+        "name": "Ice Yellow",
+        "color": "#f5d390"
+      },
+      {
+        "name": "Infantry Blue",
+        "color": "#9b5a52"
+      },
+      {
+        "name": "Intermediate Blue",
+        "color": "#556d71"
+      },
+      {
+        "name": "Intermediate Green",
+        "color": "#46924e"
+      },
+      {
+        "name": "Iraqui Sand",
+        "color": "#b49a7d"
+      },
+      {
+        "name": "Ivory",
+        "color": "#edeccd"
+      },
+      {
+        "name": "Japan Uniform WWII",
+        "color": "#977945"
+      },
+      {
+        "name": "Khaki",
+        "color": "#7e7663"
+      },
+      {
+        "name": "Khaki Grey",
+        "color": "#806b50"
+      },
+      {
+        "name": "Lavender Grey",
+        "color": "#9b5a52"
+      },
+      {
+        "name": "Leather Brown",
+        "color": "#584f4a"
+      },
+      {
+        "name": "Lemon Yellow",
+        "color": "#f5ee3b"
+      },
+      {
+        "name": "Light Blue Green",
+        "color": "#61969d"
+      },
+      {
+        "name": "Light Brown",
+        "color": "#a57252"
+      },
+      {
+        "name": "Light Emerald",
+        "color": "#467f72"
+      },
+      {
+        "name": "Light Flesh",
+        "color": "#f8d4c1"
+      },
+      {
+        "name": "Light Green Blue",
+        "color": "#739d99"
+      },
+      {
+        "name": "Light Green Grey",
+        "color": "#a9b9af"
+      },
+      {
+        "name": "Light Grey",
+        "color": "#878f9c"
+      },
+      {
+        "name": "Light Mud",
+        "color": "#6f6b58"
+      },
+      {
+        "name": "Light Orange",
+        "color": "#f58847"
+      },
+      {
+        "name": "Light Pink",
+        "color": "#d4a0b6"
+      },
+      {
+        "name": "Light Turquoise",
+        "color": "#1c94a5"
+      },
+      {
+        "name": "Light Violet",
+        "color": "#aca2c3"
+      },
+      {
+        "name": "Light Yellow",
+        "color": "#f6e962"
+      },
+      {
+        "name": "Lime Green",
+        "color": "#88934e"
+      },
+      {
+        "name": "London Grey",
+        "color": "#616b77"
+      },
+      {
+        "name": "Luftwaffe Camo Green",
+        "color": "#455048"
+      },
+      {
+        "name": "Luftwaffe Uniform",
+        "color": "#4e596b"
+      },
+      {
+        "name": "Magenta",
+        "color": "#ab435a"
+      },
+      {
+        "name": "Mahogany Brown",
+        "color": "#6e524f"
+      },
+      {
+        "name": "Medium Blue",
+        "color": "#2d6489"
+      },
+      {
+        "name": "Medium Fleshtone",
+        "color": "#b68356"
+      },
+      {
+        "name": "Medium Grey",
+        "color": "#928980"
+      },
+      {
+        "name": "Medium Grey Blue",
+        "color": "#869b94"
+      },
+      {
+        "name": "Medium Olive",
+        "color": "#2d6b24"
+      },
+      {
+        "name": "Medium Sea Grey",
+        "color": "#7e818a"
+      },
+      {
+        "name": "Middlestone",
+        "color": "#8c7d57"
+      },
+      {
+        "name": "Military Green",
+        "color": "#414640"
+      },
+      {
+        "name": "Military Yellow",
+        "color": "#5c4926"
+      },
+      {
+        "name": "Mustard Brown",
+        "color": "#71583a"
+      },
+      {
+        "name": "Natural Steel",
+        "color": "#787c7b"
+      },
+      {
+        "name": "Neutral Grey",
+        "color": "#676f7c"
+      },
+      {
+        "name": "Ochre Brown",
+        "color": "#a87534"
+      },
+      {
+        "name": "Off White",
+        "color": "#e6e7d9"
+      },
+      {
+        "name": "Oily Steel",
+        "color": "#787971"
+      },
+      {
+        "name": "Old Gold",
+        "color": "#8c7a4a"
+      },
+      {
+        "name": "Old Rose",
+        "color": "#d77d7c"
+      },
+      {
+        "name": "Olive Green",
+        "color": "#5d6c4b"
+      },
+      {
+        "name": "Olive Grey",
+        "color": "#51544b"
+      },
+      {
+        "name": "Orange Brown",
+        "color": "#b66d42"
+      },
+      {
+        "name": "Oxford Blue",
+        "color": "#4f5275"
+      },
+      {
+        "name": "Pacific Green",
+        "color": "#5e6d64"
+      },
+      {
+        "name": "Pale Blue",
+        "color": "#8ea3a6"
+      },
+      {
+        "name": "Pale Greyblue",
+        "color": "#9aacb6"
+      },
+      {
+        "name": "Pale Sand",
+        "color": "#f4d2ad"
+      },
+      {
+        "name": "Park Green Flat",
+        "color": "#05784d"
+      },
+      {
+        "name": "Pastel Blue",
+        "color": "#67869a"
       },
       {
         "name": "Pastel Green",
         "color": "#9ba193"
       },
       {
-        "name": "Camouflage Middle Brown",
-        "color": ""
+        "name": "Pink",
+        "color": "#fe93b7"
       },
       {
-        "name": "Camouflage Black Green",
-        "color": ""
+        "name": "Prussia Blue",
+        "color": "#425d7b"
       },
       {
-        "name": "Dark Rose",
-        "color": ""
+        "name": "Purple",
+        "color": "#79445e"
       },
       {
-        "name": "Chestnut Brown",
-        "color": ""
+        "name": "Red",
+        "color": "#8d2732"
       },
       {
-        "name": "Faded Red",
-        "color": ""
+        "name": "Red Leather",
+        "color": "#885748"
       },
       {
-        "name": "Light Pink",
-        "color": ""
+        "name": "Reflective Green",
+        "color": "#515346"
       },
       {
-        "name": "Dark Purple",
-        "color": ""
+        "name": "Royal Blue",
+        "color": "#316398"
       },
       {
-        "name": "Light Violet",
-        "color": ""
+        "name": "Royal Purple",
+        "color": "#544363"
       },
       {
-        "name": "Black Violet",
-        "color": ""
+        "name": "Russian Unif. WWII",
+        "color": "#616254"
       },
       {
-        "name": "Infantry Blue",
-        "color": ""
+        "name": "Saddle Brown",
+        "color": "#6d5450"
       },
       {
-        "name": "Light Blue Green",
-        "color": ""
+        "name": "Salmon Rose",
+        "color": "#f2a89b"
       },
       {
-        "name": "Continental Blue",
-        "color": ""
+        "name": "Sand Yellow",
+        "color": "#e0b274"
       },
       {
-        "name": "Light Emerald",
-        "color": ""
+        "name": "Scarlet",
+        "color": "#bc474d"
+      },
+      {
+        "name": "Silver",
+        "color": "#a7b2b4"
+      },
+      {
+        "name": "Silvergrey",
+        "color": "#c2bdb7"
+      },
+      {
+        "name": "Sky Blue",
+        "color": "#64c9f2"
+      },
+      {
+        "name": "Sky Grey",
+        "color": "#9da0a9"
+      },
+      {
+        "name": "Smoke",
+        "color": "#423e3b"
       },
       {
         "name": "Splinter Green",
-        "color": ""
+        "color": "#4B6545"
       },
       {
-        "name": "Pacific Green",
-        "color": ""
+        "name": "Stone Grey",
+        "color": "#999387"
       },
       {
-        "name": "Bright Green",
-        "color": ""
+        "name": "Sunny Skintone",
+        "color": "#e9aa77"
       },
       {
-        "name": "German Tank Crew",
-        "color": ""
+        "name": "Sunset Red",
+        "color": "#bf2154"
       },
       {
-        "name": "Light Mud",
-        "color": ""
+        "name": "Tan Earth",
+        "color": "#897262"
       },
       {
-        "name": "Grey Brown",
-        "color": ""
+        "name": "Tan Glaze",
+        "color": "#d19040"
       },
       {
-        "name": "Canvas",
-        "color": ""
+        "name": "Tan Yellow",
+        "color": "#bc9471"
       },
       {
-        "name": "Military Yellow",
-        "color": ""
+        "name": "Transparant Blue",
+        "color": "#353d61"
       },
       {
-        "name": "Desert Tan",
-        "color": ""
+        "name": "Transparant Natural Woodgrain",
+        "color": "#eaa03d"
       },
       {
-        "name": "Cream White",
-        "color": ""
+        "name": "Transparant Orange",
+        "color": "#f26b27"
       },
       {
-        "name": "Desert Brown",
-        "color": ""
+        "name": "Transparant Woodgrain",
+        "color": "#463b35"
       },
       {
-        "name": "BC Dark Brown",
-        "color": ""
+        "name": "Turquoise",
+        "color": "#346d80"
       },
       {
-        "name": "Mustard Brown",
-        "color": ""
+        "name": "US Dark Green",
+        "color": "#53564d"
       },
       {
-        "name": "Medium Grey Blue",
-        "color": ""
+        "name": "US Field Drab",
+        "color": "#756454"
+      },
+      {
+        "name": "US Olive Drab",
+        "color": "#5b574c"
+      },
+      {
+        "name": "USA Olive Brown",
+        "color": "#4d4c4a"
+      },
+      {
+        "name": "Uniform Green",
+        "color": "#576a4e"
+      },
+      {
+        "name": "Vermillion",
+        "color": "#d32a2d"
+      },
+      {
+        "name": "Violet",
+        "color": "#4c456f"
       },
       {
         "name": "Violet Grey",
-        "color": ""
+        "color": "#63645F"
       },
       {
-        "name": "Lavender Grey",
-        "color": ""
+        "name": "Violet Red",
+        "color": "#682642"
+      },
+      {
+        "name": "White",
+        "color": "#fefefe"
+      },
+      {
+        "name": "White Grey",
+        "color": "#eaebf0"
+      },
+      {
+        "name": "Yellow Green (70881)",
+        "color": "#706b4b"
+      },
+      {
+        "name": "Yellow Green (70954)",
+        "color": "#c0d84c"
+      },
+      {
+        "name": "Yellow Ochre",
+        "color": "#be9055"
+      },
+      {
+        "name": "Yellow Olive",
+        "color": "#4a4f49"
       }
     ],
     "Model Wash": [
       {
-        "name": "Light Grey",
-        "color": ""
-      },
-      {
-        "name": "Rust",
-        "color": ""
-      },
-      {
-        "name": "Light Rust",
-        "color": ""
-      },
-      {
-        "name": "White",
-        "color": ""
-      },
-      {
-        "name": "Dark Yellow",
-        "color": ""
-      },
-      {
-        "name": "Dark Rust",
-        "color": ""
-      },
-      {
-        "name": "Dark Green",
-        "color": ""
+        "name": "Blue Grey",
+        "color": "#547792"
       },
       {
         "name": "Brown",
-        "color": ""
+        "color": "#547792"
       },
       {
-        "name": "Grey",
-        "color": ""
+        "name": "Dark Green",
+        "color": "#A19A53"
       },
       {
         "name": "Dark Grey",
-        "color": ""
-      },
-      {
-        "name": "Olive Green",
-        "color": ""
+        "color": "#444637"
       },
       {
         "name": "Dark Khaki Green",
-        "color": ""
+        "color": "#444637"
       },
       {
-        "name": "Oiled Earth",
-        "color": ""
+        "name": "Dark Rust",
+        "color": "#444637"
+      },
+      {
+        "name": "Dark Yellow",
+        "color": "#444637"
       },
       {
         "name": "Desert Dust",
-        "color": ""
+        "color": "#444637"
       },
       {
         "name": "European Dust",
-        "color": ""
+        "color": "#444637"
       },
       {
-        "name": "Blue Grey",
-        "color": ""
+        "name": "Grey",
+        "color": "#444637"
+      },
+      {
+        "name": "Light Grey",
+        "color": "#CBCBCB"
+      },
+      {
+        "name": "Light Rust",
+        "color": "#CBCBCB"
+      },
+      {
+        "name": "Oiled Earth",
+        "color": "#7D6A63"
+      },
+      {
+        "name": "Olive Green",
+        "color": "#7D6A63"
+      },
+      {
+        "name": "Rust",
+        "color": "#7D6A63"
+      },
+      {
+        "name": "White",
+        "color": "#D6D6D6"
       }
     ],
     "Xpress Color": [
       {
-        "name": "Templar White",
-        "color": "#a2aaad"
+        "name": "Armor Green",
+        "color": "#7D6A63"
       },
       {
-        "name": "Dwarf Skin",
-        "color": "#522a20"
+        "name": "Bag of Bones",
+        "color": "#916A33"
       },
       {
-        "name": "Imperial Yellow",
-        "color": "#df8412"
-      },
-      {
-        "name": "Nuclear Yellow",
-        "color": "#b05416"
-      },
-      {
-        "name": "Martian Orange",
-        "color": "#902c16"
-      },
-      {
-        "name": "Plasma Red",
-        "color": "#831d17"
-      },
-      {
-        "name": "Velvet Red",
-        "color": "#5c2220"
-      },
-      {
-        "name": "Cardinal Purple",
-        "color": "#871a20"
-      },
-      {
-        "name": "Deep Purple",
-        "color": "#582333"
-      },
-      {
-        "name": "Gloomy Violet",
-        "color": "#392645"
-      },
-      {
-        "name": "Mystic Blue",
-        "color": "#1c3463"
-      },
-      {
-        "name": "Storm Blue",
-        "color": "#5a6da7"
-      },
-      {
-        "name": "Omega Blue",
-        "color": "#415fb9"
-      },
-      {
-        "name": "Caribbean Turquoise",
-        "color": "#0b91a1"
-      },
-      {
-        "name": "Orc Skin",
-        "color": "#9cb147"
-      },
-      {
-        "name": "Troll Green",
-        "color": "#168453"
-      },
-      {
-        "name": "Snake Green",
-        "color": "#128283"
-      },
-      {
-        "name": "Lizard Green",
-        "color": "#88c287"
-      },
-      {
-        "name": "Plague Green",
-        "color": "#879966"
-      },
-      {
-        "name": "Wasteland Brown",
-        "color": "#d86f1e"
-      },
-      {
-        "name": "Copper Brown",
-        "color": "#9d3d1c"
-      },
-      {
-        "name": "Space Grey",
-        "color": "#558ba0"
+        "name": "Battledress Brown",
+        "color": "#4E4339"
       },
       {
         "name": "Black Lotus",
         "color": "#0c0808"
       },
       {
+        "name": "Camouflage Green",
+        "color": "#4C4940"
+      },
+      {
+        "name": "Cardinal Purple",
+        "color": "#871a20"
+      },
+      {
+        "name": "Caribbean Turquoise",
+        "color": "#0b91a1"
+      },
+      {
+        "name": "Chameleon Orange",
+        "color": "#CF4528"
+      },
+      {
+        "name": "Commando Green",
+        "color": "#CF4528"
+      },
+      {
+        "name": "Copper Brown",
+        "color": "#9d3d1c"
+      },
+      {
+        "name": "Deep Purple",
+        "color": "#582333"
+      },
+      {
+        "name": "Demonic Skin",
+        "color": "#885559"
+      },
+      {
+        "name": "Desert Ochre",
+        "color": "#745031"
+      },
+      {
+        "name": "Dwarf Skin",
+        "color": "#522a20"
+      },
+      {
+        "name": "Fairy Skin",
+        "color": "#745031"
+      },
+      {
+        "name": "Fluid Pink",
+        "color": "#9F4C9A"
+      },
+      {
+        "name": "Forest Green",
+        "color": "#324B2E"
+      },
+      {
+        "name": "Gloomy Violet",
+        "color": "#392645"
+      },
+      {
+        "name": "Greasy Black",
+        "color": "#2F302B"
+      },
+      {
+        "name": "Iceberg Grey",
+        "color": "#43495C"
+      },
+      {
+        "name": "Imperial Yellow",
+        "color": "#df8412"
+      },
+      {
+        "name": "Intense Dreadnought Yellow",
+        "color": "#43495C"
+      },
+      {
+        "name": "Intense Heretic Turquoise",
+        "color": "#48656B"
+      },
+      {
+        "name": "Intense Hospitallier Black",
+        "color": "#070707"
+      },
+      {
+        "name": "Intense Legacy Blue",
+        "color": "#33307A"
+      },
+      {
+        "name": "Intense Monastic Green",
+        "color": "#434D4A"
+      },
+      {
+        "name": "Intense Phoenix Orange",
+        "color": "#434D4A"
+      },
+      {
+        "name": "Intense Seraph Red",
+        "color": "#5E3228"
+      },
+      {
+        "name": "Intense Viking Grey",
+        "color": "#5E3228"
+      },
+      {
+        "name": "Khaki Drill",
+        "color": "#804E21"
+      },
+      {
+        "name": "Landser Grey",
+        "color": "#31322F"
+      },
+      {
+        "name": "Lizard Green",
+        "color": "#88c287"
+      },
+      {
+        "name": "Mahogany",
+        "color": "#31322F"
+      },
+      {
+        "name": "Martian Orange",
+        "color": "#902c16"
+      },
+      {
+        "name": "Military Yellow",
+        "color": "#31322F"
+      },
+      {
+        "name": "Muddy Ground",
+        "color": "#31322F"
+      },
+      {
+        "name": "Mummy White",
+        "color": "#31322F"
+      },
+      {
+        "name": "Mystic Blue",
+        "color": "#1c3463"
+      },
+      {
+        "name": "Nuclear Yellow",
+        "color": "#b05416"
+      },
+      {
+        "name": "Omega Blue",
+        "color": "#415fb9"
+      },
+      {
+        "name": "Orc Skin",
+        "color": "#9cb147"
+      },
+      {
+        "name": "Plague Green",
+        "color": "#879966"
+      },
+      {
+        "name": "Plasma Red",
+        "color": "#831d17"
+      },
+      {
+        "name": "Rotten Flesh",
+        "color": "#94833A"
+      },
+      {
+        "name": "Snake Green",
+        "color": "#128283"
+      },
+      {
+        "name": "Space Grey",
+        "color": "#558ba0"
+      },
+      {
+        "name": "Starship Steel",
+        "color": "#494D50"
+      },
+      {
+        "name": "Storm Blue",
+        "color": "#5a6da7"
+      },
+      {
+        "name": "Tanned Skin",
+        "color": "#704C3B"
+      },
+      {
+        "name": "Templar White",
+        "color": "#a2aaad"
+      },
+      {
+        "name": "Troll Green",
+        "color": "#168453"
+      },
+      {
+        "name": "Twilight Rose",
+        "color": "#513548"
+      },
+      {
+        "name": "Vampiric Purple",
+        "color": "#49386B"
+      },
+      {
+        "name": "Velvet Red",
+        "color": "#5c2220"
+      },
+      {
+        "name": "Wagram Blue",
+        "color": "#353D4F"
+      },
+      {
+        "name": "Wasteland Brown",
+        "color": "#d86f1e"
+      },
+      {
+        "name": "Wicked Purple",
+        "color": "#61565A"
+      },
+      {
+        "name": "Willow Bark",
+        "color": "#3A2F2C"
+      },
+      {
         "name": "Xpress Medium",
         "color": "#fefefe"
       },
       {
-        "name": "Mummy White",
-        "color": ""
-      },
-      {
-        "name": "Bag of Bones",
-        "color": ""
-      },
-      {
-        "name": "Khaki Drill",
-        "color": ""
-      },
-      {
-        "name": "Rotten Flesh",
-        "color": ""
-      },
-      {
-        "name": "Military Yellow",
-        "color": ""
-      },
-      {
-        "name": "Desert Ochre",
-        "color": ""
-      },
-      {
-        "name": "Chameleon Orange",
-        "color": ""
-      },
-      {
-        "name": "Wicked Purple",
-        "color": ""
-      },
-      {
-        "name": "Fairy Skin",
-        "color": ""
-      },
-      {
-        "name": "Demonic Skin",
-        "color": ""
-      },
-      {
-        "name": "Fluid Pink",
-        "color": ""
-      },
-      {
-        "name": "Twilight Rose",
-        "color": ""
-      },
-      {
-        "name": "Vampiric Purple",
-        "color": ""
-      },
-      {
-        "name": "Starship Steel",
-        "color": ""
-      },
-      {
-        "name": "Iceberg Grey",
-        "color": ""
-      },
-      {
-        "name": "Wagram Blue",
-        "color": ""
-      },
-      {
-        "name": "Forest Green",
-        "color": ""
-      },
-      {
-        "name": "Armor Green",
-        "color": ""
-      },
-      {
-        "name": "Camouflage Green",
-        "color": ""
-      },
-      {
-        "name": "Commando Green",
-        "color": ""
-      },
-      {
-        "name": "Landser Grey",
-        "color": ""
-      },
-      {
         "name": "Zombie Flesh",
-        "color": ""
-      },
-      {
-        "name": "Tanned Skin",
-        "color": ""
-      },
-      {
-        "name": "Mahogany",
-        "color": ""
-      },
-      {
-        "name": "Battledress Brown",
-        "color": ""
-      },
-      {
-        "name": "Willow Bark",
-        "color": ""
-      },
-      {
-        "name": "Muddy Ground",
-        "color": ""
-      },
-      {
-        "name": "Greasy Black",
-        "color": ""
-      },
-      {
-        "name": "Intense Dreadnought Yellow",
-        "color": ""
-      },
-      {
-        "name": "Intense Phoenix Orange",
-        "color": ""
-      },
-      {
-        "name": "Intense Seraph Red",
-        "color": ""
-      },
-      {
-        "name": "Intense Legacy Blue",
-        "color": ""
-      },
-      {
-        "name": "Intense Heretic Turquoise",
-        "color": ""
-      },
-      {
-        "name": "Intense Monastic Green",
-        "color": ""
-      },
-      {
-        "name": "Intense Viking Grey",
-        "color": ""
-      },
-      {
-        "name": "Intense Hospitallier Black",
-        "color": ""
+        "color": "#7F6761"
       }
     ]
   },
