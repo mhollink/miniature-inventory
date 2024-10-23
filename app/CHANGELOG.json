@@ -1,5 +1,8 @@
 {
   "main": {},
+  "1.4.4": {
+    "bugfixes": ["Fixed Copy/Paste errors in Vallejo Model Wash color codes"]
+  },
   "1.4.3": {
     "changed": [
       "Updated the message about supported paints in the paints modal"
