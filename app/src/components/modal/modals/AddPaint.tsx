@@ -6,7 +6,6 @@ import {
   DialogContent,
   FormControlLabel,
   FormGroup,
-  FormHelperText,
   TextField,
 } from "@mui/material";
 import Button from "@mui/material/Button";
@@ -168,19 +167,58 @@ export const AddPaintModal = () => {
   return (
     <>
       <DialogContent>
-        <Alert severity={"info"} variant={"filled"} sx={{ mb: 2 }}>
+        <Alert
+          severity={"info"}
+          variant={"outlined"}
+          sx={{ mb: 2 }}
+          icon={false}
+        >
           <AlertTitle>
-            <b>Supported paint brands</b>
+            <b>Missing a brand?</b>
           </AlertTitle>
           <Typography variant={"body2"}>
-            Miniature Inventory currently only supports paints of the Citadel
-            paint range. This is because creating the data files for all paint
-            colors of range takes a lot of time. <em>Vallejo</em> and{" "}
-            <em>The Army Painter</em> will be added in the near future. You can
-            already add them using the <em>{customPaint}</em> option.
+            Miniature Inventory currently only support paints from{" "}
+            {supportedBrands.length > 1
+              ? [...supportedBrands]
+                  .splice(0, supportedBrands.length - 1)
+                  .join(", ") +
+                " & " +
+                supportedBrands[supportedBrands.length - 1]
+              : supportedBrands.join(", ")}
+            . If you are using paints that are not from these ranges, create a
+            custom paint or request your preferred range via{" "}
+            <ExternalLink
+              href={
+                "https://github.com/mhollink/miniature-inventory/issues/new?labels=enhancement&template=custom-issue.md&title=[New%20paint%20brand%20request]%20..."
+              }
+            >
+              Github
+            </ExternalLink>
           </Typography>
         </Alert>
-
+        <Alert
+          severity={"info"}
+          variant={"outlined"}
+          sx={{ mb: 2 }}
+          icon={false}
+        >
+          <AlertTitle>
+            <b>Color codes</b>
+          </AlertTitle>
+          <Typography variant={"body2"}>
+            The paints listed in Miniature Inventory are collected from{" "}
+            <ExternalLink href={"https://warhammer.com"}>
+              Warhammer.com
+            </ExternalLink>{" "}
+            and{" "}
+            <ExternalLink href={"https://sceneryworkshop.nl"}>
+              sceneryworkshop.nl
+            </ExternalLink>
+            . Colors are manually added using an Chrome extension (ColorPick
+            Eyedropper) and could therefor be incorrect. Any errors can be
+            reported via Github or via email.
+          </Typography>
+        </Alert>
         <form onSubmit={submit}>
           <FormGroup>
             <Stack direction={"column"} spacing={2}>
@@ -204,25 +242,6 @@ export const AddPaintModal = () => {
                     />
                   )}
                 />
-                <FormHelperText sx={{ px: 1 }}>
-                  We currently only support paints from{" "}
-                  {supportedBrands.length > 1
-                    ? [...supportedBrands]
-                        .splice(0, supportedBrands.length - 1)
-                        .join(", ") +
-                      " & " +
-                      supportedBrands[supportedBrands.length - 1]
-                    : supportedBrands.join(", ")}
-                  . You can add a custom paint or request your preferred range
-                  via{" "}
-                  <ExternalLink
-                    href={
-                      "https://github.com/mhollink/miniature-inventory/issues/new?labels=enhancement&template=custom-issue.md&title=[New%20paint%20brand%20request]%20..."
-                    }
-                  >
-                    Github
-                  </ExternalLink>
-                </FormHelperText>
               </Box>
               {brand !== customPaint ? (
                 <>
