@@ -1,5 +1,10 @@
 {
   "main": {},
+  "1.4.3": {
+    "changed": [
+      "Updated the message about supported paints in the paints modal"
+    ]
+  },
   "1.4.2": {
     "added": [
       "Add Vallejo Game Air/Color, Vallejo Model Air/Color/Wash and Vallejo Xpress Color to the paint dropdowns",
