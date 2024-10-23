@@ -1,5 +1,10 @@
 {
-  "main": {},
+  "main": {
+    "added": [
+      "Add Vallejo Game Air/Color, Vallejo Model Air/Color/Wash and Vallejo Xpress Color to the paint dropdowns",
+      "Add The Army Painter Primers, Speedpaints, Warpaints Air & Fanatic to the paint dropdowns. Paint colors for Warpaints Fanatic will be added in the next release."
+    ]
+  },
   "1.4.1": {
     "changed": [
       "Majorly changed the API allowing to automatically regression test any new coming changes",
