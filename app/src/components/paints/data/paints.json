@@ -5192,143 +5192,7 @@
     ],
     "Warpaints Fanatic": [
       {
-        "name": "Matt Black",
-        "color": ""
-      },
-      {
-        "name": "Deep Grey",
-        "color": ""
-      },
-      {
-        "name": "Uniform Grey",
-        "color": ""
-      },
-      {
-        "name": "Ash Grey",
-        "color": ""
-      },
-      {
-        "name": "Company Grey",
-        "color": ""
-      },
-      {
-        "name": "Brigade Grey",
-        "color": ""
-      },
-      {
-        "name": "Grey Castle",
-        "color": ""
-      },
-      {
-        "name": "Gargoyle Grey",
-        "color": ""
-      },
-      {
-        "name": "Great Hall Grey",
-        "color": ""
-      },
-      {
-        "name": "Worn Stone",
-        "color": ""
-      },
-      {
-        "name": "Brainmatter Beige",
-        "color": ""
-      },
-      {
-        "name": "Matt White",
-        "color": ""
-      },
-      {
-        "name": "Night Sky",
-        "color": ""
-      },
-      {
-        "name": "Thunderous Blue",
-        "color": ""
-      },
-      {
-        "name": "Stratos Blue",
-        "color": ""
-      },
-      {
-        "name": "Wolf Grey",
-        "color": ""
-      },
-      {
-        "name": "Runic Cobalt",
-        "color": ""
-      },
-      {
-        "name": "Frost Blue",
-        "color": ""
-      },
-      {
-        "name": "Triumphant Navy",
-        "color": ""
-      },
-      {
-        "name": "Gothic Blue",
-        "color": ""
-      },
-      {
-        "name": "Ultramarine Blue",
-        "color": ""
-      },
-      {
-        "name": "Alpha Blue",
-        "color": ""
-      },
-      {
-        "name": "Baron Blue",
-        "color": ""
-      },
-      {
-        "name": "Augur Blue",
-        "color": ""
-      },
-      {
-        "name": "Imperial Navy",
-        "color": ""
-      },
-      {
-        "name": "Regal Blue",
-        "color": ""
-      },
-      {
-        "name": "Royal Blue",
-        "color": ""
-      },
-      {
-        "name": "Crystal Blue",
-        "color": ""
-      },
-      {
-        "name": "Arctic Gem",
-        "color": ""
-      },
-      {
-        "name": "Bright Sapphire",
-        "color": ""
-      },
-      {
-        "name": "Deep Ocean Blue",
-        "color": ""
-      },
-      {
         "name": "Abyssal Blue",
-        "color": ""
-      },
-      {
-        "name": "Tidal Blue",
-        "color": ""
-      },
-      {
-        "name": "Phalanx Blue",
-        "color": ""
-      },
-      {
-        "name": "Shieldwall Blue",
         "color": ""
       },
       {
@@ -5336,439 +5200,7 @@
         "color": ""
       },
       {
-        "name": "Deep Azure",
-        "color": ""
-      },
-      {
-        "name": "Hydra Turquoise",
-        "color": ""
-      },
-      {
-        "name": "Turquoise Siren",
-        "color": ""
-      },
-      {
-        "name": "Aquamarine",
-        "color": ""
-      },
-      {
-        "name": "Neptune Glow",
-        "color": ""
-      },
-      {
-        "name": "Marine Mist",
-        "color": ""
-      },
-      {
-        "name": "Scarab Green",
-        "color": ""
-      },
-      {
-        "name": "Temple Gate Teal",
-        "color": ""
-      },
-      {
-        "name": "Pharaoh Guard",
-        "color": ""
-      },
-      {
-        "name": "Talisman Teal",
-        "color": ""
-      },
-      {
-        "name": "Aqua Alchemy",
-        "color": ""
-      },
-      {
-        "name": "Amulet Aqua",
-        "color": ""
-      },
-      {
-        "name": "Angel Green",
-        "color": ""
-      },
-      {
-        "name": "Guardian Green",
-        "color": ""
-      },
-      {
-        "name": "Greenskin",
-        "color": ""
-      },
-      {
-        "name": "Eternal Hunt",
-        "color": ""
-      },
-      {
-        "name": "Wild Green",
-        "color": ""
-      },
-      {
-        "name": "Ferocious Green",
-        "color": ""
-      },
-      {
-        "name": "Emerald Forest",
-        "color": ""
-      },
-      {
-        "name": "Leafy Green",
-        "color": ""
-      },
-      {
-        "name": "Rainforest",
-        "color": ""
-      },
-      {
-        "name": "Electric Lime",
-        "color": ""
-      },
-      {
-        "name": "Vivid Volt",
-        "color": ""
-      },
-      {
         "name": "Afterglow",
-        "color": ""
-      },
-      {
-        "name": "Evergreen Fog",
-        "color": ""
-      },
-      {
-        "name": "Medieval Forest",
-        "color": ""
-      },
-      {
-        "name": "Patagon Pine",
-        "color": ""
-      },
-      {
-        "name": "Autumn Sage",
-        "color": ""
-      },
-      {
-        "name": "Forest Faun",
-        "color": ""
-      },
-      {
-        "name": "Mossy Green",
-        "color": ""
-      },
-      {
-        "name": "Woodland Camo",
-        "color": ""
-      },
-      {
-        "name": "Army Green",
-        "color": ""
-      },
-      {
-        "name": "Camouflage Green",
-        "color": ""
-      },
-      {
-        "name": "Olive Drab",
-        "color": ""
-      },
-      {
-        "name": "Necrotic Flesh",
-        "color": ""
-      },
-      {
-        "name": "Grotesque Green",
-        "color": ""
-      },
-      {
-        "name": "Brigandine Brown",
-        "color": ""
-      },
-      {
-        "name": "Bootstrap Brown",
-        "color": ""
-      },
-      {
-        "name": "Leather Brown",
-        "color": ""
-      },
-      {
-        "name": "Paratrooper Tan",
-        "color": ""
-      },
-      {
-        "name": "Command Khaki",
-        "color": ""
-      },
-      {
-        "name": "Urban Buff",
-        "color": ""
-      },
-      {
-        "name": "Tundra Taupe",
-        "color": ""
-      },
-      {
-        "name": "Prairie Ochre",
-        "color": ""
-      },
-      {
-        "name": "Desert Yellow",
-        "color": ""
-      },
-      {
-        "name": "Wasteland Clay",
-        "color": ""
-      },
-      {
-        "name": "Burnt Turf",
-        "color": ""
-      },
-      {
-        "name": "Barren Dune",
-        "color": ""
-      },
-      {
-        "name": "Dusty Skull",
-        "color": ""
-      },
-      {
-        "name": "Tomb King Tan",
-        "color": ""
-      },
-      {
-        "name": "Skeleton Bone",
-        "color": ""
-      },
-      {
-        "name": "Ancient Stone",
-        "color": ""
-      },
-      {
-        "name": "Boney Spikes",
-        "color": ""
-      },
-      {
-        "name": "Pale Sand",
-        "color": ""
-      },
-      {
-        "name": "Demigod Flames",
-        "color": ""
-      },
-      {
-        "name": "Fiendish Yellow",
-        "color": ""
-      },
-      {
-        "name": "Daemonic Yellow",
-        "color": ""
-      },
-      {
-        "name": "Warped Yellow",
-        "color": ""
-      },
-      {
-        "name": "Space Dust",
-        "color": ""
-      },
-      {
-        "name": "Ice Yellow",
-        "color": ""
-      },
-      {
-        "name": "Molten Lava",
-        "color": ""
-      },
-      {
-        "name": "Burning Ore",
-        "color": ""
-      },
-      {
-        "name": "Lava Orange",
-        "color": ""
-      },
-      {
-        "name": "Flickering Flame",
-        "color": ""
-      },
-      {
-        "name": "Glowing Inferno",
-        "color": ""
-      },
-      {
-        "name": "Inner Light",
-        "color": ""
-      },
-      {
-        "name": "Resplendent Red",
-        "color": ""
-      },
-      {
-        "name": "Angelic Red",
-        "color": ""
-      },
-      {
-        "name": "Legendary Red",
-        "color": ""
-      },
-      {
-        "name": "Sacred Scarlet",
-        "color": ""
-      },
-      {
-        "name": "Violent Vermilion",
-        "color": ""
-      },
-      {
-        "name": "Raging Rouge",
-        "color": ""
-      },
-      {
-        "name": "Oak Brown",
-        "color": ""
-      },
-      {
-        "name": "Tree Ancient",
-        "color": ""
-      },
-      {
-        "name": "Dryad Brown",
-        "color": ""
-      },
-      {
-        "name": "Fur Brown",
-        "color": ""
-      },
-      {
-        "name": "Ruddy Umber",
-        "color": ""
-      },
-      {
-        "name": "Buffed Hide",
-        "color": ""
-      },
-      {
-        "name": "Basilisk Red",
-        "color": ""
-      },
-      {
-        "name": "Wyvern Fury",
-        "color": ""
-      },
-      {
-        "name": "Dragon Red",
-        "color": ""
-      },
-      {
-        "name": "Pure Red",
-        "color": ""
-      },
-      {
-        "name": "Blood Chalice",
-        "color": ""
-      },
-      {
-        "name": "Raging Rose",
-        "color": ""
-      },
-      {
-        "name": "Wicked Pink",
-        "color": ""
-      },
-      {
-        "name": "Impish Rouge",
-        "color": ""
-      },
-      {
-        "name": "Pixie Pink",
-        "color": ""
-      },
-      {
-        "name": "Weird Elixir",
-        "color": ""
-      },
-      {
-        "name": "Pink Potion",
-        "color": ""
-      },
-      {
-        "name": "Doomfire Drab",
-        "color": ""
-      },
-      {
-        "name": "Terrestrial Titan",
-        "color": ""
-      },
-      {
-        "name": "Alien Purple",
-        "color": ""
-      },
-      {
-        "name": "Cultist Purple",
-        "color": ""
-      },
-      {
-        "name": "Hexed Violet",
-        "color": ""
-      },
-      {
-        "name": "Violet Coven",
-        "color": ""
-      },
-      {
-        "name": "Kraken Lavender",
-        "color": ""
-      },
-      {
-        "name": "Diabolic Plum",
-        "color": ""
-      },
-      {
-        "name": "Magecast Magenta",
-        "color": ""
-      },
-      {
-        "name": "Warlock Magenta",
-        "color": ""
-      },
-      {
-        "name": "Spellbound Fuchsia",
-        "color": ""
-      },
-      {
-        "name": "Enchanted Pink",
-        "color": ""
-      },
-      {
-        "name": "Diviner Light",
-        "color": ""
-      },
-      {
-        "name": "Mulled Berry",
-        "color": ""
-      },
-      {
-        "name": "Moldy Wine",
-        "color": ""
-      },
-      {
-        "name": "Elder Flower",
-        "color": ""
-      },
-      {
-        "name": "Forbidden Fruit",
-        "color": ""
-      },
-      {
-        "name": "Figgy Pink",
-        "color": ""
-      },
-      {
-        "name": "Wilted Rose",
-        "color": ""
-      },
-      {
-        "name": "Moonstone Skin",
         "color": ""
       },
       {
@@ -5776,55 +5208,11 @@
         "color": ""
       },
       {
-        "name": "Barbarian Flesh",
+        "name": "Alien Purple",
         "color": ""
       },
       {
-        "name": "Ruby Skin",
-        "color": ""
-      },
-      {
-        "name": "Opal Skin",
-        "color": ""
-      },
-      {
-        "name": "Pearl Skin",
-        "color": ""
-      },
-      {
-        "name": "Carnelian Skin",
-        "color": ""
-      },
-      {
-        "name": "Tiger's Eye",
-        "color": ""
-      },
-      {
-        "name": "Topaz Skin",
-        "color": ""
-      },
-      {
-        "name": "Jasper Skin",
-        "color": ""
-      },
-      {
-        "name": "Tourmaline Skin",
-        "color": ""
-      },
-      {
-        "name": "Leopard Stone Skin",
-        "color": ""
-      },
-      {
-        "name": "Obsidian Skin",
-        "color": ""
-      },
-      {
-        "name": "Onyx Skin",
-        "color": ""
-      },
-      {
-        "name": "Mocca Skin",
+        "name": "Alpha Blue",
         "color": ""
       },
       {
@@ -5832,127 +5220,67 @@
         "color": ""
       },
       {
-        "name": "Dorado Skin",
+        "name": "Amulet Aqua",
         "color": ""
       },
       {
-        "name": "Quartz Skin",
+        "name": "Ancient Stone",
         "color": ""
       },
       {
-        "name": "Rough Iron Metallic",
+        "name": "Angel Green",
         "color": ""
       },
       {
-        "name": "Red Copper Metallic",
+        "name": "Angelic Red",
         "color": ""
       },
       {
-        "name": "Weapon Bronze Metallic",
+        "name": "Aqua Alchemy",
         "color": ""
       },
       {
-        "name": "True Copper Metallic",
+        "name": "Aquamarine",
         "color": ""
       },
       {
-        "name": "Evil Chrome Metallic",
+        "name": "Arctic Gem",
         "color": ""
       },
       {
-        "name": "True Brass Metallic",
+        "name": "Army Green",
         "color": ""
       },
       {
-        "name": "Tainted Gold Metallic",
+        "name": "Ash Grey",
         "color": ""
       },
       {
-        "name": "Greedy Gold Metallic",
+        "name": "Augur Blue",
         "color": ""
       },
       {
-        "name": "Bright Gold Metallic",
+        "name": "Autumn Sage",
         "color": ""
       },
       {
-        "name": "Mithril Metallic",
+        "name": "Barbarian Flesh",
         "color": ""
       },
       {
-        "name": "Shining Silver Metallic",
+        "name": "Baron Blue",
         "color": ""
       },
       {
-        "name": "Plate Mail Metal Metallic",
+        "name": "Barren Dune",
         "color": ""
       },
       {
-        "name": "Gun Metal Metallic",
+        "name": "Basilisk Red",
         "color": ""
       },
       {
-        "name": "Cobalt Metal Metallic",
-        "color": ""
-      },
-      {
-        "name": "Death Metal Metallic",
-        "color": ""
-      },
-      {
-        "name": "Dark Emerald Metallic",
-        "color": ""
-      },
-      {
-        "name": "Glittering Green Metallic",
-        "color": ""
-      },
-      {
-        "name": "Gemstone Red Metallic",
-        "color": ""
-      },
-      {
-        "name": "Dark Tone Wash",
-        "color": ""
-      },
-      {
-        "name": "Strong Tone Wash",
-        "color": ""
-      },
-      {
-        "name": "Soft Tone Wash",
-        "color": ""
-      },
-      {
-        "name": "Light Tone Wash",
-        "color": ""
-      },
-      {
-        "name": "Sepia Tone Wash",
-        "color": ""
-      },
-      {
-        "name": "Rust Tone Wash",
-        "color": ""
-      },
-      {
-        "name": "Dark Red Tone Wash",
-        "color": ""
-      },
-      {
-        "name": "Red Tone Wash",
-        "color": ""
-      },
-      {
-        "name": "Orange Tone Wash",
-        "color": ""
-      },
-      {
-        "name": "Green Tone Wash",
-        "color": ""
-      },
-      {
-        "name": "Military Shade Wash",
+        "name": "Blood Chalice",
         "color": ""
       },
       {
@@ -5960,19 +5288,87 @@
         "color": ""
       },
       {
+        "name": "Boney Spikes",
+        "color": ""
+      },
+      {
+        "name": "Bootstrap Brown",
+        "color": ""
+      },
+      {
+        "name": "Brainmatter Beige",
+        "color": ""
+      },
+      {
+        "name": "Brigade Grey",
+        "color": ""
+      },
+      {
+        "name": "Brigandine Brown",
+        "color": ""
+      },
+      {
+        "name": "Bright Gold Metallic",
+        "color": ""
+      },
+      {
+        "name": "Bright Sapphire",
+        "color": ""
+      },
+      {
+        "name": "Buffed Hide",
+        "color": ""
+      },
+      {
+        "name": "Burning Ore",
+        "color": ""
+      },
+      {
+        "name": "Burnt Turf",
+        "color": ""
+      },
+      {
+        "name": "Camouflage Green",
+        "color": ""
+      },
+      {
+        "name": "Carnelian Skin",
+        "color": ""
+      },
+      {
+        "name": "Cobalt Metal Metallic",
+        "color": ""
+      },
+      {
+        "name": "Command Khaki",
+        "color": ""
+      },
+      {
+        "name": "Company Grey",
+        "color": ""
+      },
+      {
+        "name": "Crystal Blue",
+        "color": ""
+      },
+      {
+        "name": "Cultist Purple",
+        "color": ""
+      },
+      {
+        "name": "Daemonic Yellow",
+        "color": ""
+      },
+      {
         "name": "Dark Blue Tone Wash",
         "color": ""
       },
       {
-        "name": "Purple Tone Wash",
+        "name": "Dark Emerald Metallic",
         "color": ""
       },
       {
-        "name": "Magenta Tone Wash",
-        "color": ""
-      },
-      {
-        "name": "Strong Skin Shade Wash",
+        "name": "Dark Red Tone Wash",
         "color": ""
       },
       {
@@ -5980,9 +5376,612 @@
         "color": ""
       },
       {
+        "name": "Dark Tone Wash",
+        "color": ""
+      },
+      {
+        "name": "Death Metal Metallic",
+        "color": ""
+      },
+      {
+        "name": "Deep Azure",
+        "color": ""
+      },
+      {
+        "name": "Deep Grey",
+        "color": ""
+      },
+      {
+        "name": "Deep Ocean Blue",
+        "color": ""
+      },
+      {
+        "name": "Demigod Flames",
+        "color": ""
+      },
+      {
+        "name": "Desert Yellow",
+        "color": ""
+      },
+      {
+        "name": "Diabolic Plum",
+        "color": ""
+      },
+      {
+        "name": "Diviner Light",
+        "color": ""
+      },
+      {
+        "name": "Doomfire Drab",
+        "color": ""
+      },
+      {
+        "name": "Dorado Skin",
+        "color": ""
+      },
+      {
+        "name": "Dragon Red",
+        "color": ""
+      },
+      {
+        "name": "Dryad Brown",
+        "color": ""
+      },
+      {
+        "name": "Dusty Skull",
+        "color": ""
+      },
+      {
+        "name": "Elder Flower",
+        "color": ""
+      },
+      {
+        "name": "Electric Lime",
+        "color": ""
+      },
+      {
+        "name": "Emerald Forest",
+        "color": ""
+      },
+      {
+        "name": "Enchanted Pink",
+        "color": ""
+      },
+      {
+        "name": "Eternal Hunt",
+        "color": ""
+      },
+      {
+        "name": "Evergreen Fog",
+        "color": ""
+      },
+      {
+        "name": "Evil Chrome Metallic",
+        "color": ""
+      },
+      {
+        "name": "Ferocious Green",
+        "color": ""
+      },
+      {
+        "name": "Fiendish Yellow",
+        "color": ""
+      },
+      {
+        "name": "Figgy Pink",
+        "color": ""
+      },
+      {
+        "name": "Flickering Flame",
+        "color": ""
+      },
+      {
+        "name": "Forbidden Fruit",
+        "color": ""
+      },
+      {
+        "name": "Forest Faun",
+        "color": ""
+      },
+      {
+        "name": "Frost Blue",
+        "color": ""
+      },
+      {
+        "name": "Fur Brown",
+        "color": ""
+      },
+      {
+        "name": "Gargoyle Grey",
+        "color": ""
+      },
+      {
+        "name": "Gemstone Red Metallic",
+        "color": ""
+      },
+      {
+        "name": "Glittering Green Metallic",
+        "color": ""
+      },
+      {
+        "name": "Glowing Inferno",
+        "color": ""
+      },
+      {
+        "name": "Gothic Blue",
+        "color": ""
+      },
+      {
+        "name": "Great Hall Grey",
+        "color": ""
+      },
+      {
+        "name": "Greedy Gold Metallic",
+        "color": ""
+      },
+      {
+        "name": "Green Tone Wash",
+        "color": ""
+      },
+      {
+        "name": "Greenskin",
+        "color": ""
+      },
+      {
+        "name": "Grey Castle",
+        "color": ""
+      },
+      {
+        "name": "Grotesque Green",
+        "color": ""
+      },
+      {
+        "name": "Guardian Green",
+        "color": ""
+      },
+      {
+        "name": "Gun Metal Metallic",
+        "color": ""
+      },
+      {
+        "name": "Hexed Violet",
+        "color": ""
+      },
+      {
+        "name": "Hydra Turquoise",
+        "color": ""
+      },
+      {
+        "name": "Ice Yellow",
+        "color": ""
+      },
+      {
+        "name": "Imperial Navy",
+        "color": ""
+      },
+      {
+        "name": "Impish Rouge",
+        "color": ""
+      },
+      {
+        "name": "Inner Light",
+        "color": ""
+      },
+      {
+        "name": "Jasper Skin",
+        "color": ""
+      },
+      {
+        "name": "Kraken Lavender",
+        "color": ""
+      },
+      {
+        "name": "Lava Orange",
+        "color": ""
+      },
+      {
+        "name": "Leafy Green",
+        "color": ""
+      },
+      {
+        "name": "Leather Brown",
+        "color": ""
+      },
+      {
+        "name": "Legendary Red",
+        "color": ""
+      },
+      {
+        "name": "Leopard Stone Skin",
+        "color": ""
+      },
+      {
+        "name": "Light Tone Wash",
+        "color": ""
+      },
+      {
+        "name": "Magecast Magenta",
+        "color": ""
+      },
+      {
+        "name": "Magenta Tone Wash",
+        "color": ""
+      },
+      {
+        "name": "Marine Mist",
+        "color": ""
+      },
+      {
+        "name": "Matt Black",
+        "color": ""
+      },
+      {
+        "name": "Matt White",
+        "color": ""
+      },
+      {
+        "name": "Medieval Forest",
+        "color": ""
+      },
+      {
+        "name": "Military Shade Wash",
+        "color": ""
+      },
+      {
+        "name": "Mithril Metallic",
+        "color": ""
+      },
+      {
+        "name": "Mocca Skin",
+        "color": ""
+      },
+      {
+        "name": "Moldy Wine",
+        "color": ""
+      },
+      {
+        "name": "Molten Lava",
+        "color": ""
+      },
+      {
+        "name": "Moonstone Skin",
+        "color": ""
+      },
+      {
+        "name": "Mossy Green",
+        "color": ""
+      },
+      {
+        "name": "Mulled Berry",
+        "color": ""
+      },
+      {
+        "name": "Necrotic Flesh",
+        "color": ""
+      },
+      {
+        "name": "Neptune Glow",
+        "color": ""
+      },
+      {
+        "name": "Night Sky",
+        "color": ""
+      },
+      {
+        "name": "Oak Brown",
+        "color": ""
+      },
+      {
+        "name": "Obsidian Skin",
+        "color": ""
+      },
+      {
+        "name": "Olive Drab",
+        "color": ""
+      },
+      {
+        "name": "Onyx Skin",
+        "color": ""
+      },
+      {
+        "name": "Opal Skin",
+        "color": ""
+      },
+      {
+        "name": "Orange Tone Wash",
+        "color": ""
+      },
+      {
+        "name": "Pale Sand",
+        "color": ""
+      },
+      {
+        "name": "Paratrooper Tan",
+        "color": ""
+      },
+      {
+        "name": "Patagon Pine",
+        "color": ""
+      },
+      {
+        "name": "Pearl Skin",
+        "color": ""
+      },
+      {
+        "name": "Phalanx Blue",
+        "color": ""
+      },
+      {
+        "name": "Pharaoh Guard",
+        "color": ""
+      },
+      {
+        "name": "Pink Potion",
+        "color": ""
+      },
+      {
+        "name": "Pixie Pink",
+        "color": ""
+      },
+      {
+        "name": "Plate Mail Metal Metallic",
+        "color": ""
+      },
+      {
+        "name": "Prairie Ochre",
+        "color": ""
+      },
+      {
+        "name": "Pure Red",
+        "color": ""
+      },
+      {
+        "name": "Purple Tone Wash",
+        "color": ""
+      },
+      {
+        "name": "Quartz Skin",
+        "color": ""
+      },
+      {
+        "name": "Raging Rose",
+        "color": ""
+      },
+      {
+        "name": "Raging Rouge",
+        "color": ""
+      },
+      {
+        "name": "Rainforest",
+        "color": ""
+      },
+      {
+        "name": "Red Copper Metallic",
+        "color": ""
+      },
+      {
+        "name": "Red Tone Wash",
+        "color": ""
+      },
+      {
+        "name": "Regal Blue",
+        "color": ""
+      },
+      {
+        "name": "Resplendent Red",
+        "color": ""
+      },
+      {
+        "name": "Rough Iron Metallic",
+        "color": ""
+      },
+      {
+        "name": "Royal Blue",
+        "color": ""
+      },
+      {
+        "name": "Ruby Skin",
+        "color": ""
+      },
+      {
+        "name": "Ruddy Umber",
+        "color": ""
+      },
+      {
+        "name": "Runic Cobalt",
+        "color": ""
+      },
+      {
+        "name": "Rust Tone Wash",
+        "color": ""
+      },
+      {
+        "name": "Sacred Scarlet",
+        "color": ""
+      },
+      {
+        "name": "Scarab Green",
+        "color": ""
+      },
+      {
+        "name": "Sepia Tone Wash",
+        "color": ""
+      },
+      {
+        "name": "Shieldwall Blue",
+        "color": ""
+      },
+      {
+        "name": "Shining Silver Metallic",
+        "color": ""
+      },
+      {
+        "name": "Skeleton Bone",
+        "color": ""
+      },
+      {
+        "name": "Soft Tone Wash",
+        "color": ""
+      },
+      {
+        "name": "Space Dust",
+        "color": ""
+      },
+      {
+        "name": "Spellbound Fuchsia",
+        "color": ""
+      },
+      {
+        "name": "Stratos Blue",
+        "color": ""
+      },
+      {
+        "name": "Strong Skin Shade Wash",
+        "color": ""
+      },
+      {
+        "name": "Strong Tone Wash",
+        "color": ""
+      },
+      {
+        "name": "Tainted Gold Metallic",
+        "color": ""
+      },
+      {
+        "name": "Talisman Teal",
+        "color": ""
+      },
+      {
+        "name": "Temple Gate Teal",
+        "color": ""
+      },
+      {
+        "name": "Terrestrial Titan",
+        "color": ""
+      },
+      {
+        "name": "Thunderous Blue",
+        "color": ""
+      },
+      {
+        "name": "Tidal Blue",
+        "color": ""
+      },
+      {
+        "name": "Tiger's Eye",
+        "color": ""
+      },
+      {
+        "name": "Tomb King Tan",
+        "color": ""
+      },
+      {
+        "name": "Topaz Skin",
+        "color": ""
+      },
+      {
+        "name": "Tourmaline Skin",
+        "color": ""
+      },
+      {
+        "name": "Tree Ancient",
+        "color": ""
+      },
+      {
+        "name": "Triumphant Navy",
+        "color": ""
+      },
+      {
+        "name": "True Brass Metallic",
+        "color": ""
+      },
+      {
+        "name": "True Copper Metallic",
+        "color": ""
+      },
+      {
+        "name": "Tundra Taupe",
+        "color": ""
+      },
+      {
+        "name": "Turquoise Siren",
+        "color": ""
+      },
+      {
+        "name": "Ultramarine Blue",
+        "color": ""
+      },
+      {
+        "name": "Uniform Grey",
+        "color": ""
+      },
+      {
+        "name": "Urban Buff",
+        "color": ""
+      },
+      {
+        "name": "Violent Vermilion",
+        "color": ""
+      },
+      {
+        "name": "Violet Coven",
+        "color": ""
+      },
+      {
+        "name": "Vivid Volt",
+        "color": ""
+      },
+      {
+        "name": "Warlock Magenta",
+        "color": ""
+      },
+      {
+        "name": "Warped Yellow",
+        "color": ""
+      },
+      {
         "name": "Wash Medium Wash",
         "color": ""
+      },
+      {
+        "name": "Wasteland Clay",
+        "color": ""
+      },
+      {
+        "name": "Weapon Bronze Metallic",
+        "color": ""
+      },
+      {
+        "name": "Weird Elixir",
+        "color": ""
+      },
+      {
+        "name": "Wicked Pink",
+        "color": ""
+      },
+      {
+        "name": "Wild Green",
+        "color": ""
+      },
+      {
+        "name": "Wilted Rose",
+        "color": ""
+      },
+      {
+        "name": "Wolf Grey",
+        "color": ""
+      },
+      {
+        "name": "Woodland Camo",
+        "color": ""
+      },
+      {
+        "name": "Worn Stone",
+        "color": ""
+      },
+      {
+        "name": "Wyvern Fury",
+        "color": ""
       }
-    ]
-  }
+    ]  }
 }
