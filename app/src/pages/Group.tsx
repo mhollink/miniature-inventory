@@ -20,7 +20,7 @@ import { GroupActions } from "@components/groups/GroupActions.tsx";
 import { ModelList } from "@components/groups/ModelList.tsx";
 
 export const Group: FunctionComponent = () => {
-  const { id: groupId } = useParams() as { id: string };
+  const { groupId } = useParams() as { groupId: string };
   const modals = useStore(selectModalSlice);
   const group = useStore(selectGroup(groupId));
   const { supporter } = useStore(selectAccountSlice);

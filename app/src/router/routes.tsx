@@ -7,26 +7,34 @@ import { Roadmap } from "../pages/Roadmap.tsx";
 import { Settings } from "../pages/Settings.tsx";
 import { Collections } from "../pages/Collections.tsx";
 import Typography from "@mui/material/Typography";
-import { capitalizeFirstLetter } from "../utils/string.ts";
 import { Group } from "../pages/Group.tsx";
 import { Home } from "../pages/Home.tsx";
 import { SignUp } from "../pages/SignUp.tsx";
 import { About } from "../pages/About.tsx";
 import { Paints } from "../pages/Paints.tsx";
+import { AppState } from "@state/types.ts";
+import { Crumb } from "@components/cumbs/Crumb.tsx";
+import { Model } from "../pages/Model.tsx";
 
 const route = (
   path: string,
   component: ReactNode,
-  crumbText?: string,
+  crumbLabelFallback?: string,
+  getCrumbLabel: (
+    pathParams: Record<string, string>,
+  ) => (state: AppState) => string = () => () => "",
 ): RouteObject => ({
   path,
   element: <>{component} </>,
   errorElement: <AppFallback />,
   handle: {
-    crumb: () => (
-      <Typography key={path}>
-        {crumbText || capitalizeFirstLetter(path)}
-      </Typography>
+    crumb: (pathParams: Record<string, string>) => (
+      <Crumb
+        key={path}
+        path={path}
+        getCrumbLabel={getCrumbLabel(pathParams)}
+        crumbLabelFallback={crumbLabelFallback}
+      />
     ),
   },
 });
@@ -34,25 +42,26 @@ const route = (
 const routeWithChildren = (
   path: string,
   children: RouteObject[],
+  crumbLabelFallback?: string,
+  getCrumbLabel: (
+    pathParams: Record<string, string>,
+  ) => (state: AppState) => string = () => () => "",
+  getReturnPath: (params: Record<string, string>) => string = () => path,
 ): RouteObject => ({
   path,
   element: <Outlet />,
   errorElement: <AppFallback />,
   children: children,
   handle: {
-    crumb: () => {
-      return (
-        <Typography
-          key={path}
-          component={"span"}
-          sx={{
-            "& a": { color: (theme) => theme.palette.primary.main },
-          }}
-        >
-          <Link to={"/" + path}>{capitalizeFirstLetter(path)}</Link>
-        </Typography>
-      );
-    },
+    crumb: (pathParams: Record<string, string>) => (
+      <Crumb
+        link
+        key={path}
+        path={getReturnPath(pathParams)}
+        getCrumbLabel={getCrumbLabel(pathParams)}
+        crumbLabelFallback={crumbLabelFallback}
+      />
+    ),
   },
 });
 
@@ -64,7 +73,29 @@ export const routes: RouteObject[] = [
     children: [
       route("/", <Home />),
       route("inventory", <Collections />),
-      routeWithChildren("inventory", [route(":id", <Group />, "Group")]),
+      routeWithChildren("inventory", [
+        route(
+          ":groupId",
+          <Group />,
+          "Group",
+          (params) => (state) => state.findGroup(params.groupId)?.name || "",
+        ),
+        routeWithChildren(
+          ":groupId",
+          [
+            route(
+              "models/:modelId",
+              <Model />,
+              "Model",
+              (params) => (state) =>
+                state.findModel(params.modelId)?.name || "",
+            ),
+          ],
+          "Group",
+          (params) => (state) => state.findGroup(params.groupId)?.name || "",
+          (params) => `inventory/${params.groupId}`,
+        ),
+      ]),
       route("paint-storage", <Paints />, "Paint storage"),
       route("roadmap", <Roadmap />),
       route("about", <About />),
