@@ -29,7 +29,7 @@
     "@mui/lab": "^6.0.0-beta.10",
     "@mui/material": "^6.1.1",
     "chart.js": "^4.4.4",
-    "firebase": "^10.13.2",
+    "firebase": "^11.2.0",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
