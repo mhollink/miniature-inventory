@@ -9,8 +9,8 @@ export const GroupNotFoundMessage = () => {
       <Alert severity="error" variant={"filled"}>
         <Typography>
           You are currently looking for a group that does not exist. Please head
-          back to the <Link href={"/collections"}>Collections overview</Link>{" "}
-          and select a group from there.
+          back to the <Link href={"/inventory"}>Inventory overview</Link> and
+          select a group from there.
         </Typography>
       </Alert>
     </>

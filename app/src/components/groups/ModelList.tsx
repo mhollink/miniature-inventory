@@ -89,7 +89,12 @@ export const ModelList = ({ group }: { group: Group }) => {
             <Stack gap={1} ref={provided.innerRef} {...provided.droppableProps}>
               {models.map((model, index) => (
                 <Fragment key={model.id}>
-                  <ModelSummary key={model.id} model={model} index={index} />
+                  <ModelSummary
+                    groupId={group.id}
+                    key={model.id}
+                    model={model}
+                    index={index}
+                  />
                 </Fragment>
               ))}
               {provided.placeholder}

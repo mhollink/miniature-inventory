@@ -101,7 +101,7 @@ export const modals = new Map<ModalTypes, ModalProps>([
     ModalTypes.EDIT_MODEL,
     {
       icon: <ExtensionIcon />,
-      title: "Update model & miniatures",
+      title: "Update model",
       children: <EditModelModal />,
     },
   ],
