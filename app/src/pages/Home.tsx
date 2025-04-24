@@ -14,7 +14,6 @@ import { LoginForm } from "@components/sign-in/LoginForm.tsx";
 import { useAuth } from "../firebase/FirebaseAuthContext.tsx";
 import useTheme from "@mui/material/styles/useTheme";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import { useApi } from "../api/useApi.ts";
 import { useLocation } from "react-router-dom";
 import { analytics } from "../firebase/firebase.ts";
 import { logEvent } from "firebase/analytics";
@@ -110,8 +109,6 @@ export const Home: FunctionComponent = () => {
   const { user } = useAuth();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("lg"));
-  const [statistics, setStatistics] = useState<Record<string, number>>();
-  const api = useApi();
   const location = useLocation();
 
   useEffect(() => {
@@ -123,11 +120,6 @@ export const Home: FunctionComponent = () => {
       page_path: location.pathname,
     });
   }, [location]);
-
-  useEffect(() => {
-    api.getStatistics().then(setStatistics);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   return (
     <>
@@ -155,16 +147,6 @@ export const Home: FunctionComponent = () => {
               You decide your own workflow (within the settings of the tool) and
               classify where your models are in that workflow.
             </Typography>
-            {statistics && (
-              <Typography variant={"body2"} sx={{ mb: 4 }}>
-                There are currently a total of {statistics.total_users} users
-                who have created a combined total of{" "}
-                {statistics.total_collections} collections,{" "}
-                {statistics.total_groups} groups with a total of{" "}
-                {statistics.total_models} models creating a total of{" "}
-                {statistics.total_miniatures} miniatures.
-              </Typography>
-            )}
           </Box>
           {!user && <LoginForm />}
         </Stack>
