@@ -1,5 +1,6 @@
 {
   "main": {},
+  "1.4.6": {},
   "1.4.5": {
     "changed": [
       "Remove the site statistics on the main page to reduce initial load",
