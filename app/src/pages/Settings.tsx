@@ -8,11 +8,11 @@ import { WorkflowEditForm } from "@components/workflow/SettingsInput.tsx";
 import { useStore } from "@state/store.ts";
 import { selectAccountSlice } from "@state/account";
 import Button from "@mui/material/Button";
-import { SportsBarOutlined } from "@mui/icons-material";
 import { capitalizeFirstLetter } from "../utils/string.ts";
 import { analytics } from "../firebase/firebase.ts";
 import { logEvent } from "firebase/analytics";
 import { useLocation } from "react-router-dom";
+import { FaPatreon } from "react-icons/fa";
 
 export const Settings: FunctionComponent = () => {
   const { supportTier, supporter } = useStore(selectAccountSlice);
@@ -59,21 +59,21 @@ export const Settings: FunctionComponent = () => {
         {!supporter && (
           <Button
             onClick={() =>
-              window.open("https://www.buymeacoffee.com/mhollink", "_blank")
+              window.open("https://www.patreon.com/c/mininventory", "_blank")
             }
             sx={{
-              backgroundColor: "#F9C74F",
+              backgroundColor: "rgb(249, 104, 84)",
               color: (theme) => theme.palette.common.black,
               fontWeight: "bold",
               padding: (theme) => theme.spacing(2),
               borderRadius: "8px",
               "&:hover": {
-                backgroundColor: "#F6B93A",
+                backgroundColor: "rgb(249, 104, 84)",
               },
             }}
-            startIcon={<SportsBarOutlined fontSize={"large"} />}
+            startIcon={<FaPatreon fontSize={"large"} />}
           >
-            Support this page by buying me a beer!
+            Become a Patreon
           </Button>
         )}
         <Divider textAlign={"left"}>
