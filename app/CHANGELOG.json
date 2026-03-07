@@ -1,5 +1,10 @@
 {
-  "main": {},
+  "main": {
+    "changes": [
+      "Remove the site statistics on the main page to reduce initial load",
+      "Replace the Buy Me a Coffee links with Patreon"
+    ]
+  },
   "1.4.4": {
     "bugfixes": ["Fixed Copy/Paste errors in Vallejo Model Wash color codes"]
   },
