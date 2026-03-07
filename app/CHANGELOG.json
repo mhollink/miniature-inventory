@@ -1,7 +1,7 @@
 {
   "main": {},
   "1.4.5": {
-    "changes": [
+    "changed": [
       "Remove the site statistics on the main page to reduce initial load",
       "Replace the Buy Me a Coffee links with Patreon"
     ]
