@@ -85,7 +85,7 @@ export const ModelStages = ({ model }: { model: Model }) => {
           })),
         }}
       />
-      <Paper className="model-stages" sx={{ p: 2 }}>
+      <Paper className="model-stages" sx={{ p: 2 }} elevation={5}>
         <Stack direction={"row"}>
           <Typography sx={{ width: "70%" }} />
           <Typography sx={{ width: "30%" }} textAlign={"center"}>
@@ -124,6 +124,9 @@ export const ModelStages = ({ model }: { model: Model }) => {
                       "-webkit-appearance": "none",
                       margin: 0,
                     },
+                  }}
+                  slotProps={{
+                    htmlInput: { min: 0 },
                   }}
                   onChange={(e) => onChange(e, row)}
                 />

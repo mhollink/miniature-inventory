@@ -1,6 +1,7 @@
 import Alert from "@mui/material/Alert";
 import { Model } from "@state/inventory";
 import { VerticalBarChart } from "@components/charts/BarChart.tsx";
+import Typography from "@mui/material/Typography";
 
 export const ModelSummary = ({ model }: { model: Model }) => {
   const modelCount = model.collection.reduce((a, b) => a + b.amount, 0);
@@ -9,9 +10,10 @@ export const ModelSummary = ({ model }: { model: Model }) => {
     <>
       {modelCount === 0 ? (
         <>
-          <Alert severity={"info"} variant={"filled"}>
-            This group is currently empty. You can start adding models to this
-            group using the FAB in the bottom right corner.
+          <Alert severity={"warning"} variant={"filled"}>
+            <Typography>
+              This model has currently no miniatures assigned to it.
+            </Typography>
           </Alert>
         </>
       ) : (

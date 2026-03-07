@@ -11,6 +11,7 @@ import { logEvent } from "firebase/analytics";
 import { ModelNotFoundMessage } from "@components/models/ModelNotFoundMessage.tsx";
 import { ModelActions } from "@components/models/ModelActions.tsx";
 import { ModelStages } from "@components/models/ModelStages.tsx";
+import { ModelDetails } from "@components/models/ModelDetails.tsx";
 
 export const Model: FunctionComponent = () => {
   const { modelId } = useParams() as { modelId: string };
@@ -52,6 +53,7 @@ export const Model: FunctionComponent = () => {
             </Stack>
 
             <ModelStages model={model} />
+            <ModelDetails model={model} />
           </>
         )}
       </Container>
