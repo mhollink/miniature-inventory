@@ -7,7 +7,6 @@ import { useStore } from "@state/store.ts";
 import { selectGroup } from "@state/inventory";
 import { Helmet } from "react-helmet-async";
 import Stack from "@mui/material/Stack";
-import { SportsBarOutlined } from "@mui/icons-material";
 import { selectModalSlice } from "@state/modal";
 import { ModalTypes } from "@components/modal/modals.tsx";
 import Button from "@mui/material/Button";
@@ -18,6 +17,7 @@ import { GroupNotFoundMessage } from "@components/groups/GroupNotFoundMessage.ts
 import { GroupSummary } from "@components/groups/GroupSummary.tsx";
 import { GroupActions } from "@components/groups/GroupActions.tsx";
 import { ModelList } from "@components/groups/ModelList.tsx";
+import { FaPatreon } from "react-icons/fa";
 
 export const Group: FunctionComponent = () => {
   const { groupId } = useParams() as { groupId: string };
@@ -66,21 +66,24 @@ export const Group: FunctionComponent = () => {
             {!supporter && (
               <Button
                 onClick={() =>
-                  window.open("https://www.buymeacoffee.com/mhollink", "_blank")
+                  window.open(
+                    "https://www.patreon.com/c/mininventory",
+                    "_blank",
+                  )
                 }
                 sx={{
-                  backgroundColor: "#F9C74F",
+                  backgroundColor: "rgb(249, 104, 84)",
                   color: (theme) => theme.palette.common.black,
                   fontWeight: "bold",
                   padding: (theme) => theme.spacing(2),
                   borderRadius: "8px",
                   "&:hover": {
-                    backgroundColor: "#F6B93A",
+                    backgroundColor: "rgb(249, 104, 84)",
                   },
                 }}
-                startIcon={<SportsBarOutlined fontSize={"large"} />}
+                startIcon={<FaPatreon fontSize={"large"} />}
               >
-                Support this page by buying me a beer!
+                Become a Patreon
               </Button>
             )}
 

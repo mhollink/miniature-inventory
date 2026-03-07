@@ -11,7 +11,6 @@ import { ModalTypes } from "@components/modal/modals.tsx";
 import { CollectionAccordion } from "@components/collections/CollectionAccordion.tsx";
 import { DragDropContext } from "@hello-pangea/dnd";
 import { Fragment, useEffect } from "react";
-import { SportsBarOutlined } from "@mui/icons-material";
 import { selectAccountSlice } from "@state/account";
 import { MAX_COLLECTIONS } from "../constants.ts";
 import { useLocation } from "react-router-dom";
@@ -19,6 +18,7 @@ import { analytics } from "../firebase/firebase.ts";
 import { logEvent } from "firebase/analytics";
 import { Summary } from "@components/collections/Summary.tsx";
 import { useCollectionSorting } from "@hooks/useCollectionSorting.ts";
+import { FaPatreon } from "react-icons/fa";
 
 export const Collections = () => {
   const inventory = useStore(selectInventorySlice);
@@ -70,23 +70,23 @@ export const Collections = () => {
                   <Button
                     onClick={() =>
                       window.open(
-                        "https://www.buymeacoffee.com/mhollink",
+                        "https://www.patreon.com/c/mininventory",
                         "_blank",
                       )
                     }
                     sx={{
-                      backgroundColor: "#F9C74F",
+                      backgroundColor: "rgb(249, 104, 84)",
                       color: (theme) => theme.palette.common.black,
                       fontWeight: "bold",
                       padding: (theme) => theme.spacing(2),
                       borderRadius: "8px",
                       "&:hover": {
-                        backgroundColor: "#F6B93A",
+                        backgroundColor: "rgb(249, 104, 84)",
                       },
                     }}
-                    startIcon={<SportsBarOutlined fontSize={"large"} />}
+                    startIcon={<FaPatreon fontSize={"large"} />}
                   >
-                    Support this page by buying me a beer!
+                    Become a Patreon
                   </Button>
                 )}
               </Fragment>
