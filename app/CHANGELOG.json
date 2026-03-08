@@ -1,5 +1,9 @@
 {
-  "main": {},
+  "main": {
+    "bugfixes": [
+      "Resolve the overflow issue with the checkboxes on the Inventory page"
+    ]
+  },
   "1.4.6": {},
   "1.4.5": {
     "changed": [
