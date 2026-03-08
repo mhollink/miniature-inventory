@@ -3,8 +3,6 @@ name: Mark as in-progress when assigned
 on:
   issues:
     types: [assigned]
-  pull_request:
-    types: [assigned]
 
 permissions:
   issues: write
