@@ -1,5 +1,6 @@
 {
-  "main": {
+  "main": {},
+  "1.4.7": {
     "bugfixes": [
       "Resolve the overflow issue with the checkboxes on the Inventory page"
     ]
