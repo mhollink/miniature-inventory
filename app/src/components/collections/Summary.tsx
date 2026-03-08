@@ -116,7 +116,7 @@ export const Summary = () => {
             }
           />
           <FormGroup>
-            <Stack direction={"row"} gap={2}>
+            <Stack direction={"row"} gap={0} flexWrap="wrap">
               {inventory.collections
                 .filter(
                   // removes any collection that have no models inside.
