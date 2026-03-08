@@ -1,6 +1,5 @@
 #!/bin/bash
-
-
+echo -e "\n> Preparing release folder..."
 cd "$(cd "$(dirname "$0")" && pwd)";
 
 rm -rf ../release
@@ -13,3 +12,5 @@ rsync -a \
   --include='firebase_sa.json' \
   --exclude='*' \
   ../api/ ../release/api/
+
+echo "> Ready to deploy release to site!"
