@@ -52,7 +52,7 @@ const headCells: readonly HeadCell[] = [
     numeric: false,
     disablePadding: false,
     label: "Range",
-    hideOnMobile: true,
+    hideOnMobile: false,
   },
   {
     id: "color",

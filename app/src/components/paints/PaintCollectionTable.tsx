@@ -137,7 +137,7 @@ export const PaintCollectionTable = () => {
                     )}
                   </TableCell>
                   <TableCell>{row.brand}</TableCell>
-                  {!isMobile && <TableCell>{row.range}</TableCell>}
+                  <TableCell>{row.range}</TableCell>
                   {!isMobile && (
                     <TableCell align="center">
                       <Box
