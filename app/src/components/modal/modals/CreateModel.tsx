@@ -119,7 +119,7 @@ export const AddModelModal = () => {
                   setName(event.target.value);
                 }}
                 helperText={
-                  nameError ? "The name of a collection cannot be empty!" : ""
+                  nameError ? "The name of a model cannot be empty!" : ""
                 }
                 fullWidth
               />
@@ -192,7 +192,7 @@ export const AddModelModal = () => {
           variant={"contained"}
           onClick={handleAddModel}
         >
-          Add collection
+          Add model
         </LoadingButton>
       </DialogActions>
     </>
