@@ -19,7 +19,7 @@ export const CollectionAccordion = ({
       expanded={open}
       onChange={() => setOpen(!open)}
       key={collection.id}
-      elevation={3}
+      elevation={5}
     >
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}

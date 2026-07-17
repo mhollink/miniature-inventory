@@ -8,7 +8,10 @@ import { Helmet } from "react-helmet-async";
 import Stack from "@mui/material/Stack";
 import { analytics } from "../firebase/firebase.ts";
 import { logEvent } from "firebase/analytics";
-import { GroupNotFoundMessage } from "@components/groups/GroupNotFoundMessage.tsx";
+import { ModelNotFoundMessage } from "@components/models/ModelNotFoundMessage.tsx";
+import { ModelActions } from "@components/models/ModelActions.tsx";
+import { ModelStages } from "@components/models/ModelStages.tsx";
+import { ModelDetails } from "@components/models/ModelDetails.tsx";
 
 export const Model: FunctionComponent = () => {
   const { modelId } = useParams() as { modelId: string };
@@ -39,15 +42,18 @@ export const Model: FunctionComponent = () => {
       >
         <Crumbs />
         {!model ? (
-          <GroupNotFoundMessage />
+          <ModelNotFoundMessage />
         ) : (
           <>
             <Stack direction="row" alignItems="center">
               <Typography variant={"h3"} flexGrow={1}>
                 {model.name}
               </Typography>
-              {/*<GroupActions group={group} />*/}
+              <ModelActions model={model} />
             </Stack>
+
+            <ModelStages model={model} />
+            <ModelDetails model={model} />
           </>
         )}
       </Container>

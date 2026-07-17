@@ -18,6 +18,7 @@ export type Model = {
   id: string;
   name: string;
   collection: ModelStage[];
+  additionalInformation: Record<string, string>;
 };
 
 export type InventoryState = {
@@ -47,6 +48,7 @@ export type InventoryState = {
     id: string,
     name: string,
     collection: ModelStage[],
+    additionalInformation?: Record<string, string>,
   ) => void;
   findModel: (id: string) => Model | undefined;
   updateModel: (updatedModel: Model) => void;
@@ -171,13 +173,14 @@ export const inventorySlice: Slice<InventoryState> = (set, get) => ({
       "DELETE_GROUP",
     ),
 
-  addModel: (groupId, id, name, collection) =>
+  addModel: (groupId, id, name, collection, additionalInformation) =>
     set(
       ({ groups, models }) => {
         const newModel: Model = {
           id: id,
           name: name,
           collection: collection,
+          additionalInformation: additionalInformation ?? {},
         };
         return {
           groups: groups.map((group) =>
