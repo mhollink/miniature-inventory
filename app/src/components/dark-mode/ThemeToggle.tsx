@@ -3,13 +3,15 @@ import { useStore } from "@state/store.ts";
 import { selectDarkModeSlice } from "@state/dark-mode";
 import { selectWorkflowSlice } from "@state/workflow";
 import { useWorkflowColors } from "@hooks/useWorkflowColors.ts";
-import { COLORS } from "../../constants.ts";
+import { useColorTheme } from "@hooks/useColorTheme.ts";
 
 export const ThemeToggle = () => {
   const state = useStore(selectDarkModeSlice);
   const { workflowStages: stages, setWorkflowStages } =
     useStore(selectWorkflowSlice);
   const colors = useWorkflowColors();
+
+  const colorModes = useColorTheme();
 
   return (
     <FormControlLabel
@@ -24,7 +26,7 @@ export const ThemeToggle = () => {
               stages,
               colors.generateRangeOfColors(
                 stages.length,
-                !state.darkMode ? COLORS.dark : COLORS.light,
+                !state.darkMode ? colorModes.dark : colorModes.light,
               ),
             );
           }}

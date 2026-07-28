@@ -13,6 +13,7 @@ import { analytics } from "../firebase/firebase.ts";
 import { logEvent } from "firebase/analytics";
 import { useLocation } from "react-router-dom";
 import { FaPatreon } from "react-icons/fa";
+import { ColorModeSelect } from "@components/color-mode/ColorModeSelect.tsx";
 
 export const Settings: FunctionComponent = () => {
   const { supportTier, supporter } = useStore(selectAccountSlice);
@@ -80,6 +81,7 @@ export const Settings: FunctionComponent = () => {
           <Typography variant={"h5"}>Workflow</Typography>
         </Divider>
         <WorkflowEditForm />
+        <ColorModeSelect />
       </Container>
     </>
   );

@@ -1,21 +1,22 @@
 import { convertPercentageToColor, Stage } from "../utils/color.ts";
 import useTheme from "@mui/material/styles/useTheme";
-import { COLORS } from "../constants.ts";
+import { useColorTheme } from "@hooks/useColorTheme.ts";
 
 export const useWorkflowColors = () => {
   const theme = useTheme();
+  const colors = useColorTheme();
   const themedColors =
-    theme.palette.mode === "dark" ? COLORS.dark : COLORS.light;
+    theme.palette.mode === "dark" ? colors.dark : colors.light;
 
   function generateRangeOfColors(
     steps: number,
     colors: typeof themedColors = themedColors,
   ): string[] {
     const stages: Stage[] = [
-      { color: colors.red, stop: 0 }, // Red at 0%
-      { color: colors.orange, stop: 0.33 }, // Orange at 33%
-      { color: colors.yellow, stop: 0.66 }, // Yellow at 66%
-      { color: colors.green, stop: 1 }, // Green at 100%
+      { color: colors.empty, stop: 0 }, // Red at 0%
+      { color: colors.low, stop: 0.33 }, // Orange at 33%
+      { color: colors.medium, stop: 0.66 }, // Yellow at 66%
+      { color: colors.complete, stop: 1 }, // Green at 100%
     ];
 
     return (
