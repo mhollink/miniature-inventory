@@ -10,7 +10,7 @@ import { useStore } from "@state/store.ts";
 import { selectWorkflowSlice } from "@state/workflow";
 import { ProgressColorMode } from "../../utils/colorMode.ts";
 
-export const PROGRESS_COLOR_MODE_OPTIONS = [
+const PROGRESS_COLOR_MODE_OPTIONS = [
   {
     value: "default",
     label: "Standard colors",

@@ -1,7 +1,15 @@
 {
   "main": {},
-  "1.5.0": {},
-  "1.4.8": {},
+  "1.5.0": {
+    "added": ["Added colorblind support by introducing new color palettes"],
+    "bugfixes": [
+      "Fix incorrect label on Create/Update model dialog screen (by Brian Ehrhart)",
+      "Fix typo in the 'spray paint' label on the paint collection"
+    ]
+  },
+  "1.4.8": {
+    "bugfixes": ["Update paints table to show range on smaller screens"]
+  },
   "1.4.7": {
     "bugfixes": [
       "Resolve the overflow issue with the checkboxes on the Inventory page"
